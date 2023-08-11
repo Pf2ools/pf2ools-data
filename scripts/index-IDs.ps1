@@ -30,6 +30,7 @@ Get-ChildItem ./data/*/*/* -File | ForEach-Object {
 				type      = $file.type
 				fullTitle = $file.title.full
 				path      = $path
+				official  = $file.type -eq 'source' ? ($file.tags.misc.official ? $true : $false) : $null
 			}
 		)
 	}
