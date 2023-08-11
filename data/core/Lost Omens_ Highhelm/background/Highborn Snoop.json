@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Highborn Snoop"
+	},
+	"source": {
+		"page": 58,
+		"ID": "LOHh"
+	},
+	"data": {
+		"entries": [
+			"The machinations and scheming of King’s Crown have trained you to be on the lookout for those who seem out of place. You’ve learned to spot when the person pouring your tea has sword calluses—or when the person wearing a guard’s uniform doesn’t.",
+			"Choose two ability boosts. One must be Dexterity or Intelligence, and the other is a free boost.",
+			"You’re trained in the {@skill Society} skill, and the {@skill Lore||Guild Lore} skill. You gain the {@feat Courtly Graces} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"dexterity": true,
+				"intelligence": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Society": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Courtly Graces",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

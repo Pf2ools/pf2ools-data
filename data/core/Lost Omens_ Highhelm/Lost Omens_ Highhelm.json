@@ -1,0 +1,50 @@
+{
+	"type": "source",
+	"ID": "LOHh",
+	"title": {
+		"full": "Lost Omens: Highhelm",
+		"short": "LOHh"
+	},
+	"data": {
+		"released": "2023-06-28",
+		"added": "2023-08-11",
+		"modified": "2023-08-11",
+		"url": "https://paizo.com/products/btq02e6p",
+		"groupIDs": [
+			"LO"
+		],
+		"copyright": [
+			"{@b Genie, Marid from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
+			"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+			"{@b {@i Pathfinder Lost Omens Highhelm}} © 2023, Paizo Inc.; Authors: Piper Amatrudi, Dan Cascone, Caryn DiMarco, Dana Ebert, Sen H.H.S., Michelle Jones, Stephanie Lundeen, Liane Merciel, Matt Morris, Dave Nelson, Mikhail Rekun, Erin Roberts, Owen K.C. Stephens, Andrew White, and Shan Wolf."
+		],
+		"license": "OGLv1-0a",
+		"authors": [
+			"Piper Amatrudi",
+			"Dan Cascone",
+			"Caryn DiMarco",
+			"Dana Ebert",
+			"Sen H.H.S.",
+			"Michelle Jones",
+			"Stephanie Lundeen",
+			"Liane Merciel",
+			"Matt Morris",
+			"Dave Nelson",
+			"Mikhail Rekun",
+			"Erin Roberts",
+			"Owen K.C. Stephens",
+			"Andrew White",
+			"Shan Wolf"
+		],
+		"publisher": "Paizo"
+	},
+	"tags": {
+		"status": {
+			"WIP": true
+		},
+		"misc": {
+			"Official": true,
+			"PFS-legal": true
+		}
+	}
+}

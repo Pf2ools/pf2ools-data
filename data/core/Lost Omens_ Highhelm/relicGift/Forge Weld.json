@@ -1,0 +1,49 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 114,
+		"ID": "LOHh"
+	},
+	"name": {
+		"primary": "Forge Weld"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "transmutation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "forge"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"You strike the relic against a non-magical metal object of 4 Bulk or less, repairing it. The object’s edges glow white hot, and you restore 5 Hit Points to the object per level of the relic. If this repairs the item above its Broken Threshold, it is no longer broken. This ability cannot replace lost pieces or restore something that’s been completely destroyed."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

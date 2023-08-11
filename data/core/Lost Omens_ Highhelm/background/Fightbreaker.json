@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Fightbreaker"
+	},
+	"source": {
+		"page": 86,
+		"ID": "LOHh"
+	},
+	"data": {
+		"entries": [
+			"You have a knack for picking up on simmering tensions and calming frayed nerves. You rely on your intuition to discern how and when violence is imminent, and on your skills—diplomatic and otherwise—to deescalate tense situations. You might choose the adventuring life to tackle new and unfamiliar conflicts, or be trying to escape retaliation from those who thrive on violence and resent your ability to keep the peace.",
+			"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
+			"You’re trained in the {@skill Diplomacy} skill and the {@skill Lore} skill for the city or settlement you lived in when you became a Fightbreaker. You gain the {@feat Group Impression} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"wisdom": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Diplomacy": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Group Impression",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}
