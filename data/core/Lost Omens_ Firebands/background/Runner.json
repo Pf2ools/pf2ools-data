@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Runner"
+	},
+	"source": {
+		"page": 75,
+		"ID": "LOFb"
+	},
+	"data": {
+		"entries": [
+			"You served as a messenger for a specific faction, guild, house, or individual, often running those messages on a short timeline. Finding the quickest path from point A to point B is your specialty and you've learned to make the most of your athleticism and navigational skill.",
+			"Choose two ability boosts. One must be to Strength or Intelligence, and one is a free ability boost.",
+			"You are trained in the {@skill Athletics} skill and a {@skill Lore} skill for the city in which you were a messenger. You gain the {@feat Quick Jump} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"intelligence": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Athletics": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Quick Jump",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

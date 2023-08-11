@@ -1,0 +1,57 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Beast Blessed"
+	},
+	"source": {
+		"page": 75,
+		"ID": "LOFb"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "rare"
+			}
+		],
+		"entries": [
+			"You once freed a magical beast from captivity and, whether it was intentional or a byproduct of another action, the grateful creature bestowed a blessing of freedom upon you. Your blessing manifests physically, perhaps as elongated canines, fingernails that grow to a sharp point, excess body hair, or some other feature. This physical manifestation is cosmetic and provides no benefit.",
+			"Choose two ability boosts. One must be to Dexterity or Wisdom, and one is a free ability boost.",
+			"You are trained in the {@skill Survival} skill. You gain the Bestial Clarity reaction.",
+			{
+				"name": "Bestial Clarity",
+				"activity": {
+					"number": 1,
+					"unit": "reaction"
+				},
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"trigger": "You fail a saving throw against an {@trait enchantment} effect",
+				"entries": [
+					"Your bestial manifestation becomes more pronounced, and your mind gains a flash of clarity as your instincts take over. You can reroll the triggering saving throw with a +2 circumstance bonus, but you must use the new result. This is a {@trait fortune} effect."
+				],
+				"type": "ability"
+			}
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"dexterity": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 1,
+			"skills": {
+				"Survival": true
+			}
+		},
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

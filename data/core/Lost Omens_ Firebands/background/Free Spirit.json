@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Free Spirit"
+	},
+	"source": {
+		"page": 75,
+		"ID": "LOFb"
+	},
+	"data": {
+		"entries": [
+			"You've always lived your life straying from the path laid before you. Like a leaf blowing in the wind, your journey takes you where it will, providing you with a lifestyle free from the bonds of expectation. While you might have friends and family in specific towns or cities, you've chosen not to put down roots in favor of going wherever\u2014and doing whatever\u2014 you want.",
+			"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
+			"You are trained in the {@skill Survival} skill and a {@skill Lore} skill about a specific settlement or terrain you have traveled through. You gain the {@feat Forager} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"wisdom": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Survival": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Forager",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}
