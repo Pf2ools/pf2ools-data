@@ -1,0 +1,41 @@
+{
+	"type": "source",
+	"ID": "LOWG",
+	"title": {
+		"full": "Lost Omens: World Guide",
+		"short": "LOWG"
+	},
+	"data": {
+		"released": "2019-08-31",
+		"version": "2nd Printing",
+		"errataed": "2021-07-09",
+		"added": "2023-08-08",
+		"modified": "2023-08-08",
+		"url": "https://paizo.com/products/btq01zoj",
+		"groupIDs": [
+			"LO"
+		],
+		"copyright": [
+			"{@b Genie, Marid from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
+			"{@b {@i Pathfinder Lost Omens World Guide (Second Edition)}} © 2019, Paizo Inc.; Authors: Tanya DePass, James Jacobs, Lyz Liddell, Ron Lundeen, Liane Merciel, Erik Mona, Mark Seifter, James L. Sutter."
+		],
+		"license": "OGLv1-0a",
+		"authors": [
+			"Tanya DePass",
+			"James Jacobs",
+			"Lyz Liddell",
+			"Ron Lundeen",
+			"Liane Merciel",
+			"Erik Mona",
+			"Mark Seifter",
+			"James L. Sutter"
+		],
+		"publisher": "Paizo"
+	},
+	"tags": {
+		"misc": {
+			"Official": true,
+			"PFS-legal": true
+		}
+	}
+}

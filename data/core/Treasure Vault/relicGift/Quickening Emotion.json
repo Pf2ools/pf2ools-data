@@ -1,0 +1,52 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 199,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Quickening Emotion"
+	},
+	"data": {
+		"tier": "Grand",
+		"traits": [
+			{
+				"trait": "emotion"
+			},
+			{
+				"trait": "enchantment"
+			},
+			{
+				"trait": "mental"
+			}
+		],
+		"aspects": [
+			{
+				"name": "emotion"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "reaction"
+				},
+				"trigger": "You are the target of an {@trait emotion} effect from a hostile source",
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"entries": [
+					"The relic attempts a counteract check. If the check succeeds, the relic absorbs the effect completely, negating it. Instead, you're {@condition quickened} for up to 1 minute, but no longer than the triggering effect's duration. You then become temporarily immune to this effect for 1 hour."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 198,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Muse"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "divination"
+			}
+		],
+		"aspects": [
+			{
+				"name": "artistry"
+			}
+		],
+		"entries": [
+			"The relic guides you in your art like a muse, giving you inspirational ideas and providing an item bonus to {@skill Crafting} or {@skill Performance} checks. (Choose one. If your relic allows you to do so, you can take this gift again to choose the other.) If the relic is 3rd level or higher, you gain a +1 item bonus. Once the relic attains 9th level, the bonus increases to +2. The bonus increases to +3 when the relic is 17th level."
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants passive attribute": true
+		}
+	}
+}

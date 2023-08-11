@@ -1,0 +1,49 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Blow-in"
+	},
+	"source": {
+		"page": 5,
+		"ID": "EC0"
+	},
+	"data": {
+		"entries": [
+			"You never expected to join a circus, but you were looking for a good place to lie low for reasons of your own. The Circus of Wayward Wonders came together with several different workers and performers a few months ago. Many came from a circus in Escadar called the Celestial Menagerie, but not all of them. It was easy to slip in among the roustabouts.",
+			"Although you'd planned to move on quickly, the circus folk have adopted you as one of their own, and they don't ask questions about your past.",
+			"Choose two ability boosts. One must be to Dexterity or Charisma, and one is a free ability boost.",
+			"You're trained in your choice of the {@skill Deception} or {@skill Thievery} skills. You gain a skill feat: {@feat Lengthy Diversion} if you chose {@skill Deception}, or {@feat Subtle Theft} if you chose {@skill Thievery}. You are also trained in the {@skill Lore||Underworld Lore} skill."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"dexterity": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Thievery": true,
+				"Deception": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Lengthy Diversion",
+					"sourceID": "CRB"
+				},
+				{
+					"name": "Subtle Theft",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

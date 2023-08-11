@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Sarkorian Reclaimer"
+	},
+	"source": {
+		"page": 34,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"Whether you trace your heritage to lost Sarkoris or are a crusader trying to atone for past fanatics' wrongs, you seek to liberate the Sarkorian homeland from the demons who have defiled it.",
+			"Choose two ability boosts. One must be to Constitution or Wisdom, and one is a free boost.",
+			"You're trained in the {@skill Medicine} skill and the {@skill Lore||Abyssal Lore} skill.",
+			"You gain the {@feat Battle Medicine} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"constitution": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Medicine": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Battle Medicine",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

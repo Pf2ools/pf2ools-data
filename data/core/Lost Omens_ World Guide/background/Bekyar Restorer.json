@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Bekyar Restorer"
+	},
+	"source": {
+		"page": 94,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"Though many Bekyars worship demons, you seek to pave a different path for yourself and your kindred, while also attempting to change other Mwangi's treatment of your culture.",
+			"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Diplomacy} skill and the {@skill Lore||Abyss Lore} skill.",
+			"You gain the {@feat Group Impression} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"wisdom": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Diplomacy": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Group Impression",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

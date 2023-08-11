@@ -1,0 +1,45 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 200,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Borrow Time"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "transmutation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "time"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"entries": [
+					"You point the relic at a creature within 30 feet, imbuing it with urgency. The creature gains the {@condition quickened} condition for 1 round. After the condition ends, the creature is {@condition slowed 1} for 1 round and temporarily immune to this gift until you next perform your daily preparations."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

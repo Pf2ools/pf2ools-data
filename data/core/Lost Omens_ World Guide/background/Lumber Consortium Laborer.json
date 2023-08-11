@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Lumber Consortium Laborer"
+	},
+	"source": {
+		"page": 130,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"You have suffered as a worker for the unscrupulous Lumber Consortium, laboring under harsh conditions in dangerous wooded regions of Andoran.",
+			"Choose two ability boosts. One must be to Strength or Dexterity, and one is a free ability boost.",
+			"You're trained in the {@skill Athletics} skill and the {@skill Lore||Forest Lore} skill.",
+			"You gain the {@feat Assurance} skill feat with {@skill Athletics}."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"dexterity": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Athletics": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Assurance",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

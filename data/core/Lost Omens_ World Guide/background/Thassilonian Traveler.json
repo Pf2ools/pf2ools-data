@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Thassilonian Traveler"
+	},
+	"source": {
+		"page": 118,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"You come from ancient Thassilon, one of the citizens that appeared out of time alongside the city of Xin-Edasseril. You know many things that have been long forgotten... along with many things that are no longer correct.",
+			"Choose two ability boosts. One must be to Constitution or Intelligence, and one is a free ability boost.",
+			"You're trained in the {@skill Arcana} skill and the {@skill Lore||Thassilon Lore} skill.",
+			"You gain the {@feat Dubious Knowledge} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"constitution": true,
+				"intelligence": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Arcana": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Dubious Knowledge",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 98,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Angelic Vessel"
+	},
+	"data": {
+		"tier": "Grand",
+		"traits": [
+			{
+				"trait": "conjuration"
+			},
+			{
+				"trait": "good"
+			}
+		],
+		"aspects": [
+			{
+				"name": "celestial"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"At your invitation, a celestial imbues your body with the divine. You gain 50 additional Hit Points, increasing both your maximum and current Hit Points, as well as weakness 10 to evil damage. If the relic has the {@relicGift righteous call} gift, this activation grants the effects of that gift as well, without expending its daily use.",
+					"You can {@action Dismiss} the effect. If you do, you can unleash a wave of holy power, causing the relic to cast an 8th-level {@spell divine decree}, choosing {@trait good} for the alignment."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

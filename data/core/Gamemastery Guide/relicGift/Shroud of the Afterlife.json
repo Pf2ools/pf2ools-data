@@ -1,0 +1,52 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 98,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Shroud of the Afterlife"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "necromancy"
+			},
+			{
+				"trait": "negative"
+			}
+		],
+		"aspects": [
+			{
+				"name": "death"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"components": [
+					"envision",
+					"{@action Interact}"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"You shroud yourself with powers from beyond the living realm for 1 minute. While this shroud is active, you take on a pallid appearance and gain poison resistance equal to half the relic's level and a +1 status bonus to saving throws against death effects, diseases, effects that would make you {@condition paralyzed}, {@trait poison}, and {@trait sleep} effects. In addition, the DC for your recovery checks is 9 + your dying value instead of 10 + your dying value."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

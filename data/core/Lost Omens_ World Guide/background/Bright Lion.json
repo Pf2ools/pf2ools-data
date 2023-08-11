@@ -1,0 +1,45 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Bright Lion"
+	},
+	"source": {
+		"page": 94,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"You are a member of the Bright Lions and seek to overthrow the tyrannical reign of Walkena and free Mzali from his cruel whims.",
+			"You're experienced operating undercover and have had to be cautious of what you say and who you trust, lest you fall afoul of the god-king's terrible punishments.",
+			"Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Deception} skill and the {@skill Lore||Mzali Lore} skill.",
+			"You gain the {@feat Lie to Me} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Deception": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Lie to Me",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

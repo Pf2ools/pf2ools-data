@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Hermean Expatriate"
+	},
+	"source": {
+		"page": 70,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"You have been exiled from Hermea, perhaps of your own accord or perhaps because you didn't measure up. However, you take with you some of the benefits of the excellent education afforded to its citizenry.",
+			"Choose two ability boosts.",
+			"One must be to Intelligence or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Society} skill and the {@skill Lore||Dragon Lore} skill. You gain the {@feat Skill Training} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Society": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Skill Training",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

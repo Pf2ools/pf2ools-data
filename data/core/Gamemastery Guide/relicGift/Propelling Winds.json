@@ -1,0 +1,52 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 96,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Propelling Winds"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "air"
+			},
+			{
+				"trait": "transmutation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "air"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"frequency": {
+					"unit": "hour",
+					"number": 1
+				},
+				"entries": [
+					"The relic casts {@spell fly} targeting you."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

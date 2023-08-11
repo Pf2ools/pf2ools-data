@@ -1,0 +1,13 @@
+{
+	"type": "sourceGroup",
+	"ID": "SKT",
+	"title": {
+		"full": "Sky King's Tomb",
+		"short": "SKT"
+	},
+	"tags": {
+		"misc": {
+			"Adventure": true
+		}
+	}
+}

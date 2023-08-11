@@ -1,0 +1,13 @@
+{
+	"type": "sourceGroup",
+	"ID": "FRP",
+	"title": {
+		"full": "Fists of the Ruby Phoenix",
+		"short": "FRP"
+	},
+	"tags": {
+		"misc": {
+			"Adventure": true
+		}
+	}
+}

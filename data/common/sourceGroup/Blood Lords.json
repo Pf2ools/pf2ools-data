@@ -1,0 +1,13 @@
+{
+	"type": "sourceGroup",
+	"ID": "BL",
+	"title": {
+		"full": "Blood Lords",
+		"short": "BL"
+	},
+	"tags": {
+		"misc": {
+			"Adventure": true
+		}
+	}
+}

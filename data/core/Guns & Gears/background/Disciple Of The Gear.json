@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Disciple Of The Gear"
+	},
+	"source": {
+		"page": 45,
+		"ID": "GaG"
+	},
+	"data": {
+		"entries": [
+			"While many regard science and faith as incompatible, you believe scientific advancement is your deity's will. Perhaps you're a follower of {@deity Brigh|LOGM}, {@deity Casandalee|LOGM}, or some other god of technology, or perhaps you see the furnaces and sparks of modernity as the latest manifestation of {@deity Sarenrae}'s flame or {@deity Gozreh}'s lightning—whatever the case, you're always willing to spread the word of your deity, and you've learned some basic tinkering to show how your deity's focus can increase the common standard of living.",
+			"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
+			"You're trained in the {@skill Crafting} skill and the {@skill Lore} skill for the deity you worship. You gain the {@feat Quick Repair} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Crafting": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Quick Repair",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

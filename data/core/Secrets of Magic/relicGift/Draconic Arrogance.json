@@ -1,0 +1,53 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 230,
+		"ID": "SoM"
+	},
+	"name": {
+		"primary": "Draconic Arrogance"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "enchantment"
+			},
+			{
+				"trait": "fortune"
+			}
+		],
+		"aspects": [
+			{
+				"name": "dragon"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "reaction"
+				},
+				"components": [
+					"command"
+				],
+				"trigger": "You're about to roll a saving throw",
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"You laugh at fate and revel in your draconic arrogance. If you roll a critical success on the saving throw, you can attempt to {@action Demoralize} the creature that created the effect that forced you to roll the saving throw (if any). If you roll a success, you critically succeed instead. If you roll a failure (but not a critical failure), you succeed instead. If you roll a critical failure, however, you're forced to face your own hubris and become {@condition frightened 2}."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Soul seed": true,
+			"Grants ability": true
+		}
+	}
+}

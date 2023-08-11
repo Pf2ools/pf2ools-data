@@ -1,0 +1,53 @@
+{
+	"type": "event",
+	"source": {
+		"ID": "LOTG",
+		"page": 115
+	},
+	"name": {
+		"primary": "Droskar's Breath"
+	},
+	"data": {
+		"level": 5,
+		"traits": [
+			{
+				"trait": "rare"
+			},
+			{
+				"trait": "downtime"
+			},
+			{
+				"trait": "fire"
+			},
+			{
+				"trait": "primal"
+			}
+		],
+		"applicableSkills": [
+			{
+				"skill": "Athletics"
+			},
+			{
+				"skill": "Medicine"
+			},
+			{
+				"skill": "Nature"
+			},
+			{
+				"skill": "Survival"
+			}
+		],
+		"entries": [
+			"Whether by bad fate or intention, you're caught in the ash cloud of Droskar's Crag as it releases its fumes, requiring 1 day of downtime to escape. The air scorches your lungs as you breathe, and visibility is almost nothing. The only good news is the mountain is not erupting—yet. Attempt a DC 22 check.",
+			{
+				"type": "successDegree",
+				"entries": {
+					"Critical Success": "The superheated air somehow proves good for your pulmonary health, keeping your chest warm. You gain cold resistance equal to half your level for 1 year.",
+					"Success": "You manage to survive, picking up some tricks on how to navigate through smoke. You automatically succeed at the flat check to target creatures that are {@condition concealed} only by smoke or fire for 1 month.",
+					"Failure": "You escape in time to survive, but the fumes damage your lungs. You contract stage 2 of {@disease choking death}, without an initial saving throw.",
+					"Critical Failure": "Your breathing becomes ragged and susceptible to negative effects. You use the outcome one degree of success worse than the result you rolled on saving throws against inhaled poisons or effects of an inhaled or gaseous nature (such as the {@spell ash cloud} and {@spell stinking cloud} spells, and others as determined by the GM). You can remove this effect with a 4th-level or higher {@spell restoration} spell."
+				}
+			}
+		]
+	}
+}

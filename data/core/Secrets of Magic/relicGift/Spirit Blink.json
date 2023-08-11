@@ -1,0 +1,53 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 231,
+		"ID": "SoM"
+	},
+	"name": {
+		"primary": "Spirit Blink"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "conjuration"
+			},
+			{
+				"trait": "teleportation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "soul"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"envision"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"You blink between the realm of mortals and the {@plane Ethereal Plane}. This grants you the effects of {@spell blink}, except the resistance is equal to the soul seed's level instead of 5."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Soul seed": true,
+			"Grants ability": true
+		}
+	}
+}

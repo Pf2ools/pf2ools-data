@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Wildwood Local"
+	},
+	"source": {
+		"page": 130,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"You might have been born and raised among the druids of the Verduran Forest, or you may have spent time among them as an adult and come to know their ways.",
+			"Choose two ability boosts.",
+			"One must be to Dexterity or Wisdom, and one is a free ability boost.",
+			"You're trained in the {@skill Nature} skill as well as the {@skill Lore||Forest Lore} skill. You gain the {@feat Natural Medicine} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"dexterity": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Nature": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Natural Medicine",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

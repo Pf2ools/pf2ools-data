@@ -1,0 +1,65 @@
+{
+	"type": "source",
+	"ID": "LOGM",
+	"title": {
+		"full": "Lost Omens: Gods & Magic",
+		"short": "LOGM"
+	},
+	"data": {
+		"released": "2020-01-29",
+		"version": "2nd Printing",
+		"errataed": "2021-07-09",
+		"added": "2023-08-08",
+		"modified": "2023-08-08",
+		"url": "https://paizo.com/products/btq021wf",
+		"groupIDs": [
+			"LO"
+		],
+		"copyright": [
+			"{@b Genie, Marid from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
+			"{@b {@i Pathfinder Lost Omens Gods & Magic (Second Edition)}} © 2020, Paizo Inc.; Authors: Robert Adducci, Amirali Attar Olyaee, Calder CaDavid, James Case, Adam Daigle, Katina Davis, Leo Glass, Joshua Grinlinton, James Jacobs, Virginia Jordan, Jason Keeley, Jacky Leung, Lyz Liddell, Ron Lundeen, Stephanie Lundeen, Jacob W. Michaels, Matt Morris, Dave Nelson, Samantha Phelan, Jennifer Povey, Jessica Redekop, Nathan Reinecke, Patrick Renie, David N. Ross, Simone D. Sallé, Michael Sayre, David Schwartz, Shahreena Shahrani, Isabelle Thorne, Marc Thuot, Jason Tondro, and Diego Valdez."
+		],
+		"license": "OGLv1-0a",
+		"authors": [
+			"Robert Adducci",
+			"Amirali Attar Olyaee",
+			"Calder CaDavid",
+			"James Case",
+			"Adam Daigle",
+			"Katina Davis",
+			"Leo Glass",
+			"Joshua Grinlinton",
+			"James Jacobs",
+			"Virginia Jordan",
+			"Jason Keeley",
+			"Jacky Leung",
+			"Lyz Liddell",
+			"Ron Lundeen",
+			"Stephanie Lundeen",
+			"Jacob W. Michaels",
+			"Matt Morris",
+			"Dave Nelson",
+			"Samantha Phelan",
+			"Jennifer Povey",
+			"Jessica Redekop",
+			"Nathan Reinecke",
+			"Patrick Renie",
+			"David N. Ross",
+			"Simone D. Sallé",
+			"Michael Sayre",
+			"David Schwartz",
+			"Shahreena Shahrani",
+			"Isabelle Thorne",
+			"Marc Thuot",
+			"Jason Tondro",
+			"Diego Valdez"
+		],
+		"publisher": "Paizo"
+	},
+	"tags": {
+		"misc": {
+			"Official": true,
+			"PFS-legal": true
+		}
+	}
+}

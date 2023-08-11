@@ -1,0 +1,62 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Raised by Belief"
+	},
+	"source": {
+		"page": 9,
+		"ID": "LOGM"
+	},
+	"data": {
+		"entries": [
+			"Whether in a monastery, a religious household, or just as part of your everyday life, your upbringing was steeped in the traditions of a faith or philosophy. You might remain committed or you may have turned from your childhood creed, but your skills are still founded in your devotion.",
+			"Choose two ability boosts. One boost must be to an ability specified in the Divine Ability entry for your deity, and one is a free ability boost.",
+			"You're trained in your deity's associated skill, and you gain {@feat Assurance} with that skill. You gain a {@skill Lore} skill with a subcategory associated with your deity ({@skill Lore||Abadar Lore}, for instance)."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"dexterity": true,
+				"constitution": true,
+				"intelligence": true,
+				"wisdom": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Acrobatics": true,
+				"Arcana": true,
+				"Athletics": true,
+				"Crafting": true,
+				"Deception": true,
+				"Diplomacy": true,
+				"Intimidation": true,
+				"Medicine": true,
+				"Nature": true,
+				"Occultism": true,
+				"Performance": true,
+				"Religion": true,
+				"Society": true,
+				"Stealth": true,
+				"Survival": true,
+				"Thievery": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Assurance",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

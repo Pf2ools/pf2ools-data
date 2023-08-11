@@ -1,0 +1,52 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 199,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Fervent Spell"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "emotion"
+			},
+			{
+				"trait": "enchantment"
+			},
+			{
+				"trait": "mental"
+			}
+		],
+		"aspects": [
+			{
+				"name": "emotion"
+			}
+		],
+		"entries": [
+			"While the relic's fervor gift lasts, you have access to the spell provided by the emotional state, which you can cast using your own spell slots. You also have access to the following activation.",
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"entries": [
+					"The relic {@action Cast a Spell||Casts the Spell} associated with its emotional fervor at the spell's lowest level."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

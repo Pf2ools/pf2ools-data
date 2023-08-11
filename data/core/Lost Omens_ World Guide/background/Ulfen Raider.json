@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Ulfen Raider"
+	},
+	"source": {
+		"page": 118,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"You are an Ulfen warrior, feared among Avistan for the merciless and devastating raids your people once conducted along the shores. Though the days of these Ulfen raids are largely past, you have been trained to strike terror into the hearts of those who face you.",
+			"Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Intimidation} skill and the {@skill Lore||Sailing Lore} skill.",
+			"You gain the {@feat Intimidating Glare} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Intimidation": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Intimidating Glare",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

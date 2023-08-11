@@ -1,0 +1,49 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Sheriff"
+	},
+	"source": {
+		"page": 124,
+		"ID": "GaG"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "uncommon"
+			}
+		],
+		"entries": [
+			"You hold an official title of sheriff or deputy in a small community. Those that would do harm to others flee your gaze, for they know it brings the promise of castigation.",
+			"You protect your town, watch over those who have placed their trust in you, and make sure those that would do others harm are brought to justice.",
+			"Choose two ability boosts. One must be to Dexterity or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Intimidation} skill and the {@skill Lore||Hunting Lore} skill. You gain the {@feat Group Coercion} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"dexterity": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Intimidation": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Group Coercion",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

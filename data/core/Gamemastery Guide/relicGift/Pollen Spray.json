@@ -1,0 +1,48 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 103,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Pollen Spray"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "evocation"
+			},
+			{
+				"trait": "plant"
+			}
+		],
+		"aspects": [
+			{
+				"name": "plant"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"entries": [
+					"Pollen and poison spores spray from your relic, dealing {@damage 1d6} poison damage for every 2 relic levels (minimum {@damage 1d6}) to all creatures in a 15-foot cone (basic Fortitude save). On a critical failure, targets are also {@condition dazzled} for 1 round. You can't use Pollen Spray again for {@dice 1d4} rounds."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

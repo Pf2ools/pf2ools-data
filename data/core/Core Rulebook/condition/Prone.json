@@ -1,0 +1,16 @@
+{
+	"type": "condition",
+	"name": {
+		"primary": "Prone"
+	},
+	"source": {
+		"page": 621,
+		"ID": "CRB"
+	},
+	"data": {
+		"entries": [
+			"You're lying on the ground. You are {@condition flat-footed} and take a –2 circumstance penalty to attack rolls. The only {@trait move} actions you can use while you're prone are {@action Crawl} and {@action Stand}. Standing up ends the prone condition. You can {@action Take Cover} while prone to hunker down and gain greater cover against ranged attacks, even if you don't have an object to get behind, gaining a +4 circumstance bonus to AC against ranged attacks (but you remain {@condition flat-footed}).",
+			"If you would be knocked prone while you're {@action Climb|CRB|Climbing} or {@action Fly|CRB|Flying}, you fall (see pages 463–464 for the rules on falling). You can't be knocked prone when {@action Swim|CRB|Swimming}."
+		]
+	}
+}

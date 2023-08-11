@@ -1,0 +1,13 @@
+{
+	"type": "sourceGroup",
+	"ID": "OoA",
+	"title": {
+		"full": "Outlaws of Alkenstar",
+		"short": "OoA"
+	},
+	"tags": {
+		"misc": {
+			"Adventure": true
+		}
+	}
+}

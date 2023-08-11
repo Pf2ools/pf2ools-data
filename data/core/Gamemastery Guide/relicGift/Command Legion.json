@@ -1,0 +1,64 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 100,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Command Legion"
+	},
+	"data": {
+		"tier": "Grand",
+		"traits": [
+			{
+				"trait": "conjuration"
+			}
+		],
+		"aspects": [
+			{
+				"name": "fiend"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"envision"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"Your relic opens a gate within itself, overwhelming your enemies with fiends. You cast 6th-level {@spell summon fiend}, but summon two fiends instead of one, and you can command them both with 1 action to {@action Sustain a Spell}. If the relic has the {@relicGift profane fervor} gift, this activation grants the effects of that gift as well, without expending its daily use. For the next minute, you can use the following activation.",
+					{
+						"type": "ability",
+						"style": "compact",
+						"activity": {
+							"number": 1,
+							"unit": "free"
+						},
+						"components": [
+							"envision"
+						],
+						"trigger": "One of the fiends summoned by command legion is banished",
+						"entries": [
+							"You summon that same fiend again in an adjacent space. The fiend returns at full Hit Points and all conditions, spells, and other effects on it end before you summon it again. However, it does not recover any limited-use abilities it used before, such as innate spells or abilities with a Frequency entry."
+						]
+					}
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

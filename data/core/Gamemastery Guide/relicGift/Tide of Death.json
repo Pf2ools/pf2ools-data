@@ -1,0 +1,34 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 99,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Tide of Death"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "necromancy"
+			},
+			{
+				"trait": "negative"
+			}
+		],
+		"aspects": [
+			{
+				"name": "death"
+			}
+		],
+		"entries": [
+			"You can {@action activate an item||Activate} {@relicGift death gaze} with 3 actions instead of 2. If you do, it targets all living creatures within 30 feet except for you. If you have the {@ability negative healing|b2} ability, you can include yourself to be healed."
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

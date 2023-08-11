@@ -1,0 +1,47 @@
+{
+	"private": true,
+	"type": "module",
+	"name": "pf2ools-data",
+	"version": "0.0.1",
+	"devDependencies": {
+		"prettier": "^3.0.0"
+	},
+	"scripts": {
+		"test": "npm run test:fileStructure && npm run test:data:all",
+		"test:fileStructure": "echo \"TODO: this will ensure all the folders are in the right place, all the files are in the right place, all the files are named correctly, and that nothing unwanted has snuck in\"",
+		"test:data": "echo \"TODO: this would call pf2ools-schema via npx once it's online\"",
+		"test:data:all": "echo \"TODO: this will simply validate all data against the schema (breaking early)\"",
+		"index": "npm run index:IDs:ignoreCollisions && npm run index:datatypes",
+		"index:IDs": "pwsh scripts/index-IDs.ps1 -ExecutionPolicy Unrestricted -NoProfile",
+		"index:IDs:ignoreCollisions": "npm run index:IDs -- -IgnoreCollisions",
+		"index:datatypes": "pwsh scripts/index-datatypes.ps1 -ExecutionPolicy Unrestricted -NoProfile",
+		"bundle": "npm run bundle:bySource && npm run bundle:byDatatype:skipEmpty",
+		"bundle:bySource": "pwsh scripts/bundle-bySource.ps1 -ExecutionPolicy Unrestricted -NoProfile",
+		"bundle:bySource:skipEmpty": "npm run bundle:bySource -- -SkipEmpty",
+		"bundle:byDatatype": "pwsh scripts/bundle-byDatatype.ps1 -ExecutionPolicy Unrestricted -NoProfile",
+		"bundle:byDatatype:skipEmpty": "npm run bundle:byDatatype -- -SkipEmpty",
+		"clean": "npm run clean:json && npm run clean:prettify",
+		"clean:json": "echo \"TODO: this will ideally reorder properties for consistency and remove any unicode escaping\"",
+		"clean:prettify": "npx prettier . --write --cache",
+		"build": "npm run test && npm run index && npm run bundle && npm run clean"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Pf2ools/pf2ools-data.git"
+	},
+	"author": "The Pf2ools project",
+	"description": "The Pf2ools ecosystem's repository of Pathfinder 2nd Edition game data.",
+	"keywords": [
+		"pathfinder",
+		"pathfinder2e",
+		"rpg",
+		"ttrpg",
+		"pf2ools",
+		"data"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/Pf2ools/pf2ools-data#README",
+	"bugs": {
+		"url": "https://github.com/Pf2ools/pf2ools-data/issues"
+	}
+}

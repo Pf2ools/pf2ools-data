@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Thuvian Unifier"
+	},
+	"source": {
+		"page": 58,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"You believe the city-states of Thuvia should be united into one nation under the rule of your home city (most commonly Aspenthar), and you're willing to do whatever it takes to make it happen.",
+			"Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Intimidation} skill and the {@skill Lore||Politics Lore} skill. You gain the {@feat Quick Coercion} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Intimidation": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Quick Coercion",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

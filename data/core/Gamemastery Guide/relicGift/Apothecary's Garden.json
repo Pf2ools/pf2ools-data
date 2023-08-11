@@ -1,0 +1,37 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 103,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Apothecary's Garden"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "healing"
+			},
+			{
+				"trait": "necromancy"
+			},
+			{
+				"trait": "plant"
+			}
+		],
+		"aspects": [
+			{
+				"name": "plant"
+			}
+		],
+		"entries": [
+			"Your relic grows potent natural medicines. Each night, two medicinal herbs (or other plants) grow from your relic and can be harmlessly harvested during your next daily preparations. A living creature that consumes an herb with an {@action Interact} action regains {@damage 1d8} Hit Points for every 2 relic levels (minimum {@damage 1d8}). At 9th level, the relic grows three herbs each night, and at 17th level, the relic grows four herbs each night. Herbs wither away 1 day after being harvested."
+		]
+	},
+	"tags": {
+		"misc": {
+			"Alters relic": true
+		}
+	}
+}

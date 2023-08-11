@@ -1,0 +1,50 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 198,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Inspiring"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "enchantment"
+			},
+			{
+				"trait": "mental"
+			},
+			{
+				"trait": "emotion"
+			}
+		],
+		"aspects": [
+			{
+				"name": "artistry"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"components": [
+					"varies"
+				],
+				"entries": [
+					"You create a vision (envision) of a token you could have crafted or make a short performance (command) to inspire an ally within 60 feet. This otherwise works as the {@spell inspire competence} cantrip."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

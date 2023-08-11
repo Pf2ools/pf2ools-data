@@ -1,0 +1,48 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 200,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Time Reversal"
+	},
+	"data": {
+		"tier": "Grand",
+		"traits": [
+			{
+				"trait": "divination"
+			}
+		],
+		"aspects": [
+			{
+				"name": "time"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"components": [
+					"command"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"The relic casts {@spell time beacon|som} on you."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Eidolon Contact"
+	},
+	"source": {
+		"page": 28,
+		"ID": "SoM"
+	},
+	"data": {
+		"entries": [
+			"You've come into contact with a disembodied being of magical essence known as an eidolon.",
+			"You might have forged a powerful conduit with that eidolon, allowing you to manifest it as a summoner, but it's much more likely that you lost contact over time, though not before learning a few half-remembered secrets. If you lost contact, you might have become an adventurer to try to reach the eidolon again, or to be sure that you're rid of it forever.",
+			"Choose two ability boosts. One must be to Constitution or Charisma, and one is a free ability boost.",
+			"You're trained in your choice of {@skill Arcana}, {@skill Nature}, {@skill Occultism}, or {@skill Religion}, and a {@skill Lore} skill for the creature associated with your contacted eidolon (such as {@skill Lore||Angel Lore} or {@skill Lore||Dragon Lore}). You gain the {@feat Dubious Knowledge} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"constitution": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Arcana": true,
+				"Nature": true,
+				"Occultism": true,
+				"Religion": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Dubious Knowledge",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

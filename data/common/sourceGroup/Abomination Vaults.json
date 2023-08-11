@@ -1,0 +1,13 @@
+{
+	"type": "sourceGroup",
+	"ID": "AV",
+	"title": {
+		"full": "Abomination Vaults",
+		"short": "AV"
+	},
+	"tags": {
+		"misc": {
+			"Adventure": true
+		}
+	}
+}

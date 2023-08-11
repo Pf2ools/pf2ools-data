@@ -1,0 +1,70 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 199,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Emotion Surge"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "emotion"
+			},
+			{
+				"trait": "enchantment"
+			},
+			{
+				"trait": "mental"
+			}
+		],
+		"aspects": [
+			{
+				"name": "emotion"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"components": [
+					"command"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "hour"
+				},
+				"entries": [
+					"A surge of emotion emanates from your relic, granting a +1 status bonus to skill checks determined by the relic's emotion. This bonus lasts for 1 minute.",
+					{
+						"type": "list",
+						"style": "list-hang-notitle",
+						"items": [
+							"{@b Anger:} {@skill Athletics} checks",
+							"{@b Awe:} {@skill Performance} checks",
+							"{@b Dedication:} Checks to {@action Recall Knowledge}",
+							"{@b Fear:} {@skill Stealth} checks",
+							"{@b Hatred:} {@skill Intimidation} checks",
+							"{@b Joy:} {@skill Diplomacy} checks",
+							"{@b Love:} {@skill Medicine} checks",
+							"{@b Misery:} {@skill Survival} checks",
+							"{@b Pride:} {@skill Society} checks",
+							"{@b Remorse:} {@skill Deception} checks"
+						]
+					}
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

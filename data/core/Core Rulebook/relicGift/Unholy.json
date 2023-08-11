@@ -1,0 +1,38 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 585,
+		"ID": "CRB"
+	},
+	"name": {
+		"primary": "Unholy"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "evil"
+			},
+			{
+				"trait": "evocation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "fiend"
+			}
+		],
+		"entries": [
+			"{@note The relic gains the {@item unholy} rune.}"
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Weapon": true
+		},
+		"misc": {
+			"Is rune": true,
+			"Grants passive attribute": true
+		}
+	}
+}

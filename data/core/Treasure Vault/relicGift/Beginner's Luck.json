@@ -1,0 +1,52 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 199,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Beginner's Luck"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "divination"
+			},
+			{
+				"trait": "fortune"
+			}
+		],
+		"aspects": [
+			{
+				"name": "luck"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "reaction"
+				},
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"trigger": "You attempt a d20 roll you're untrained in",
+				"components": [
+					"envision"
+				],
+				"entries": [
+					"You treat your proficiency bonus as equal to half your level, or if the relic is 7th level or higher, as equal to your level. Then, roll twice, taking the better of the two results. This doesn't allow you to use a skill's trained actions."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

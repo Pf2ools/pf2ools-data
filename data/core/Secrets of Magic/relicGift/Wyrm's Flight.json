@@ -1,0 +1,51 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 230,
+		"ID": "SoM"
+	},
+	"name": {
+		"primary": "Wyrm's Flight"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "transmutation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "dragon"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"envision"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"Ghostly draconic wings grant you a fly Speed equal to your Speed or 20 feet, whichever is greater. This lasts for 10 minutes or until you {@action Dismiss} the effect.",
+					"At 17th level, you can {@action activate an item||Activate} and {@action Dismiss} the ability as often as you want, and it has unlimited duration."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Soul seed": true,
+			"Grants ability": true
+		}
+	}
+}

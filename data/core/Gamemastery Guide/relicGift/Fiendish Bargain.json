@@ -1,0 +1,69 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 100,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Fiendish Bargain"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "divination"
+			},
+			{
+				"trait": "evil"
+			}
+		],
+		"aspects": [
+			{
+				"name": "fiend"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"components": [
+					"command"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "hour"
+				},
+				"entries": [
+					"You bargain with the evil force empowering your relic for a boon, though you must trade something in return. Select one of the following benefits to gain.",
+					{
+						"type": "list",
+						"items": [
+							"Your relic attempts to counteract a harmful condition affecting you.",
+							"You regain {@damage 3d8+16} Hit Points. This is a {@trait healing} effect.",
+							"You gain a +2 status bonus to attack rolls for 1 minute."
+						]
+					},
+					"One of the following {@dice 1d4|randomly determined} effects occurs to you in payment, after applying the benefit.",
+					{
+						"type": "list",
+						"items": [
+							"You are {@condition stupefied 1} for 1 minute.",
+							"You are {@condition clumsy 1} for 1 minute.",
+							"You lose {@damage 1d8} Hit Points.",
+							"You take a –1 penalty to damage rolls for 1 minute."
+						]
+					}
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

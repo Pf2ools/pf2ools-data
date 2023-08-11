@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Root Worker"
+	},
+	"source": {
+		"page": 49,
+		"ID": "APG"
+	},
+	"data": {
+		"entries": [
+			"Some ailments can't be cured by herbs alone. You learned ritual remedies as well, calling on nature spirits to soothe aches and ward off the evil eye. Taking up with adventurers has given you company on the road, as well as protection from those who would brand you a fake—or worse.",
+			"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
+			"You're trained in the {@skill Occultism} skill and the {@skill Lore||Herbalism Lore} skill. You gain the {@feat Root Magic|APG} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Occultism": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Root Magic",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

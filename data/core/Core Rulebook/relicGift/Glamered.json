@@ -1,0 +1,35 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 583,
+		"ID": "CRB"
+	},
+	"name": {
+		"primary": "Glamered"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "illusion"
+			}
+		],
+		"aspects": [
+			{
+				"name": "life"
+			}
+		],
+		"entries": [
+			"{@note The relic gains the {@item glamered} rune.}"
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Armor": true
+		},
+		"misc": {
+			"Is rune": true,
+			"Grants ability": true
+		}
+	}
+}

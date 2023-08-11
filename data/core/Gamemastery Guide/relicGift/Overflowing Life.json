@@ -1,0 +1,37 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 102,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Overflowing Life"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "healing"
+			},
+			{
+				"trait": "necromancy"
+			},
+			{
+				"trait": "positive"
+			}
+		],
+		"aspects": [
+			{
+				"name": "life"
+			}
+		],
+		"entries": [
+			"Life force flows through you, and positive energy causes your vital essence to burst through your skin like beads of liquid light. You gain an item bonus equal to half the relic's level (minimum 1) to the Hit Points you recover from {@trait positive} {@trait healing} spells; this bonus applies only the first time per casting that a particular spell heals you."
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants passive attribute": true
+		}
+	}
+}

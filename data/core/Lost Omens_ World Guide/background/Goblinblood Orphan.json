@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Goblinblood Orphan"
+	},
+	"source": {
+		"page": 106,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"Your family, whether goblin, hobgoblin, or human, died in the Goblinblood Wars. Though you were marked by these losses, you managed to survive through your own resilience and resourcefulness.",
+			"Choose two ability boosts. One must be to Dexterity or Constitution, and one is a free ability boost.",
+			"You're trained in the {@skill Survival} skill and the {@skill Lore||Goblin Lore} skill. You gain the {@feat Assurance} skill feat with {@skill Survival}."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"dexterity": true,
+				"constitution": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Survival": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Assurance",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

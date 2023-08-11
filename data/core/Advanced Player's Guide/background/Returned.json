@@ -1,0 +1,45 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Returned"
+	},
+	"source": {
+		"page": 51,
+		"ID": "APG"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "rare"
+			}
+		],
+		"entries": [
+			"You died and miraculously returned with knowledge of the realms beyond death and a stronger link to life. Some dead and undead souls might feel a strange, instinctual kinship with you.",
+			"Choose two ability boosts. One must be to Constitution or Wisdom, and one is a free ability boost.",
+			"You gain the {@feat Diehard} feat and the {@feat Additional Lore} feat for {@skill Lore||Boneyard Lore}."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"constitution": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"gainedFeats": {
+			"count": 2,
+			"options": [
+				{
+					"name": "Additional Lore",
+					"sourceID": "CRB"
+				},
+				{
+					"name": "Diehard",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

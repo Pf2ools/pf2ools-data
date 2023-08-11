@@ -1,0 +1,54 @@
+{
+	"type": "source",
+	"ID": "KmrA",
+	"title": {
+		"full": "Kingmaker",
+		"short": "Kmr"
+	},
+	"data": {
+		"released": "2022-10-26",
+		"added": "2023-08-08",
+		"modified": "2023-08-08",
+		"url": "https://paizo.com/products/btq02e0d",
+		"groupIDs": [
+			"Kmr"
+		],
+		"copyright": [
+			"{@b Aurumvorax from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games Inc. published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
+			"{@b Daemon, Derghodaemon from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games Inc. published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
+			"{@b Daemon, Piscodaemon from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games Inc. published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
+			"{@b Dragon, Faerie from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games Inc. published and distributed by Frog God Games; Author: Scott Greene, based on original material by Brian Jaeger and Gary Gygax.",
+			"{@b Froghemoth from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games Inc. published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
+			"{@b Mite from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games Inc. published and distributed by Frog God Games; Author: Scott Greene, based on original material by Ian Livingstone and Mark Barnes.",
+			"{@b Nereid from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games Inc. published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
+			"{@b Quickling from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games Inc. published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
+			"{@b Scythe Tree from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games Inc. published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
+			"{@b Soul Eater from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games Inc. published and distributed by Frog God Games; Author: Scott Greene.",
+			"{@b Troll, Two-Headed from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games Inc. published and distributed by Frog God Games; Author: Scott Greene, based on original material by Oliver Charles MacDonald.",
+			"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+			"{@b {@i Pathfinder Kingmaker Adventure Path}} © 2022, Paizo Inc.; Authors: Steve Helt, Tim Hitchcock, James Jacobs, Ron Lundeen, Rob McCreary, Jason Nelson, Richard Pett, Neil Spicer, and Greg A. Vaughan."
+		],
+		"license": "OGLv1-0a",
+		"authors": [
+			"Steve Helt",
+			"Tim Hitchcock",
+			"James Jacobs",
+			"Ron Lundeen",
+			"Rob McCreary",
+			"Jason Nelson",
+			"Richard Pett",
+			"Neil Spicer",
+			"Greg A. Vaughan"
+		],
+		"publisher": "Paizo"
+	},
+	"tags": {
+		"status": {
+			"WIP": true
+		},
+		"misc": {
+			"GM-facing": true,
+			"Official": true
+		}
+	}
+}

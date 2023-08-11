@@ -1,0 +1,13 @@
+{
+	"type": "sourceGroup",
+	"ID": "SoT",
+	"title": {
+		"full": "Strength of Thousands",
+		"short": "SoT"
+	},
+	"tags": {
+		"misc": {
+			"Adventure": true
+		}
+	}
+}

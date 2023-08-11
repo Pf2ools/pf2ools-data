@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Nomad"
+	},
+	"source": {
+		"page": 63,
+		"ID": "CRB"
+	},
+	"data": {
+		"entries": [
+			"Traveling far and wide, you picked up basic tactics for surviving on the road and in unknown lands, getting by with few supplies and even fewer comforts. As an adventurer, you travel still, often into even more dangerous places.",
+			"Choose two ability boosts. One must be to Constitution or Wisdom, and one is a free ability boost.",
+			"You're trained in the {@skill Survival} skill and a {@skill Lore} skill related to one terrain you traveled in (such as {@skill Lore||Desert Lore} or {@skill Lore||Swamp Lore}). You gain the {@feat Assurance} skill feat with {@skill Survival}."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"constitution": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Survival": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Assurance",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Alkenstar Tinker"
+	},
+	"source": {
+		"page": 82,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"Your dedication to the scientific inquiry of your native Alkenstar provides great insight into mechanical and chemical innovation.",
+			"Choose two ability boosts. One must be to Dexterity or Intelligence, and one is a free ability boost.",
+			"You're trained in the {@skill Crafting} skill and the {@skill Lore||Engineering Lore} skill. You gain the {@feat Alchemical Crafting} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"dexterity": true,
+				"intelligence": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Crafting": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Alchemical Crafting",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

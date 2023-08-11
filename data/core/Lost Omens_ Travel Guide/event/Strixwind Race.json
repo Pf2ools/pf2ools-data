@@ -1,0 +1,50 @@
+{
+	"type": "event",
+	"source": {
+		"ID": "LOTG",
+		"page": 115
+	},
+	"name": {
+		"primary": "Strixwind Race"
+	},
+	"data": {
+		"level": 14,
+		"traits": [
+			{
+				"trait": "rare"
+			},
+			{
+				"trait": "air"
+			},
+			{
+				"trait": "downtime"
+			},
+			{
+				"trait": "primal"
+			}
+		],
+		"applicableSkills": [
+			{
+				"skill": "Acrobatics"
+			},
+			{
+				"skill": "Nature"
+			},
+			{
+				"skill": "Survival"
+			}
+		],
+		"entries": [
+			"Through magical means or by locating a workable path through Devil's Perch, you dash alongside the rapid winds for 1 week. As you do so, the unknown power that gives them strength seems to surround you. Attempt a DC 34 check.",
+			{
+				"type": "successDegree",
+				"entries": {
+					"Critical Success": "Even without wings of your own, the streams of air manage to lift you off the ground. You gain a fly Speed equal to your Speed for 1 week.",
+					"Success": "The winds cling to your feet, even after you leave them behind. You gain resistance equal to your level against falling damage for 1 year.",
+					"Failure": "The sound of rushing air sticks in your ears, disrupting your hearing. You're {@condition deafened}, except the flat check to perform an action with the {@trait auditory} trait is even harder than usual, with a DC of 11 instead of 5. This effect lasts for 1 week.",
+					"Critical Failure": "A bothersome gust begins to follow you, cropping up at the worst of times and skewing your aim. You take a −2 status penalty to all attack rolls for 1 month."
+				}
+			}
+		]
+	}
+}

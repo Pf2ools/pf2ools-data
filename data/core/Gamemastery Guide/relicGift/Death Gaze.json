@@ -1,0 +1,48 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 98,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Death Gaze"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "necromancy"
+			},
+			{
+				"trait": "negative"
+			}
+		],
+		"aspects": [
+			{
+				"name": "death"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"envision",
+					"{@action Interact}"
+				],
+				"entries": [
+					"Your stare causes a creature's flesh to rot and wither away. Target a creature you can see within 30 feet. Your stare deals {@damage 1d6} negative damage to the creature for every 2 levels the relic has (minimum {@damage 1d6}; basic Fortitude save). An {@trait undead} creature or other creature with {@ability negative healing|b2} targeted this way is instead healed {@damage 1d6} HP per level of the relic and is temporarily immune to this effect for 10 minutes."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

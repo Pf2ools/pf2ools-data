@@ -1,0 +1,58 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 200,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Sands of the Hourglass"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "transmutation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "time"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "hour"
+				},
+				"entries": [
+					"You target one creature within 30 feet, temporarily imposing the decrepitude of time on it. The target must attempt a Fortitude saving throw. The {@condition clumsy} and {@condition enfeebled} conditions last 1 minute.",
+					{
+						"type": "successDegree",
+						"entries": {
+							"Critical Success": "The target is unaffected.",
+							"Success": "The target becomes {@condition clumsy 1} and {@condition enfeebled 1}.",
+							"Failure": "The target becomes {@condition clumsy 2}, {@condition enfeebled 2}, and {@condition drained 1}.",
+							"Critical Failure": "The target becomes {@condition clumsy 3}, {@condition enfeebled 3}, and {@condition drained 2}."
+						}
+					}
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

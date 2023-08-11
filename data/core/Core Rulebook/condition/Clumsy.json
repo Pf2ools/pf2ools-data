@@ -1,0 +1,20 @@
+{
+	"type": "condition",
+	"name": {
+		"primary": "Clumsy"
+	},
+	"source": {
+		"page": 618,
+		"ID": "CRB"
+	},
+	"data": {
+		"entries": [
+			"Your movements become clumsy and inexact. Clumsy always includes a value. You take a status penalty equal to the condition value to Dexterity-based checks and DCs, including AC, Reflex saves, ranged attack rolls, and skill checks using {@skill Acrobatics}, {@skill Stealth}, and {@skill Thievery}."
+		]
+	},
+	"tags": {
+		"group": {
+			"Lowered Abilities": true
+		}
+	}
+}

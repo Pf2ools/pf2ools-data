@@ -1,0 +1,35 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 584,
+		"ID": "CRB"
+	},
+	"name": {
+		"primary": "Returning"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "evocation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "air"
+			}
+		],
+		"entries": [
+			"{@note The relic gains the {@item returning} rune.}"
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Weapon": true
+		},
+		"misc": {
+			"Is rune": true,
+			"Grants passive attribute": true
+		}
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Sentinel Reflectance"
+	},
+	"source": {
+		"page": 73,
+		"ID": "LOKL"
+	},
+	"data": {
+		"entries": [
+			"Either through witnessing their deeds and devout heroics firsthand, or through reading chronicles of their exploits, the Shining Sentinels of the Knights of Lastwall inspire you. You may idealize their philosophy or one day hope to join their ranks; the Shining Sentinels are your guiding star. Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Diplomacy} skill and the {@skill Lore||Shining Sentinels Lore} skill. You gain the {@feat No Cause for Alarm|APG} skill feat (Advanced Player's Guide 208)."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Diplomacy": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "No Cause for Alarm",
+					"sourceID": "APG"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"type": "source",
+	"ID": "DA",
+	"title": {
+		"full": "Dark Archive",
+		"short": "DA"
+	},
+	"data": {
+		"released": "2022-07-27",
+		"version": "v1.1",
+		"errataed": "2022-07-27",
+		"added": "2023-08-08",
+		"modified": "2023-08-08",
+		"url": "https://paizo.com/products/btq02arq",
+		"copyright": [
+			"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Designers: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter."
+		],
+		"license": "OGLv1-0a",
+		"authors": [
+			"Logan Bonner",
+			"Jason Bulmahn",
+			"Stephen Radney-MacFarland",
+			"Mark Seifter",
+			"James Jacobs"
+		],
+		"publisher": "Paizo"
+	},
+	"tags": {
+		"misc": {
+			"Official": true,
+			"PFS-legal": true
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"type": "sourceGroup",
+	"ID": "AoE",
+	"title": {
+		"full": "Agents of Edgewatch",
+		"short": "AoE"
+	},
+	"tags": {
+		"misc": {
+			"Adventure": true
+		}
+	}
+}

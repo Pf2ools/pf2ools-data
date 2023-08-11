@@ -1,0 +1,47 @@
+{
+	"type": "event",
+	"source": {
+		"ID": "LOTG",
+		"page": 113
+	},
+	"name": {
+		"primary": "Glacial Whirl"
+	},
+	"data": {
+		"level": 14,
+		"traits": [
+			{
+				"trait": "rare"
+			},
+			{
+				"trait": "downtime"
+			},
+			{
+				"trait": "illusion"
+			}
+		],
+		"applicableSkills": [
+			{
+				"skill": "Acrobatics"
+			},
+			{
+				"skill": "Performance"
+			},
+			{
+				"skill": "Society"
+			}
+		],
+		"entries": [
+			"You join the dancers of light in their concert for 1 day, following their steps as they move faster and faster. You must be quick and perceptive to keep up with the dance, gliding gracefully across the snowy fields. Attempt a DC 34 check.",
+			{
+				"type": "successDegree",
+				"entries": {
+					"Critical Success": "The dancers' light hangs in your eyes, allowing you to discern what's real and what's not. You gain a +1 circumstance bonus to {@skill Perception} checks and Will saves against {@trait illusion} effects. When you come within 10 feet of an illusion that can be disbelieved, the GM rolls a secret check for you to disbelieve it, even if you didn't spend an action to {@action Interact} with the illusion. The lights fade from your eyes after 1 month.",
+					"Success": "You manage to adjust fairly well to the distractions of bright light. The flat check for concealment from the {@condition dazzled} condition becomes DC 3 for you for 1 month.",
+					"Failure": "Your eyes can't keep up with the rapid movement. You concentrate too hard, and a bright afterimage of the dancers burns across your vision, causing you to become {@condition dazzled} for 1 week.",
+					"Critical Failure": "The reflection of the sun off a glacier catches you directly in the eyes as you move around. You become permanently {@condition blinded}."
+				}
+			}
+		]
+	}
+}

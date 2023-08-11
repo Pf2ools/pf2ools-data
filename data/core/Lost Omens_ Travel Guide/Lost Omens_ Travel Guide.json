@@ -1,0 +1,47 @@
+{
+	"type": "source",
+	"ID": "LOTG",
+	"title": {
+		"full": "Lost Omens: Travel Guide",
+		"short": "LOTG"
+	},
+	"data": {
+		"released": "2022-08-31",
+		"added": "2023-08-08",
+		"modified": "2023-08-08",
+		"url": "https://paizo.com/products/btq02c20",
+		"groupIDs": [
+			"LO"
+		],
+		"copyright": [
+			"{@b Genie, Marid from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
+			"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+			"{@b {@i Pathfinder Lost Omens Travel Guide}} © 2022, Paizo Inc.; Authors: Rigby Bendele, Katina Davis, Dana Ebert, Dustin Knight, Aaron Lascano, Ron Lundeen, Stephanie Lundeen, Ianara Natividad, Dave Nelson, Jessica Redekop, Nathan Reinecke, Mikhail Rekun, Erin Roberts, Simone Sallé, and Diego Valdez."
+		],
+		"license": "OGLv1-0a",
+		"authors": [
+			"Rigby Bendele",
+			"Katina Davis",
+			"Dana Ebert",
+			"Dustin Knight",
+			"Aaron Lascano",
+			"Ron Lundeen",
+			"Stephanie Lundeen",
+			"Ianara Natividad",
+			"Dave Nelson",
+			"Jessica Redekop",
+			"Nathan Reinecke",
+			"Mikhail Rekun",
+			"Erin Roberts",
+			"Simone Sallé",
+			"Diego Valdez"
+		],
+		"publisher": "Paizo"
+	},
+	"tags": {
+		"misc": {
+			"Official": true,
+			"PFS-legal": true
+		}
+	}
+}

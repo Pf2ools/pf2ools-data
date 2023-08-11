@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Pathfinder Hopeful"
+	},
+	"source": {
+		"page": 22,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"You've long wanted to join the adventurous Pathfinder Society.",
+			"You have taken up the dangerous life of an adventurer in hopes of earning a spot among the Pathfinders.",
+			"Choose two ability boosts. One must be to Constitution or Intelligence, and one is a free ability boost.",
+			"You're trained in the {@skill Society} skill and the {@skill Lore||Pathfinder Society Lore} skill. You gain the {@feat Additional Lore} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"constitution": true,
+				"intelligence": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Society": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Additional Lore",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

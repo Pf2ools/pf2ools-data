@@ -1,0 +1,38 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 585,
+		"ID": "CRB"
+	},
+	"name": {
+		"primary": "Thundering"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "evocation"
+			},
+			{
+				"trait": "sonic"
+			}
+		],
+		"aspects": [
+			{
+				"name": "air"
+			}
+		],
+		"entries": [
+			"{@note The relic gains the {@item thundering} rune.}"
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Weapon": true
+		},
+		"misc": {
+			"Is rune": true,
+			"Grants passive attribute": true
+		}
+	}
+}

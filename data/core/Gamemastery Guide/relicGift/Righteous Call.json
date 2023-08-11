@@ -1,0 +1,52 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 98,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Righteous Call"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "evocation"
+			},
+			{
+				"trait": "good"
+			}
+		],
+		"aspects": [
+			{
+				"name": "celestial"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"Holy magic fills your armaments, making them true weapons against evil. For 1 minute, your weapons and unarmed attacks gain the {@item holy} weapon rune while you hold them. If a weapon is at its limit on property runes, you can choose one property rune on the weapon to go dormant while the {@item holy} rune takes effect. In addition, any successful {@action strike||Strikes} your allies make while they're within 30 feet of you deal 1 additional good damage."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

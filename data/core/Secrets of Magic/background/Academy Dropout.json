@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Academy Dropout"
+	},
+	"source": {
+		"page": 28,
+		"ID": "SoM"
+	},
+	"data": {
+		"entries": [
+			"You were enrolled at a prestigious magical academy, but you've since dropped out. Maybe there was a momentous incident, maybe you had to return to other responsibilities, or perhaps it was just too much for you. Whatever the case, your exit from the academy has shaped your life as much as your entrance and led you to a life of adventure.",
+			"Choose two ability boosts. One must be to Intelligence or Charisma, and one is a free ability boost.",
+			"You're trained in {@skill Arcana} and {@skill Lore||Academia Lore}. You gain the {@feat Dubious Knowledge} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Arcana": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Dubious Knowledge",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

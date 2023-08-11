@@ -1,0 +1,50 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 230,
+		"ID": "SoM"
+	},
+	"name": {
+		"primary": "Dragon Strike"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "evocation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "dragon"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"components": [
+					"command"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "hour"
+				},
+				"entries": [
+					"Ghostly images of draconic claws form around your hands and linger in the air when you attack. For 1 minute, when you make a successful {@trait unarmed} melee {@action Strike}, you deal an additional {@damage 1d6} slashing damage.",
+					"At 11th level, you can use the ability once per 10 minutes instead of once per hour."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Soul seed": true,
+			"Grants ability": true
+		}
+	}
+}

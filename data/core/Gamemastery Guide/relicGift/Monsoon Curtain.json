@@ -1,0 +1,63 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 105,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Monsoon Curtain"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "air"
+			},
+			{
+				"trait": "conjuration"
+			},
+			{
+				"trait": "water"
+			}
+		],
+		"aspects": [
+			{
+				"name": "water"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 3,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"envision"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"You call down a curtain of violent rain in a location within 120 feet. The wall is 5 feet thick, 30 feet long, up to 30 feet high, and lasts for 1 minute. The wall stands vertically, but you can shape its path. The wall has the following effects.",
+					{
+						"type": "list",
+						"items": [
+							"If a {@trait fire} effect crosses through the wall, it either uses the outcome one degree of success worse than the result of its attack roll or its targets use the outcome one degree of success better than the result of their saving throw, as appropriate.",
+							"Creatures with a weakness to water that cross the wall or start their turn in the wall take damage equal to their weakness.",
+							"The wall imposes a –2 status penalty to {@skill Perception} checks to sense creatures or objects on the other side."
+						]
+					}
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

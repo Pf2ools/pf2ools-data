@@ -1,0 +1,49 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 199,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Swap Luck"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "abjuration"
+			}
+		],
+		"aspects": [
+			{
+				"name": "luck"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "reaction"
+				},
+				"frequency": {
+					"number": 1,
+					"unit": "hour"
+				},
+				"trigger": "You roll a failure or critical failure on a saving throw against an effect with multiple targets",
+				"components": [
+					"envision"
+				],
+				"entries": [
+					"You swap rolls with another target who's willing to swap with you. Each of you determines the new results with your new rolls."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

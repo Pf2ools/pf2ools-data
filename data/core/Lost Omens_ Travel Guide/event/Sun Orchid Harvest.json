@@ -1,0 +1,59 @@
+{
+	"type": "event",
+	"source": {
+		"ID": "LOTG",
+		"page": 113
+	},
+	"name": {
+		"primary": "Sun Orchid Harvest"
+	},
+	"data": {
+		"level": 12,
+		"traits": [
+			{
+				"trait": "rare"
+			},
+			{
+				"trait": "alchemical"
+			},
+			{
+				"trait": "downtime"
+			},
+			{
+				"trait": "necromancy"
+			},
+			{
+				"trait": "primal"
+			}
+		],
+		"applicableSkills": [
+			{
+				"skill": "Crafting"
+			},
+			{
+				"skill": "Nature"
+			},
+			{
+				"skill": "Lore",
+				"variables": [
+					"Plant"
+				]
+			},
+			{
+				"skill": "Survival"
+			}
+		],
+		"entries": [
+			"Following the signs of a new blooming of sun orchids, you scour the heart of the Thuvian desert for any sign of the flowers for 1 week. Once found, care must be taken to harvest it correctly. Contact with the life-giving flower can boost your life force. Attempt a DC 32 check.",
+			{
+				"type": "successDegree",
+				"entries": {
+					"Critical Success": "You close the portal, and {@deity Iomedae} blesses you for assisting in the defense of her forces. You can cast {@spell lay on hands} once per day as a divine innate spell. The spell is automatically heightened to half your level. You also gain a +1 circumstance bonus to saving throws against effects originating from demons. This benefit lasts for 1 month.",
+					"Success": "You manage to seal the tear. The experience helps you steel yourself against demons. You gain a +1 circumstance bonus to saving throws against effects originating from demons for 1 week.",
+					"Failure": "You become afflicted with Abyssal energies. You gain a weakness to cold iron and good damage equal to half your level for 1 week. During that time, you take good damage regardless of your alignment.",
+					"Critical Failure": "The Abyss flows through you for a moment, catching the attention of others. You gain a weakness to cold iron and good damage equal to your level for 1 month. During that time, you take good damage regardless of your alignment. In addition, a demon takes notice of you and can use {@spell plane shift} once to arrive at your location."
+				}
+			}
+		]
+	}
+}

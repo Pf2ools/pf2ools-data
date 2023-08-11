@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Quick"
+	},
+	"source": {
+		"page": 82,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"Staying alive among the scheming, ravenous undead of Geb required a deep knowledge of their motivations, capabilities, and weaknesses. More often than not, it also required the ability to weave alibis and life-preserving half-truths capable of swaying a stilled heart.",
+			"Choose two ability boosts. One must be to Charisma or Constitution, and one is a free ability boost.",
+			"You're trained in the {@skill Deception} skill and the {@skill Lore||Undead Lore} skill.",
+			"You gain the {@feat Charming Liar} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"charisma": true,
+				"constitution": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Deception": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Charming Liar",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

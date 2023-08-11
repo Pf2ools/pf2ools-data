@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Eldritch Anatomist"
+	},
+	"source": {
+		"page": 4,
+		"ID": "AV0"
+	},
+	"data": {
+		"entries": [
+			"You're a trained physician who can ably tend wounds of many kinds. But more than a practitioner, you're a scholar.",
+			"Some cultures shape flesh to extreme degrees, creating aberrations from humanoid forms. The fleshforges of distant Nex practice this fleshwarping, as do certain subterranean societies you hope to one day study— preferably from a safe and clinical distance.",
+			"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
+			"You're trained in the {@skill Medicine} skill and the {@skill Lore||Fleshwarp Lore} skill. You gain the {@feat Assurance} skill feat with {@skill Medicine}."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Medicine": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Assurance",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

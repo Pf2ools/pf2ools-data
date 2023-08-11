@@ -1,0 +1,39 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Revenant"
+	},
+	"source": {
+		"page": 125,
+		"ID": "GaG"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "rare"
+			}
+		],
+		"entries": [
+			"You died. No real doubt about that. Bullet to the brain or knife to the throat, you were dead as dead can be. Then you got back up again. Maybe you had some unfinished business, or maybe you were just so tough and so mean that Hell itself spat you out. Either way, you came back for a reason.",
+			"Choose two ability boosts. One must be to Constitution or Charisma, and one is a free ability boost.",
+			"You're trained in {@skill Religion} and {@skill Lore||Boneyard Lore}. You're still alive, not {@trait undead}, but you have the {@ability negative healing|b2} ability, which means you're harmed by positive damage and healed by {@trait negative} effects as if you were {@trait undead}."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"constitution": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Religion": true,
+				"Lore": true
+			}
+		}
+	}
+}

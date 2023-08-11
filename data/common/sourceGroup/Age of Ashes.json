@@ -1,0 +1,13 @@
+{
+	"type": "sourceGroup",
+	"ID": "AoA",
+	"title": {
+		"full": "Age of Ashes",
+		"short": "AoA"
+	},
+	"tags": {
+		"misc": {
+			"Adventure": true
+		}
+	}
+}

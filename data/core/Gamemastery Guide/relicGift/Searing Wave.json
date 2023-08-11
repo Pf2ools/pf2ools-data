@@ -1,0 +1,48 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 101,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Searing Wave"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "evocation"
+			},
+			{
+				"trait": "fire"
+			}
+		],
+		"aspects": [
+			{
+				"name": "fire"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"entries": [
+					"You allow a portion of the fire magic housed in your relic to escape in a direction of your choice. You deal {@damage 1d10} fire damage for every 2 levels of the relic to all creatures in a 30-foot cone (basic Reflex). You can't use Searing Wave again for {@dice 1d4} rounds."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

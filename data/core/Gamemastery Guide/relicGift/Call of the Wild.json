@@ -1,0 +1,49 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 96,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Call of the Wild"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "transmutation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "beast"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"frequency": {
+					"unit": "day",
+					"number": 1
+				},
+				"entries": [
+					"Your relic summons a creature to fight at your side, casting {@spell summon animal} with a level of half the item's level rounded up. You can {@action sustain an activation||Sustain this Activation} as you would the spell."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

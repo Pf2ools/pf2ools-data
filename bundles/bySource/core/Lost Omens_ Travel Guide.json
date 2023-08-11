@@ -1,0 +1,1117 @@
+{
+	"source": {
+		"type": "source",
+		"ID": "LOTG",
+		"title": {
+			"full": "Lost Omens: Travel Guide",
+			"short": "LOTG"
+		},
+		"data": {
+			"released": "2022-08-31",
+			"added": "2023-08-08",
+			"modified": "2023-08-08",
+			"url": "https://paizo.com/products/btq02c20",
+			"groupIDs": [
+				"LO"
+			],
+			"copyright": [
+				"{@b Genie, Marid from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
+				"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+				"{@b {@i Pathfinder Lost Omens Travel Guide}} © 2022, Paizo Inc.; Authors: Rigby Bendele, Katina Davis, Dana Ebert, Dustin Knight, Aaron Lascano, Ron Lundeen, Stephanie Lundeen, Ianara Natividad, Dave Nelson, Jessica Redekop, Nathan Reinecke, Mikhail Rekun, Erin Roberts, Simone Sallé, and Diego Valdez."
+			],
+			"license": "OGLv1-0a",
+			"authors": [
+				"Rigby Bendele",
+				"Katina Davis",
+				"Dana Ebert",
+				"Dustin Knight",
+				"Aaron Lascano",
+				"Ron Lundeen",
+				"Stephanie Lundeen",
+				"Ianara Natividad",
+				"Dave Nelson",
+				"Jessica Redekop",
+				"Nathan Reinecke",
+				"Mikhail Rekun",
+				"Erin Roberts",
+				"Simone Sallé",
+				"Diego Valdez"
+			],
+			"publisher": "Paizo"
+		},
+		"tags": {
+			"misc": {
+				"Official": true,
+				"PFS-legal": true
+			}
+		}
+	},
+	"background": [
+		{
+			"type": "background",
+			"name": {
+				"primary": "Astrological Augur"
+			},
+			"source": {
+				"page": 122,
+				"ID": "LOTG"
+			},
+			"data": {
+				"traits": [
+					{
+						"trait": "rare"
+					}
+				],
+				"entries": [
+					"During your formative years, you learned the stars are a gateway to mystical power or glimpses into the future. Perhaps you grew up surrounded by Iruxi culture or were raised in one of the remaining Lirgeni sanctuaries. You've studied the constellations, using their alignment to predict fortune (or misfortune) and gaining magical powers unlike any of the other astrologers you know. Your readings might primarily focus on the {@deity Cosmic Caravan|LOTG}, or perhaps you use other stars to guide you, like the zodiac of Tian Xia.",
+					"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
+					"You're trained in {@skill Lore||Astrology Lore}. You can cast {@spell augury} as a divine innate spell once per week, and the spell's effects can see up to 1 hour in the future rather than 30 minutes."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"wisdom": true,
+						"charisma": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 1,
+					"skills": {
+						"Lore": true
+					}
+				},
+				"gainedSpells": {
+					"count": 1,
+					"options": [
+						{
+							"name": "augury",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Doomcaller"
+			},
+			"source": {
+				"page": 122,
+				"ID": "LOTG"
+			},
+			"data": {
+				"traits": [
+					{
+						"trait": "rare"
+					}
+				],
+				"entries": [
+					"In the stars you see not guidance or wisdom but a twinkling door to the impending end of all things. You might have been raised in this ideology, gleaned it from superstition, or received a prophetic vision. Regardless, you've come to view the stars and whatever power they evoke as a path to doom, a curse to warn the masses. Others might spurn your warnings, while some might join you in enlightening the ignorant. To you, there's no greater truth than the coming end, and you know that whatever the cause for it will come from the stars—or perhaps the stars are just a gate to a more terrifying beyond.",
+					"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
+					"You're trained in Occultism and Star Lore. You also gain the Stellar Misfortune action.",
+					{
+						"type": "ability",
+						"name": "Stellar Misfortune",
+						"activity": {
+							"number": 1,
+							"unit": "free"
+						},
+						"traits": [
+							"divination",
+							"misfortune",
+							"occult"
+						],
+						"frequency": {
+							"unit": "day",
+							"number": 1
+						},
+						"trigger": "A creature you can see is about to attempt a saving throw, attack roll, or skill check",
+						"requirements": "You must be under the night sky with the stars visible",
+						"entries": [
+							"You call upon the power of a dooming star, exacerbating the target's bad luck. The target must roll the triggering check twice and take the worse result."
+						]
+					}
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"intelligence": true,
+						"wisdom": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Occultism": true,
+						"Lore": true
+					}
+				},
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Eclipseborn"
+			},
+			"source": {
+				"page": 122,
+				"ID": "LOTG"
+			},
+			"data": {
+				"traits": [
+					{
+						"trait": "rare"
+					}
+				],
+				"entries": [
+					"You were born at the exact moment of a solar or lunar eclipse. At the eclipse's junction, or not long after, a catastrophe fell upon the area of your birth—perhaps it affected only the people around you, a city, or even spanned the entire region. Whatever the scope, those present at your arrival came to believe the eclipse was the omen of ill fortune, and you were its harbinger. You grew up distinctly aware others viewed you as a child of misfortune and, to a certain extent, they were right.",
+					"Choose two ability boosts. One must be to Charisma or Constitution, and one is a free ability boost.",
+					"Decide with the GM what catastrophic event coincided with your birth; you're trained in a {@skill Lore} skill related to that event. You can cast {@spell ill omen|LOGM} as an occult innate spell once per day. After you {@action Cast a Spell||Cast this Spell}, but before you regain the ability to cast it the following day, the GM can force you to reroll a successful saving throw, attack roll, or skill check as misfortune finds its way back to you. This is a {@trait misfortune} effect. If this effect causes you to fail the associated saving throw, attack roll, or skill check, you can cast {@spell ill omen|LOGM} again a second time that day."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"charisma": true,
+						"constitution": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 1,
+					"skills": {
+						"Lore": true
+					}
+				},
+				"gainedSpells": {
+					"count": 1,
+					"options": [
+						{
+							"name": "ill omen",
+							"sourceID": "LOGM"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Nocturnal Navigator"
+			},
+			"source": {
+				"page": 122,
+				"ID": "LOTG"
+			},
+			"data": {
+				"traits": [
+					{
+						"trait": "rare"
+					}
+				],
+				"entries": [
+					"You have a great affinity for the night skies. You watch the stars, and you feel they speak secret messages specifically to you, which help you navigate your surroundings or perhaps determine your next course of action. Often, the stars have led you to places of great adventure, where you find new experiences and challenges. You might have come to make use of your talents as a guide for traveling groups, or maybe you preferred using your talents in pursuing a star-driven journey for personal enlightenment.",
+					"Choose two ability boosts. One must be to Dexterity or Wisdom, and one is a free ability boost.",
+					"You're trained in {@skill Survival}. Whenever you can clearly identify the stars, if you roll a success on a check to {@action Sense Direction} or otherwise orienteer, you get a critical success instead; if you roll a critical failure at such a check, you get a failure instead."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"dexterity": true,
+						"wisdom": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 1,
+					"skills": {
+						"Survival": true
+					}
+				},
+				"misc": {
+					"Grants situational benefit": true
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Sign Bound"
+			},
+			"source": {
+				"page": 122,
+				"ID": "LOTG"
+			},
+			"data": {
+				"traits": [
+					{
+						"trait": "rare"
+					}
+				],
+				"entries": [
+					"You were born under a powerful manifestation of a specific constellation, and its connection to you is obvious. You tend to feel most at ease while your constellation is prominent and can draw upon your sign's influence from time to time. When you gain this background, choose a specific constellation, such as the Thrush or the Wagon. Your associated constellation determines one of the ability boosts you gain and an innate spell. The list includes benefits for the constellations of the {@deity Cosmic Caravan|LOTG}, but you might have been born under a different constellation and gain different benefits as determined by the GM.",
+					"Choose two ability boosts. One must be to the ability tied to your sign, and one is a free ability boost.",
+					"You're trained in {@skill Lore||Astrology Lore}. You also gain the ability to cast an occult innate spell, as determined by your sign. The frequency with which you can cast this spell is listed below; cantrips can be used as often as you wish. As normal, you cast non-cantrip innate spells at the lowest level available to that spell, such as 2nd level for {@spell speak with animals}, and cantrips are heightened to half your level. Additionally, once during the prominent time for your sign (such as 12 Pharast–18 Gozran for the Bridge), you can cast your sign's spell without expending its normal use.",
+					{
+						"type": "pf2-options",
+						"skipSort": true,
+						"items": [
+							{
+								"type": "item",
+								"name": "The Thrush (Dexterity)",
+								"entries": [
+									"{@spell ghost sound}; at will"
+								]
+							},
+							{
+								"type": "item",
+								"name": "The Lantern Bearer (Wisdom)",
+								"entries": [
+									"{@spell light}; at will"
+								]
+							},
+							{
+								"type": "item",
+								"name": "The Newlyweds (Charisma)",
+								"entries": [
+									"{@spell charm}; once per day"
+								]
+							},
+							{
+								"type": "item",
+								"name": "The Bridge (Constitution)",
+								"entries": [
+									"{@spell endure elements}; once per week"
+								]
+							},
+							{
+								"type": "item",
+								"name": "The Daughter (Charisma)",
+								"entries": [
+									"{@spell guidance}; at will"
+								]
+							},
+							{
+								"type": "item",
+								"name": "The Rider (Strength)",
+								"entries": [
+									"{@spell phantom steed}; once per week"
+								]
+							},
+							{
+								"type": "item",
+								"name": "The Patriarch (Strength)",
+								"entries": [
+									"{@spell know direction}; at will"
+								]
+							},
+							{
+								"type": "item",
+								"name": "The Wagon (Constitution)",
+								"entries": [
+									"{@spell longstrider}; once per week"
+								]
+							},
+							{
+								"type": "item",
+								"name": "The Pack (Dexterity)",
+								"entries": [
+									"{@spell speak with animals}; once per week"
+								]
+							},
+							{
+								"type": "item",
+								"name": "The Mother (Wisdom)",
+								"entries": [
+									"{@spell remove fear}; once per week"
+								]
+							},
+							{
+								"type": "item",
+								"name": "The Star Gazer (Intelligence)",
+								"entries": [
+									"{@spell true strike}; once per week"
+								]
+							},
+							{
+								"type": "item",
+								"name": "The Stranger (Charisma)",
+								"entries": [
+									"{@spell message}; at will"
+								]
+							},
+							{
+								"type": "item",
+								"name": "The Follower (Intelligence)",
+								"entries": [
+									"{@spell stabilize}; at will"
+								]
+							}
+						]
+					}
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"strength": true,
+						"dexterity": true,
+						"constitution": true,
+						"intelligence": true,
+						"wisdom": true,
+						"charisma": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 1,
+					"skills": {
+						"Lore": true
+					}
+				},
+				"gainedSpells": {
+					"count": 1,
+					"options": [
+						{
+							"name": "ghost sound",
+							"sourceID": "CRB"
+						},
+						{
+							"name": "light",
+							"sourceID": "CRB"
+						},
+						{
+							"name": "charm",
+							"sourceID": "CRB"
+						},
+						{
+							"name": "endure elements",
+							"sourceID": "CRB"
+						},
+						{
+							"name": "guidance",
+							"sourceID": "CRB"
+						},
+						{
+							"name": "phantom steed",
+							"sourceID": "CRB"
+						},
+						{
+							"name": "know direction",
+							"sourceID": "CRB"
+						},
+						{
+							"name": "longstrider",
+							"sourceID": "CRB"
+						},
+						{
+							"name": "speak with animals",
+							"sourceID": "CRB"
+						},
+						{
+							"name": "remove fear",
+							"sourceID": "CRB"
+						},
+						{
+							"name": "true strike",
+							"sourceID": "CRB"
+						},
+						{
+							"name": "message",
+							"sourceID": "CRB"
+						},
+						{
+							"name": "stabilize",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Starless One"
+			},
+			"source": {
+				"page": 123,
+				"ID": "LOTG"
+			},
+			"data": {
+				"traits": [
+					{
+						"trait": "rare"
+					}
+				],
+				"entries": [
+					"You were born on a night when not a single star was in the night sky. While this is likely due to a haze, cloud cover, or other natural phenomena, there is always a chance that the stars hid from you on purpose. You have never been able to rely on the stars to guide you and you choose to exert your own will on your fortune rather than rely on the heavens. You've learned to reject outside influence on your fate, maintaining control of your own destiny.",
+					"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
+					"You're trained in {@skill Occultism} and {@skill Lore||Astrology Lore}. You also gain the Reclaim Destiny action.",
+					{
+						"type": "ability",
+						"name": "Reclaim Destiny",
+						"activity": {
+							"number": 1,
+							"unit": "free"
+						},
+						"traits": [
+							"divination",
+							"occult"
+						],
+						"frequency": {
+							"unit": "day",
+							"number": 1
+						},
+						"trigger": "You are about to attempt a check and are affected by a {@trait fortune} or {@trait misfortune} effect that modifies the triggering effect",
+						"entries": [
+							"You break the influence over your fortunes and claim a stable hold over your fate. You ignore the {@trait fortune} or {@trait misfortune} effect and can roll the triggering roll normally."
+						]
+					}
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"wisdom": true,
+						"charisma": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Occultism": true,
+						"Lore": true
+					}
+				},
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Sun Dancer"
+			},
+			"source": {
+				"page": 123,
+				"ID": "LOTG"
+			},
+			"data": {
+				"traits": [
+					{
+						"trait": "rare"
+					}
+				],
+				"entries": [
+					"You've been taught the Burning Mother's blessings could be invited through dances done under its presence, such as in welcoming the first rays of warmth in the spring. You could have been the apprentice of some {@trait primal} caster who wished to harness the sun's power for their incantations or lived in a community who reveres the Daughter of the {@deity Cosmic Caravan|LOTG} through displays of veneration for the sun. Whatever the case, you developed a supernatural connection to the sun.",
+					"Choose two ability boosts. One must be to Charisma or Dexterity, and one is a free ability boost.",
+					"You're trained in {@skill Performance}. You gain the {@feat Fascinating Performance} skill feat. If you use this feat outdoors in direct sunlight, you gain a +1 circumstance bonus to the skill check."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"charisma": true,
+						"dexterity": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 1,
+					"skills": {
+						"Performance": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Fascinating Performance",
+							"sourceID": "CRB"
+						}
+					]
+				},
+				"misc": {
+					"Grants situational benefit": true
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Tide Watcher"
+			},
+			"source": {
+				"page": 123,
+				"ID": "LOTG"
+			},
+			"data": {
+				"traits": [
+					{
+						"trait": "rare"
+					}
+				],
+				"entries": [
+					"Where you hail from, the ocean is the lifeblood of your community; knowing how it changes according to the moon was integral to everyday life. You've studied the moon's phases to predict the rise and fall of the ocean waters. Eventually, you gained a supernatural ability to foretell to some degree of accuracy the coming of more severe changes, such as tidal waves or encroaching storms. At times, it fell on you to warn settlements of such oncoming natural disasters.",
+					"Choose two ability boosts. One must be to Charisma or Intelligence, and one is a free ability boost.",
+					"You're trained in {@skill Nature} and {@skill Lore||Ocean Lore}. During the night when you can see the moon, you gain a +1 circumstance bonus to {@skill Survival} checks to discern weather patterns and predict upcoming weather conditions—this bonus increases to +2 if you're in the vicinity of the ocean."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"charisma": true,
+						"intelligence": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Nature": true,
+						"Lore": true
+					}
+				},
+				"misc": {
+					"Grants situational benefit": true
+				}
+			}
+		}
+	],
+	"event": [
+		{
+			"type": "event",
+			"source": {
+				"ID": "LOTG",
+				"page": 113
+			},
+			"name": {
+				"primary": "Autumn's Reflection"
+			},
+			"data": {
+				"level": 8,
+				"traits": [
+					{
+						"trait": "rare"
+					},
+					{
+						"trait": "downtime"
+					},
+					{
+						"trait": "necromancy"
+					},
+					{
+						"trait": "primal"
+					}
+				],
+				"applicableSkills": [
+					{
+						"skill": "Medicine"
+					},
+					{
+						"skill": "Nature"
+					},
+					{
+						"skill": "Religion"
+					},
+					{
+						"skill": "Society"
+					}
+				],
+				"entries": [
+					"You stand among the falling leaves of Kyonin's forests for 1 week and reflect upon the eventual mortality of ageless things. The dead canopy swirls around you, suffusing your being with its decaying energy. Attempt a DC 28 check.",
+					{
+						"type": "successDegree",
+						"entries": {
+							"Critical Success": "You gain {@spell harm} as an innate primal spell you can cast once per day, heightened to a level equal to half your level, rounded up. You lose the ability to cast the innate spell after 1 year.",
+							"Success": "As critical success, except the spell is heightened 1 level lower (minimum 1st level). You lose the ability to cast the innate spell after 1 month.",
+							"Failure": "The leaves slice at your body, leaving your skin raw and prone to splitting. You gain weakness to slashing damage equal to half your level for 1 week.",
+							"Critical Failure": "You become susceptible to forces that drain your life force. You're permanently {@condition drained 1}, and when you roll a failure against an effect with the {@trait necromancy} trait, you get a critical failure instead. This effect has the {@trait curse} trait and can be counteracted by {@spell remove curse} or similar effects."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "event",
+			"source": {
+				"ID": "LOTG",
+				"page": 115
+			},
+			"name": {
+				"primary": "Droskar's Breath"
+			},
+			"data": {
+				"level": 5,
+				"traits": [
+					{
+						"trait": "rare"
+					},
+					{
+						"trait": "downtime"
+					},
+					{
+						"trait": "fire"
+					},
+					{
+						"trait": "primal"
+					}
+				],
+				"applicableSkills": [
+					{
+						"skill": "Athletics"
+					},
+					{
+						"skill": "Medicine"
+					},
+					{
+						"skill": "Nature"
+					},
+					{
+						"skill": "Survival"
+					}
+				],
+				"entries": [
+					"Whether by bad fate or intention, you're caught in the ash cloud of Droskar's Crag as it releases its fumes, requiring 1 day of downtime to escape. The air scorches your lungs as you breathe, and visibility is almost nothing. The only good news is the mountain is not erupting—yet. Attempt a DC 22 check.",
+					{
+						"type": "successDegree",
+						"entries": {
+							"Critical Success": "The superheated air somehow proves good for your pulmonary health, keeping your chest warm. You gain cold resistance equal to half your level for 1 year.",
+							"Success": "You manage to survive, picking up some tricks on how to navigate through smoke. You automatically succeed at the flat check to target creatures that are {@condition concealed} only by smoke or fire for 1 month.",
+							"Failure": "You escape in time to survive, but the fumes damage your lungs. You contract stage 2 of {@disease choking death}, without an initial saving throw.",
+							"Critical Failure": "Your breathing becomes ragged and susceptible to negative effects. You use the outcome one degree of success worse than the result you rolled on saving throws against inhaled poisons or effects of an inhaled or gaseous nature (such as the {@spell ash cloud} and {@spell stinking cloud} spells, and others as determined by the GM). You can remove this effect with a 4th-level or higher {@spell restoration} spell."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "event",
+			"source": {
+				"ID": "LOTG",
+				"page": 113
+			},
+			"name": {
+				"primary": "Glacial Whirl"
+			},
+			"data": {
+				"level": 14,
+				"traits": [
+					{
+						"trait": "rare"
+					},
+					{
+						"trait": "downtime"
+					},
+					{
+						"trait": "illusion"
+					}
+				],
+				"applicableSkills": [
+					{
+						"skill": "Acrobatics"
+					},
+					{
+						"skill": "Performance"
+					},
+					{
+						"skill": "Society"
+					}
+				],
+				"entries": [
+					"You join the dancers of light in their concert for 1 day, following their steps as they move faster and faster. You must be quick and perceptive to keep up with the dance, gliding gracefully across the snowy fields. Attempt a DC 34 check.",
+					{
+						"type": "successDegree",
+						"entries": {
+							"Critical Success": "The dancers' light hangs in your eyes, allowing you to discern what's real and what's not. You gain a +1 circumstance bonus to {@skill Perception} checks and Will saves against {@trait illusion} effects. When you come within 10 feet of an illusion that can be disbelieved, the GM rolls a secret check for you to disbelieve it, even if you didn't spend an action to {@action Interact} with the illusion. The lights fade from your eyes after 1 month.",
+							"Success": "You manage to adjust fairly well to the distractions of bright light. The flat check for concealment from the {@condition dazzled} condition becomes DC 3 for you for 1 month.",
+							"Failure": "Your eyes can't keep up with the rapid movement. You concentrate too hard, and a bright afterimage of the dancers burns across your vision, causing you to become {@condition dazzled} for 1 week.",
+							"Critical Failure": "The reflection of the sun off a glacier catches you directly in the eyes as you move around. You become permanently {@condition blinded}."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "event",
+			"source": {
+				"ID": "LOTG",
+				"page": 112
+			},
+			"name": {
+				"primary": "Great Migration"
+			},
+			"data": {
+				"level": 6,
+				"traits": [
+					{
+						"trait": "rare"
+					},
+					{
+						"trait": "downtime"
+					},
+					{
+						"trait": "primal"
+					}
+				],
+				"applicableSkills": [
+					{
+						"skill": "Athletics"
+					},
+					{
+						"skill": "Nature"
+					},
+					{
+						"skill": "Stealth"
+					},
+					{
+						"skill": "Survival"
+					}
+				],
+				"entries": [
+					"You run with the mass of lion prides for 1 week, doing your best to keep up with their loping strides. As you do so, the thrill of their wild freedom overtakes you, and you become more like a predatory cat with each step. Attempt a DC 24 check.",
+					{
+						"type": "successDegree",
+						"entries": {
+							"Critical Success": "Your predatory senses heighten to an intense degree. You gain a +1 circumstance bonus to {@skill Nature} and {@skill Stealth} checks and gain scent as an imprecise sense with a range of 60 feet. Your instincts remain sharpened for 1 year.",
+							"Success": "Your senses heighten, and you gain a greater understanding of natural predators. As critical success, except you don't gain scent and your senses are heightened for only 1 month.",
+							"Failure": "Keeping up with the prides proves too difficult for you, and you injure yourself. You take a −10-foot penalty to your Speeds for 1 week.",
+							"Critical Failure": "Your meddling causes several cubs to become injured, something that weighs on your conscience. You can't use the {@action Command an Animal} action and take a −2 circumstance penalty on {@skill Nature} checks; both of these effects last for 1 month."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "event",
+			"source": {
+				"ID": "LOTG",
+				"page": 114
+			},
+			"name": {
+				"primary": "Lightning Dancing"
+			},
+			"data": {
+				"level": 3,
+				"traits": [
+					{
+						"trait": "rare"
+					},
+					{
+						"trait": "downtime"
+					},
+					{
+						"trait": "electricity"
+					},
+					{
+						"trait": "primal"
+					}
+				],
+				"applicableSkills": [
+					{
+						"skill": "Acrobatics"
+					},
+					{
+						"skill": "Nature"
+					},
+					{
+						"skill": "Survival"
+					}
+				],
+				"entries": [
+					"You stand around the obelisk for 1 week, waiting for the wellspring to overflow and hopefully dodge the lightning that follows. It's ill-advised, but so is the adventuring life. Attempt a DC 20 check.",
+					{
+						"type": "successDegree",
+						"entries": {
+							"Critical Success": "Static electricity suffuses your limbs, arcing electricity over objects you touch. Your {@action Strike||Strikes} with melee weapons and unarmed attacks deal {@damage 1d4} additional persistent electricity damage for 1 year.",
+							"Success": "The practice gained from jumping between lightning bolts is surprisingly useful. You gain a +1 circumstance bonus to saves against effects with the {@trait electricity} trait.",
+							"Failure": "The lightning strikes you, charging your body with a magnetic pull. You take a −2 circumstance penalty to AC against attacks made with a metal weapon, as determined by the GM. Additionally, you're considered to be wearing armor for the purpose of effects such as {@spell shocking grasp} that present additional danger to creatures wearing metal armor. Your magnetized state remains for 1 week.",
+							"Critical Failure": "You're struck by a particularly strong bolt of lightning, leaving you with astraphobia. Whenever you take electricity damage, you must also succeed at a Will save against the DC of the damaging effect. On a failure, you become {@condition frightened 2} ({@condition frightened 3} on a critical failure). It takes at least a month of downtime spent on incremental therapy to remove this effect."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "event",
+			"source": {
+				"ID": "LOTG",
+				"page": 115
+			},
+			"name": {
+				"primary": "Messenger Tide"
+			},
+			"data": {
+				"level": 10,
+				"traits": [
+					{
+						"trait": "rare"
+					},
+					{
+						"trait": "downtime"
+					},
+					{
+						"trait": "occult"
+					},
+					{
+						"trait": "water"
+					}
+				],
+				"applicableSkills": [
+					{
+						"skill": "Athletics"
+					},
+					{
+						"skill": "Occultism"
+					},
+					{
+						"skill": "Society"
+					},
+					{
+						"skill": "Survival"
+					}
+				],
+				"entries": [
+					"You wade deep into the Messenger Tide, diving below the surface for as long as you can each day for 1 week. Something in the aqueous dark calls out to you, beckoning you to hear what it has to say. Attempt a DC 29 check.",
+					{
+						"type": "successDegree",
+						"entries": {
+							"Critical Success": "You gain understanding of the full message. You gain the ability to breathe water, imprecise {@ability wavesense} with a range of 60 feet, and the {@trait amphibious} trait. The benefits last for 1 year.",
+							"Success": "You learn some of the secrets the entity in the water sought to impart. As critical success, except you don't gain {@ability wavesense}. The benefits last for 1 month.",
+							"Failure": "The voice from the deep confuses your perception of speech with its message, causing you to speak in snippets of odd languages and strange sounds. You must attempt a DC 5 flat check when using any ability or effect with the {@trait auditory} or {@trait linguistic} traits or the effect fails. This effect lasts for 1 month.",
+							"Critical Failure": "The tides are displeased with your lack of understanding, weighing down your body in water. You automatically fail all {@skill Athletics} checks to {@action Swim} for the next month."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "event",
+			"source": {
+				"ID": "LOTG",
+				"page": 112
+			},
+			"name": {
+				"primary": "Sanguine Cascade"
+			},
+			"data": {
+				"level": 6,
+				"traits": [
+					{
+						"trait": "rare"
+					},
+					{
+						"trait": "downtime"
+					},
+					{
+						"trait": "necromancy"
+					},
+					{
+						"trait": "occult"
+					}
+				],
+				"applicableSkills": [
+					{
+						"skill": "Medicine"
+					},
+					{
+						"skill": "Occultism"
+					},
+					{
+						"skill": "Religion"
+					}
+				],
+				"entries": [
+					"You walk the streets as the blood rains pour down on you for 1 day. The water is sticky and begins to seep through your clothes and into your skin. Attempt a DC 24 check.",
+					{
+						"type": "successDegree",
+						"entries": {
+							"Critical Success": "You gain a taste for blood that invigorates you at the mere scent. Whenever a creature within 30 feet takes persistent bleed damage from one of your abilities or effects, you gain temporary Hit Points equal to the damage dealt or half your level, whichever is lower. These temporary Hit Points remain for 1 minute. You gain the temporary Hit Points whenever the creature takes the damage, not when you inflict the persistent bleed on them. This effect lasts for 1 week.",
+							"Success": "The rain is pleasantly fortifying, giving you a sense of vigor. Creatures gain a +2 circumstance bonus to checks to {@action Treat your Wounds}. This effect lasts for 1 week.",
+							"Failure": "Something in the rain is wrong. You feel as if your body wants to shed itself of blood. You gain weakness to persistent bleed damage equal to half your level for 1 week.",
+							"Critical Failure": "Your vitality appears to have been torn from you. You become {@condition drained 2}. As long as the {@condition drained} condition persists, you take a −2 circumstance penalty to curses, diseases, and poisons. Reducing this {@condition drained} condition by 1 requires 1 week of rest."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "event",
+			"source": {
+				"ID": "LOTG",
+				"page": 114
+			},
+			"name": {
+				"primary": "Sarkoris Scab"
+			},
+			"data": {
+				"level": 8,
+				"traits": [
+					{
+						"trait": "rare"
+					},
+					{
+						"trait": "abjuration"
+					},
+					{
+						"trait": "downtime"
+					},
+					{
+						"trait": "evil"
+					}
+				],
+				"applicableSkills": [
+					{
+						"skill": "Athletics"
+					},
+					{
+						"skill": "Occultism"
+					},
+					{
+						"skill": "Religion"
+					}
+				],
+				"entries": [
+					"Though the Worldwound was closed by the Fifth Crusade in 4713 ar, the repercussions still linger in the Sarkoris Scar. At the site of the portal's closing, a much smaller tear blinks in and out of existence for a week every 3 years. You spend a week to ward the area with binding symbols and other methods to contain any demons that might escape. Attempt a DC 28 check.",
+					{
+						"type": "successDegree",
+						"entries": {
+							"Critical Success": "You harvest a sun orchid and become invigorated by contact with the flower. While invigorated, you regain your maximum Hit Points when taking a full night's rest. Additionally, you gain a +2 circumstance bonus to saving throws against effects that cause the {@condition clumsy}, {@condition drained}, or {@condition enfeebled} condition. This invigorating feeling lasts for 1 year.",
+							"Success": "As critical success, but you don't gain the bonus to saving throws.",
+							"Failure": "You aren't able to find a sun orchid and instead stumble upon a danger of the desert. Your party faces a severe encounter as determined by the GM; encounters occur once for each character who experienced a failure result, including an additional encounter for each character who {@action Aid||Aided} a failed result.",
+							"Critical Failure": "Your search comes up empty, and you fail to take precautions against the heat of the desert. As failure, but you become {@condition fatigued} before the encounter begins."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "event",
+			"source": {
+				"ID": "LOTG",
+				"page": 115
+			},
+			"name": {
+				"primary": "Strixwind Race"
+			},
+			"data": {
+				"level": 14,
+				"traits": [
+					{
+						"trait": "rare"
+					},
+					{
+						"trait": "air"
+					},
+					{
+						"trait": "downtime"
+					},
+					{
+						"trait": "primal"
+					}
+				],
+				"applicableSkills": [
+					{
+						"skill": "Acrobatics"
+					},
+					{
+						"skill": "Nature"
+					},
+					{
+						"skill": "Survival"
+					}
+				],
+				"entries": [
+					"Through magical means or by locating a workable path through Devil's Perch, you dash alongside the rapid winds for 1 week. As you do so, the unknown power that gives them strength seems to surround you. Attempt a DC 34 check.",
+					{
+						"type": "successDegree",
+						"entries": {
+							"Critical Success": "Even without wings of your own, the streams of air manage to lift you off the ground. You gain a fly Speed equal to your Speed for 1 week.",
+							"Success": "The winds cling to your feet, even after you leave them behind. You gain resistance equal to your level against falling damage for 1 year.",
+							"Failure": "The sound of rushing air sticks in your ears, disrupting your hearing. You're {@condition deafened}, except the flat check to perform an action with the {@trait auditory} trait is even harder than usual, with a DC of 11 instead of 5. This effect lasts for 1 week.",
+							"Critical Failure": "A bothersome gust begins to follow you, cropping up at the worst of times and skewing your aim. You take a −2 status penalty to all attack rolls for 1 month."
+						}
+					}
+				]
+			}
+		},
+		{
+			"type": "event",
+			"source": {
+				"ID": "LOTG",
+				"page": 113
+			},
+			"name": {
+				"primary": "Sun Orchid Harvest"
+			},
+			"data": {
+				"level": 12,
+				"traits": [
+					{
+						"trait": "rare"
+					},
+					{
+						"trait": "alchemical"
+					},
+					{
+						"trait": "downtime"
+					},
+					{
+						"trait": "necromancy"
+					},
+					{
+						"trait": "primal"
+					}
+				],
+				"applicableSkills": [
+					{
+						"skill": "Crafting"
+					},
+					{
+						"skill": "Nature"
+					},
+					{
+						"skill": "Lore",
+						"variables": [
+							"Plant"
+						]
+					},
+					{
+						"skill": "Survival"
+					}
+				],
+				"entries": [
+					"Following the signs of a new blooming of sun orchids, you scour the heart of the Thuvian desert for any sign of the flowers for 1 week. Once found, care must be taken to harvest it correctly. Contact with the life-giving flower can boost your life force. Attempt a DC 32 check.",
+					{
+						"type": "successDegree",
+						"entries": {
+							"Critical Success": "You close the portal, and {@deity Iomedae} blesses you for assisting in the defense of her forces. You can cast {@spell lay on hands} once per day as a divine innate spell. The spell is automatically heightened to half your level. You also gain a +1 circumstance bonus to saving throws against effects originating from demons. This benefit lasts for 1 month.",
+							"Success": "You manage to seal the tear. The experience helps you steel yourself against demons. You gain a +1 circumstance bonus to saving throws against effects originating from demons for 1 week.",
+							"Failure": "You become afflicted with Abyssal energies. You gain a weakness to cold iron and good damage equal to half your level for 1 week. During that time, you take good damage regardless of your alignment.",
+							"Critical Failure": "The Abyss flows through you for a moment, catching the attention of others. You gain a weakness to cold iron and good damage equal to your level for 1 month. During that time, you take good damage regardless of your alignment. In addition, a demon takes notice of you and can use {@spell plane shift} once to arrive at your location."
+						}
+					}
+				]
+			}
+		}
+	]
+}

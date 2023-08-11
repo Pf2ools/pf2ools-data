@@ -1,0 +1,53 @@
+{
+	"type": "event",
+	"source": {
+		"ID": "LOTG",
+		"page": 113
+	},
+	"name": {
+		"primary": "Autumn's Reflection"
+	},
+	"data": {
+		"level": 8,
+		"traits": [
+			{
+				"trait": "rare"
+			},
+			{
+				"trait": "downtime"
+			},
+			{
+				"trait": "necromancy"
+			},
+			{
+				"trait": "primal"
+			}
+		],
+		"applicableSkills": [
+			{
+				"skill": "Medicine"
+			},
+			{
+				"skill": "Nature"
+			},
+			{
+				"skill": "Religion"
+			},
+			{
+				"skill": "Society"
+			}
+		],
+		"entries": [
+			"You stand among the falling leaves of Kyonin's forests for 1 week and reflect upon the eventual mortality of ageless things. The dead canopy swirls around you, suffusing your being with its decaying energy. Attempt a DC 28 check.",
+			{
+				"type": "successDegree",
+				"entries": {
+					"Critical Success": "You gain {@spell harm} as an innate primal spell you can cast once per day, heightened to a level equal to half your level, rounded up. You lose the ability to cast the innate spell after 1 year.",
+					"Success": "As critical success, except the spell is heightened 1 level lower (minimum 1st level). You lose the ability to cast the innate spell after 1 month.",
+					"Failure": "The leaves slice at your body, leaving your skin raw and prone to splitting. You gain weakness to slashing damage equal to half your level for 1 week.",
+					"Critical Failure": "You become susceptible to forces that drain your life force. You're permanently {@condition drained 1}, and when you roll a failure against an effect with the {@trait necromancy} trait, you get a critical failure instead. This effect has the {@trait curse} trait and can be counteracted by {@spell remove curse} or similar effects."
+				}
+			}
+		]
+	}
+}

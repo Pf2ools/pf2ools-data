@@ -1,0 +1,43 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 583,
+		"ID": "CRB"
+	},
+	"name": {
+		"primary": "Anarchic"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "chaotic"
+			},
+			{
+				"trait": "evocation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "celestial",
+				"note": "{@trait azata}-themed"
+			},
+			{
+				"name": "fiend",
+				"note": "{@trait demon}-themed"
+			}
+		],
+		"entries": [
+			"{@note The relic gains the {@item anarchic} rune.}"
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Weapon": true
+		},
+		"misc": {
+			"Is rune": true,
+			"Grants passive attribute": true
+		}
+	}
+}

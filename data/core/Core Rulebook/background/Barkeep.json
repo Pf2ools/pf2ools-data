@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Barkeep"
+	},
+	"source": {
+		"page": 60,
+		"ID": "CRB"
+	},
+	"data": {
+		"entries": [
+			"You have five specialties: hefting barrels, drinking, polishing steins, drinking, and drinking. You worked in a bar, where you learned how to hold your liquor and rowdily socialize.",
+			"Choose two ability boosts. One must be to Constitution or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Diplomacy} skill and the {@skill Lore||Alcohol Lore} skill. You gain the {@feat Hobnobber} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"constitution": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Diplomacy": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Hobnobber",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

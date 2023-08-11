@@ -1,0 +1,51 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 96,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Deadly Spark"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "air"
+			},
+			{
+				"trait": "electricity"
+			},
+			{
+				"trait": "evocation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "air"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"entries": [
+					"A spark flashes out from the relic toward a creature within 20 feet. This spark deals {@damage 1d12} electricity damage (basic Reflex save). The damage increases by {@damage 1d12} at 6th level and by another {@damage 1d12} every 4 levels thereafter."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

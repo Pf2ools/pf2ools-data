@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Mystic Seer"
+	},
+	"source": {
+		"page": 6,
+		"ID": "EC0"
+	},
+	"data": {
+		"entries": [
+			"You delight crowds by reading minds, telling futures, and contacting spirits. Although much of your work is misdirection and showmanship, your cons have inadvertently awakened a genuine awareness of magic in your mind. This new sense is both thrilling and frightening, and you hope that you can hone it further in the Circus of Wayward Wonders.",
+			"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
+			"You're trained in the {@skill Arcana} skill and the {@skill Lore||Scam Lore} skill.",
+			"You gain the {@feat Arcane Sense} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Arcana": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Arcane Sense",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

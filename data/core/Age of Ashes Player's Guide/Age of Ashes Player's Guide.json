@@ -1,0 +1,31 @@
+{
+	"type": "source",
+	"ID": "AoA0",
+	"title": {
+		"full": "Age of Ashes Player's Guide",
+		"short": "AoA"
+	},
+	"data": {
+		"released": "2019-08-01",
+		"added": "2023-08-08",
+		"modified": "2023-08-08",
+		"url": "https://paizo.com/community/blog/v5748dyo6sgt2",
+		"groupIDs": [
+			"AoA"
+		],
+		"copyright": [
+			"{@b {@i Age of Ashes Player's Guide}} © 2019, Paizo Inc.; Authors: James Jacobs, with Amanda Hamon."
+		],
+		"license": "OGLv1-0a",
+		"authors": [
+			"James Jacobs",
+			"Amanda Hamon"
+		],
+		"publisher": "Paizo"
+	},
+	"tags": {
+		"misc": {
+			"Official": true
+		}
+	}
+}

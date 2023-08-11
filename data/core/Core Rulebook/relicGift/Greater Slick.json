@@ -1,0 +1,35 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 583,
+		"ID": "CRB"
+	},
+	"name": {
+		"primary": "Greater Slick"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "transmutation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "shadow"
+			}
+		],
+		"entries": [
+			"{@note The relic gains the {@item greater slick} rune.}"
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Armor": true
+		},
+		"misc": {
+			"Is rune": true,
+			"Grants passive attribute": true
+		}
+	}
+}

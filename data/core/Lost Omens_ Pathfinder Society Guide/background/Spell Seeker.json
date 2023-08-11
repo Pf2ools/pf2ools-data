@@ -1,0 +1,45 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Spell Seeker"
+	},
+	"source": {
+		"page": 8,
+		"ID": "LOPSG"
+	},
+	"data": {
+		"entries": [
+			"Conventional magic can only hold your attention for so long.",
+			"Instead, you've devoted yourself to understanding truly esoteric spells, which invariably draws you to explore the world and all its eldritch traditions.",
+			"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
+			"You're trained in either the {@skill Arcana} skill or {@skill Occultism} skill, as well as the {@skill Lore||Library Lore} skill. You gain the {@feat Recognize Spell} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Arcana": true,
+				"Occultism": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Recognize Spell",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

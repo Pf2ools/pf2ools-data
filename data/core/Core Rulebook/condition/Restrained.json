@@ -1,0 +1,15 @@
+{
+	"type": "condition",
+	"name": {
+		"primary": "Restrained"
+	},
+	"source": {
+		"page": 622,
+		"ID": "CRB"
+	},
+	"data": {
+		"entries": [
+			"You're tied up and can barely move, or a creature has you pinned. You have the {@condition flat-footed} and {@condition immobilized} conditions, and you can't use any actions with the {@trait attack} or {@trait manipulate} traits except to attempt to {@action Escape} or {@action Force Open} your bonds. {@condition Restrained} overrides grabbed."
+		]
+	}
+}

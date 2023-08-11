@@ -1,0 +1,52 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 101,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Incandescent Sight"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "divination"
+			},
+			{
+				"trait": "fire"
+			}
+		],
+		"aspects": [
+			{
+				"name": "fire"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"envision"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"Your eyes become attuned to heat signatures as your vision extends into the infrared, granting you a heatsight precise sense for 1 minute. Your heatsight can see temperature gradients out to a range of 30 feet, allowing you to detect living creatures and warm objects even in the dark. Warm objects block your heatsight even if they are transparent, such as hot water."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

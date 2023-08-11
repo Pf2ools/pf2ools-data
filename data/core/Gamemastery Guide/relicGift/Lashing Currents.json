@@ -1,0 +1,37 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 105,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Lashing Currents"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "evocation"
+			},
+			{
+				"trait": "water"
+			}
+		],
+		"aspects": [
+			{
+				"name": "water"
+			}
+		],
+		"entries": [
+			"Water collects at the tip of your relic. You can adjust your grip on your relic with an {@action Interact} action to allow you to make lashing current weapon {@action strike||Strikes} with your relic, which deal {@damage 1d4} bludgeoning damage; have the {@trait disarm}, {@trait finesse}, {@trait reach <10>}, {@trait trip}, and {@trait versatile <S>} traits; and are in the {@group flail} group. Your lashing current {@action strike||Strikes} gain the benefit of your relic's fundamental and property runes, though any property runes that would not be applicable to the lashing currents are not applied. You can use another {@action Interact} action to return to your normal grip and make {@action strike||Strikes} with the relic."
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Weapon": true
+		},
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

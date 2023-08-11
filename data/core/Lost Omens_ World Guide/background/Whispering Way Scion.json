@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Whispering Way Scion"
+	},
+	"source": {
+		"page": 46,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"Your family has long been associated with the enigmatic death cult known as the Whispering Way, which was recently responsible for the terrible devastation in the nation of Lastwall. Whether or not you have followed in their footsteps, you know many of the philosophy's secrets.",
+			"Choose two ability boosts.",
+			"One must be to Intelligence or Wisdom, and one is a free ability boost.",
+			"You're trained in the {@skill Religion} skill and the {@skill Lore||Undead Lore} skill. You gain the {@feat Student of the Canon} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Religion": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Canon",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

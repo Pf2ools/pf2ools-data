@@ -1,0 +1,522 @@
+{
+	"source": {
+		"type": "source",
+		"ID": "RoE",
+		"title": {
+			"full": "Rage of Elements",
+			"short": "RoE"
+		},
+		"data": {
+			"released": "2023-08-02",
+			"added": "2023-08-08",
+			"modified": "2023-08-08",
+			"url": "https://paizo.com/products/btq02eal",
+			"copyright": [
+				"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+				"{@b {@i Pathfinder Rage of Elements}] © 2023, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, James Case, Jessica Catalan, Andrew D. Geels, Sen H.H.S., Patrick Hurley, Jason Keeley, Luis Loza, Mark Moreland, Jonathan Morgantini, AJ Neuro, Jessica Redekop, Solomon St. John, Michael Sayre, Mark Seifter, Shahreena Shahrani, Shay Snow, Levi Steadman, Mari Tokuda, Ruvaid Virk, Andrew White, and Linda Zayas-Palmer."
+			],
+			"license": "OGLv1-0a",
+			"authors": [
+				"Logan Bonner",
+				"Jason Bulmahn",
+				"James Case",
+				"Jessica Catalan",
+				"Andrew D. Geels",
+				"Sen H.H.S.",
+				"Patrick Hurley",
+				"Jason Keeley",
+				"Luis Loza",
+				"Mark Moreland",
+				"Jonathan Morgantini",
+				"AJ Neuro",
+				"Jessica Redekop",
+				"Solomon St. John",
+				"Michael Sayre",
+				"Mark Seifter",
+				"Shahreena Shahrani",
+				"Shay Snow",
+				"Levi Steadman",
+				"Mari Tokuda",
+				"Ruvaid Virk",
+				"Andrew White",
+				"Linda Zayas-Palmer"
+			],
+			"publisher": "Paizo"
+		},
+		"tags": {
+			"misc": {
+				"Official": true,
+				"PFS-legal": true
+			},
+			"status": {
+				"WIP": true
+			}
+		}
+	},
+	"background": [
+		{
+			"type": "background",
+			"name": {
+				"primary": "Alloysmith"
+			},
+			"source": {
+				"ID": "RoE",
+				"page": 44
+			},
+			"data": {
+				"entries": [
+					"Blacksmithing might be an ancient profession, but you are its cutting edge. You've studied the properties of different metals, experimented with them by combining them, exposing them to different elements and processes, and have even delved into the metaphysical nature of metal in your quest to master it. You might have taken up adventuring to acquire more funding and materials or to test your designs.",
+					"Choose two attribute boosts. One must be to Strength or Intelligence, and one is a free attribute boost.",
+					"You're trained in the {@skill Crafting} skill and the {@skill Lore||Plane of Metal Lore} skill. You gain the {@feat Specialty Crafting} skill feat with the blacksmithing specialty."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"strength": true,
+						"intelligence": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Crafting": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Specialty Crafting",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Concordance Researcher"
+			},
+			"source": {
+				"ID": "RoE",
+				"page": 44
+			},
+			"data": {
+				"traits": [
+					{
+						"trait": "uncommon"
+					}
+				],
+				"entries": [
+					"Tasked by the Concordance of Elements to research a variety of enigmatic planar phenomena, you've acquired very specific knowledge about the planes and the interactions between them. While being a researcher is usually a peaceful profession, the Concordance might require you to go out into the field and research unstable planar situations.",
+					"Choose two attribute boosts. One must be to Intelligence or Wisdom, and one is a free attribute boost.",
+					"You're trained in four of the following: {@skill Lore||Plane of Air Lore}, {@skill Lore||Plane of Earth Lore}, {@skill Lore||Plane of Fire Lore}, {@skill Lore||Plane of Metal Lore}, {@skill Lore||Plane of Water Lore}, or {@skill Lore||Plane of Wood Lore}."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"intelligence": true,
+						"wisdom": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 4,
+					"skills": {
+						"Lore": true
+					}
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Concordance Scout"
+			},
+			"source": {
+				"ID": "RoE",
+				"page": 44
+			},
+			"data": {
+				"traits": [
+					{
+						"trait": "uncommon"
+					}
+				],
+				"entries": [
+					"You were hired by the Concordance of Elements to seek out rumors of planar breaches or other evidence of planar imbalances. After reporting back to the Concordance, they'd send agents more well equipped to deal with the situation. Still, this job has led you into more trouble than your employers suspect, and you've learned how to get your information quickly and get out relatively unscathed.",
+					"Choose two attribute boosts. One must be to Constitution or Charisma, and one is a free attribute boost.",
+					"You're trained in the {@skill Diplomacy} skill and one of the following lore skills: {@skill Lore||Plane of Air Lore}, {@skill Lore||Plane of Earth Lore}, {@skill Lore||Plane of Fire Lore}, {@skill Lore||Plane of Metal Lore}, {@skill Lore||Plane of Water Lore}, or {@skill Lore||Plane of Wood Lore}. You gain the {@feat Hobnobber} skill feat."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 3,
+					"abilities": {
+						"constitution": true,
+						"charisma": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Diplomacy": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Hobnobber",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Crystal Healer"
+			},
+			"source": {
+				"ID": "RoE",
+				"page": 44
+			},
+			"data": {
+				"entries": [
+					"Mineral formations can be beautiful things, sparkling and arrayed in geometric configurations. To you, they are also potent natural healing aids. You may have taken up adventuring to prove yourself by healing the ailing or to find new crystals with unique properties to add to your growing collection.",
+					"Choose two attribute boosts. One must be to Wisdom or Charisma and one is a free attribute boost.",
+					"You're trained in the {@skill Nature} skill and the {@skill Lore||Plane of Earth Lore} skill. You gain the {@feat Natural Medicine} skill feat."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 3,
+					"abilities": {
+						"wisdom": true,
+						"charisma": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Nature": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Natural Medicine",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Deep-Sea Diver"
+			},
+			"source": {
+				"ID": "RoE",
+				"page": 44
+			},
+			"data": {
+				"entries": [
+					"The sapphire depths of the seas and the mysteries they hold beneath their surface have always piqued your interest. Your obsession with the ocean depths cannot be contained to one world alone, and you've read tomes and journals about the source of all water, everywhere, hoping to one day understand the watery secrets of the great unknown.",
+					"Choose two attribute boosts. One must be to Strength or Wisdom, and one is a free attribute boost.",
+					"You're trained in the {@skill Athletics} skill and the {@skill Lore||Plane of Water Lore} skill. You gain the {@feat Underwater Marauder} skill feat."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 3,
+					"abilities": {
+						"strength": true,
+						"wisdom": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Athletics": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Underwater Marauder",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Dendrologist"
+			},
+			"source": {
+				"ID": "RoE",
+				"page": 44
+			},
+			"data": {
+				"entries": [
+					"Trees grow in every biome, and your awe at their ability to conquer terrain has inspired deeper study into their workings.",
+					"There are trees everywhere, and your study of them will inevitably take you ever further afield in search of new varieties, perhaps even to the Plane of Wood itself.",
+					"Choose two attribute boosts. One must be to Intelligence or Wisdom, and one is a free attribute boost.",
+					"You're trained in the {@skill Survival} skill and the {@skill Lore||Plane of Wood Lore} skill. You gain the {@feat Terrain Expertise} skill feat for forests."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 3,
+					"abilities": {
+						"intelligence": true,
+						"wisdom": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Survival": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Terrain Expertise",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Elementally Infused"
+			},
+			"source": {
+				"ID": "RoE",
+				"page": 44
+			},
+			"data": {
+				"traits": [
+					{
+						"trait": "rare"
+					}
+				],
+				"entries": [
+					"You were exposed to a strong burst of elemental essence originating directly from an elemental plane, most likely caused by a planar breach. Your body absorbed the elemental essence with no ill effects, and now it coalesces within you. With time, you've learned to project elemental power in a manner safe to you but still deadly to others.",
+					"Choose two attribute boosts. One must be to Constitution or Charisma, and one is a free attribute boost.",
+					"Choose one elemental plane: Air, Earth, Fire, Metal, Water, or Wood. You are trained in the corresponding {@skill Lore} skill: {@skill Lore||Plane of Air Lore}, {@skill Lore||Plane of Earth Lore}, {@skill Lore||Plane of Fire Lore}, {@skill Lore||Plane of Metal Lore}, {@skill Lore||Plane of Water Lore}, or {@skill Lore||Plane of Wood Lore}. You also gain a cantrip according to your chosen plane: {@b air} {@spell gale blast|SoM}; {@b earth} {@spell scatter scree|SoM}; {@b fire} {@spell produce flame||ignition}; {@b metal} {@spell needle darts|RoE}; {@b water} {@spell spout|SoM}, or {@b wood} {@spell root reading|RoE}. You can cast this spell as a primal innate spell at will."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 3,
+					"abilities": {
+						"constitution": true,
+						"charisma": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 1,
+					"skills": {
+						"Lore": true
+					}
+				},
+				"gainedSpells": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Gale Blast",
+							"sourceID": "SoM"
+						},
+						{
+							"name": "Scatter Scree",
+							"sourceID": "SoM"
+						},
+						{
+							"name": "Produce Flame",
+							"sourceID": "CRB"
+						},
+						{
+							"name": "Needle Darts",
+							"sourceID": "RoE"
+						},
+						{
+							"name": "Spout",
+							"sourceID": "SoM"
+						},
+						{
+							"name": "Root Reading",
+							"sourceID": "RoE"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Fire Warden"
+			},
+			"source": {
+				"ID": "RoE",
+				"page": 44
+			},
+			"data": {
+				"entries": [
+					"Whether you fought against fires in the wilderness or in crowded city streets, you've had your fair share of dealing with uncontrolled flames. Battling thick smoke and toxic fumes, you've {@condition broken} down obstacles to save trapped people from a fiery grave, and you've studied the nature and source of fire itself to try and better learn how to fight it.",
+					"Choose two attribute boosts. One must be to Strength or Constitution, and one is a free attribute boost.",
+					"You're trained in the {@skill Athletics} skill and the {@skill Lore||Plane of Fire Lore} skill. You gain the {@feat Breath Control} feat."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 3,
+					"abilities": {
+						"strength": true,
+						"constitution": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Athletics": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Breath Control",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Planar Migrant"
+			},
+			"source": {
+				"ID": "RoE",
+				"page": 44
+			},
+			"data": {
+				"traits": [
+					{
+						"trait": "rare"
+					}
+				],
+				"entries": [
+					"Your birthplace was on one of the elemental planes, but you traveled to the Universe for some reason. Maybe you left on good terms, or maybe you were driven out and hope to one day return. Maybe you were even exiled, and any mention of it brings pain and resentment. In any case, nowhere has quite felt like home since, and you've roamed the land, carrying your life's possessions on your back wherever you go. You adventure possibly in search of a place to belong or a way to return to your plane of origin and settle unfinished business.",
+					"Choose two attribute boosts. One must be Dexterity or Constitution, and one is a free attribute boost.",
+					"You're trained in the {@skill Athletics} skill and one of the following lore skills: {@skill Lore||Plane of Air Lore}, {@skill Lore||Plane of Earth Lore}, {@skill Lore||Plane of Fire Lore}, {@skill Lore||Plane of Metal Lore}, {@skill Lore||Plane of Water Lore}, or {@skill Lore||Plane of Wood Lore}. You gain the {@feat Hefty Hauler} and {@feat Prescient Planner|APG} skill feats."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 3,
+					"abilities": {
+						"dexterity": true,
+						"constitution": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Athletics": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 2,
+					"options": [
+						{
+							"name": "Heft Hauler",
+							"sourceID": "CRB"
+						},
+						{
+							"name": "Prescient Planner",
+							"sourceID": "APG"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Sky Rider"
+			},
+			"source": {
+				"ID": "RoE",
+				"page": 44
+			},
+			"data": {
+				"entries": [
+					"The freedom of a bird in flight is something to envy, and envy it you did, but not for long. You've borrowed mechanical gliders or sought out the benefits of magically aided gliding and flight, doing anything for an opportunity to look down on the world with only the wind to keep you aloft. The expense of these experiences may have been a notable factor in why you undertook the adventuring lifestyle or perhaps you are seeking new methods of flight to master.",
+					"Choose two attribute boosts. One must be to Dexterity or Wisdom, and one is a free attribute boost.",
+					"You're trained in the {@skill Acrobatics} skill and the Plane of {@skill Lore||Air Lore} skill. You gain the {@feat Cat Fall} skill feat."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 3,
+					"abilities": {
+						"dexterity": true,
+						"wisdom": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Acrobatics": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Cat Fall",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		}
+	]
+}

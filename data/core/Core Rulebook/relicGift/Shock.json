@@ -1,0 +1,38 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 585,
+		"ID": "CRB"
+	},
+	"name": {
+		"primary": "Shock"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "electricity"
+			},
+			{
+				"trait": "evocation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "air"
+			}
+		],
+		"entries": [
+			"{@note The relic gains the {@item shock} rune.}"
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Weapon": true
+		},
+		"misc": {
+			"Is rune": true,
+			"Grants passive attribute": true
+		}
+	}
+}

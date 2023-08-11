@@ -1,0 +1,13 @@
+{
+	"type": "sourceGroup",
+	"ID": "Kmr",
+	"title": {
+		"full": "Kingmaker",
+		"short": "Kmr"
+	},
+	"tags": {
+		"misc": {
+			"Adventure": true
+		}
+	}
+}

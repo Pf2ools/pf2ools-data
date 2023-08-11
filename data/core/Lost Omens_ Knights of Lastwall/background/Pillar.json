@@ -1,0 +1,45 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Pillar"
+	},
+	"source": {
+		"page": 73,
+		"ID": "LOKL"
+	},
+	"data": {
+		"entries": [
+			"Not every Knight of Lastwall contributes to the crusade through combat. Pillars provide essential upkeep and service at camps, enjoying the same rank of knight as the crusaders and strategists for which the knights are known. You spent time as an assistant among the pillars, learning how noncombatants provide for the physical and mental wellbeing of an army.",
+			"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
+			"You're trained in one of your choice of the {@skill Medicine}, {@skill Society}, or {@skill Survival} skills, as well as the {@skill Lore||Labor Lore} skill. You gain the {@feat Additional Lore} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Medicine": true,
+				"Society": true,
+				"Survival": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Additional Lore",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

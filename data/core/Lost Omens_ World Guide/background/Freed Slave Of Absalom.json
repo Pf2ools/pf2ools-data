@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Freed Slave Of Absalom"
+	},
+	"source": {
+		"page": 22,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"As a recently freed slave in Absalom, you belong to a new, closeknit social class at the heart of the city's most important trades.",
+			"Choose two ability boosts. One must be to Constitution or Intelligence, and one is a free ability boost.",
+			"You're trained in the {@skill Society} skill and the {@skill Lore||Absalom Lore} skill.",
+			"You gain the {@feat Streetwise} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"constitution": true,
+				"intelligence": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Society": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Streetwise",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

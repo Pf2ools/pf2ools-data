@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Trailblazer"
+	},
+	"source": {
+		"page": 8,
+		"ID": "LOPSG"
+	},
+	"data": {
+		"entries": [
+			"Uncharted realms have always intrigued you, and you've explored and mapped large territories in service to merchants, governments, or your own curiosity. Where some see a blank spot on a map, you see the potential for something new and undiscovered.",
+			"Choose two ability boosts. One must be to Constitution or Wisdom, and one is a free ability boost.",
+			"You're trained in the {@skill Survival} skill and the {@skill Lore||Cartography Lore} skill.",
+			"You gain the {@feat Terrain Expertise} skill feat with one terrain you've explored (such as forest or underground)."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"constitution": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Survival": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Terrain Expertise",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Scholar"
+	},
+	"source": {
+		"page": 63,
+		"ID": "CRB"
+	},
+	"data": {
+		"entries": [
+			"You have a knack for learning, and sequestered yourself from the outside world to learn all you could. You read about so many wondrous places and things in your books, and always dreamed about one day seeing the real things.",
+			"Eventually, that curiosity led you to leave your studies and become an adventurer.",
+			"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
+			"You're trained in your choice of the {@skill Arcana}, {@skill Nature}, {@skill Occultism}, or {@skill Religion} skill, and gain the {@feat Assurance} skill feat in your chosen skill. You're also trained in the {@skill Lore||Academia Lore} skill."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Nature": true,
+				"Occultism": true,
+				"Religion": true,
+				"Arcana": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Assurance",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 100,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Profane Fervor"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "evil"
+			},
+			{
+				"trait": "evocation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "fiend"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"Profane energies twist your weapons, filling them with rage toward everything good. For 1 minute, your weapons and unarmed attacks gain the {@item unholy} weapon rune while you hold them. If a weapon is at its limit on property runes, you can choose one property rune on the weapon to go dormant while the {@item unholy} rune takes effect. In addition, successful {@action strike||Strikes} your allies make while they're within 30 feet of you deal 1 additional evil damage."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

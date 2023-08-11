@@ -1,0 +1,54 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 102,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Healing Wave"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "healing"
+			},
+			{
+				"trait": "necromancy"
+			},
+			{
+				"trait": "positive"
+			}
+		],
+		"aspects": [
+			{
+				"name": "life"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"envision"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "hour"
+				},
+				"entries": [
+					"You release a wave of positive energy in a 15-foot cone. You and each living target in the area regain {@damage 1d4} HP per level of the relic."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

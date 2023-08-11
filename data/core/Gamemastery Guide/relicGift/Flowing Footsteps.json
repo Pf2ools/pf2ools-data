@@ -1,0 +1,34 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 105,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Flowing Footsteps"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "transmutation"
+			},
+			{
+				"trait": "water"
+			}
+		],
+		"aspects": [
+			{
+				"name": "water"
+			}
+		],
+		"entries": [
+			"Your relic ensures no water impedes your movement. You gain the effects of the {@spell water walk} spell, and the ability to breathe water. You also gain a swim Speed equal to your Speed or 15 feet, whichever is higher."
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants passive attribute": true
+		}
+	}
+}

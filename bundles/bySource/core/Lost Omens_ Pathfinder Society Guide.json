@@ -1,0 +1,273 @@
+{
+	"source": {
+		"type": "source",
+		"ID": "LOPSG",
+		"title": {
+			"full": "Lost Omens: Pathfinder Society Guide",
+			"short": "LOPSG"
+		},
+		"data": {
+			"released": "2020-10-14",
+			"added": "2023-08-08",
+			"modified": "2023-08-08",
+			"url": "https://paizo.com/products/btq0250x",
+			"groupIDs": [
+				"LO"
+			],
+			"copyright": [
+				"{@b {@i The Book of Fiends}} © 2003, Green Ronin Publishing; Authors: Aaron Loeb, Erik Mona, Chris Pramas, and Robert J. Schwalb.",
+				"{@b {@i Armies of the Abyss}} © 2002, Green Ronin Publishing; Authors: Erik Mona and Chris Pramas.",
+				"{@b {@i The Avatar's Handbook}} © 2003, Green Ronin Publishing; Authors: Jesse Decker and Chris Thomasson.",
+				"{@b {@i Book of the Righteous}} © 2002, Aaron Loeb.",
+				"{@b {@i Legions of Hell}} © 2001, Green Ronin Publishing; Author: Chris Pramas.",
+				"{@b {@i The Unholy Warrior's Handbook}} © 2003, Green Ronin Publishing; Author: Robert J. Schwalb.",
+				"{@b Genie, Marid from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
+				"{@b Dragon, Faerie from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Brian Jaeger and Gary Gygax.",
+				"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+				"{@b {@i Pathfinder Lost Omens Pathfinder Society Guide}} © 2020, Paizo Inc.; Authors: Kate Baker, James Case, John Compton, Vanessa Hoskins, Mike Kimmel, Ron Lundeen, Dennis Muldoon, kieran t. newton, Michael Sayre, Clark Valentine, Tonya Woldridge, and Linda Zayas-Palmer."
+			],
+			"license": "OGLv1-0a",
+			"authors": [
+				"Kate Baker",
+				"James Case",
+				"John Compton",
+				"Vanessa Hoskins",
+				"Mike Kimmel",
+				"Ron Lundeen",
+				"Dennis Muldoon",
+				"kieran t. newton",
+				"Michael Sayre",
+				"Clark Valentine",
+				"Tonya Woldridge",
+				"Linda Zayas-Palmer"
+			],
+			"publisher": "Paizo"
+		},
+		"tags": {
+			"misc": {
+				"Official": true,
+				"PFS-legal": true
+			}
+		}
+	},
+	"background": [
+		{
+			"type": "background",
+			"name": {
+				"primary": "Archaeologist"
+			},
+			"source": {
+				"page": 8,
+				"ID": "LOPSG"
+			},
+			"data": {
+				"entries": [
+					"You've excavated enough sites to know that ancient civilizations aren't lost; they're merely buried and waiting for the right scholar to unearth them and tell their story. You might have worked as a laborer or local guide before learning formal archaeological techniques.",
+					"Choose two ability boosts. One must be to Constitution or Intelligence, and one is a free ability boost.",
+					"You're trained in the {@skill Society} skill and the {@skill Lore||Architecture Lore} skill. You gain the {@feat Additional Lore} skill feat related to an ancient culture or the history of a culture you've studied (such as {@skill Lore||Azlanti Lore} or {@skill Lore||Osirian History Lore})."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"constitution": true,
+						"intelligence": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Society": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Additional Lore",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Pathfinder Recruiter"
+			},
+			"source": {
+				"page": 8,
+				"ID": "LOPSG"
+			},
+			"data": {
+				"entries": [
+					"The Pathfinder Society's always on the lookout for talent, but that talent rarely just stumbles into the Grand Lodge. Whether you're professionally trained to encourage new recruits or the {@skill Society}'s own scouts identified your potential and raised you from childhood, you're committed to expanding the {@skill Society}'s roster.",
+					"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
+					"You're trained in the {@skill Diplomacy} skill and a {@skill Lore} skill related to one city you've visited often. You gain the {@feat Group Impression} skill feat."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"wisdom": true,
+						"charisma": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Diplomacy": true,
+						"Society": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Group Impression",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Spell Seeker"
+			},
+			"source": {
+				"page": 8,
+				"ID": "LOPSG"
+			},
+			"data": {
+				"entries": [
+					"Conventional magic can only hold your attention for so long.",
+					"Instead, you've devoted yourself to understanding truly esoteric spells, which invariably draws you to explore the world and all its eldritch traditions.",
+					"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
+					"You're trained in either the {@skill Arcana} skill or {@skill Occultism} skill, as well as the {@skill Lore||Library Lore} skill. You gain the {@feat Recognize Spell} skill feat."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"intelligence": true,
+						"wisdom": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Arcana": true,
+						"Occultism": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Recognize Spell",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Trailblazer"
+			},
+			"source": {
+				"page": 8,
+				"ID": "LOPSG"
+			},
+			"data": {
+				"entries": [
+					"Uncharted realms have always intrigued you, and you've explored and mapped large territories in service to merchants, governments, or your own curiosity. Where some see a blank spot on a map, you see the potential for something new and undiscovered.",
+					"Choose two ability boosts. One must be to Constitution or Wisdom, and one is a free ability boost.",
+					"You're trained in the {@skill Survival} skill and the {@skill Lore||Cartography Lore} skill.",
+					"You gain the {@feat Terrain Expertise} skill feat with one terrain you've explored (such as forest or underground)."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"constitution": true,
+						"wisdom": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Survival": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Terrain Expertise",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Translator"
+			},
+			"source": {
+				"page": 8,
+				"ID": "LOPSG"
+			},
+			"data": {
+				"entries": [
+					"In your youth, you learned to transcribe books and translate scrolls to preserve knowledge or perhaps to aid wealthy merchants and politicians. Whether you set out to make your own fortune or are drawn to decipher the strangest codes, your linguistic training will guide your discoveries.",
+					"Choose two ability boosts. One must be to Intelligence or Charisma, and one is a free ability boost.",
+					"You're trained in the {@skill Society} skill and the {@skill Lore||Scribing Lore} skill. You gain the {@feat Multilingual} skill feat."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"intelligence": true,
+						"charisma": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Society": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Multilingual",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		}
+	]
+}

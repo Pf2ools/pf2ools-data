@@ -1,0 +1,59 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 101,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Flare Bolt"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "evocation"
+			},
+			{
+				"trait": "fire"
+			}
+		],
+		"aspects": [
+			{
+				"name": "fire"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"A bolt of flames scorches out from the relic. Make a spell attack roll with your relic against a target within 30 feet. The bolt deals {@damage 1d6} fire damage for every 2 levels the relic has (minimum {@damage 1d6}).",
+					{
+						"type": "successDegree",
+						"entries": {
+							"Critical Success": "The bolt deals double damage, as well as {@condition persistent damage||persistent fire damage} equal to the level of the relic.",
+							"Success": "The bolt deals full damage."
+						}
+					}
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

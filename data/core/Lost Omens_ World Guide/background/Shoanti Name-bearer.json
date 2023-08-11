@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Shoanti Name-bearer"
+	},
+	"source": {
+		"page": 118,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"You are a member of a Shoanti quah and have gone through its coming of age ceremony, gaining the traditional tattoo of your quah and earning your adult name.",
+			"Choose two ability boosts. One must be to Strength or Wisdom, and one is a free ability boost.",
+			"You're trained in the {@skill Athletics} skill and the {@skill Lore||Quah Lore} skill. You gain the {@feat Combat Climber} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Athletics": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Combat Climber",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

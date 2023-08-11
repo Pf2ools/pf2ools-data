@@ -1,0 +1,50 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 231,
+		"ID": "SoM"
+	},
+	"name": {
+		"primary": "Absorb Injury"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "necromancy"
+			}
+		],
+		"aspects": [
+			{
+				"name": "soul"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "reaction"
+				},
+				"components": [
+					"envision"
+				],
+				"trigger": "An ally within 30 feet takes damage",
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"You forge a conduit to your ally's soul and absorb the injury to protect them. You receive the damage instead of your ally; you also take any additional effects associated with the transferred damage, such as poison on the blade, conditions, or {@condition persistent damage||persistent fire damage} from a critical hit with a {@item flaming (generic)||flaming} rune."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Soul seed": true,
+			"Grants ability": true
+		}
+	}
+}

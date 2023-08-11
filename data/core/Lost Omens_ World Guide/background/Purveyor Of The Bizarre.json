@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Purveyor Of The Bizarre"
+	},
+	"source": {
+		"page": 58,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"Whether in Katapesh or one of the bustling markets along the Path of Salt, you've spent enough time buying and selling ancient or unusual items to give you an instinctive ability to quickly sort valuable trinkets from worthless baubles.",
+			"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
+			"You're trained in the {@skill Arcana} skill and the {@skill Lore||Mercantile Lore} skill.",
+			"You gain the {@feat Quick Identification} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Arcana": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Quick Identification",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

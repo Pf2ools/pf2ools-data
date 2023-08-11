@@ -1,0 +1,38 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 96,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Living Storm"
+	},
+	"data": {
+		"tier": "Grand",
+		"traits": [
+			{
+				"trait": "air"
+			},
+			{
+				"trait": "electricity"
+			},
+			{
+				"trait": "evocation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "air"
+			}
+		],
+		"entries": [
+			"The relic grants you a fly Speed equal to your Speed or 60 feet, whichever is greater. In addition, a creature that {@action strike||Strikes} you with a melee attack takes 5 electricity damage, and you can cast 5th-level {@spell lightning bolt} as an innate spell."
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants passive attribute": true,
+			"Grants ability": true
+		}
+	}
+}

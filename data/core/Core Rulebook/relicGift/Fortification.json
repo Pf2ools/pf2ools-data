@@ -1,0 +1,35 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 582,
+		"ID": "CRB"
+	},
+	"name": {
+		"primary": "Fortification"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "abjuration"
+			}
+		],
+		"aspects": [
+			{
+				"name": "earth"
+			}
+		],
+		"entries": [
+			"{@note The relic gains the {@item fortification} rune.}"
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Armor": true
+		},
+		"misc": {
+			"Is rune": true,
+			"Grants passive attribute": true
+		}
+	}
+}

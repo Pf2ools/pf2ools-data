@@ -1,0 +1,50 @@
+{
+	"type": "event",
+	"source": {
+		"ID": "LOTG",
+		"page": 114
+	},
+	"name": {
+		"primary": "Sarkoris Scab"
+	},
+	"data": {
+		"level": 8,
+		"traits": [
+			{
+				"trait": "rare"
+			},
+			{
+				"trait": "abjuration"
+			},
+			{
+				"trait": "downtime"
+			},
+			{
+				"trait": "evil"
+			}
+		],
+		"applicableSkills": [
+			{
+				"skill": "Athletics"
+			},
+			{
+				"skill": "Occultism"
+			},
+			{
+				"skill": "Religion"
+			}
+		],
+		"entries": [
+			"Though the Worldwound was closed by the Fifth Crusade in 4713 ar, the repercussions still linger in the Sarkoris Scar. At the site of the portal's closing, a much smaller tear blinks in and out of existence for a week every 3 years. You spend a week to ward the area with binding symbols and other methods to contain any demons that might escape. Attempt a DC 28 check.",
+			{
+				"type": "successDegree",
+				"entries": {
+					"Critical Success": "You harvest a sun orchid and become invigorated by contact with the flower. While invigorated, you regain your maximum Hit Points when taking a full night's rest. Additionally, you gain a +2 circumstance bonus to saving throws against effects that cause the {@condition clumsy}, {@condition drained}, or {@condition enfeebled} condition. This invigorating feeling lasts for 1 year.",
+					"Success": "As critical success, but you don't gain the bonus to saving throws.",
+					"Failure": "You aren't able to find a sun orchid and instead stumble upon a danger of the desert. Your party faces a severe encounter as determined by the GM; encounters occur once for each character who experienced a failure result, including an additional encounter for each character who {@action Aid||Aided} a failed result.",
+					"Critical Failure": "Your search comes up empty, and you fail to take precautions against the heat of the desert. As failure, but you become {@condition fatigued} before the encounter begins."
+				}
+			}
+		]
+	}
+}

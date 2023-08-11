@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Pathfinder Recruiter"
+	},
+	"source": {
+		"page": 8,
+		"ID": "LOPSG"
+	},
+	"data": {
+		"entries": [
+			"The Pathfinder Society's always on the lookout for talent, but that talent rarely just stumbles into the Grand Lodge. Whether you're professionally trained to encourage new recruits or the {@skill Society}'s own scouts identified your potential and raised you from childhood, you're committed to expanding the {@skill Society}'s roster.",
+			"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Diplomacy} skill and a {@skill Lore} skill related to one city you've visited often. You gain the {@feat Group Impression} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"wisdom": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Diplomacy": true,
+				"Society": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Group Impression",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

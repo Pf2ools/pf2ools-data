@@ -1,0 +1,50 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 101,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Blazing Soul"
+	},
+	"data": {
+		"tier": "Grand",
+		"traits": [
+			{
+				"trait": "evocation"
+			},
+			{
+				"trait": "fire"
+			}
+		],
+		"aspects": [
+			{
+				"name": "fire"
+			}
+		],
+		"entries": [
+			"Fire magic suffuses your body and soul, protecting you from lesser flames and allowing you to kindle even the smallest sparks into powerful infernos. You gain fire resistance 10. The first time each hour you are targeted by a {@trait fire} effect that would deal damage, you regain {@damage 1d8} HP for every counteract level of the effect, in addition to taking the damage.",
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "reaction"
+				},
+				"components": [
+					"envision"
+				],
+				"trigger": "A creature within 60 feet is critically hit or critically fails a save against a {@trait fire} effect and is not reduced to 0 Hit Points",
+				"entries": [
+					"Flames roar forth from the triggering creature, dealing {@damage 6d6} fire damage to all creatures in a 15-foot burst centered on it, including that creature (basic Reflex). You aren't affected by the activation, though your allies are. If this damage reduces the triggering creature to 0 Hit Points, it is reduced to a fine ash, though its gear remains. You can't use this activation again for {@dice 1d4} rounds."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants passive attribute": true,
+			"Grants ability": true
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"type": "condition",
+	"name": {
+		"primary": "Dazzled"
+	},
+	"source": {
+		"page": 619,
+		"ID": "CRB"
+	},
+	"data": {
+		"entries": [
+			"Your eyes are overstimulated. If vision is your only precise sense, all creatures and objects are {@condition concealed} from you."
+		]
+	},
+	"tags": {
+		"group": {
+			"Senses": true
+		}
+	}
+}

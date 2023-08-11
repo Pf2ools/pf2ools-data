@@ -1,0 +1,47 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 231,
+		"ID": "SoM"
+	},
+	"name": {
+		"primary": "Force Blast"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "evocation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "soul"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"envision"
+				],
+				"entries": [
+					"A blast of force envelops a creature of your choosing within 30 feet. This blast deals {@damage 1d6} force damage, with a basic Fortitude save.",
+					"The damage increases by {@damage 1d6} at 3rd level and every 2 levels thereafter."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Soul seed": true,
+			"Grants ability": true
+		}
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 583,
+		"ID": "CRB"
+	},
+	"name": {
+		"primary": "Axiomatic"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "evocation"
+			},
+			{
+				"trait": "lawful"
+			}
+		],
+		"aspects": [
+			{
+				"name": "celestial",
+				"note": "{@trait archon}-themed"
+			},
+			{
+				"name": "fiend",
+				"note": "{@trait devil}-themed"
+			}
+		],
+		"entries": [
+			"{@note The relic gains the {@item axiomatic} rune.}"
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Weapon": true
+		},
+		"misc": {
+			"Is rune": true,
+			"Grants passive attribute": true
+		}
+	}
+}

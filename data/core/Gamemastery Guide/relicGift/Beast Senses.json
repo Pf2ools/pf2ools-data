@@ -1,0 +1,34 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 96,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Beast Senses"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "transmutation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "beast"
+			}
+		],
+		"entries": [
+			"The relic grants you an animal's acute senses as long as you wear it. You gain {@ability low-light vision}. If you already have {@ability low-light vision}, you instead gain {@ability darkvision}. At 10th level, the relic grants you imprecise {@ability scent} with a range of 10 feet."
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Worn Item": true
+		},
+		"misc": {
+			"Grants passive attribute": true
+		}
+	}
+}

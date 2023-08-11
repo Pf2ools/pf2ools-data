@@ -1,0 +1,55 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 198,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Dominant Emotion"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "emotion"
+			},
+			{
+				"trait": "enchantment"
+			},
+			{
+				"trait": "mental"
+			}
+		],
+		"aspects": [
+			{
+				"name": "emotion"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "reaction"
+				},
+				"components": [
+					"envision"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "hour"
+				},
+				"trigger": "You would be adversely affected by an {@trait emotion} effect",
+				"entries": [
+					"The relic tries to neutralize the triggering effect with its own emotion, attempting a counteract check. If the check succeeds, you feel a sudden rush of the relic's emotion and the counteracted effect doesn't take hold of you."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

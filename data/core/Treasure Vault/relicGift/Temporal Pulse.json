@@ -1,0 +1,57 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 200,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Temporal Pulse"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "transmutation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "time"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"envision"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"You make time shudder around you, stealing it from enemies and granting it to allies. Creatures of your choice within 30 feet must attempt a Will save. For each creature you render {@condition slowed} with this gift, you can render one ally within 30 feet, including you, {@condition quickened} for 1 round.",
+					{
+						"type": "successDegree",
+						"entries": {
+							"Success": "The creature is unaffected.",
+							"Failure": "The creature is {@condition slowed 1}.",
+							"Critical Failure": "The creature is {@condition slowed 2}."
+						}
+					}
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

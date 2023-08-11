@@ -1,0 +1,38 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Concordance Researcher"
+	},
+	"source": {
+		"ID": "RoE",
+		"page": 44
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "uncommon"
+			}
+		],
+		"entries": [
+			"Tasked by the Concordance of Elements to research a variety of enigmatic planar phenomena, you've acquired very specific knowledge about the planes and the interactions between them. While being a researcher is usually a peaceful profession, the Concordance might require you to go out into the field and research unstable planar situations.",
+			"Choose two attribute boosts. One must be to Intelligence or Wisdom, and one is a free attribute boost.",
+			"You're trained in four of the following: {@skill Lore||Plane of Air Lore}, {@skill Lore||Plane of Earth Lore}, {@skill Lore||Plane of Fire Lore}, {@skill Lore||Plane of Metal Lore}, {@skill Lore||Plane of Water Lore}, or {@skill Lore||Plane of Wood Lore}."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 4,
+			"skills": {
+				"Lore": true
+			}
+		}
+	}
+}

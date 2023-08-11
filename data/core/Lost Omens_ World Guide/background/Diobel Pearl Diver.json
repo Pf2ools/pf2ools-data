@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Diobel Pearl Diver"
+	},
+	"source": {
+		"page": 22,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"You spent a portion of your youth diving and gathering precious pearls under the attentive eyes of Kortos Consortium merchants.",
+			"Choose two ability boosts. One must be to Constitution or Dexterity, and one is a free ability boost.",
+			"You're trained in the {@skill Athletics} skill and the {@skill Lore||Ocean Lore} skill.",
+			"You gain the {@feat Underwater Marauder} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"constitution": true,
+				"dexterity": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Athletics": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Underwater Marauder",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

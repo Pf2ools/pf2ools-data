@@ -1,0 +1,186 @@
+{
+	"sourceGroup": [
+		{
+			"type": "sourceGroup",
+			"ID": "AV",
+			"title": {
+				"full": "Abomination Vaults",
+				"short": "AV"
+			},
+			"tags": {
+				"misc": {
+					"Adventure": true
+				}
+			}
+		},
+		{
+			"type": "sourceGroup",
+			"ID": "AoA",
+			"title": {
+				"full": "Age of Ashes",
+				"short": "AoA"
+			},
+			"tags": {
+				"misc": {
+					"Adventure": true
+				}
+			}
+		},
+		{
+			"type": "sourceGroup",
+			"ID": "AoE",
+			"title": {
+				"full": "Agents of Edgewatch",
+				"short": "AoE"
+			},
+			"tags": {
+				"misc": {
+					"Adventure": true
+				}
+			}
+		},
+		{
+			"type": "sourceGroup",
+			"ID": "BL",
+			"title": {
+				"full": "Blood Lords",
+				"short": "BL"
+			},
+			"tags": {
+				"misc": {
+					"Adventure": true
+				}
+			}
+		},
+		{
+			"type": "sourceGroup",
+			"ID": "EC",
+			"title": {
+				"full": "Extinction Curse",
+				"short": "EC"
+			},
+			"tags": {
+				"misc": {
+					"Adventure": true
+				}
+			}
+		},
+		{
+			"type": "sourceGroup",
+			"ID": "FRP",
+			"title": {
+				"full": "Fists of the Ruby Phoenix",
+				"short": "FRP"
+			},
+			"tags": {
+				"misc": {
+					"Adventure": true
+				}
+			}
+		},
+		{
+			"type": "sourceGroup",
+			"ID": "Gwrs",
+			"title": {
+				"full": "Gatewalkers",
+				"short": "Gwrs"
+			},
+			"tags": {
+				"misc": {
+					"Adventure": true
+				}
+			}
+		},
+		{
+			"type": "sourceGroup",
+			"ID": "Kmr",
+			"title": {
+				"full": "Kingmaker",
+				"short": "Kmr"
+			},
+			"tags": {
+				"misc": {
+					"Adventure": true
+				}
+			}
+		},
+		{
+			"type": "sourceGroup",
+			"ID": "LO",
+			"title": {
+				"full": "Lost Omens",
+				"short": "LO"
+			},
+			"tags": {
+				"misc": {
+					"Ongoing": true
+				}
+			}
+		},
+		{
+			"type": "sourceGroup",
+			"ID": "OoA",
+			"title": {
+				"full": "Outlaws of Alkenstar",
+				"short": "OoA"
+			},
+			"tags": {
+				"misc": {
+					"Adventure": true
+				}
+			}
+		},
+		{
+			"type": "sourceGroup",
+			"ID": "QFF",
+			"title": {
+				"full": "Quest for the Frozen Flame",
+				"short": "QFF"
+			},
+			"tags": {
+				"misc": {
+					"Adventure": true
+				}
+			}
+		},
+		{
+			"type": "sourceGroup",
+			"ID": "SKT",
+			"title": {
+				"full": "Sky King's Tomb",
+				"short": "SKT"
+			},
+			"tags": {
+				"misc": {
+					"Adventure": true
+				}
+			}
+		},
+		{
+			"type": "sourceGroup",
+			"ID": "SF",
+			"title": {
+				"full": "Stolen Fate",
+				"short": "SF"
+			},
+			"tags": {
+				"misc": {
+					"Adventure": true
+				}
+			}
+		},
+		{
+			"type": "sourceGroup",
+			"ID": "SoT",
+			"title": {
+				"full": "Strength of Thousands",
+				"short": "SoT"
+			},
+			"tags": {
+				"misc": {
+					"Adventure": true
+				}
+			}
+		}
+	]
+}

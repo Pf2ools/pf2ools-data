@@ -1,0 +1,52 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 101,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Bestow Life"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "positive"
+			},
+			{
+				"trait": "transmutation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "life"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"envision"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"An infusion of positive energy from your relic can temporarily animate an unliving object. You transform an adjacent inanimate object into an animated object with a level equal to one-half the relic's level and appropriate to the object (so a broom would become an {@creature animated broom}). The object pursues a single simple noncombat task you state when you use Bestow Life, ignoring any subsequent commands. The object is mindless and pursues the task single-mindedly and uncreatively. The object remains animated for 1 hour."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"source": {
+		"type": "source",
+		"ID": "LOCG",
+		"title": {
+			"full": "Lost Omens: Character Guide",
+			"short": "LOCG"
+		},
+		"data": {
+			"released": "2021-07-09",
+			"version": "2nd Printing",
+			"errataed": "2019-10-16",
+			"added": "2023-08-08",
+			"modified": "2023-08-08",
+			"url": "https://paizo.com/products/btq01zpx",
+			"groupIDs": [
+				"LO"
+			],
+			"copyright": [
+				"{@b Genie, Marid from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
+				"{@b {@i Pathfinder Lost Omens Character Guide (Second Edition)}} © 2019, Paizo Inc.; Authors: John Compton, Sasha Lindley Hall, Amanda Hamon, Mike Kimmel, Luis Loza, Ron Lundeen, Matt Morris, Patchen Mortimer, Andrew Mullen, Mikhail Rekun, Micheal Sayre, Owen K.C. Stephens, Isabelle Thorne, and Linda Zayas-Palmer."
+			],
+			"license": "OGLv1-0a",
+			"authors": [
+				"John Compton",
+				"Sasha Lindley Hall",
+				"Amanda Hamon",
+				"Mike Kimmel",
+				"Luis Loza",
+				"Ron Lundeen",
+				"Matt Morris",
+				"Patchen Mortimer",
+				"Andrew Mullen",
+				"Mikhail Rekun",
+				"Micheal Sayre",
+				"Owen K.C. Stephens",
+				"Isabelle Thorne",
+				"Linda Zayas-Palmer"
+			],
+			"publisher": "Paizo"
+		},
+		"tags": {
+			"misc": {
+				"Official": true,
+				"PFS-legal": true
+			}
+		}
+	}
+}

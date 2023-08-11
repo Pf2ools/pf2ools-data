@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Mammoth Speaker"
+	},
+	"source": {
+		"page": 118,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"You have learned the secrets of taming the mighty mammoths and other megafauna of the far north. Perhaps these talents are a part of your people's traditional customs, or perhaps you sought out these massive animals of your own accord.",
+			"Choose two ability boosts. One must be to Constitution or Wisdom, and one is a free ability boost.",
+			"You're trained in the {@skill Nature} skill and the {@skill Lore||Animal Lore} skill. You gain the {@feat Train Animal} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"constitution": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Nature": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Train Animal",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 105,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Bottomless Reservoir"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "conjuration"
+			},
+			{
+				"trait": "extradimensional"
+			},
+			{
+				"trait": "water"
+			}
+		],
+		"aspects": [
+			{
+				"name": "water"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"components": [
+					"{@action Interact}"
+				],
+				"entries": [
+					"Your relic can absorb and release water, storing it in a endless reservoir. You either touch your relic to an adjacent body of water and absorb 1 gallon of it into the reservoir, or you release 1 gallon of a liquid from the reservoir. You can add another action to the activation to absorb water from a touched creature made entirely of water, like a water elemental. If you do, it takes {@damage 1d6} damage per relic level (basic Fortitude save)."
+				]
+			},
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "reaction"
+				},
+				"components": [
+					"{@action Interact}"
+				],
+				"trigger": "You are targeted by an {@trait acid} or {@trait water} effect",
+				"entries": [
+					"Your relic attempts to {@quickref counteract|crb|3|counteracting} the effect, expending 1 gallon of stored liquid. At the GM's discretion, you can use this ability on effects made of other liquids, such as blood."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

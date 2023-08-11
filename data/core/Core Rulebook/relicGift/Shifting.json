@@ -1,0 +1,41 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 585,
+		"ID": "CRB"
+	},
+	"name": {
+		"primary": "Shifting"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "transmutation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "earth"
+			},
+			{
+				"name": "plant"
+			},
+			{
+				"name": "water"
+			}
+		],
+		"entries": [
+			"{@note The relic gains the {@item shifting} rune.}"
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Weapon": true
+		},
+		"misc": {
+			"Is rune": true,
+			"Grants ability": true
+		}
+	}
+}

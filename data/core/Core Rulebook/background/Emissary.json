@@ -1,0 +1,42 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Emissary"
+	},
+	"source": {
+		"page": 61,
+		"ID": "CRB"
+	},
+	"data": {
+		"entries": [
+			"As a diplomat or messenger, you traveled to lands far and wide. Communicating with new people and forming alliances were your stock and trade.",
+			"Choose two ability boosts. One must be to Intelligence or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Society} skill and a {@skill Lore} skill related to one city you've visited often. You gain the {@feat Multilingual} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 1,
+			"skills": {
+				"Society": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Multilingual",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

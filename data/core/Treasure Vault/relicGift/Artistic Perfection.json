@@ -1,0 +1,31 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 198,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Artistic Perfection"
+	},
+	"data": {
+		"tier": "Grand",
+		"traits": [
+			{
+				"trait": "transmutation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "artistry"
+			}
+		],
+		"entries": [
+			"Your relic enhances your skill with {@skill Crafting} or {@skill Performance}. (Choose one.) If you succeed at a check with the chosen skill, you get a critical success instead."
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants passive attribute": true
+		}
+	}
+}

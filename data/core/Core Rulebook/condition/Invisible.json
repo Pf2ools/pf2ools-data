@@ -1,0 +1,20 @@
+{
+	"type": "condition",
+	"name": {
+		"primary": "Invisible"
+	},
+	"source": {
+		"page": 620,
+		"ID": "CRB"
+	},
+	"data": {
+		"entries": [
+			"While invisible, you can't be seen. You're {@condition undetected} to everyone. Creatures can {@action Seek} to attempt to detect you; if a creature succeeds at its {@skill Perception} check against your {@skill Stealth} DC, you become {@condition hidden} to that creature until you {@action Sneak} to become {@condition undetected} again. If you become invisible while someone can already see you, you start out {@condition hidden} to the observer (instead of {@condition undetected}) until you successfully {@action Sneak}. You can't become {@condition observed} while invisible except via special abilities or magic."
+		]
+	},
+	"tags": {
+		"group": {
+			"Senses": true
+		}
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 198,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Enthralling"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "auditory"
+			},
+			{
+				"trait": "emotion"
+			},
+			{
+				"trait": "enchantment"
+			}
+		],
+		"aspects": [
+			{
+				"name": "artistry"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"envision"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"You speak at length about or demonstrate your craft, or you enact a performance. The relic casts enthrall at a level equal to half its own. If you have legendary proficiency in {@skill Crafting} or {@skill Performance}, creatures can't critically succeed on their saves against this spell. You can use {@action Sustain an Activation} to sustain the effect as you would the spell."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 585,
+		"ID": "CRB"
+	},
+	"name": {
+		"primary": "Wounding"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "necromancy"
+			}
+		],
+		"aspects": [
+			{
+				"name": "death"
+			}
+		],
+		"entries": [
+			"{@note The relic gains the {@item wounding} rune.}"
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Weapon": true
+		},
+		"misc": {
+			"Is rune": true,
+			"Grants passive attribute": true
+		}
+	}
+}

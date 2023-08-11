@@ -1,0 +1,48 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 200,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Time Jump"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "transmutation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "time"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"components": [
+					"command"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"Your relic casts {@spell time jump|som} on you to your specifications."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

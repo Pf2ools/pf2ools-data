@@ -1,0 +1,54 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 100,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Curse Wound"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "curse"
+			},
+			{
+				"trait": "evil"
+			},
+			{
+				"trait": "necromancy"
+			}
+		],
+		"aspects": [
+			{
+				"name": "fiend"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "reaction"
+				},
+				"components": [
+					"command"
+				],
+				"trigger": "Your {@action Strike} with your relic deals damage to a creature within 60 feet",
+				"entries": [
+					"The evil within your relic curses an enemy's wound to ensure they won't heal. The triggering creature must attempt a Will save or be unable to restore the Hit Points lost by damage from the triggering {@action Strike} until its next daily preparations. If you use Curse Wound on a creature already affected by your Curse Wound, your previous application expires."
+				]
+			}
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Weapon": true
+		},
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

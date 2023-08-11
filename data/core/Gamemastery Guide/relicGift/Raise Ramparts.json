@@ -1,0 +1,52 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 99,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Raise Ramparts"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "conjuration"
+			},
+			{
+				"trait": "earth"
+			}
+		],
+		"aspects": [
+			{
+				"name": "earth"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 3,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "hour"
+				},
+				"entries": [
+					"Your relic reshapes the earth around you. You cast 5th-level {@spell wall of stone}."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

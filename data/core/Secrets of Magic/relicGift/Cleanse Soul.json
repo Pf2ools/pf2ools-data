@@ -1,0 +1,50 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 231,
+		"ID": "SoM"
+	},
+	"name": {
+		"primary": "Cleanse Soul"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "necromancy"
+			}
+		],
+		"aspects": [
+			{
+				"name": "soul"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "minute"
+				},
+				"components": [
+					"command",
+					"envision"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"You cleanse a soul of curses. The soul seed attempts to {@quickref counteract|crb|3|counteracting} all {@trait curse||curses} on you or another creature you touch throughout the activation. The target's soul is bolstered against further {@trait curse||curses}, and they gain a +2 status bonus to saving throws against {@trait curse||curses} for 1 hour."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Soul seed": true,
+			"Grants ability": true
+		}
+	}
+}

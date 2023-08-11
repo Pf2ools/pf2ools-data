@@ -1,0 +1,52 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Magical Experiment"
+	},
+	"source": {
+		"page": 30,
+		"ID": "SoM"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "rare"
+			}
+		],
+		"entries": [
+			"At some point in your life, powerful people performed magical experiments on you that changed you permanently.",
+			"You may have signed up for this voluntarily, but it may have been against your will. You still bear the marks, as well as the abilities.",
+			"You gain one ability boost. It must be to Constitution.",
+			"You're trained in {@skill Occultism} and the {@skill Lore||Academia Lore} skill.",
+			"You gain one special ability as a result of the magical experimentation. Work with the GM to select an appropriate ability from the following list or to come up with another special ability.",
+			{
+				"type": "list",
+				"items": [
+					"{@bold Enhanced Senses} You gain {@ability low-light vision} (or {@ability darkvision} if you already had {@ability low-light vision}) and an imprecise sense with a range of 30 feet, such as {@ability scent}, {@ability thoughtsense}, {@ability tremorsense}, or {@ability wavesense}.",
+					"{@bold Resistant Skin} The experiments rendered your skin tougher and resilient to a particular type of damage. You gain resistance equal to half your level (minimum resistance 1) against two of the following types of energy damage, one chosen by you and the other chosen by the GM: acid, cold, electricity, fire, or sonic.",
+					"{@bold Touch Telepathy} The experiments to your body allowed you to link minds via touch. You gain telepathy with creatures as long as you are in physical contact. This allows you to communicate mentally with any creatures you're in physical contact with, as long as you both share a language. This doesn't give any special access to their thoughts, and communicates no more information than normal speech would."
+				]
+			}
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 1,
+			"abilities": {
+				"constitution": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Occultism": true,
+				"Lore": true
+			}
+		},
+		"misc": {
+			"Grants sense": true,
+			"Grants resistance": true,
+			"Grants ability": true
+		}
+	}
+}

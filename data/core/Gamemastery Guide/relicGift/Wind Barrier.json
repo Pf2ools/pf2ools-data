@@ -1,0 +1,47 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 96,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Wind Barrier"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "abjuration"
+			},
+			{
+				"trait": "air"
+			}
+		],
+		"aspects": [
+			{
+				"name": "air"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"components": [
+					"command"
+				],
+				"entries": [
+					"An invisible barrier of air deflects ranged attacks, granting you a +2 circumstance bonus to AC against ranged attacks until the beginning of your next turn. At 13th level, this increases to a +3 circumstance bonus to AC against ranged attacks."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

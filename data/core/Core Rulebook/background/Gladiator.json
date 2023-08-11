@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Gladiator"
+	},
+	"source": {
+		"page": 62,
+		"ID": "CRB"
+	},
+	"data": {
+		"entries": [
+			"The bloody games of the arena taught you the art of combat.",
+			"Before you attained true fame, you departed—or escaped—the arena to explore the world. Your skill at drawing both blood and a crowd's attention pay off in a new adventuring life.",
+			"Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Performance} skill and the {@skill Lore||Gladiatorial Lore} skill. You gain the {@feat Impressive Performance} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Performance": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Impressive Performance",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

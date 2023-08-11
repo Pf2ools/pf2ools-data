@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Guard"
+	},
+	"source": {
+		"page": 62,
+		"ID": "CRB"
+	},
+	"data": {
+		"entries": [
+			"You served in the guard, out of either patriotism or the need for coin. Either way, you know how to get a difficult suspect to talk.",
+			"However you left the guard, you might think of adventuring as a way to use your skills on a wider stage.",
+			"Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Intimidation} skill and the {@skill Lore||Legal Lore} or {@skill Lore||Warfare Lore} skill. You gain the {@feat Quick Coercion} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Intimidation": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Quick Coercion",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Doomcaller"
+	},
+	"source": {
+		"page": 122,
+		"ID": "LOTG"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "rare"
+			}
+		],
+		"entries": [
+			"In the stars you see not guidance or wisdom but a twinkling door to the impending end of all things. You might have been raised in this ideology, gleaned it from superstition, or received a prophetic vision. Regardless, you've come to view the stars and whatever power they evoke as a path to doom, a curse to warn the masses. Others might spurn your warnings, while some might join you in enlightening the ignorant. To you, there's no greater truth than the coming end, and you know that whatever the cause for it will come from the stars—or perhaps the stars are just a gate to a more terrifying beyond.",
+			"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
+			"You're trained in Occultism and Star Lore. You also gain the Stellar Misfortune action.",
+			{
+				"type": "ability",
+				"name": "Stellar Misfortune",
+				"activity": {
+					"number": 1,
+					"unit": "free"
+				},
+				"traits": [
+					"divination",
+					"misfortune",
+					"occult"
+				],
+				"frequency": {
+					"unit": "day",
+					"number": 1
+				},
+				"trigger": "A creature you can see is about to attempt a saving throw, attack roll, or skill check",
+				"requirements": "You must be under the night sky with the stars visible",
+				"entries": [
+					"You call upon the power of a dooming star, exacerbating the target's bad luck. The target must roll the triggering check twice and take the worse result."
+				]
+			}
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Occultism": true,
+				"Lore": true
+			}
+		},
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

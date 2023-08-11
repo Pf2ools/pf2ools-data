@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Pilgrim"
+	},
+	"source": {
+		"page": 49,
+		"ID": "APG"
+	},
+	"data": {
+		"entries": [
+			"In your youth, you made several pilgrimages to important shrines and holy sites. You might have been a mendicant friar, a seller of holy relics (real or fraudulent), or just a simple farmer following the dictates of your faith. Whatever the aims of your wanderings now, your faith still protects you on the road.",
+			"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Religion} skill and the {@skill Lore} skill for your patron deity. You gain the {@feat Pilgrim's Token|APG} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"wisdom": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Religion": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Pilgrim's Token",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

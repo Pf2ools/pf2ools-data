@@ -1,0 +1,46 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Student Of Magic"
+	},
+	"source": {
+		"page": 29,
+		"ID": "SoM"
+	},
+	"data": {
+		"entries": [
+			"You are currently enrolled at a school of magic, where you're learning the fundamentals of your magical tradition. Whether your adventuring occurs during breaks between semesters, as part of a work study program, or even within the halls of the academy itself, you'll have to learn to juggle your dual life.",
+			"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
+			"You're trained in your choice of {@skill Arcana}, {@skill Nature}, {@skill Occultism}, or {@skill Religion}, as well as {@skill Lore||Academia Lore}. You gain the {@feat Recognize Spell} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Arcana": true,
+				"Nature": true,
+				"Occultism": true,
+				"Religion": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Recognize Spell",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Crystal Healer"
+	},
+	"source": {
+		"ID": "RoE",
+		"page": 44
+	},
+	"data": {
+		"entries": [
+			"Mineral formations can be beautiful things, sparkling and arrayed in geometric configurations. To you, they are also potent natural healing aids. You may have taken up adventuring to prove yourself by healing the ailing or to find new crystals with unique properties to add to your growing collection.",
+			"Choose two attribute boosts. One must be to Wisdom or Charisma and one is a free attribute boost.",
+			"You're trained in the {@skill Nature} skill and the {@skill Lore||Plane of Earth Lore} skill. You gain the {@feat Natural Medicine} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 3,
+			"abilities": {
+				"wisdom": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Nature": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Natural Medicine",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

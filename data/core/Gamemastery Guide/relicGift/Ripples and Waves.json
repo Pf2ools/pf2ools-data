@@ -1,0 +1,51 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 105,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Ripples and Waves"
+	},
+	"data": {
+		"tier": "Grand",
+		"traits": [
+			{
+				"trait": "water"
+			}
+		],
+		"aspects": [
+			{
+				"name": "water"
+			}
+		],
+		"entries": [
+			"You become attuned to the ebb and flow of all things. You gain {@ability wavesense} 60 as a precise sense and can cast 5th-level {@spell hydraulic push} at will as an innate spell.",
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"envision"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"Ankle-deep water floods outward from you, filling a 60-foot emanation centered on you for 1 minute. Enemies within the area without a swim Speed treat the area as difficult terrain for movement on land. While the effect persists, you can have any {@trait water} effects you generate originate from any point within the emanation, in addition to their normal range and area."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants passive attribute": true,
+			"Grants ability": true
+		}
+	}
+}

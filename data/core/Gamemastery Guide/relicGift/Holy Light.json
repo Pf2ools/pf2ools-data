@@ -1,0 +1,48 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 98,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Holy Light"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "evocation"
+			},
+			{
+				"trait": "good"
+			}
+		],
+		"aspects": [
+			{
+				"name": "celestial"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"entries": [
+					"Your relic shines with holy light. This creates bright light in a 30-foot emanation around the item. {@trait Evil} creatures in the area are {@condition frightened 1}, and can't lower their {@condition frightened} value below 1 as long as they remain in the light. {@trait fiend||Fiends} in the area increase any weakness to good damage they have by 5. You can {@action sustain an activation||Sustain this Activation} for up to 1 minute."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 101,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Heat Haze"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "abjuration"
+			},
+			{
+				"trait": "fire"
+			}
+		],
+		"aspects": [
+			{
+				"name": "fire"
+			}
+		],
+		"entries": [
+			"Your relic's heat keeps the air around you pleasantly warm. While you are holding or wearing the relic, it protects you from severe environmental cold. At 9th level, it also protects you from extreme cold, and at 17th level, it protects you from incredible cold. At 4th level, the relic also gains the following activation.",
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"envision"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"Your relic erratically elevates the air temperature around you, creating heat shimmers that distort your appearance and grant you the {@condition concealed} condition for 1 minute. As the nature of this effect still leaves your location obvious, you can't use this concealment to {@action Hide} or {@action Sneak}."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants passive attribute": true,
+			"Grants ability": true
+		}
+	}
+}

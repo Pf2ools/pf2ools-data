@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Aspiring Free Captain"
+	},
+	"source": {
+		"page": 70,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"You seek to join the Free Captains of the Shackles and have learned everything you need to know about sailing and bossing people around. Now you just need a crew and a ship.",
+			"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Intimidation} skill and the {@skill Lore||Sailing Lore} skill.",
+			"You gain the {@feat Group Coercion} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"wisdom": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Intimidation": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Group Coercion",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

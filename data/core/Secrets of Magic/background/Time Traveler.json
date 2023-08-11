@@ -1,0 +1,61 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Time Traveler"
+	},
+	"source": {
+		"page": 31,
+		"ID": "SoM"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "rare"
+			}
+		],
+		"entries": [
+			"You come from a different time. Whether by your own doing or a terrible accident, powerful magic has resulted in you coming to this time from the future or from the past, but you are unable to return. You might be from New Thassilon, an entire nation of time travelers.",
+			"Choose two ability boosts. One must be to Dexterity or Intelligence, and one is a free ability boost.",
+			"You are trained in three {@skill Lore} skills of your choice that represent your knowledge from your old time. You gain the Bend Time reaction.",
+			{
+				"type": "ability",
+				"name": "Bend Time",
+				"activity": {
+					"number": 1,
+					"unit": "free"
+				},
+				"traits": [
+					"occult",
+					"transmutation"
+				],
+				"frequency": {
+					"unit": "day",
+					"number": 1
+				},
+				"trigger": "Your turn begins",
+				"entries": [
+					"You are {@condition quickened} this turn. You can use your extra action to {@action Stride}."
+				]
+			}
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"dexterity": true,
+				"intelligence": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 1,
+			"skills": {
+				"Lore": true
+			}
+		},
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

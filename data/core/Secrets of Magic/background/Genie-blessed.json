@@ -1,0 +1,64 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Genie-blessed"
+	},
+	"source": {
+		"page": 30,
+		"ID": "SoM"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "rare"
+			}
+		],
+		"entries": [
+			"You've sought out a powerful genie and requested their blessing, hoping to increase your fortune. Your wish was vague, but fortune and the genie favored you with a more powerful effect than an ordinary wish, granting you bits of wish-twisted luck throughout the rest of your life.",
+			"Meanwhile, other genies of the same kind recognize you as one blessed by one of their most powerful nobles, and might treat you with greater respect or envy.",
+			"Choose two ability boosts. One must be to Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Diplomacy} skill and the {@skill Lore||Genie Lore} skill. You gain the Wish for Luck free action.",
+			{
+				"type": "ability",
+				"name": "Wish for Luck",
+				"activity": {
+					"number": 1,
+					"unit": "free"
+				},
+				"traits": [
+					"arcane",
+					"auditory",
+					"divination",
+					"fortune"
+				],
+				"frequency": {
+					"unit": "day",
+					"number": 1
+				},
+				"trigger": "You are about to roll an attack roll, saving throw, or skill check",
+				"entries": [
+					"You wish aloud for success. Roll the check twice and take the higher result."
+				]
+			}
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Diplomacy": true,
+				"Lore": true
+			}
+		},
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

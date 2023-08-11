@@ -1,0 +1,50 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 97,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Feral Claws"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "morph"
+			},
+			{
+				"trait": "transmutation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "beast"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"components": [
+					"command"
+				],
+				"entries": [
+					"Your hands transform into a pair of claws. These grant you a claw unarmed attack that deals {@damage 1d6} slashing damage and has the {@trait agile} and {@trait finesse} traits. This lasts until you {@action Dismiss} the effect."
+				]
+			}
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Worn Item": true
+		},
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

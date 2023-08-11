@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Ustalavic Academic"
+	},
+	"source": {
+		"page": 46,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"You were educated at a famed Ustalavic academy, such as the University of Lepidstadt or the Sincomakti School of Sciences, and received quality instruction in advanced concepts of mathematics, science, and engineering.",
+			"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
+			"You're trained in the {@skill Crafting} skill and the {@skill Lore||Academia Lore} skill. You gain the {@feat Skill Training} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Crafting": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Skill Training",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

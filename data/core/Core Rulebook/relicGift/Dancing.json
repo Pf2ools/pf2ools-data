@@ -1,0 +1,38 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 584,
+		"ID": "CRB"
+	},
+	"name": {
+		"primary": "Dancing"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "uncommon"
+			},
+			{
+				"trait": "evocation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "air"
+			}
+		],
+		"entries": [
+			"{@note The relic gains the {@item dancing} rune.}"
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Weapon": true
+		},
+		"misc": {
+			"Is rune": true,
+			"Grants ability": true
+		}
+	}
+}

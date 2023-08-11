@@ -1,0 +1,35 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 100,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Living Statue"
+	},
+	"data": {
+		"tier": "Grand",
+		"traits": [
+			{
+				"trait": "earth"
+			},
+			{
+				"trait": "transmutation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "earth"
+			}
+		],
+		"entries": [
+			"Your relic's energies have given you control over the boundary between flesh and stone. You can cast 6th-level {@spell flesh to stone} and {@spell stone to flesh} as innate spells, each once per day. As long as you are standing on the earth, your body reflexively petrifies at the moment you are struck, granting you resistance 5 to physical damage (except {@item adamantine (generic)||adamantine}). This increases to 8 in caves or subterranean environments."
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants passive attribute": true,
+			"Grants ability": true
+		}
+	}
+}

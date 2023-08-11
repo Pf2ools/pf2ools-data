@@ -1,0 +1,53 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 199,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Clean Luck"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "abjuration"
+			},
+			{
+				"trait": "fortune"
+			}
+		],
+		"aspects": [
+			{
+				"name": "luck"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "reaction"
+				},
+				"components": [
+					"envision"
+				],
+				"frequency": {
+					"interval": 10,
+					"number": 1,
+					"unit": "minute"
+				},
+				"trigger": "You attempt a d20 roll affected by a {@trait misfortune} effect",
+				"entries": [
+					"Negate the {@trait misfortune} effect. Any other {@trait fortune} effect still applies."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

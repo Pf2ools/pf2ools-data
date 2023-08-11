@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Entertainer"
+	},
+	"source": {
+		"page": 61,
+		"ID": "CRB"
+	},
+	"data": {
+		"entries": [
+			"Through an education in the arts or sheer dogged practice, you learned to entertain crowds. You might have been an actor, a dancer, a musician, a street magician, or any other sort of performer.",
+			"Choose two ability boosts. One must be to Dexterity or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Performance} skill and the {@skill Lore||Theater Lore} skill. You gain the {@feat Fascinating Performance} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"dexterity": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Performance": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Fascinating Performance",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Song of the Deep"
+	},
+	"source": {
+		"page": 31,
+		"ID": "SoM"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "rare"
+			}
+		],
+		"entries": [
+			"During a sea voyage, you washed overboard, ingested sea water, and drowned. Merfolk, kelpies, sea serpents, or another magical denizen of the sea pulled your unconscious body from the briny depths. Having spent so much time underwater, your lungs were filled with salt water. To restore your ability to breathe, they exhaled into your lungs and shared the ability to breathe underwater in the process. You came back with the ability to breathe water, as well as a newfound knowledge of your time beneath the waves.",
+			"You gain one ability boost. It must be to Strength, Constitution, or Charisma.",
+			"You're trained in the {@skill Athletics} skill and the {@skill Lore||Ocean Lore} skill. You have the ability to breathe underwater.",
+			"{@b Special} You can choose to lose the ability to breathe air when you take this background, making you only able to breathe underwater. If you do, you gain a second ability boost, which is a free ability boost."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 1,
+			"abilities": {
+				"strength": true,
+				"constitution": true,
+				"charisma": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Athletics": true,
+				"Lore": true
+			}
+		},
+		"misc": {
+			"Grants situational benefit": true
+		}
+	}
+}

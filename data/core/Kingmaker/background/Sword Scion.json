@@ -1,0 +1,39 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Sword Scion"
+	},
+	"source": {
+		"page": 13,
+		"ID": "KmrA"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "rare"
+			}
+		],
+		"entries": [
+			"You have lived all your life in and around the city of Restov, growing up on tales of Baron Sirian Aldori and the exploits of your home’s heroic and legendary swordlords. Joining an expedition into the Stolen Lands seems like a perfect way to improve your skills and begin crafting a legend worthy of Baron Aldori.",
+			"Choose two ability boosts. One must be to Dexterity or Charisma, and one is a free ability boost.",
+			"You’re trained in the {@skill Lore||Warfare Lore} skill. You gain access to {@item aldori dueling sword|LOWG|Aldori dueling swords} and can purchase one as part of your starting equipment. You treat {@item aldori dueling sword|LOWG|Aldori dueling swords} as martial weapons rather than advanced weapons for the purpose of proficiency."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"dexterity": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Athletics": true,
+				"Lore": true
+			}
+		}
+	}
+}

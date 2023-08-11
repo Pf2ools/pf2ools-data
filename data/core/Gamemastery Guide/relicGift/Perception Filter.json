@@ -1,0 +1,60 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 102,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Perception Filter"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "divination"
+			},
+			{
+				"trait": "mental"
+			}
+		],
+		"aspects": [
+			{
+				"name": "mind"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"envision"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"Your relic reaches into the minds of nearby creatures and blocks your presence from their perceptions. For the next 10 minutes, a creature that enters a 120-foot-radius emanation, centered on you, must attempt a {@trait secret} Will save, after which the creature is then temporarily immune for 1 day.",
+					{
+						"type": "successDegree",
+						"entries": {
+							"Critical Success": "The creature is unaffected.",
+							"Success": "The creature takes a –2 status penalty to {@skill Perception} checks to Seek or otherwise detect you.",
+							"Failure": "You filter all of the creature's senses, making it difficult for it to notice you. When you are {@condition hidden} or {@condition undetected} from the creature, it doesn't observe you as soon as you do anything other than {@action Hide}, {@action Sneak}, or {@action Step}. If it rolls a {@skill Perception} check to {@action Seek} or otherwise detect you, it gets the outcome one degree of success worse than what it rolled, and if you roll a {@skill Stealth} check to {@action Hide}, {@action Sneak}, or otherwise escape its attention, you get the outcome one degree of success better than what you rolled against the creature. If you use a hostile action toward the creature, the effect ends for that creature after your hostile action is completed.",
+							"Critical Failure": "As failure, but the effect doesn't end for that creature if you use a hostile action against it."
+						}
+					}
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

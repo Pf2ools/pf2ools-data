@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Belkzen Slayer"
+	},
+	"source": {
+		"page": 46,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"You are a fearsome warrior from the Hold of Belkzen, and your clan counts on you for support, counsel, and defense. With the rising threat of the Whispering Tyrant threatening the safety of your home, you must not let your people down.",
+			"Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Intimidation} skill and the {@skill Lore||Orc Lore} skill.",
+			"You gain the {@feat Intimidating Glare} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Intimidation": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Intimidating Glare",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

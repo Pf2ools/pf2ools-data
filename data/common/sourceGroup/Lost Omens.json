@@ -1,0 +1,13 @@
+{
+	"type": "sourceGroup",
+	"ID": "LO",
+	"title": {
+		"full": "Lost Omens",
+		"short": "LO"
+	},
+	"tags": {
+		"misc": {
+			"Ongoing": true
+		}
+	}
+}

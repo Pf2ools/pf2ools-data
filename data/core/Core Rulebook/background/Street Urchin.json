@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Street Urchin"
+	},
+	"source": {
+		"page": 64,
+		"ID": "CRB"
+	},
+	"data": {
+		"entries": [
+			"You eked out a living by picking pockets on the streets of a major city, never knowing where you'd find your next meal. While some folk adventure for the glory, you do so to survive.",
+			"Choose two ability boosts. One must be to Dexterity or Constitution, and one is a free ability boost.",
+			"You're trained in {@skill Thievery} and a {@skill Lore} skill for the city you lived in as a street urchin (such as {@skill Lore||Absalom Lore} or {@skill Lore||Magnimar Lore}). You gain the {@feat Pickpocket} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"dexterity": true,
+				"constitution": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Thievery": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Pickpocket",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

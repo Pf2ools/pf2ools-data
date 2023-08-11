@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Bellflower Agent"
+	},
+	"source": {
+		"page": 106,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"You joined a secret society dedicated to freeing halfling slaves, most likely from the cruelty of Chelish reign. You know how to smuggle people in and out of countries.",
+			"Choose two ability boosts. One must be to Dexterity or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Stealth} skill and the {@skill Lore||Underworld Lore} skill. You gain the {@feat Experienced Smuggler} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"dexterity": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Stealth": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Experienced Smuggler",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

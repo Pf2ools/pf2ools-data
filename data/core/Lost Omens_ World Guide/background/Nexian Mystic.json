@@ -1,0 +1,42 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Nexian Mystic"
+	},
+	"source": {
+		"page": 82,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"Your initiations into the Nexian mysteries and the philosophies of the Arclords of Nex grant you a preternatural comprehension of the arcane underpinnings of existence.",
+			"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
+			"You're trained in the {@skill Arcana} skill and a {@skill Lore} skill related to one plane of your choice (other than the Material Plane). You gain the {@feat Arcane Sense} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 1,
+			"skills": {
+				"Arcana": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Arcane Sense",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

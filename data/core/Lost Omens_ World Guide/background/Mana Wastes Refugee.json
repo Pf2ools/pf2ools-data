@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Mana Wastes Refugee"
+	},
+	"source": {
+		"page": 82,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"Exposure to the corrupting influence of the Mana Wastes' strange energies has warped your inner essence, resulting in unpredictable interactions with magic items and more than a little know-how about surviving under bizarre and adverse natural conditions.",
+			"Choose two ability boosts. One must be to Constitution or Intelligence, and one is a free ability boost.",
+			"You're trained in the {@skill Arcana} skill and the {@skill Lore||Wilderness Lore} skill. You gain the {@feat Trick Magic Item} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"constitution": true,
+				"intelligence": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Arcana": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Trick Magic Item",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"type": "condition",
+	"name": {
+		"primary": "Unnoticed"
+	},
+	"source": {
+		"page": 623,
+		"ID": "CRB"
+	},
+	"data": {
+		"entries": [
+			"If you are unnoticed by a creature, that creature has no idea you are present at all. When you're unnoticed, you're also {@condition undetected} by the creature. This condition matters for abilities that can be used only against targets totally unaware of your presence."
+		]
+	},
+	"tags": {
+		"group": {
+			"Degrees of Detection": true
+		}
+	}
+}

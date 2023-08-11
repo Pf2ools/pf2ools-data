@@ -1,0 +1,39 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 97,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Track of the Beast"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "transmutation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "beast"
+			}
+		],
+		"entries": [
+			"The spirit of an animal fills you. The relic gives one of the following benefits, chosen by the GM when the relic gains this gift.",
+			{
+				"type": "list",
+				"items": [
+					"A +10-foot status bonus to your land Speed.",
+					"A climb Speed equal to your land Speed.",
+					"A swim Speed equal to your land Speed."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants passive attribute": true
+		}
+	}
+}

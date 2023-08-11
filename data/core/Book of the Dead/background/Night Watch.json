@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Night Watch"
+	},
+	"source": {
+		"page": 16,
+		"ID": "BotD"
+	},
+	"data": {
+		"entries": [
+			"When everyone else slumbers, you're on guard. You might have been a watch member in a teeming metropolis, the guard in an unquiet cemetery, or a lonely shepherd. Many a night you've shouted out warnings into the dark, unsure of what lurked just beyond the range of your lantern's light. More than once you've seen things shambling in the dark that never should have been up and about.",
+			"Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Intimidation} skill and either {@skill Lore||Legal Lore} or the {@skill Lore} skill for your home settlement. You gain the {@feat Quick Coercion} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Intimidation": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Quick Coercion",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

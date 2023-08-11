@@ -1,0 +1,76 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Chosen One"
+	},
+	"source": {
+		"page": 30,
+		"ID": "SoM"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "rare"
+			}
+		],
+		"entries": [
+			"Your birth has fulfilled a prediction, and people close to you are counting on you to do great things. There's intense pressure on you to be up to the task, and the fickle nature of prophecy complicates your path.",
+			"Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
+			"Decide with your GM the basics of the prophecy in which you're meant to play a major part. You're trained in one skill related to the prophecy, and the {@skill Lore||Fortune-Telling Lore} skill. You gain the Prophecy's Pawn free action.",
+			{
+				"type": "ability",
+				"name": "Prophecy's Pawn",
+				"activity": {
+					"number": 1,
+					"unit": "free"
+				},
+				"traits": [
+					"abjuration",
+					"divine",
+					"fortune"
+				],
+				"trigger": "You fail a saving throw, attack roll, or skill check",
+				"entries": [
+					"You twist the prophecy in your favor, which will have consequences later. Reroll the failed check. You must use the result of the second roll.",
+					"For 24 hours afterward, the GM can force you to reroll a successful saving throw, attack roll, or skill check as fate balances the scale.",
+					"This is a {@trait misfortune} effect. You can't use prophecy's pawn again until the GM uses this option or 24 hours pass, whichever comes first."
+				]
+			}
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Acrobatics": true,
+				"Arcana": true,
+				"Athletics": true,
+				"Crafting": true,
+				"Deception": true,
+				"Diplomacy": true,
+				"Intimidation": true,
+				"Lore": true,
+				"Medicine": true,
+				"Nature": true,
+				"Occultism": true,
+				"Performance": true,
+				"Religion": true,
+				"Society": true,
+				"Stealth": true,
+				"Survival": true,
+				"Thievery": true
+			}
+		},
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

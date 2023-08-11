@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Squire"
+	},
+	"source": {
+		"page": 49,
+		"ID": "APG"
+	},
+	"data": {
+		"entries": [
+			"You trained at the feet of a knight, maintaining their gear and supporting them at tourneys and in battle. Now you search for a challenge that will prove you worthy of full knighthood, or you've spurned pomp and ceremony to test yourself in honest, albeit less formal, combat.",
+			"Choose two ability boosts. One must be to Strength or Constitution, and one is a free ability boost.",
+			"You're trained in the {@skill Athletics} skill and your choice of the {@skill Lore||Heraldry Lore} or {@skill Lore||Warfare Lore} skill. You gain the {@feat Armor Assist|APG} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"constitution": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Athletics": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Armor Assist",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

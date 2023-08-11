@@ -1,0 +1,53 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 200,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Against All Odds"
+	},
+	"data": {
+		"tier": "Grand",
+		"traits": [
+			{
+				"trait": "abjuration"
+			},
+			{
+				"trait": "fortune"
+			}
+		],
+		"aspects": [
+			{
+				"name": "luck"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "reaction"
+				},
+				"components": [
+					"envision"
+				],
+				"frequency": {
+					"interval": 10,
+					"number": 1,
+					"unit": "minute"
+				},
+				"trigger": "You attempt a skill check with a DC that is at least 15 higher than your bonus in the skill",
+				"entries": [
+					"You roll twice and take the better result."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

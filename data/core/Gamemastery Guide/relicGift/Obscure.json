@@ -1,0 +1,34 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 104,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Obscure"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "illusion"
+			},
+			{
+				"trait": "shadow"
+			}
+		],
+		"aspects": [
+			{
+				"name": "shadow"
+			}
+		],
+		"entries": [
+			"Your relic absorbs light and wraps shadow around you, hiding you in darkness. As long as you are in dim light in an area of shadows, you can attempt a {@skill Stealth} check to {@action Hide}, even if you aren't {@condition concealed} against the creature, such as with a creature with {@ability darkvision}."
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants passive attribute": true
+		}
+	}
+}

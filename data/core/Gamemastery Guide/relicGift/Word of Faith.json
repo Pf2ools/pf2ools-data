@@ -1,0 +1,55 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 98,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Word of Faith"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "healing"
+			},
+			{
+				"trait": "necromancy"
+			},
+			{
+				"trait": "positive"
+			}
+		],
+		"aspects": [
+			{
+				"name": "celestial"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "hour"
+				},
+				"entries": [
+					"Placing your hand on yourself or an ally, you heal their wounds and bolster their spirit. The target regains {@damage 1d8} HP per item level and reduces their {@condition frightened} value by 1."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Geb Crusader"
+	},
+	"source": {
+		"page": 82,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"You grew up considering the existence of the undead nation of Geb an atrocity and trained to one day take part in destroying it and putting its vile inhabitants to their final rest. Key to your preparations is a thorough study of Pharasma, Urgathoa, and other undead-related deities and their philosophies.",
+			"Choose two ability boosts. One must be to Constitution or Wisdom, and one is a free ability boost.",
+			"You're trained in the {@skill Religion} skill and the {@skill Lore||Undead Lore} skill.",
+			"You gain the {@feat Student of the Canon} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"constitution": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Religion": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Student of the Canon",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

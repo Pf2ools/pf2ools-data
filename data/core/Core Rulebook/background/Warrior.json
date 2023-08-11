@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Warrior"
+	},
+	"source": {
+		"page": 64,
+		"ID": "CRB"
+	},
+	"data": {
+		"entries": [
+			"In your younger days, you waded into battle as a mercenary, a warrior defending a nomadic people, or a member of a militia or army. You might have wanted to break out from the regimented structure of these forces, or you could have always been as independent a warrior as you are now.",
+			"Choose two ability boosts. One must be to Strength or Constitution, and one is a free ability boost.",
+			"You're trained in the {@skill Intimidation} skill and the {@skill Lore||Warfare Lore} skill. You gain the {@feat Intimidating Glare} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"constitution": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Intimidation": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Intimidating Glare",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

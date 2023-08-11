@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Fire Warden"
+	},
+	"source": {
+		"ID": "RoE",
+		"page": 44
+	},
+	"data": {
+		"entries": [
+			"Whether you fought against fires in the wilderness or in crowded city streets, you've had your fair share of dealing with uncontrolled flames. Battling thick smoke and toxic fumes, you've {@condition broken} down obstacles to save trapped people from a fiery grave, and you've studied the nature and source of fire itself to try and better learn how to fight it.",
+			"Choose two attribute boosts. One must be to Strength or Constitution, and one is a free attribute boost.",
+			"You're trained in the {@skill Athletics} skill and the {@skill Lore||Plane of Fire Lore} skill. You gain the {@feat Breath Control} feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 3,
+			"abilities": {
+				"strength": true,
+				"constitution": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Athletics": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Breath Control",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

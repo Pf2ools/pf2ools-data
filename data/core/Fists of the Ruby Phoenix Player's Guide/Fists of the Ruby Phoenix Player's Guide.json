@@ -1,0 +1,32 @@
+{
+	"type": "source",
+	"ID": "FRP0",
+	"title": {
+		"full": "Fists of the Ruby Phoenix Player's Guide",
+		"short": "FRP"
+	},
+	"data": {
+		"released": "2021-04-12",
+		"added": "2023-08-08",
+		"modified": "2023-08-08",
+		"url": "https://downloads.paizo.com/Fists%20of%20the%20Ruby%20Phoenix%20Players%20Guide.pdf",
+		"groupIDs": [
+			"FRP"
+		],
+		"copyright": [
+			"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+			"{@b {@i Fists of the Ruby Phoenix Player's Guide}} © 2021, Paizo Inc.; Author: Patrick Renie, with Luis Loza."
+		],
+		"license": "OGLv1-0a",
+		"authors": [
+			"Patrick Renie",
+			"Luis Loza"
+		],
+		"publisher": "Paizo"
+	},
+	"tags": {
+		"misc": {
+			"Official": true
+		}
+	}
+}

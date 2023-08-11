@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Undersea Enthusiast"
+	},
+	"source": {
+		"page": 70,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"You love diving and exploring the world beneath the waves, and long periods of swimming have trained you to move easily through the water. You're also fascinated by undersea creatures and cultures—and may even have a trace of one of them in your own lineage.",
+			"Choose two ability boosts. One must be to Strength or Constitution, and one is a free ability boost.",
+			"You're trained in the {@skill Athletics} skill and the {@skill Lore||Ocean Lore} skill.",
+			"You gain the {@feat Underwater Marauder} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"constitution": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Athletics": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Underwater Marauder",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

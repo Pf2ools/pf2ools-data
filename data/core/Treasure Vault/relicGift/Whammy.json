@@ -1,0 +1,52 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 199,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Whammy"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "misfortune"
+			},
+			{
+				"trait": "transmutation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "luck"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "reaction"
+				},
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"trigger": "An enemy within 30 feet rolls a success on an attack roll, saving throw, or skill check",
+				"components": [
+					"envision"
+				],
+				"entries": [
+					"Your relic sends out a wave of bad luck, forcing the creature to reroll and take the worse result."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

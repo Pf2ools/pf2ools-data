@@ -1,0 +1,48 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Legacy of the Hammer"
+	},
+	"source": {
+		"page": 135,
+		"ID": "DA"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "uncommon"
+			}
+		],
+		"entries": [
+			"Your introduction to the criminal life was spurred forward by a seemingly innocuous hammer that provided you with all kinds of innovative criminal ideas. It has since left your possession, but every now and then you hear a faint whisper urging you toward crime.",
+			"Choose two ability boosts. One must be to Dexterity or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Thievery} skill and {@skill Lore||Engineering Lore}. You gain the {@feat Concealing Legerdemain|APG} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"dexterity": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Thievery": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Concealing Legerdemain",
+					"sourceID": "APG"
+				}
+			]
+		}
+	}
+}

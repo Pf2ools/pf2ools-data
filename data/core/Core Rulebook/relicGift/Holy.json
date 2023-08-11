@@ -1,0 +1,39 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 584,
+		"ID": "CRB"
+	},
+	"name": {
+		"primary": "Holy"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "evocation"
+			},
+			{
+				"trait": "good"
+			}
+		],
+		"aspects": [
+			{
+				"name": "celestial"
+			}
+		],
+		"entries": [
+			"{@note The relic gains the {@item holy} rune.}"
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Weapon": true
+		},
+		"misc": {
+			"Is rune": true,
+			"Grants ability": true,
+			"Grants passive attribute": true
+		}
+	}
+}

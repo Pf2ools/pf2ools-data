@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Circus Born"
+	},
+	"source": {
+		"page": 5,
+		"ID": "EC0"
+	},
+	"data": {
+		"entries": [
+			"The itinerant life of a traveling circus performer is nothing new to you; you were born and raised in the circus. You've seen more acts than you can count and grew up hearing the tall tales of circus performers while gathered around their campfires. You've experienced the thrill of captivating a crowd ever since you were young. You may have tried a few times to settle down, but the lure of the open road and the glamor of the big top always called you back.",
+			"Choose two ability boosts. One must be to Intelligence or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Performance} skill and the {@skill Lore||Circus Lore} skill. You gain the {@feat Experienced Professional} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Performance": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Experienced Professional",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

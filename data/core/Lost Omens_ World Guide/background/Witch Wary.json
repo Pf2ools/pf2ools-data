@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Witch Wary"
+	},
+	"source": {
+		"page": 118,
+		"ID": "LOWG"
+	},
+	"data": {
+		"entries": [
+			"You have little love or trust for spellcraft and those who practice it, and have developed a paranoid knack for recognizing such tricks. You are constantly on guard for the magic of witches and have been trained to spot the signs of those with minds affected by magic.",
+			"Choose two ability boosts. One must be to Dexterity or Intelligence, and one is a free ability boost.",
+			"You're trained in the {@skill Occultism} skill and the {@skill Lore||Curse Lore} skill. You gain the {@feat Oddity Identification} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"dexterity": true,
+				"intelligence": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Occultism": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Oddity Identification",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

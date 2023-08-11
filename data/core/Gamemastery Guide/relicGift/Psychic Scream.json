@@ -1,0 +1,47 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 103,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Psychic Scream"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "divination"
+			},
+			{
+				"trait": "mental"
+			}
+		],
+		"aspects": [
+			{
+				"name": "mind"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"envision"
+				],
+				"entries": [
+					"Your thoughts build before spilling forth in a powerful telepathic scream. Enemies within a 20-foot-radius burst centered on you must attempt a basic Will save or take {@damage 1d10} mental damage for every 2 levels of the relic. On a critical failure, they are also {@condition stupefied 1} for 1 minute."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

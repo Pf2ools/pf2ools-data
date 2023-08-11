@@ -1,0 +1,42 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Saloon Entertainer"
+	},
+	"source": {
+		"page": 123,
+		"ID": "GaG"
+	},
+	"data": {
+		"entries": [
+			"All you want to do is entertain the people, but sure enough, bad news seems to follow you. Gunfights, brawls, robberies, and more befall establishments you play at, and word is quick to spread. Keep one town ahead of the gossip, and you just might be able to play a gig, command a stage, or run a table again.",
+			"Choose two ability boosts. One must be to Charisma or Dexterity, and one is a free ability boost.",
+			"You're trained in the {@skill Performance} skill and a {@skill Lore} skill of your choice. You gain the {@feat Virtuosic Performer} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"charisma": true,
+				"dexterity": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 1,
+			"skills": {
+				"Performance": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Virtuosic Performer",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

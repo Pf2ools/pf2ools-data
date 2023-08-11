@@ -1,0 +1,13 @@
+{
+	"type": "sourceGroup",
+	"ID": "EC",
+	"title": {
+		"full": "Extinction Curse",
+		"short": "EC"
+	},
+	"tags": {
+		"misc": {
+			"Adventure": true
+		}
+	}
+}

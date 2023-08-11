@@ -1,0 +1,31 @@
+{
+	"type": "source",
+	"ID": "OoA0",
+	"title": {
+		"full": "Outlaws of Alkenstar Player's Guide",
+		"short": "OoA"
+	},
+	"data": {
+		"released": "2022-03-28",
+		"added": "2023-08-08",
+		"modified": "2023-08-08",
+		"url": "https://downloads.paizo.com/Outlaws+of+Alkenstar+Player's+Guide.pdf",
+		"groupIDs": [
+			"OoA"
+		],
+		"copyright": [
+			"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+			"{@b {@i Outlaws of Alkenstar Player's Guide}} © 2022, Paizo Inc.; Author: Patrick Renie."
+		],
+		"license": "OGLv1-0a",
+		"authors": [
+			"Patrick Renie"
+		],
+		"publisher": "Paizo"
+	},
+	"tags": {
+		"misc": {
+			"Official": true
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Artisan"
+	},
+	"source": {
+		"page": 60,
+		"ID": "CRB"
+	},
+	"data": {
+		"entries": [
+			"As an apprentice, you practiced a particular form of building or crafting, developing specialized skill. You might have been a blacksmith's apprentice toiling over the forge for countless hours, a young tailor sewing garments of all kinds, or a shipwright shaping the hulls of ships.",
+			"Choose two ability boosts. One must be to Strength or Intelligence, and one is a free ability boost.",
+			"You're trained in the {@skill Crafting} skill and the {@skill Lore||Guild Lore} skill.",
+			"You gain the {@feat Specialty Crafting} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"intelligence": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Crafting": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Specialty Crafting",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

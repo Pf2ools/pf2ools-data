@@ -1,0 +1,13 @@
+{
+	"type": "sourceGroup",
+	"ID": "QFF",
+	"title": {
+		"full": "Quest for the Frozen Flame",
+		"short": "QFF"
+	},
+	"tags": {
+		"misc": {
+			"Adventure": true
+		}
+	}
+}

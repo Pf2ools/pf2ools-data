@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Acolyte"
+	},
+	"source": {
+		"page": 60,
+		"ID": "CRB"
+	},
+	"data": {
+		"entries": [
+			"You spent your early days in a religious monastery or cloister. You may have traveled out into the world to spread the message of your religion or because you cast away the teachings of your faith, but deep down you'll always carry within you the lessons you learned.",
+			"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
+			"You're trained in the {@skill Religion} skill and the {@skill Lore||Scribing Lore} skill. You gain the {@feat Student of the Canon} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"intelligence": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Religion": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Student of the Canon",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

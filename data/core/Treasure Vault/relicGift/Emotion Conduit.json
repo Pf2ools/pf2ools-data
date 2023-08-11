@@ -1,0 +1,51 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 199,
+		"ID": "TV"
+	},
+	"name": {
+		"primary": "Emotion Conduit"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "emotion"
+			},
+			{
+				"trait": "enchantment"
+			},
+			{
+				"trait": "mental"
+			}
+		],
+		"aspects": [
+			{
+				"name": "emotion"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"entries": [
+					"You channel your relic's emotion at a target within 30 feet, overpowering an {@trait emotion} effect on that creature. The relic attempts a counteract check. If the check succeeds, the target feels a sudden rush of the relic's emotion, and the counteracted effect ends on the target. The target is temporarily immune to your relic's emotion conduit until you make your next daily preparations."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

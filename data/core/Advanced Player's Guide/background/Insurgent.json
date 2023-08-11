@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Insurgent"
+	},
+	"source": {
+		"page": 48,
+		"ID": "APG"
+	},
+	"data": {
+		"entries": [
+			"You were more than a rebel; you were a revolutionary, fighting for the promise of a new or better country. You may or may not still believe in the cause, or perhaps victory or exile has led you on this new journey to trumpet your glory... or to escape the consequences of your defeat.",
+			"Choose two ability boosts. One must be to Strength or Wisdom, and one is a free ability boost.",
+			"You're trained in the {@skill Deception} skill and the {@skill Lore||Warfare Lore} skill. You gain the {@feat Lengthy Diversion} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Deception": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Lengthy Diversion",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

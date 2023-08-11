@@ -1,0 +1,43 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Archaeologist"
+	},
+	"source": {
+		"page": 8,
+		"ID": "LOPSG"
+	},
+	"data": {
+		"entries": [
+			"You've excavated enough sites to know that ancient civilizations aren't lost; they're merely buried and waiting for the right scholar to unearth them and tell their story. You might have worked as a laborer or local guide before learning formal archaeological techniques.",
+			"Choose two ability boosts. One must be to Constitution or Intelligence, and one is a free ability boost.",
+			"You're trained in the {@skill Society} skill and the {@skill Lore||Architecture Lore} skill. You gain the {@feat Additional Lore} skill feat related to an ancient culture or the history of a culture you've studied (such as {@skill Lore||Azlanti Lore} or {@skill Lore||Osirian History Lore})."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"constitution": true,
+				"intelligence": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Society": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Additional Lore",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

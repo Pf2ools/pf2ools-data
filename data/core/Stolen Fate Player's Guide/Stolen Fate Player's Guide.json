@@ -1,0 +1,34 @@
+{
+	"type": "source",
+	"ID": "SF0",
+	"title": {
+		"full": "Stolen Fate Player's Guide",
+		"short": "SF"
+	},
+	"data": {
+		"released": "2023-04-13",
+		"added": "2023-08-08",
+		"modified": "2023-08-08",
+		"url": "https://downloads.paizo.com/StolenFatePlayersGuide.pdf",
+		"groupIDs": [
+			"SoT"
+		],
+		"copyright": [
+			"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+			"{@b {@i Pathfinder Stolen Fate Player's Guide}} © 2023, Paizo Inc.; Authors: James Jacobs."
+		],
+		"license": "OGLv1-0a",
+		"authors": [
+			"James Jacobs"
+		],
+		"publisher": "Paizo"
+	},
+	"tags": {
+		"status": {
+			"WIP": true
+		},
+		"misc": {
+			"Official": true
+		}
+	}
+}

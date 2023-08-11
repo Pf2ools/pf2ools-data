@@ -1,0 +1,53 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 97,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Form of Fury"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "transmutation"
+			}
+		],
+		"aspects": [
+			{
+				"name": "beast"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"envision"
+				],
+				"frequency": {
+					"number": 2,
+					"unit": "day"
+				},
+				"entries": [
+					"Calling upon the bestial nature within, you change  shape into that of an animal. The relic casts {@spell animal form} on you, transforming you into the same type of animal every time, chosen when the gift is gained; the spell level is half the item's level, rounded down.",
+					"At 11th level, the spell is 5th level, and the spell level goes up by 1 for every 2 levels beyond that."
+				]
+			}
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Worn Item": true
+		},
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

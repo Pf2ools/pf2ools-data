@@ -1,0 +1,49 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 103,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Sprout Ally"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "plant"
+			}
+		],
+		"aspects": [
+			{
+				"name": "plant"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"Your relic rapidly matures and animates nearby plant matter into an ally to fight by you, casting {@spell summon plant or fungus}, with a level of half the item's level rounded up. You can {@action sustain an activation||Sustain this Activation} as you would the spell."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"type": "event",
+	"source": {
+		"ID": "LOTG",
+		"page": 112
+	},
+	"name": {
+		"primary": "Great Migration"
+	},
+	"data": {
+		"level": 6,
+		"traits": [
+			{
+				"trait": "rare"
+			},
+			{
+				"trait": "downtime"
+			},
+			{
+				"trait": "primal"
+			}
+		],
+		"applicableSkills": [
+			{
+				"skill": "Athletics"
+			},
+			{
+				"skill": "Nature"
+			},
+			{
+				"skill": "Stealth"
+			},
+			{
+				"skill": "Survival"
+			}
+		],
+		"entries": [
+			"You run with the mass of lion prides for 1 week, doing your best to keep up with their loping strides. As you do so, the thrill of their wild freedom overtakes you, and you become more like a predatory cat with each step. Attempt a DC 24 check.",
+			{
+				"type": "successDegree",
+				"entries": {
+					"Critical Success": "Your predatory senses heighten to an intense degree. You gain a +1 circumstance bonus to {@skill Nature} and {@skill Stealth} checks and gain scent as an imprecise sense with a range of 60 feet. Your instincts remain sharpened for 1 year.",
+					"Success": "Your senses heighten, and you gain a greater understanding of natural predators. As critical success, except you don't gain scent and your senses are heightened for only 1 month.",
+					"Failure": "Keeping up with the prides proves too difficult for you, and you injure yourself. You take a −10-foot penalty to your Speeds for 1 week.",
+					"Critical Failure": "Your meddling causes several cubs to become injured, something that weighs on your conscience. You can't use the {@action Command an Animal} action and take a −2 circumstance penalty on {@skill Nature} checks; both of these effects last for 1 month."
+				}
+			}
+		]
+	}
+}

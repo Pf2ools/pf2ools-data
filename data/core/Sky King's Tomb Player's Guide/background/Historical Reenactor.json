@@ -1,0 +1,55 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Historical Reenactor"
+	},
+	"source": {
+		"page": 13,
+		"ID": "SKT0"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "uncommon"
+			}
+		],
+		"entries": [
+			"To Clan Tolorr, history shouldn’t be dry and boring; it deserves to be engaging and made relevant to the living. You couldn’t agree more! Whether it’s your hobby or career, you’ve developed a reputation for translating the past into the present through demonstrations, period performances, acting out famous events, donning replica armor, and other feats of living history—filling in a few historical blanks if it makes a better show. Having learned of your passion, Clan Tolorr has sponsored your visit to Highhelm so that you can learn from each other. It’s a wonderful opportunity, and Tolorr puppetry arts, storytelling, props, and historical rigor are the stuff of legends. Already, you’ve begun researching dwarven history so that you’re prepared for whatever lies ahead.",
+			"Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
+			"You’re trained in either the {@skill Performance} skill or the {@skill Society} skill, and you’re trained in the {@skill Lore||Dwarf Lore} skill. If you selected {@skill Performance}, you gain the {@feat Impressive Performance} skill feat. If you chose {@skill Society}, you gain the {@feat Dubious Knowledge} skill feat.",
+			"{@b Connection:} Bulgra Veldollow, a matriarch in Clan Tolorr and accomplished puppeteer",
+			"{@b Reputation Points:} +0"
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"strength": true,
+				"charisma": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Performance": true,
+				"Society": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Impressive Performance",
+					"sourceID": "CRB"
+				},
+				{
+					"name": "Dubious Knowledge",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

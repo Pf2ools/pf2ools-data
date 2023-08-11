@@ -1,0 +1,13 @@
+{
+	"type": "sourceGroup",
+	"ID": "SF",
+	"title": {
+		"full": "Stolen Fate",
+		"short": "SF"
+	},
+	"tags": {
+		"misc": {
+			"Adventure": true
+		}
+	}
+}

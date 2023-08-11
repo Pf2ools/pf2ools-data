@@ -1,0 +1,35 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 584,
+		"ID": "CRB"
+	},
+	"name": {
+		"primary": "Disrupting"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "necromancy"
+			}
+		],
+		"aspects": [
+			{
+				"name": "life"
+			}
+		],
+		"entries": [
+			"{@note The relic gains the {@item disrupting} rune.}"
+		]
+	},
+	"tags": {
+		"itemTypes": {
+			"Weapon": true
+		},
+		"misc": {
+			"Is rune": true,
+			"Grants passive attribute": true
+		}
+	}
+}

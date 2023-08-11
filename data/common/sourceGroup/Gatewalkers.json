@@ -1,0 +1,13 @@
+{
+	"type": "sourceGroup",
+	"ID": "Gwrs",
+	"title": {
+		"full": "Gatewalkers",
+		"short": "Gwrs"
+	},
+	"tags": {
+		"misc": {
+			"Adventure": true
+		}
+	}
+}

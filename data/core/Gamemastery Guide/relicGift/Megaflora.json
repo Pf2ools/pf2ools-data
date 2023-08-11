@@ -1,0 +1,72 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 104,
+		"ID": "GMG"
+	},
+	"name": {
+		"primary": "Megaflora"
+	},
+	"data": {
+		"tier": "Grand",
+		"traits": [
+			{
+				"trait": "conjuration"
+			},
+			{
+				"trait": "plant"
+			}
+		],
+		"aspects": [
+			{
+				"name": "plant"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 2,
+					"unit": "action"
+				},
+				"components": [
+					"command",
+					"{@action Interact}"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"With a pulse of natural energy, your relic grows massive plants in an instant. The megaflora is of one of the following types, chosen by the GM when the relic gains this gift. A megaflora appears in an unoccupied 10-foot space within 30 feet and has 50 Hit Points, weakness to fire 5, 37 AC, {@d20 +20} Reflex, and {@d20 +30} Fortitude. It persists for 1 minute or until reduced to 0 Hit Points.",
+					{
+						"type": "list",
+						"items": [
+							{
+								"type": "item",
+								"name": "Corpseflower",
+								"entry": "A single putrid-smelling flower grows at the target location. While the flower persists, each round at the end of your turn, all creatures in a 20-foot burst centered on the plant except you must succeed at a Fortitude save or be {@condition sickened 2} (also {@condition stunned 2} on a critical failure). This is a {@trait poison} effect."
+							},
+							{
+								"type": "item",
+								"name": "Thorns",
+								"entry": "A 10-foot-tall thorned plant or bamboo stalk grows at the target location. While the stalk persists, each round at the end of your turn, sharp stakes erupt from the ground, dealing {@damage 6d8} piercing damage to all creatures in a 20-foot burst centered on the plant except you (basic Reflex)."
+							},
+							{
+								"type": "item",
+								"name": "Tree of Life",
+								"entry": "A large tree bearing life-giving fruit grows at the target location. While the tree persists, living creatures within reach of the tree can use an {@action Interact} action to pick and eat one of the tree's fruits, regaining {@damage 2d8+5} Hit Points; picking a fruit without eating it causes the fruit to instantly vanish. This is a {@trait healing} effect, and a given creature can heal from the tree only once per round."
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}
