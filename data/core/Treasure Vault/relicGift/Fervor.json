@@ -41,7 +41,7 @@
 					"unit": "hour"
 				},
 				"entries": [
-					"You gain the emotional fervor benefits for your relic's emotional state (see {@archetype Cathartic Mage|SoM|Cathartic Mage Archetype}) for the next 3 rounds, but ignore the spell associated with the fervor. The feeling wears off quickly, so you experience no emotional fallout."
+					"You gain the emotional fervor benefits for your relic's emotional state {@note (see the {@archetype Cathartic Mage|SoM|Cathartic Mage archetype})} for the next 3 rounds, but ignore the spell associated with the fervor. The feeling wears off quickly, so you experience no emotional fallout."
 				]
 			}
 		]
