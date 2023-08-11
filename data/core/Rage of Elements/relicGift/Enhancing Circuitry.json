@@ -1,0 +1,73 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 148,
+		"ID": "RoE"
+	},
+	"name": {
+		"primary": "Enhancing Circuitry"
+	},
+	"data": {
+		"tier": "Minor",
+		"traits": [
+			{
+				"trait": "metal"
+			}
+		],
+		"aspects": [
+			{
+				"name": "metal"
+			}
+		],
+		"entries": [
+			"Your relic is engraved with nodes and elements only visible from up close, lacking only a source of current for its machinations. You gain resistance to electricity equal to half the level of your relic (minimum 1).",
+			{
+				"type": "ability",
+				"style": "compact",
+				"name": "Activate—Complete the Circuit",
+				"activity": {
+					"number": 1,
+					"unit": "reaction"
+				},
+				"components": [
+					"{@trait manipulate}"
+				],
+				"trigger": "You are targeted by or are in the area of an {@trait electricity} effect",
+				"entries": [
+					"Your relic uses the triggering effect to complete its circuit. You choose which path the electricity takes down the circuit, gaining the corresponding benefit.",
+					{
+						"type": "list",
+						"items": [
+							{
+								"type": "item",
+								"name": "Capacitor",
+								"entries": [
+									"You become electrically charged, gaining a +1 status bonus to attack and damage rolls until the end of your next turn."
+								]
+							},
+							{
+								"type": "item",
+								"name": "Inductor",
+								"entries": [
+									"Your resistance against electricity damage increases to the level of your relic until the end of your next turn."
+								]
+							},
+							{
+								"type": "item",
+								"name": "Resistor",
+								"entries": [
+									"Your relic attempts to counteract the effect. On a failure, your relic overheats, dealing fire damage to you equal to the counteract rank of the effect (or double the counteract rank on a critical failure)."
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

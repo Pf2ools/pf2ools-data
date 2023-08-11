@@ -1,0 +1,48 @@
+{
+	"type": "relicGift",
+	"source": {
+		"page": 149,
+		"ID": "RoE"
+	},
+	"name": {
+		"primary": "Precious Anodization"
+	},
+	"data": {
+		"tier": "Major",
+		"traits": [
+			{
+				"trait": "metal"
+			}
+		],
+		"aspects": [
+			{
+				"name": "metal"
+			}
+		],
+		"entries": [
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"traits": [
+					"concentrate"
+				],
+				"frequency": {
+					"number": 1,
+					"unit": "day"
+				},
+				"entries": [
+					"For one minute, your relic is affected by a {@spell clad in metal|RoE} spell of a rank equal to half the relic’s level, rounded up. You can choose {@trait uncommon} metals in addition to {@trait common} ones."
+				]
+			}
+		]
+	},
+	"tags": {
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}
