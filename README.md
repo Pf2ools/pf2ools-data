@@ -54,6 +54,8 @@ The [`indexes/`](./indexes) directory contains a series of JSON files that serve
 
 In both cases, the files should be named fairly intutiively.
 
+_Note:_ you can run the generating scripts yourself on a local copy, but you must ensure that you have [PowerShell 7](https://github.com/PowerShell/PowerShell) installed. It's recommended that you use `npm run <script>` to call the commands. Some scripts accept optional parameters; see the comments at the top of each for more information; you can use them via `npm run <script> -- -Parameter 'value' -Switch`.
+
 ### Versioning
 
 Pf2ools gets better all the time!
