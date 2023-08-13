@@ -37,7 +37,9 @@ function Group-SourceContent {
 }
 
 Write-Host 'Deleting existing bundle...'
-Get-ChildItem ./bundles/bySource -Recurse -File | Remove-Item
+if (Test-Path ./bundles/bySource) {
+	Get-ChildItem ./bundles/bySource -Recurse -File | Remove-Item
+}
 
 $count = @{}
 $skips = @{}

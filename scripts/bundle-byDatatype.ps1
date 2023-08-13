@@ -48,7 +48,9 @@ function Group-DatatypeContent {
 }
 
 Write-Host "Deleting existing bundle...`n"
-Get-ChildItem ./bundles/byDatatype -Recurse -File | Remove-Item
+if (Test-Path ./bundles/byDatatype) {
+	Get-ChildItem ./bundles/byDatatype -Recurse -File | Remove-Item
+}
 
 function Get-DatatypeContentGroup {
 	param (
@@ -59,6 +61,10 @@ function Get-DatatypeContentGroup {
 	)
 	$bundle = Group-DatatypeContent -Datatype $Datatype -Family $Family
 	if ($bundle) {
+		if (-not (Test-Path "./bundles/byDatatype/$Family")) {
+			$null = mkdir "./bundles/byDatatype/$Family"
+			Write-Host "`nCreated directory ./bundles/byDatatype/$Family"
+		}
 		$bundle
 		| ConvertTo-Json -Depth 99 -Compress:$Compress
 		| Out-File "./bundles/byDatatype/$Family/$Datatype.json" -Encoding utf8NoBOM
