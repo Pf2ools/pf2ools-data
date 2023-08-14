@@ -63,6 +63,8 @@ if (!Array.isArray(DATATYPES) || DATATYPES.some((e) => typeof e !== "string"))
 		code: "invalid.datatypes",
 	});
 
+// ====== //
+
 // Helpers
 function logError(message) {
 	if (!opts.all)
@@ -76,6 +78,8 @@ function sanitiseFilename(name, specifier) {
 	const unsafeCharacters = new RegExp(/[<>:"/\\|?*]/gi);
 	return name.replace(unsafeCharacters, "_") + (specifier ? ` - ${specifier.replace(unsafeCharacters, "_")}` : "");
 }
+
+// ====== //
 
 // TESTS
 let errorStatus = false;
@@ -94,6 +98,7 @@ for (const family of fs.readdirSync(dataPath)) {
 		);
 	}
 	// END: Data directory
+
 	if (family === "common") {
 		for (const datatype of fs.readdirSync(familyPath)) {
 			// START: `common` family directory
@@ -111,6 +116,7 @@ for (const family of fs.readdirSync(dataPath)) {
 					)}`,
 				);
 			// END: `common` family directory
+
 			for (const data of fs.readdirSync(datatypePath)) {
 				// START: Common datatype directories
 				//   - No non-files
@@ -147,6 +153,7 @@ for (const family of fs.readdirSync(dataPath)) {
 					`The "${family}" family directory can only contain source directories: ${chalk.bold(sourcePath)}`,
 				);
 			// END: `core`/`homebrew` family directory
+
 			const sourceDirFiles = [];
 			let sourceID;
 			for (const datatype of fs.readdirSync(sourcePath)) {
@@ -181,6 +188,7 @@ for (const family of fs.readdirSync(dataPath)) {
 					if (!DATATYPES.includes(datatype))
 						logError(`Datatype directory must be named with a valid datatype: ${chalk.bold(datatypePath)}`);
 					// END: Source directories (part 1)
+
 					for (const data of fs.readdirSync(datatypePath)) {
 						// START: Content directories
 						//   - No non-files
@@ -212,6 +220,7 @@ for (const family of fs.readdirSync(dataPath)) {
 								)}`,
 							);
 					}
+
 					// START: Source directories (part 2)
 					//   - No non-source, non-directory filesystem-objects
 					//   - Must have a source file
