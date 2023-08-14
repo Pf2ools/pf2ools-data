@@ -518,5 +518,268 @@
 				}
 			}
 		}
+	],
+	"relicGift": [
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 149,
+				"ID": "RoE"
+			},
+			"name": {
+				"primary": "At Will Decay"
+			},
+			"data": {
+				"tier": "Grand",
+				"traits": [
+					{
+						"trait": "metal"
+					}
+				],
+				"aspects": [
+					{
+						"name": "metal"
+					}
+				],
+				"entries": [
+					"Your relic’s link to the Plane of Metal tunes it in to the inevitability of rust and decay. You can cast 5th-rank {@spell rust cloud|RoE} at will as an innate spell.",
+					{
+						"type": "ability",
+						"style": "compact",
+						"activity": {
+							"number": 2,
+							"unit": "action"
+						},
+						"traits": [
+							"aura",
+							"concentrate"
+						],
+						"frequency": {
+							"number": 1,
+							"unit": "day"
+						},
+						"entries": [
+							"Rusted flakes swirl in a cloud around you, creating a 15-foot emanation that lasts for 1 minute. You’re {@condition concealed} to anyone outside the cloud. An enemy that starts its turn in the cloud takes 15 slashing damage with a basic Fortitude save. If the target has the {@trait metal} trait or is primarily made of metal, the damage is 30 instead. Unattended non-{@trait magical} {@trait metal} items within the cloud automatically become {@condition broken}."
+						]
+					}
+				]
+			},
+			"tags": {
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 148,
+				"ID": "RoE"
+			},
+			"name": {
+				"primary": "Enhancing Circuitry"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "metal"
+					}
+				],
+				"aspects": [
+					{
+						"name": "metal"
+					}
+				],
+				"entries": [
+					"Your relic is engraved with nodes and elements only visible from up close, lacking only a source of current for its machinations. You gain resistance to electricity equal to half the level of your relic (minimum 1).",
+					{
+						"type": "ability",
+						"style": "compact",
+						"name": "Activate—Complete the Circuit",
+						"activity": {
+							"number": 1,
+							"unit": "reaction"
+						},
+						"components": [
+							"{@trait manipulate}"
+						],
+						"trigger": "You are targeted by or are in the area of an {@trait electricity} effect",
+						"entries": [
+							"Your relic uses the triggering effect to complete its circuit. You choose which path the electricity takes down the circuit, gaining the corresponding benefit.",
+							{
+								"type": "list",
+								"items": [
+									{
+										"type": "item",
+										"name": "Capacitor",
+										"entries": [
+											"You become electrically charged, gaining a +1 status bonus to attack and damage rolls until the end of your next turn."
+										]
+									},
+									{
+										"type": "item",
+										"name": "Inductor",
+										"entries": [
+											"Your resistance against electricity damage increases to the level of your relic until the end of your next turn."
+										]
+									},
+									{
+										"type": "item",
+										"name": "Resistor",
+										"entries": [
+											"Your relic attempts to counteract the effect. On a failure, your relic overheats, dealing fire damage to you equal to the counteract rank of the effect (or double the counteract rank on a critical failure)."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tags": {
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 149,
+				"ID": "RoE"
+			},
+			"name": {
+				"primary": "Precious Anodization"
+			},
+			"data": {
+				"tier": "Major",
+				"traits": [
+					{
+						"trait": "metal"
+					}
+				],
+				"aspects": [
+					{
+						"name": "metal"
+					}
+				],
+				"entries": [
+					{
+						"type": "ability",
+						"style": "compact",
+						"activity": {
+							"number": 1,
+							"unit": "action"
+						},
+						"traits": [
+							"concentrate"
+						],
+						"frequency": {
+							"number": 1,
+							"unit": "day"
+						},
+						"entries": [
+							"For one minute, your relic is affected by a {@spell clad in metal|RoE} spell of a rank equal to half the relic’s level, rounded up. You can choose {@trait uncommon} metals in addition to {@trait common} ones."
+						]
+					}
+				]
+			},
+			"tags": {
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 149,
+				"ID": "RoE"
+			},
+			"name": {
+				"primary": "Rail Dash"
+			},
+			"data": {
+				"tier": "Major",
+				"traits": [
+					{
+						"trait": "metal"
+					}
+				],
+				"aspects": [
+					{
+						"name": "metal"
+					}
+				],
+				"entries": [
+					{
+						"type": "ability",
+						"style": "compact",
+						"activity": {
+							"number": 2,
+							"unit": "action"
+						},
+						"frequency": {
+							"number": 1,
+							"unit": "hour"
+						},
+						"entries": [
+							"Your relic conjures a guideway of magnets beneath you, creating a frictionless path for you to rush forward at high speeds. You {@action Stride} up to three times in a straight line. If you end your final {@action Stride} adjacent to an object or creature, you ram into it, dealing {@damage 1d12} bludgeoning damage for every 2 levels of the relic, with a basic Reflex save."
+						]
+					}
+				]
+			},
+			"tags": {
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 148,
+				"ID": "RoE"
+			},
+			"name": {
+				"primary": "Scrap Shot"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "metal"
+					}
+				],
+				"aspects": [
+					{
+						"name": "metal"
+					}
+				],
+				"entries": [
+					{
+						"type": "ability",
+						"style": "compact",
+						"activity": {
+							"number": 2,
+							"unit": "action"
+						},
+						"traits": [
+							"concentrate",
+							"manipulate"
+						],
+						"entries": [
+							"Magnetic repulsion sends a sharp chunk of metal scrap flying from your relic. Make a spell attack roll with your relic against a target within 30 feet. The chunk deals {@damage 1d6} piercing damage for every 2 levels the relic has (minimum {@damage 1d6}). If the target is wearing metal armor or is made of metal, you gain a +1 circumstance bonus to your spell attack roll, and the target becomes {@condition clumsy 1} until the start of your next turn as the scrap adheres to the target. If your relic is made of a precious metal, the shot is also made of or coated in that metal, bypassing resistances and the like accordingly. The scrap left behind by the shot rusts or crumbles quickly and isn’t worth anything if sold."
+						]
+					}
+				]
+			},
+			"tags": {
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		}
 	]
 }

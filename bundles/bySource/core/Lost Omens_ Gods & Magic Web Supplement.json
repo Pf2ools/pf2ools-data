@@ -1,10 +1,10 @@
 {
 	"source": {
 		"type": "source",
-		"ID": "LOGMWS",
+		"ID": "LOGM-WS",
 		"title": {
 			"full": "Lost Omens: Gods & Magic Web Supplement",
-			"short": "LOGMWS"
+			"short": "LOGM WS"
 		},
 		"data": {
 			"released": "2020-01-29",

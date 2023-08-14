@@ -55,7 +55,7 @@
 			"data": {
 				"entries": [
 					"You're a trained physician who can ably tend wounds of many kinds. But more than a practitioner, you're a scholar.",
-					"Some cultures shape flesh to extreme degrees, creating aberrations from humanoid forms. The fleshforges of distant Nex practice this fleshwarping, as do certain subterranean societies you hope to one day study— preferably from a safe and clinical distance.",
+					"Some cultures shape flesh to extreme degrees, creating aberrations from humanoid forms. The fleshforges of distant Nex practice this fleshwarping, as do certain subterranean societies you hope to one day study—preferably from a safe and clinical distance.",
 					"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
 					"You're trained in the {@skill Medicine} skill and the {@skill Lore||Fleshwarp Lore} skill. You gain the {@feat Assurance} skill feat with {@skill Medicine}."
 				]
@@ -141,7 +141,7 @@
 			},
 			"data": {
 				"entries": [
-					"Keeleno Lathenar, the proprietor of Otari Market, is a grim and bitter man. A werewolf named Jaul Mezmin mauled his wife, Ayla, to death 30 years ago. Keeleno has never forgotten nor forgiven this attack, and he believes against all odds that Jaul has evaded justice and is alive and well. Running errands for Keeleno around town, you've gotten to know him almost as well as you know Otari. Keeleno's suspicions have rubbed off on you a bit, so you keep a wary eye on other people— particularly around the full moon.",
+					"Keeleno Lathenar, the proprietor of Otari Market, is a grim and bitter man. A werewolf named Jaul Mezmin mauled his wife, Ayla, to death 30 years ago. Keeleno has never forgotten nor forgiven this attack, and he believes against all odds that Jaul has evaded justice and is alive and well. Running errands for Keeleno around town, you've gotten to know him almost as well as you know Otari. Keeleno's suspicions have rubbed off on you a bit, so you keep a wary eye on other people—particularly around the full moon.",
 					"Choose two ability boosts. One must be to Constitution or Charisma, and one is a free ability boost.",
 					"You're trained in the {@skill Diplomacy} skill and the {@skill Lore||Otari Lore} skill. You gain the {@feat Hobnobber} skill feat."
 				]
@@ -2318,7 +2318,7 @@
 			"data": {
 				"entries": [
 					"For some, the nuts and bolts of keeping the peace are practically second nature. Such is the case for you, a member of the Learned Guard with an incredible mind for investigation as well as a gift for understanding magic. You probably aren't a hit with your peers, who find your intellect and natural gift of deduction perhaps a bit off-putting, but when left to your own devices you excel, and you get along well with professors and mages such as those who work in Forae Logos or the {@skill Arcana}mirium.",
-					"After no shortage of debating the pros and cons, you decided to transfer to the Edgewatch precinct. Sure, you have a keen understanding of the theories and principles behind law enforcement, but you've reasoned that in order to be a truly effective guard you'll need some first-hand experience in a high-risk area nabbing suspects and protecting innocents— all the while taking fastidious notes and writing your grand thesis on the merits and shortcomings of Absalom's laws.",
+					"After no shortage of debating the pros and cons, you decided to transfer to the Edgewatch precinct. Sure, you have a keen understanding of the theories and principles behind law enforcement, but you've reasoned that in order to be a truly effective guard you'll need some first-hand experience in a high-risk area nabbing suspects and protecting innocents—all the while taking fastidious notes and writing your grand thesis on the merits and shortcomings of Absalom's laws.",
 					"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
 					"You're trained in your choice of the {@skill Arcana} or {@skill Occultism} skill, as well as {@skill Lore||Legal Lore}. You gain a +1 circumstance bonus to {@skill Deception}, {@skill Diplomacy}, and {@skill Intimidation} checks to interact with Learned Guards and with academics such as librarians and scholars. You gain the {@feat Recognize Spell} skill feat."
 				]
@@ -2365,7 +2365,7 @@
 			},
 			"data": {
 				"entries": [
-					"Like your parents and your parents before them, you initially followed the long path toward politics from an early age. Your close association with Absalom's upper echelons put you in touch with the city's various military or special operations units—the First Guard, the Wave Riders, the Varlokkur— though you avoided any actual duty with these groups.",
+					"Like your parents and your parents before them, you initially followed the long path toward politics from an early age. Your close association with Absalom's upper echelons put you in touch with the city's various military or special operations units—the First Guard, the Wave Riders, the Varlokkur—though you avoided any actual duty with these groups.",
 					"Thanks to your strict upbringing and the connections of your family, you soon became a lauded and highly respected member of Absalom's political elite. But you couldn't stifle a certain feeling that you were destined for more than simply filling the pointed shoes of your forebears. Despite your easily earned accolades and a relatively cushy life as a young lawyer or councilmember, you sought to do more with your diplomatic training and not live out the exact same life as your ancestors.",
 					"Your decision to transfer to the Edgewatch has rubbed your traditionalist family the wrong way, and they've cut off the financial aid they've provided you your whole life.",
 					"But you don't care—you know you're doing the right thing by taking on the rough jobs of a low-ranking guard, and you're ready to shine based on your own merits, not those of your lofty kin.",
@@ -4432,7 +4432,7 @@
 			},
 			"data": {
 				"entries": [
-					"You earned a living wrenching precious minerals from the lightless depths of the earth. Adventuring might have seemed lucrative or glamorous compared to this backbreaking labor— and if you have to head back underground, this time you plan to do so armed with a real weapon instead of a miner's pick.",
+					"You earned a living wrenching precious minerals from the lightless depths of the earth. Adventuring might have seemed lucrative or glamorous compared to this backbreaking labor—and if you have to head back underground, this time you plan to do so armed with a real weapon instead of a miner's pick.",
 					"Choose two ability boosts. One must be to Strength or Wisdom, and one is a free ability boost.",
 					"You're trained in the {@skill Survival} skill and the {@skill Lore||Mining Lore} skill. You gain the {@feat Terrain Expertise} skill feat with underground terrain."
 				]
@@ -6143,7 +6143,7 @@
 			},
 			"data": {
 				"entries": [
-					"You've seen the sorts of things that technology brings— polluted environments, workers put out of their jobs or horribly injured, and the slow erosion of society—and you've vowed to inform the larger world of these ills. You do so with long, impassioned speeches on street corners and village squares and by talking personally with the heads of various guilds. Adventuring into the wider world could help spread your message even farther.",
+					"You've seen the sorts of things that technology brings—polluted environments, workers put out of their jobs or horribly injured, and the slow erosion of society—and you've vowed to inform the larger world of these ills. You do so with long, impassioned speeches on street corners and village squares and by talking personally with the heads of various guilds. Adventuring into the wider world could help spread your message even farther.",
 					"Choose two ability boosts. One must be to Constitution or Charisma, and one is a free ability boost.",
 					"You're trained in the {@skill Intimidation} skill and the {@skill Lore||Guild Lore} skill. You gain the {@feat Group Coercion} skill feat."
 				]
@@ -8161,6 +8161,386 @@
 		{
 			"type": "background",
 			"name": {
+				"primary": "Hookclaw Digger"
+			},
+			"source": {
+				"page": 4,
+				"ID": "LTiBA-PSSD"
+			},
+			"data": {
+				"traits": [
+					{
+						"trait": "rare"
+					}
+				],
+				"entries": [
+					"You are a digger from the Hookclaw kobold tribe, born beneath the streets of Absalom, with muscles and mind hardened by years spent tunneling through rock and earth and a confidence built upon your pride in your draconic heritage.",
+					"Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
+					"You're trained in the {@skill Crafting} skill, the {@skill Lore||Mining Lore} skill, and the Engineering Lore skill. You gain the {@feat Improvise Tool|APG} skill feat."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"strength": true,
+						"charisma": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Crafting": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Improvise Tool",
+							"sourceID": "APG"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Beast Blessed"
+			},
+			"source": {
+				"page": 75,
+				"ID": "LOFb"
+			},
+			"data": {
+				"traits": [
+					{
+						"trait": "rare"
+					}
+				],
+				"entries": [
+					"You once freed a magical beast from captivity and, whether it was intentional or a byproduct of another action, the grateful creature bestowed a blessing of freedom upon you. Your blessing manifests physically, perhaps as elongated canines, fingernails that grow to a sharp point, excess body hair, or some other feature. This physical manifestation is cosmetic and provides no benefit.",
+					"Choose two ability boosts. One must be to Dexterity or Wisdom, and one is a free ability boost.",
+					"You are trained in the {@skill Survival} skill. You gain the Bestial Clarity reaction.",
+					{
+						"name": "Bestial Clarity",
+						"activity": {
+							"number": 1,
+							"unit": "reaction"
+						},
+						"frequency": {
+							"number": 1,
+							"unit": "day"
+						},
+						"trigger": "You fail a saving throw against an {@trait enchantment} effect",
+						"entries": [
+							"Your bestial manifestation becomes more pronounced, and your mind gains a flash of clarity as your instincts take over. You can reroll the triggering saving throw with a +2 circumstance bonus, but you must use the new result. This is a {@trait fortune} effect."
+						],
+						"type": "ability"
+					}
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"dexterity": true,
+						"wisdom": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 1,
+					"skills": {
+						"Survival": true
+					}
+				},
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Dauntless"
+			},
+			"source": {
+				"page": 75,
+				"ID": "LOFb"
+			},
+			"data": {
+				"traits": [
+					{
+						"trait": "rare"
+					}
+				],
+				"entries": [
+					"As a child, you chose to face each of your deepest fears and, time and again, emerged victorious. You have learned to conquer fear itself, and by sheer force of will and determination, you're able to brush off frightening experiences more easily than most. Others find it difficult to intimidate you into backing down from whatever you've set your mind to.",
+					"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
+					"You are trained in the {@skill Diplomacy} skill. You gain the Indomitable Act reaction.",
+					{
+						"name": "Indomitable Act",
+						"activity": {
+							"number": 1,
+							"unit": "reaction"
+						},
+						"frequency": {
+							"number": 1,
+							"unit": "day"
+						},
+						"trigger": "You are about to attempt a check",
+						"requirements": "You are {@condition frightened}",
+						"entries": [
+							"You lean into your fear, using it to embolden you.",
+							"You can roll the triggering check twice and take the higher result. This is a {@trait fortune} effect."
+						],
+						"type": "ability"
+					}
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"wisdom": true,
+						"charisma": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 1,
+					"skills": {
+						"Diplomacy": true
+					}
+				},
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Firebrand Follower"
+			},
+			"source": {
+				"page": 75,
+				"ID": "LOFb"
+			},
+			"data": {
+				"entries": [
+					"You were once rescued or liberated from a hopeless situation by a group of Firebrands, and you have since aspired to become a Firebrand to continue their legacy. You still follow news of their adventures, and you hope to one day meet your heroes as comrades.",
+					"Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
+					"You are trained in your choice of the {@skill Athletics} or {@skill Performance} skill as well as the {@skill Lore||Firebrand Lore} skill. You gain the {@feat Assurance} skill feat in your chosen skill."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"strength": true,
+						"charisma": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Athletics": true,
+						"Performance": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Assurance",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Free Spirit"
+			},
+			"source": {
+				"page": 75,
+				"ID": "LOFb"
+			},
+			"data": {
+				"entries": [
+					"You've always lived your life straying from the path laid before you. Like a leaf blowing in the wind, your journey takes you where it will, providing you with a lifestyle free from the bonds of expectation. While you might have friends and family in specific towns or cities, you've chosen not to put down roots in favor of going wherever—and doing whatever— you want.",
+					"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
+					"You are trained in the {@skill Survival} skill and a {@skill Lore} skill about a specific settlement or terrain you have traveled through. You gain the {@feat Forager} skill feat."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"wisdom": true,
+						"charisma": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Survival": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Forager",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Runner"
+			},
+			"source": {
+				"page": 75,
+				"ID": "LOFb"
+			},
+			"data": {
+				"entries": [
+					"You served as a messenger for a specific faction, guild, house, or individual, often running those messages on a short timeline. Finding the quickest path from point A to point B is your specialty and you've learned to make the most of your athleticism and navigational skill.",
+					"Choose two ability boosts. One must be to Strength or Intelligence, and one is a free ability boost.",
+					"You are trained in the {@skill Athletics} skill and a {@skill Lore} skill for the city in which you were a messenger. You gain the {@feat Quick Jump} skill feat."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"strength": true,
+						"intelligence": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Athletics": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Quick Jump",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Thrill-Seeker"
+			},
+			"source": {
+				"page": 75,
+				"ID": "LOFb"
+			},
+			"data": {
+				"entries": [
+					"You once survived a life-or-death situation and found it surprisingly exhilarating, so now you chase that feeling of invincibility you only get when dancing with death. Your desire for exhilaration has you scaling buildings, leaping off rooftops, jumping chasms, and performing other deathdefying stunts.",
+					"Choose two ability boosts. One must be to Strength or Constitution, and one is a free ability boost.",
+					"You are trained in the {@skill Athletics} skill and the {@skill Lore||Engineering Lore} skill. You gain the {@feat Combat Climber} skill feat."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"strength": true,
+						"constitution": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Athletics": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Combat Climber",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Unremarkable"
+			},
+			"source": {
+				"page": 75,
+				"ID": "LOFb"
+			},
+			"data": {
+				"entries": [
+					"Your face is particularly unremarkable, even if your presence or actions may not be. You know how to use this to your advantage, making it difficult for people to identify and collect information about you.",
+					"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
+					"You are trained in the {@skill Deception} skill and the {@skill Lore||Acting Lore} skill. You gain the {@feat Lengthy Diversion} skill feat."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"wisdom": true,
+						"charisma": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Deception": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Lengthy Diversion",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
 				"primary": "Raised by Belief"
 			},
 			"source": {
@@ -8215,6 +8595,135 @@
 						{
 							"name": "Assurance",
 							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Fightbreaker"
+			},
+			"source": {
+				"page": 86,
+				"ID": "LOHh"
+			},
+			"data": {
+				"entries": [
+					"You have a knack for picking up on simmering tensions and calming frayed nerves. You rely on your intuition to discern how and when violence is imminent, and on your skills—diplomatic and otherwise—to deescalate tense situations. You might choose the adventuring life to tackle new and unfamiliar conflicts, or be trying to escape retaliation from those who thrive on violence and resent your ability to keep the peace.",
+					"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
+					"You’re trained in the {@skill Diplomacy} skill and the {@skill Lore} skill for the city or settlement you lived in when you became a Fightbreaker. You gain the {@feat Group Impression} skill feat."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"wisdom": true,
+						"charisma": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Diplomacy": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Group Impression",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Highborn Snoop"
+			},
+			"source": {
+				"page": 58,
+				"ID": "LOHh"
+			},
+			"data": {
+				"entries": [
+					"The machinations and scheming of King’s Crown have trained you to be on the lookout for those who seem out of place. You’ve learned to spot when the person pouring your tea has sword calluses—or when the person wearing a guard’s uniform doesn’t.",
+					"Choose two ability boosts. One must be Dexterity or Intelligence, and the other is a free boost.",
+					"You’re trained in the {@skill Society} skill, and the {@skill Lore||Guild Lore} skill. You gain the {@feat Courtly Graces} skill feat."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"dexterity": true,
+						"intelligence": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Society": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Courtly Graces",
+							"sourceID": "CRB"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Union Representative"
+			},
+			"source": {
+				"page": 72,
+				"ID": "LOHh"
+			},
+			"data": {
+				"entries": [
+					"You might have fought for fairer ore distribution for the Metalmaker’s Union, higher chef’s pay in the Provisioners’ Union, or better mercenary contracts for the Union of Axe and Coin. Whatever the case, you have experience in the high-stakes world of the negotiating table, experience that translates surprisingly well to adventuring.",
+					"Choose two ability boosts. One must be to Intelligence or Charisma, the other is a free boost.",
+					"You’re trained in the {@skill Diplomacy} skill and the {@skill Lore||Legal Lore} skill. You gain the {@feat Contract Negotiator|LOHh} skill feat."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"intelligence": true,
+						"charisma": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Diplomacy": true,
+						"Lore": true
+					}
+				},
+				"gainedFeats": {
+					"count": 1,
+					"options": [
+						{
+							"name": "Contract Negotiator",
+							"sourceID": "LOHh"
 						}
 					]
 				}
@@ -12736,7 +13245,7 @@
 				"entries": [
 					"You saw something you shouldn't have, plain and simple. The shame is that you don't even know what it is, exactly, that you saw.",
 					"After moving to Alkenstar, you swiftly fell in love with the City of Smog, but you found it difficult to get a foothold in the fast-paced metropolis. Luckily, a chance invitation promised good work for someone with your unique social talents. You went to an inconspicuous chamber in a humble tower somewhere in the Capital District. There, you met some clearly powerful, clearly corrupt members of the Alkenstar elite. Among the faces you recognized were the notorious mogul Ambrost Mugland and the steely-eyed shieldmarshal Anjelique Loveless. Before you were asked to leave, you made quite an impression—but not a good one.",
-					"Not only did you not make the cut for whatever kinds of jobs were on offer that day, but you soon discovered that you couldn't get a room at any inn in the city, and there were wanted posters with your name on them plastered all over town. Friends and families turned their backs on you, afraid to get involved. Clearly, someone at that meeting—Mugland, maybe, or perhaps Loveless— believed you were a liability, and they had you excised from Alkenstar society. All you want is to be able to walk the streets without fearing for your life, and there's only one way to make that happen: find the villains responsible for your predicament and get them to undo the curse now attached to your name. Choose two ability boosts. One must be to Constitution or Charisma, and one is a free ability boost.",
+					"Not only did you not make the cut for whatever kinds of jobs were on offer that day, but you soon discovered that you couldn't get a room at any inn in the city, and there were wanted posters with your name on them plastered all over town. Friends and families turned their backs on you, afraid to get involved. Clearly, someone at that meeting—Mugland, maybe, or perhaps Loveless—believed you were a liability, and they had you excised from Alkenstar society. All you want is to be able to walk the streets without fearing for your life, and there's only one way to make that happen: find the villains responsible for your predicament and get them to undo the curse now attached to your name. Choose two ability boosts. One must be to Constitution or Charisma, and one is a free ability boost.",
 					"You're trained in the {@skill Society} skill and the {@skill Lore||Alkenstar Lore} skill. You gain the {@feat Read Lips} skill feat."
 				]
 			},
@@ -14333,7 +14842,7 @@
 			},
 			"data": {
 				"entries": [
-					"Forget the church orthodoxy and the stuffy cloisters— spreading the word of your god to the people is your calling. You've preached on the street corners and in public houses, to wanderers on the road and to captives in the stocks. Adventuring can take you across the world. What vocation could better serve to take your holy words to fresh ears?",
+					"Forget the church orthodoxy and the stuffy cloisters—spreading the word of your god to the people is your calling. You've preached on the street corners and in public houses, to wanderers on the road and to captives in the stocks. Adventuring can take you across the world. What vocation could better serve to take your holy words to fresh ears?",
 					"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
 					"You're trained in the {@skill Religion} skill and the {@skill Lore} skill for your patron deity. You gain the {@feat Dubious Knowledge} skill feat."
 				]
@@ -15522,6 +16031,90 @@
 							"sourceID": "CRB"
 						}
 					]
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Awful Scab"
+			},
+			"source": {
+				"page": 26,
+				"ID": "C-WtD1"
+			},
+			"data": {
+				"traits": [
+					{
+						"trait": "rare"
+					}
+				],
+				"entries": [
+					"Prior to the Evisceration of 4707, the district of V'drysha was a lovely borough on the southern edge of Ecanus. Now, it's the Awful, a vast morass of spell-resistant flesh and sinew, ever threatening to engulf the city. You were once a Scab working to push back its infuence. It's a nasty, dangerous job, and poorly paid as well, but at least you learned enough to mimic a viscerasuit, the enchanted, airtight suit that protected you from the poisons and plagues of the Awful.",
+					"Choose two ability boosts. One must be to Dexterity or Constitution, and one is a free ability boost.",
+					"You're trained in {@skill Medicine} and {@skill Lore||Fleshforged Lore}. You also know how to seal your clothing or armor like a viscerasuit. During your daily preparations, you can seal your outft. The frst time each day you are introduced to {@trait poison} or {@trait disease} without taking physical damage, the sealed outft attempts to counteract it using your {@skill Medicine} modifer as the counteract modifer."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"dexterity": true,
+						"constitution": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Medicine": true,
+						"Lore": true
+					}
+				},
+				"misc": {
+					"Grants situational benefit": true
+				}
+			}
+		},
+		{
+			"type": "background",
+			"name": {
+				"primary": "Quick Refugee"
+			},
+			"source": {
+				"page": 28,
+				"ID": "C-WtD2"
+			},
+			"data": {
+				"traits": [
+					{
+						"trait": "rare"
+					}
+				],
+				"entries": [
+					"The living residents of Geb are known as the quick, and is not, overall, a very pleasant thing to be. While some of the quick choose to make their best of their lot, or even thrive in Geb's undead-dominated society, you decided that whatever terrors the outside world holds, they pale in comparison to those that make up the Gebbite upper class. And considering that escape means braving the Mana Wastes, you must have been very, very certain indeed.",
+					"Choose two ability boosts. One must be to Dexterity or Wisdom, and one is a free ability boost.",
+					"You're trained in the {@skill Stealth} skill, and the {@skill Lore||Undead Lore} skill. When you {@action Hide} or {@action Sneak} successfully, you are also {@condition hidden} or {@condition concealed} from {@trait undead||undeads'} {@ability lifesense} and other special precise senses the {@trait undead} possess."
+				]
+			},
+			"tags": {
+				"abilityBoosts": {
+					"count": 2,
+					"abilities": {
+						"dexterity": true,
+						"wisdom": true,
+						"free": true
+					}
+				},
+				"trainedSkills": {
+					"count": 2,
+					"skills": {
+						"Stealth": true,
+						"Lore": true
+					}
+				},
+				"misc": {
+					"Grants situational benefit": true
 				}
 			}
 		}

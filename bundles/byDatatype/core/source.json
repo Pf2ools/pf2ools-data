@@ -156,7 +156,7 @@
 			"ID": "AoA4",
 			"title": {
 				"full": "Age of Ashes #4: Fires of the Haunted City",
-				"short": "AoA"
+				"short": "AoA4"
 			},
 			"data": {
 				"released": "2019-10-16",
@@ -190,7 +190,7 @@
 			"ID": "AoA6",
 			"title": {
 				"full": "Age of Ashes #6: Broken Promises",
-				"short": "AoA"
+				"short": "AoA6"
 			},
 			"data": {
 				"released": "2019-12-19",
@@ -225,7 +225,7 @@
 			"ID": "AoA0",
 			"title": {
 				"full": "Age of Ashes Player's Guide",
-				"short": "AoA"
+				"short": "AoA0"
 			},
 			"data": {
 				"released": "2019-08-01",
@@ -256,7 +256,7 @@
 			"ID": "AoE4",
 			"title": {
 				"full": "Agents of Edgewatch #4: Assault on Hunting Lodge Seven",
-				"short": "AoE"
+				"short": "AoE4"
 			},
 			"data": {
 				"released": "2020-10-14",
@@ -290,7 +290,7 @@
 			"ID": "AoE0",
 			"title": {
 				"full": "Agents of Edgewatch Player's Guide",
-				"short": "AoE"
+				"short": "AoE0"
 			},
 			"data": {
 				"released": "2020-07-08",
@@ -575,7 +575,7 @@
 			"ID": "BL0",
 			"title": {
 				"full": "Blood Lords Player's Guide",
-				"short": "BL"
+				"short": "BL0"
 			},
 			"data": {
 				"released": "2022-06-29",
@@ -727,7 +727,7 @@
 			"ID": "EC3",
 			"title": {
 				"full": "Extinction Curse #3: Life's Long Shadows",
-				"short": "EC"
+				"short": "EC3"
 			},
 			"data": {
 				"released": "2020-03-26",
@@ -774,7 +774,7 @@
 			"ID": "EC0",
 			"title": {
 				"full": "Extinction Curse Player's Guide",
-				"short": "EC"
+				"short": "EC0"
 			},
 			"data": {
 				"released": "2020-01-13",
@@ -805,7 +805,7 @@
 			"ID": "FRP0",
 			"title": {
 				"full": "Fists of the Ruby Phoenix Player's Guide",
-				"short": "FRP"
+				"short": "FRP0"
 			},
 			"data": {
 				"released": "2021-04-12",
@@ -906,7 +906,7 @@
 			"ID": "Gwrs0",
 			"title": {
 				"full": "Gatewalkers Player's Guide",
-				"short": "Gwrs"
+				"short": "Gwrs0"
 			},
 			"data": {
 				"released": "2023-01-10",
@@ -1037,6 +1037,38 @@
 				"misc": {
 					"GM-facing": true,
 					"Official": true
+				}
+			}
+		},
+		{
+			"type": "source",
+			"ID": "LTiBA-PSSD",
+			"title": {
+				"full": "Little Trouble in Big Absalom Sanctioning Document",
+				"short": "LTiBA"
+			},
+			"data": {
+				"released": "2020-07-25",
+				"added": "2023-08-11",
+				"modified": "2023-08-11",
+				"url": "https://downloads.paizo.com/OP-Sanctioning/Little+Trouble+in+Big+Absalom+Sanctioning.pdf",
+				"copyright": [
+					"{@b Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+					"{@b {@i Pathfinder Adventure: Little Trouble in Big Absalom Sanctioning Document}} © 2020, Paizo Inc.; Author: Michael Sayre, Alexander Speidel, Tonya Woldridge, and Linda Zayas-Palmer."
+				],
+				"license": "OGLv1-0a",
+				"authors": [
+					"Michael Sayre",
+					"Alexander Speidel",
+					"Tonya Woldridge",
+					"Linda Zayas-Palmer"
+				],
+				"publisher": "Paizo"
+			},
+			"tags": {
+				"misc": {
+					"Official": true,
+					"GM-facing": true
 				}
 			}
 		},
@@ -1180,6 +1212,57 @@
 		},
 		{
 			"type": "source",
+			"ID": "LOFb",
+			"title": {
+				"full": "Lost Omens: Firebrands",
+				"short": "LOFb"
+			},
+			"data": {
+				"released": "2020-03-29",
+				"added": "2023-11-08",
+				"modified": "2023-11-08",
+				"url": "https://paizo.com/products/btq021wf",
+				"groupIDs": [
+					"LO"
+				],
+				"copyright": [
+					"{@b Genie, Marid from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
+					"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+					"{@b {@i Pathfinder Lost Omens Firebrands}} © 2023, Paizo Inc.; Authors: James Beck, Rigby Bendele, Jessica Catalan, Dana Ebert, Sen H.H.S., Joan Hong, Aaron Lascano, Luis Loza, Ron Lundeen, Stephanie Lundeen, Matt Morris, Jessica Redekop, Erin Roberts, Michael Sayre, Shahreena Shahrani, and Ruvaid Virk."
+				],
+				"license": "OGLv1-0a",
+				"authors": [
+					"James Beck",
+					"Rigby Bendele",
+					"Jessica Catalan",
+					"Dana Ebert",
+					"Sen H.H.S.",
+					"Joan Hong",
+					"Aaron Lascano",
+					"Luis Loza",
+					"Ron Lundeen",
+					"Stephanie Lundeen",
+					"Matt Morris",
+					"Jessica Redekop",
+					"Erin Roberts",
+					"Michael Sayre",
+					"Shahreena Shahrani",
+					"Ruvaid Virk"
+				],
+				"publisher": "Paizo"
+			},
+			"tags": {
+				"status": {
+					"WIP": true
+				},
+				"misc": {
+					"Official": true,
+					"PFS-legal": true
+				}
+			}
+		},
+		{
+			"type": "source",
 			"ID": "LOGM",
 			"title": {
 				"full": "Lost Omens: Gods & Magic",
@@ -1245,10 +1328,10 @@
 		},
 		{
 			"type": "source",
-			"ID": "LOGMWS",
+			"ID": "LOGM-WS",
 			"title": {
 				"full": "Lost Omens: Gods & Magic Web Supplement",
-				"short": "LOGMWS"
+				"short": "LOGM WS"
 			},
 			"data": {
 				"released": "2020-01-29",
@@ -1350,6 +1433,56 @@
 				"publisher": "Paizo"
 			},
 			"tags": {
+				"misc": {
+					"Official": true,
+					"PFS-legal": true
+				}
+			}
+		},
+		{
+			"type": "source",
+			"ID": "LOHh",
+			"title": {
+				"full": "Lost Omens: Highhelm",
+				"short": "LOHh"
+			},
+			"data": {
+				"released": "2023-06-28",
+				"added": "2023-08-11",
+				"modified": "2023-08-11",
+				"url": "https://paizo.com/products/btq02e6p",
+				"groupIDs": [
+					"LO"
+				],
+				"copyright": [
+					"{@b Genie, Marid from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
+					"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+					"{@b {@i Pathfinder Lost Omens Highhelm}} © 2023, Paizo Inc.; Authors: Piper Amatrudi, Dan Cascone, Caryn DiMarco, Dana Ebert, Sen H.H.S., Michelle Jones, Stephanie Lundeen, Liane Merciel, Matt Morris, Dave Nelson, Mikhail Rekun, Erin Roberts, Owen K.C. Stephens, Andrew White, and Shan Wolf."
+				],
+				"license": "OGLv1-0a",
+				"authors": [
+					"Piper Amatrudi",
+					"Dan Cascone",
+					"Caryn DiMarco",
+					"Dana Ebert",
+					"Sen H.H.S.",
+					"Michelle Jones",
+					"Stephanie Lundeen",
+					"Liane Merciel",
+					"Matt Morris",
+					"Dave Nelson",
+					"Mikhail Rekun",
+					"Erin Roberts",
+					"Owen K.C. Stephens",
+					"Andrew White",
+					"Shan Wolf"
+				],
+				"publisher": "Paizo"
+			},
+			"tags": {
+				"status": {
+					"WIP": true
+				},
 				"misc": {
 					"Official": true,
 					"PFS-legal": true
@@ -1771,7 +1904,7 @@
 			"ID": "OoA0",
 			"title": {
 				"full": "Outlaws of Alkenstar Player's Guide",
-				"short": "OoA"
+				"short": "OoA0"
 			},
 			"data": {
 				"released": "2022-03-28",
@@ -1802,7 +1935,7 @@
 			"ID": "QFF0",
 			"title": {
 				"full": "Quest for the Frozen Flame Player's Guide",
-				"short": "QFF"
+				"short": "QFF0"
 			},
 			"data": {
 				"released": "2021-12-20",
@@ -1963,8 +2096,8 @@
 			"type": "source",
 			"ID": "SKT0",
 			"title": {
-				"full": "Sky King's Tomb",
-				"short": "SKT"
+				"full": "Sky King's Tomb Player's Guide",
+				"short": "SKT0"
 			},
 			"data": {
 				"released": "2023-07-13",
@@ -1996,7 +2129,7 @@
 			"ID": "SF0",
 			"title": {
 				"full": "Stolen Fate Player's Guide",
-				"short": "SF"
+				"short": "SF0"
 			},
 			"data": {
 				"released": "2023-04-13",
@@ -2030,7 +2163,7 @@
 			"ID": "SoT0",
 			"title": {
 				"full": "Strength of Thousands Player's Guide",
-				"short": "SoT"
+				"short": "SoT0"
 			},
 			"data": {
 				"released": "2021-07-26",
@@ -2105,6 +2238,70 @@
 				"misc": {
 					"Official": true,
 					"PFS-legal": true
+				}
+			}
+		},
+		{
+			"type": "source",
+			"ID": "C-WtD1",
+			"title": {
+				"full": "Wake the Dead #1",
+				"short": "WtD1"
+			},
+			"data": {
+				"released": "2023-05-31",
+				"added": "2023-08-08",
+				"modified": "2023-08-08",
+				"url": "https://paizo.com/products/btq02eic",
+				"copyright": [
+					"{@b Pathfinder Core Rulebook (Second Edition)} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+					"{@b Pathfinder: Wake the Dead #1} © 2023, Paizo Inc.; Authors: Mikhail Rekun and Fred Van Lente."
+				],
+				"groupIDs": [
+					"C-WtD"
+				],
+				"license": "OGLv1-0a",
+				"authors": [
+					"Mikhail Rekun",
+					"Fred Van Lente"
+				],
+				"publisher": "Paizo"
+			},
+			"tags": {
+				"publicationType": {
+					"Comic": true
+				}
+			}
+		},
+		{
+			"type": "source",
+			"ID": "C-WtD2",
+			"title": {
+				"full": "Wake the Dead #2",
+				"short": "WtD1"
+			},
+			"data": {
+				"released": "2023-07-26",
+				"added": "2023-08-11",
+				"modified": "2023-08-11",
+				"url": "https://www.dynamite.com/htmlfiles/viewProduct.html?PRO=C72513033022202011",
+				"copyright": [
+					"{@b Pathfinder Core Rulebook (Second Edition)} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+					"{@b Pathfinder: Wake the Dead #2} © 2023, Paizo Inc.; Authors: Mikhail Rekun and Fred Van Lente."
+				],
+				"groupIDs": [
+					"C-WtD"
+				],
+				"license": "OGLv1-0a",
+				"authors": [
+					"Mikhail Rekun",
+					"Fred Van Lente"
+				],
+				"publisher": "Paizo"
+			},
+			"tags": {
+				"publicationType": {
+					"Comic": true
 				}
 			}
 		}

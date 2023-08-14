@@ -1,9 +1,17 @@
 {
-	"LOWG": [
+	"SoT": [
+		{
+			"type": "sourceGroup",
+			"fullTitle": "Strength of Thousands",
+			"path": "./data/common/sourceGroup/Strength of Thousands.json",
+			"official": null
+		}
+	],
+	"AoE0": [
 		{
 			"type": "source",
-			"fullTitle": "Lost Omens: World Guide",
-			"path": "./data/core/Lost Omens_ World Guide/Lost Omens_ World Guide.json",
+			"fullTitle": "Agents of Edgewatch Player's Guide",
+			"path": "./data/core/Agents of Edgewatch Player's Guide/Agents of Edgewatch Player's Guide.json",
 			"official": true
 		}
 	],
@@ -13,7 +21,103 @@
 			"fullTitle": "Outlaws of Alkenstar",
 			"path": "./data/common/sourceGroup/Outlaws of Alkenstar.json",
 			"official": null
+		}
+	],
+	"FRP": [
+		{
+			"type": "sourceGroup",
+			"fullTitle": "Fists of the Ruby Phoenix",
+			"path": "./data/common/sourceGroup/Fists of the Ruby Phoenix.json",
+			"official": null
+		}
+	],
+	"APG": [
+		{
+			"type": "source",
+			"fullTitle": "Advanced Player's Guide",
+			"path": "./data/core/Advanced Player's Guide/Advanced Player's Guide.json",
+			"official": true
+		}
+	],
+	"LOL": [
+		{
+			"type": "source",
+			"fullTitle": "Lost Omens: Legends",
+			"path": "./data/core/Lost Omens_ Legends/Lost Omens_ Legends.json",
+			"official": true
+		}
+	],
+	"G&G": [
+		{
+			"type": "source",
+			"fullTitle": "Guns & Gears",
+			"path": "./data/core/Guns & Gears/Guns & Gears.json",
+			"official": true
+		}
+	],
+	"LOME": [
+		{
+			"type": "source",
+			"fullTitle": "Lost Omens: The Mwangi Expanse",
+			"path": "./data/core/Lost Omens_ The Mwangi Expanse/Lost Omens_ The Mwangi Expanse.json",
+			"official": true
+		}
+	],
+	"LOTG": [
+		{
+			"type": "source",
+			"fullTitle": "Lost Omens: Travel Guide",
+			"path": "./data/core/Lost Omens_ Travel Guide/Lost Omens_ Travel Guide.json",
+			"official": true
+		}
+	],
+	"LOGM": [
+		{
+			"type": "source",
+			"fullTitle": "Lost Omens: Gods & Magic",
+			"path": "./data/core/Lost Omens_ Gods & Magic/Lost Omens_ Gods & Magic.json",
+			"official": true
+		}
+	],
+	"WtD1": [
+		{
+			"type": "source",
+			"fullTitle": "Wake the Dead #1",
+			"path": "./data/core/Wake the Dead #1/Wake the Dead #1.json",
+			"official": false
 		},
+		{
+			"type": "source",
+			"fullTitle": "Wake the Dead #2",
+			"path": "./data/core/Wake the Dead #2/Wake the Dead #2.json",
+			"official": false
+		}
+	],
+	"LTiBA": [
+		{
+			"type": "source",
+			"fullTitle": "Little Trouble in Big Absalom Sanctioning Document",
+			"path": "./data/core/Little Trouble in Big Absalom Sanctioning Document/Little Trouble in Big Absalom Sanctioning Document.json",
+			"official": true
+		}
+	],
+	"QFF0": [
+		{
+			"type": "source",
+			"fullTitle": "Quest for the Frozen Flame Player's Guide",
+			"path": "./data/core/Quest for the Frozen Flame Player's Guide/Quest for the Frozen Flame Player's Guide.json",
+			"official": true
+		}
+	],
+	"FRP0": [
+		{
+			"type": "source",
+			"fullTitle": "Fists of the Ruby Phoenix Player's Guide",
+			"path": "./data/core/Fists of the Ruby Phoenix Player's Guide/Fists of the Ruby Phoenix Player's Guide.json",
+			"official": true
+		}
+	],
+	"OoA0": [
 		{
 			"type": "source",
 			"fullTitle": "Outlaws of Alkenstar Player's Guide",
@@ -21,13 +125,37 @@
 			"official": true
 		}
 	],
-	"BL": [
+	"B1": [
+		{
+			"type": "source",
+			"fullTitle": "Bestiary",
+			"path": "./data/core/Bestiary/Bestiary.json",
+			"official": true
+		}
+	],
+	"AoA": [
 		{
 			"type": "sourceGroup",
-			"fullTitle": "Blood Lords",
-			"path": "./data/common/sourceGroup/Blood Lords.json",
+			"fullTitle": "Age of Ashes",
+			"path": "./data/common/sourceGroup/Age of Ashes.json",
+			"official": null
+		}
+	],
+	"AV": [
+		{
+			"type": "sourceGroup",
+			"fullTitle": "Abomination Vaults",
+			"path": "./data/common/sourceGroup/Abomination Vaults.json",
 			"official": null
 		},
+		{
+			"type": "source",
+			"fullTitle": "Abomination Vaults Player's Guide",
+			"path": "./data/core/Abomination Vaults Player's Guide/Abomination Vaults Player's Guide.json",
+			"official": true
+		}
+	],
+	"BL0": [
 		{
 			"type": "source",
 			"fullTitle": "Blood Lords Player's Guide",
@@ -35,25 +163,187 @@
 			"official": true
 		}
 	],
-	"LOPSG": [
+	"BotD": [
 		{
 			"type": "source",
-			"fullTitle": "Lost Omens: Pathfinder Society Guide",
-			"path": "./data/core/Lost Omens_ Pathfinder Society Guide/Lost Omens_ Pathfinder Society Guide.json",
+			"fullTitle": "Book of the Dead",
+			"path": "./data/core/Book of the Dead/Book of the Dead.json",
 			"official": true
 		}
 	],
-	"SoT": [
+	"EC0": [
+		{
+			"type": "source",
+			"fullTitle": "Extinction Curse Player's Guide",
+			"path": "./data/core/Extinction Curse Player's Guide/Extinction Curse Player's Guide.json",
+			"official": true
+		}
+	],
+	"LOIL": [
+		{
+			"type": "source",
+			"fullTitle": "Lost Omens: Impossible Lands",
+			"path": "./data/core/Lost Omens_ Impossible Lands/Lost Omens_ Impossible Lands.json",
+			"official": true
+		}
+	],
+	"AoE": [
 		{
 			"type": "sourceGroup",
-			"fullTitle": "Strength of Thousands",
-			"path": "./data/common/sourceGroup/Strength of Thousands.json",
+			"fullTitle": "Agents of Edgewatch",
+			"path": "./data/common/sourceGroup/Agents of Edgewatch.json",
 			"official": null
-		},
+		}
+	],
+	"EC": [
+		{
+			"type": "sourceGroup",
+			"fullTitle": "Extinction Curse",
+			"path": "./data/common/sourceGroup/Extinction Curse.json",
+			"official": null
+		}
+	],
+	"LOFb": [
+		{
+			"type": "source",
+			"fullTitle": "Lost Omens: Firebrands",
+			"path": "./data/core/Lost Omens_ Firebrands/Lost Omens_ Firebrands.json",
+			"official": true
+		}
+	],
+	"LOGM WS": [
+		{
+			"type": "source",
+			"fullTitle": "Lost Omens: Gods & Magic Web Supplement",
+			"path": "./data/core/Lost Omens_ Gods & Magic Web Supplement/Lost Omens_ Gods & Magic Web Supplement.json",
+			"official": true
+		}
+	],
+	"LOAG": [
+		{
+			"type": "source",
+			"fullTitle": "Lost Omens: Ancestry Guide",
+			"path": "./data/core/Lost Omens_ Ancestry Guide/Lost Omens_ Ancestry Guide.json",
+			"official": true
+		}
+	],
+	"ACLO": [
+		{
+			"type": "source",
+			"fullTitle": "Absalom, City of Lost Omens",
+			"path": "./data/core/Absalom, City of Lost Omens/Absalom, City of Lost Omens.json",
+			"official": true
+		}
+	],
+	"DA": [
+		{
+			"type": "source",
+			"fullTitle": "Dark Archive",
+			"path": "./data/core/Dark Archive/Dark Archive.json",
+			"official": true
+		}
+	],
+	"LOMM": [
+		{
+			"type": "source",
+			"fullTitle": "Lost Omens: Monsters of Myth",
+			"path": "./data/core/Lost Omens_ Monsters of Myth/Lost Omens_ Monsters of Myth.json",
+			"official": true
+		}
+	],
+	"Gwrs0": [
+		{
+			"type": "source",
+			"fullTitle": "Gatewalkers Player's Guide",
+			"path": "./data/core/Gatewalkers Player's Guide/Gatewalkers Player's Guide.json",
+			"official": true
+		}
+	],
+	"B2": [
+		{
+			"type": "source",
+			"fullTitle": "Bestiary 2",
+			"path": "./data/core/Bestiary 2/Bestiary 2.json",
+			"official": true
+		}
+	],
+	"GMG": [
+		{
+			"type": "source",
+			"fullTitle": "Gamemastery Guide",
+			"path": "./data/core/Gamemastery Guide/Gamemastery Guide.json",
+			"official": true
+		}
+	],
+	"LOAAWS": [
+		{
+			"type": "source",
+			"fullTitle": "Lost Omens: Azarketi Ancestry Web Supplement",
+			"path": "./data/core/Lost Omens_ Azarketi Ancestry Web Supplement/Lost Omens_ Azarketi Ancestry Web Supplement.json",
+			"official": true
+		}
+	],
+	"SoM": [
+		{
+			"type": "source",
+			"fullTitle": "Secrets of Magic",
+			"path": "./data/core/Secrets of Magic/Secrets of Magic.json",
+			"official": true
+		}
+	],
+	"AoA4": [
+		{
+			"type": "source",
+			"fullTitle": "Age of Ashes #4: Fires of the Haunted City",
+			"path": "./data/core/Age of Ashes #4_ Fires of the Haunted City/Age of Ashes #4_ Fires of the Haunted City.json",
+			"official": true
+		}
+	],
+	"AoA6": [
+		{
+			"type": "source",
+			"fullTitle": "Age of Ashes #6: Broken Promises",
+			"path": "./data/core/Age of Ashes #6_ Broken Promises/Age of Ashes #6_ Broken Promises.json",
+			"official": true
+		}
+	],
+	"SF": [
+		{
+			"type": "sourceGroup",
+			"fullTitle": "Stolen Fate",
+			"path": "./data/common/sourceGroup/Stolen Fate.json",
+			"official": null
+		}
+	],
+	"LOKL": [
+		{
+			"type": "source",
+			"fullTitle": "Lost Omens: Knights of Lastwall",
+			"path": "./data/core/Lost Omens_ Knights of Lastwall/Lost Omens_ Knights of Lastwall.json",
+			"official": true
+		}
+	],
+	"SoT0": [
 		{
 			"type": "source",
 			"fullTitle": "Strength of Thousands Player's Guide",
 			"path": "./data/core/Strength of Thousands Player's Guide/Strength of Thousands Player's Guide.json",
+			"official": true
+		}
+	],
+	"SKT": [
+		{
+			"type": "sourceGroup",
+			"fullTitle": "Sky King's Tomb",
+			"path": "./data/common/sourceGroup/Sky King's Tomb.json",
+			"official": null
+		}
+	],
+	"SF0": [
+		{
+			"type": "source",
+			"fullTitle": "Stolen Fate Player's Guide",
+			"path": "./data/core/Stolen Fate Player's Guide/Stolen Fate Player's Guide.json",
 			"official": true
 		}
 	],
@@ -71,168 +361,12 @@
 			"official": true
 		}
 	],
-	"LOTG": [
-		{
-			"type": "source",
-			"fullTitle": "Lost Omens: Travel Guide",
-			"path": "./data/core/Lost Omens_ Travel Guide/Lost Omens_ Travel Guide.json",
-			"official": true
-		}
-	],
-	"RoE": [
-		{
-			"type": "source",
-			"fullTitle": "Rage of Elements",
-			"path": "./data/core/Rage of Elements/Rage of Elements.json",
-			"official": true
-		}
-	],
-	"G&G": [
-		{
-			"type": "source",
-			"fullTitle": "Guns & Gears",
-			"path": "./data/core/Guns & Gears/Guns & Gears.json",
-			"official": true
-		}
-	],
-	"SoM": [
-		{
-			"type": "source",
-			"fullTitle": "Secrets of Magic",
-			"path": "./data/core/Secrets of Magic/Secrets of Magic.json",
-			"official": true
-		}
-	],
-	"LOMM": [
-		{
-			"type": "source",
-			"fullTitle": "Lost Omens: Monsters of Myth",
-			"path": "./data/core/Lost Omens_ Monsters of Myth/Lost Omens_ Monsters of Myth.json",
-			"official": true
-		}
-	],
-	"OGL v1.0a": [
-		{
-			"type": "license",
-			"fullTitle": "Open Game License v1.0a",
-			"path": "./data/common/license/Open Game License v1.0a.json",
-			"official": null
-		}
-	],
-	"LOGB": [
-		{
-			"type": "source",
-			"fullTitle": "Lost Omens: Grand Bazaar",
-			"path": "./data/core/Lost Omens_ Grand Bazaar/Lost Omens_ Grand Bazaar.json",
-			"official": true
-		}
-	],
-	"GMG": [
-		{
-			"type": "source",
-			"fullTitle": "Gamemastery Guide",
-			"path": "./data/core/Gamemastery Guide/Gamemastery Guide.json",
-			"official": true
-		}
-	],
-	"LOL": [
-		{
-			"type": "source",
-			"fullTitle": "Lost Omens: Legends",
-			"path": "./data/core/Lost Omens_ Legends/Lost Omens_ Legends.json",
-			"official": true
-		}
-	],
-	"ACLO": [
-		{
-			"type": "source",
-			"fullTitle": "Absalom, City of Lost Omens",
-			"path": "./data/core/Absalom, City of Lost Omens/Absalom, City of Lost Omens.json",
-			"official": true
-		}
-	],
-	"LOCG": [
-		{
-			"type": "source",
-			"fullTitle": "Lost Omens: Character Guide",
-			"path": "./data/core/Lost Omens_ Character Guide/Lost Omens_ Character Guide.json",
-			"official": true
-		}
-	],
-	"AoA": [
+	"WtD": [
 		{
 			"type": "sourceGroup",
-			"fullTitle": "Age of Ashes",
-			"path": "./data/common/sourceGroup/Age of Ashes.json",
+			"fullTitle": "Wake the Dead",
+			"path": "./data/common/sourceGroup/Wake the Dead.json",
 			"official": null
-		},
-		{
-			"type": "source",
-			"fullTitle": "Age of Ashes #4: Fires of the Haunted City",
-			"path": "./data/core/Age of Ashes #4_ Fires of the Haunted City/Age of Ashes #4_ Fires of the Haunted City.json",
-			"official": true
-		},
-		{
-			"type": "source",
-			"fullTitle": "Age of Ashes #6: Broken Promises",
-			"path": "./data/core/Age of Ashes #6_ Broken Promises/Age of Ashes #6_ Broken Promises.json",
-			"official": true
-		},
-		{
-			"type": "source",
-			"fullTitle": "Age of Ashes Player's Guide",
-			"path": "./data/core/Age of Ashes Player's Guide/Age of Ashes Player's Guide.json",
-			"official": true
-		}
-	],
-	"QFF": [
-		{
-			"type": "sourceGroup",
-			"fullTitle": "Quest for the Frozen Flame",
-			"path": "./data/common/sourceGroup/Quest for the Frozen Flame.json",
-			"official": null
-		},
-		{
-			"type": "source",
-			"fullTitle": "Quest for the Frozen Flame Player's Guide",
-			"path": "./data/core/Quest for the Frozen Flame Player's Guide/Quest for the Frozen Flame Player's Guide.json",
-			"official": true
-		}
-	],
-	"LO": [
-		{
-			"type": "sourceGroup",
-			"fullTitle": "Lost Omens",
-			"path": "./data/common/sourceGroup/Lost Omens.json",
-			"official": null
-		}
-	],
-	"LOAAWS": [
-		{
-			"type": "source",
-			"fullTitle": "Lost Omens: Azarketi Ancestry Web Supplement",
-			"path": "./data/core/Lost Omens_ Azarketi Ancestry Web Supplement/Lost Omens_ Azarketi Ancestry Web Supplement.json",
-			"official": true
-		}
-	],
-	"EC": [
-		{
-			"type": "sourceGroup",
-			"fullTitle": "Extinction Curse",
-			"path": "./data/common/sourceGroup/Extinction Curse.json",
-			"official": null
-		},
-		{
-			"type": "source",
-			"fullTitle": "Extinction Curse #3: Life's Long Shadows",
-			"path": "./data/core/Extinction Curse #3_ Life's Long Shadows/Extinction Curse #3_ Life's Long Shadows.json",
-			"official": true
-		},
-		{
-			"type": "source",
-			"fullTitle": "Extinction Curse Player's Guide",
-			"path": "./data/core/Extinction Curse Player's Guide/Extinction Curse Player's Guide.json",
-			"official": true
 		}
 	],
 	"CRB": [
@@ -240,30 +374,6 @@
 			"type": "source",
 			"fullTitle": "Core Rulebook",
 			"path": "./data/core/Core Rulebook/Core Rulebook.json",
-			"official": true
-		}
-	],
-	"LOME": [
-		{
-			"type": "source",
-			"fullTitle": "Lost Omens: The Mwangi Expanse",
-			"path": "./data/core/Lost Omens_ The Mwangi Expanse/Lost Omens_ The Mwangi Expanse.json",
-			"official": true
-		}
-	],
-	"LOKL": [
-		{
-			"type": "source",
-			"fullTitle": "Lost Omens: Knights of Lastwall",
-			"path": "./data/core/Lost Omens_ Knights of Lastwall/Lost Omens_ Knights of Lastwall.json",
-			"official": true
-		}
-	],
-	"LOAG": [
-		{
-			"type": "source",
-			"fullTitle": "Lost Omens: Ancestry Guide",
-			"path": "./data/core/Lost Omens_ Ancestry Guide/Lost Omens_ Ancestry Guide.json",
 			"official": true
 		}
 	],
@@ -275,36 +385,20 @@
 			"official": true
 		}
 	],
-	"B3": [
+	"SKT0": [
 		{
 			"type": "source",
-			"fullTitle": "Bestiary 3",
-			"path": "./data/core/Bestiary 3/Bestiary 3.json",
+			"fullTitle": "Sky King's Tomb Player's Guide",
+			"path": "./data/core/Sky King's Tomb Player's Guide/Sky King's Tomb Player's Guide.json",
 			"official": true
 		}
 	],
-	"LOGM": [
+	"OGL v1.0a": [
 		{
-			"type": "source",
-			"fullTitle": "Lost Omens: Gods & Magic",
-			"path": "./data/core/Lost Omens_ Gods & Magic/Lost Omens_ Gods & Magic.json",
-			"official": true
-		}
-	],
-	"DA": [
-		{
-			"type": "source",
-			"fullTitle": "Dark Archive",
-			"path": "./data/core/Dark Archive/Dark Archive.json",
-			"official": true
-		}
-	],
-	"APG": [
-		{
-			"type": "source",
-			"fullTitle": "Advanced Player's Guide",
-			"path": "./data/core/Advanced Player's Guide/Advanced Player's Guide.json",
-			"official": true
+			"type": "license",
+			"fullTitle": "Open Game License v1.0a",
+			"path": "./data/common/license/Open Game License v1.0a.json",
+			"official": null
 		}
 	],
 	"LOHh": [
@@ -315,31 +409,11 @@
 			"official": true
 		}
 	],
-	"B1": [
+	"B3": [
 		{
 			"type": "source",
-			"fullTitle": "Bestiary",
-			"path": "./data/core/Bestiary/Bestiary.json",
-			"official": true
-		}
-	],
-	"AoE": [
-		{
-			"type": "sourceGroup",
-			"fullTitle": "Agents of Edgewatch",
-			"path": "./data/common/sourceGroup/Agents of Edgewatch.json",
-			"official": null
-		},
-		{
-			"type": "source",
-			"fullTitle": "Agents of Edgewatch #4: Assault on Hunting Lodge Seven",
-			"path": "./data/core/Agents of Edgewatch #4_ Assault on Hunting Lodge Seven/Agents of Edgewatch #4_ Assault on Hunting Lodge Seven.json",
-			"official": true
-		},
-		{
-			"type": "source",
-			"fullTitle": "Agents of Edgewatch Player's Guide",
-			"path": "./data/core/Agents of Edgewatch Player's Guide/Agents of Edgewatch Player's Guide.json",
+			"fullTitle": "Bestiary 3",
+			"path": "./data/core/Bestiary 3/Bestiary 3.json",
 			"official": true
 		}
 	],
@@ -349,107 +423,93 @@
 			"fullTitle": "Gatewalkers",
 			"path": "./data/common/sourceGroup/Gatewalkers.json",
 			"official": null
-		},
-		{
-			"type": "source",
-			"fullTitle": "Gatewalkers Player's Guide",
-			"path": "./data/core/Gatewalkers Player's Guide/Gatewalkers Player's Guide.json",
-			"official": true
 		}
 	],
-	"SKT": [
+	"QFF": [
 		{
 			"type": "sourceGroup",
-			"fullTitle": "Sky King's Tomb",
-			"path": "./data/common/sourceGroup/Sky King's Tomb.json",
+			"fullTitle": "Quest for the Frozen Flame",
+			"path": "./data/common/sourceGroup/Quest for the Frozen Flame.json",
 			"official": null
-		},
-		{
-			"type": "source",
-			"fullTitle": "Sky King's Tomb Player's Guide",
-			"path": "./data/core/Sky King's Tomb Player's Guide/Sky King's Tomb Player's Guide.json",
-			"official": true
 		}
 	],
-	"FRP": [
+	"BL": [
 		{
 			"type": "sourceGroup",
-			"fullTitle": "Fists of the Ruby Phoenix",
-			"path": "./data/common/sourceGroup/Fists of the Ruby Phoenix.json",
+			"fullTitle": "Blood Lords",
+			"path": "./data/common/sourceGroup/Blood Lords.json",
 			"official": null
-		},
+		}
+	],
+	"LOPSG": [
 		{
 			"type": "source",
-			"fullTitle": "Fists of the Ruby Phoenix Player's Guide",
-			"path": "./data/core/Fists of the Ruby Phoenix Player's Guide/Fists of the Ruby Phoenix Player's Guide.json",
+			"fullTitle": "Lost Omens: Pathfinder Society Guide",
+			"path": "./data/core/Lost Omens_ Pathfinder Society Guide/Lost Omens_ Pathfinder Society Guide.json",
 			"official": true
 		}
 	],
-	"LOFb": [
+	"RoE": [
 		{
 			"type": "source",
-			"fullTitle": "Lost Omens_ Firebrands",
-			"path": "./data/core/Lost Omens_ Firebands/Lost Omens_ Firebrands.json",
+			"fullTitle": "Rage of Elements",
+			"path": "./data/core/Rage of Elements/Rage of Elements.json",
 			"official": true
 		}
 	],
-	"AV": [
+	"LOCG": [
+		{
+			"type": "source",
+			"fullTitle": "Lost Omens: Character Guide",
+			"path": "./data/core/Lost Omens_ Character Guide/Lost Omens_ Character Guide.json",
+			"official": true
+		}
+	],
+	"AoE4": [
+		{
+			"type": "source",
+			"fullTitle": "Agents of Edgewatch #4: Assault on Hunting Lodge Seven",
+			"path": "./data/core/Agents of Edgewatch #4_ Assault on Hunting Lodge Seven/Agents of Edgewatch #4_ Assault on Hunting Lodge Seven.json",
+			"official": true
+		}
+	],
+	"EC3": [
+		{
+			"type": "source",
+			"fullTitle": "Extinction Curse #3: Life's Long Shadows",
+			"path": "./data/core/Extinction Curse #3_ Life's Long Shadows/Extinction Curse #3_ Life's Long Shadows.json",
+			"official": true
+		}
+	],
+	"AoA0": [
+		{
+			"type": "source",
+			"fullTitle": "Age of Ashes Player's Guide",
+			"path": "./data/core/Age of Ashes Player's Guide/Age of Ashes Player's Guide.json",
+			"official": true
+		}
+	],
+	"LOGB": [
+		{
+			"type": "source",
+			"fullTitle": "Lost Omens: Grand Bazaar",
+			"path": "./data/core/Lost Omens_ Grand Bazaar/Lost Omens_ Grand Bazaar.json",
+			"official": true
+		}
+	],
+	"LO": [
 		{
 			"type": "sourceGroup",
-			"fullTitle": "Abomination Vaults",
-			"path": "./data/common/sourceGroup/Abomination Vaults.json",
+			"fullTitle": "Lost Omens",
+			"path": "./data/common/sourceGroup/Lost Omens.json",
 			"official": null
-		},
-		{
-			"type": "source",
-			"fullTitle": "Abomination Vaults Player's Guide",
-			"path": "./data/core/Abomination Vaults Player's Guide/Abomination Vaults Player's Guide.json",
-			"official": true
 		}
 	],
-	"SF": [
-		{
-			"type": "sourceGroup",
-			"fullTitle": "Stolen Fate",
-			"path": "./data/common/sourceGroup/Stolen Fate.json",
-			"official": null
-		},
+	"LOWG": [
 		{
 			"type": "source",
-			"fullTitle": "Stolen Fate Player's Guide",
-			"path": "./data/core/Stolen Fate Player's Guide/Stolen Fate Player's Guide.json",
-			"official": true
-		}
-	],
-	"BotD": [
-		{
-			"type": "source",
-			"fullTitle": "Book of the Dead",
-			"path": "./data/core/Book of the Dead/Book of the Dead.json",
-			"official": true
-		}
-	],
-	"B2": [
-		{
-			"type": "source",
-			"fullTitle": "Bestiary 2",
-			"path": "./data/core/Bestiary 2/Bestiary 2.json",
-			"official": true
-		}
-	],
-	"LOGMWS": [
-		{
-			"type": "source",
-			"fullTitle": "Lost Omens: Gods & Magic Web Supplement",
-			"path": "./data/core/Lost Omens_ Gods & Magic Web Supplement/Lost Omens_ Gods & Magic Web Supplement.json",
-			"official": true
-		}
-	],
-	"LOIL": [
-		{
-			"type": "source",
-			"fullTitle": "Lost Omens: Impossible Lands",
-			"path": "./data/core/Lost Omens_ Impossible Lands/Lost Omens_ Impossible Lands.json",
+			"fullTitle": "Lost Omens: World Guide",
+			"path": "./data/core/Lost Omens_ World Guide/Lost Omens_ World Guide.json",
 			"official": true
 		}
 	]

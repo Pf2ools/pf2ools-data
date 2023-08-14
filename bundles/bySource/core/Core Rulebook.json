@@ -1136,7 +1136,7 @@
 			},
 			"data": {
 				"entries": [
-					"You earned a living wrenching precious minerals from the lightless depths of the earth. Adventuring might have seemed lucrative or glamorous compared to this backbreaking labor— and if you have to head back underground, this time you plan to do so armed with a real weapon instead of a miner's pick.",
+					"You earned a living wrenching precious minerals from the lightless depths of the earth. Adventuring might have seemed lucrative or glamorous compared to this backbreaking labor—and if you have to head back underground, this time you plan to do so armed with a real weapon instead of a miner's pick.",
 					"Choose two ability boosts. One must be to Strength or Wisdom, and one is a free ability boost.",
 					"You're trained in the {@skill Survival} skill and the {@skill Lore||Mining Lore} skill. You gain the {@feat Terrain Expertise} skill feat with underground terrain."
 				]
@@ -2542,6 +2542,87 @@
 				"ID": "CRB"
 			},
 			"name": {
+				"specifier": "Acid",
+				"primary": "Energy-Resistant"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "abjuration"
+					}
+				],
+				"aspects": [
+					{
+						"name": "earth"
+					},
+					{
+						"name": "fiend"
+					}
+				],
+				"entries": [
+					"{@note The relic gains the {@item energy-resistant} (acid damage) rune.}"
+				]
+			},
+			"tags": {
+				"itemTypes": {
+					"Armor": true
+				},
+				"misc": {
+					"Is rune": true,
+					"Grants passive attribute": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 582,
+				"ID": "CRB"
+			},
+			"name": {
+				"specifier": "Cold",
+				"primary": "Energy-Resistant"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "abjuration"
+					}
+				],
+				"aspects": [
+					{
+						"name": "air"
+					},
+					{
+						"name": "fiend"
+					},
+					{
+						"name": "water"
+					}
+				],
+				"entries": [
+					"{@note The relic gains the {@item energy-resistant} (cold damage) rune.}"
+				]
+			},
+			"tags": {
+				"itemTypes": {
+					"Armor": true
+				},
+				"misc": {
+					"Is rune": true,
+					"Grants passive attribute": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 582,
+				"ID": "CRB"
+			},
+			"name": {
 				"specifier": "Electricity",
 				"primary": "Energy-Resistant"
 			},
@@ -2559,6 +2640,48 @@
 				],
 				"entries": [
 					"{@note The relic gains the {@item energy-resistant} (electricity damage) rune.}"
+				]
+			},
+			"tags": {
+				"itemTypes": {
+					"Armor": true
+				},
+				"misc": {
+					"Is rune": true,
+					"Grants passive attribute": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 582,
+				"ID": "CRB"
+			},
+			"name": {
+				"specifier": "Fire",
+				"primary": "Energy-Resistant"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "abjuration"
+					}
+				],
+				"aspects": [
+					{
+						"name": "fiend"
+					},
+					{
+						"name": "fire"
+					},
+					{
+						"name": "water"
+					}
+				],
+				"entries": [
+					"{@note The relic gains the {@item energy-resistant} (fire damage) rune.}"
 				]
 			},
 			"tags": {
@@ -2797,6 +2920,87 @@
 				"ID": "CRB"
 			},
 			"name": {
+				"specifier": "Acid",
+				"primary": "Greater Energy-Resistant"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "abjuration"
+					}
+				],
+				"aspects": [
+					{
+						"name": "earth"
+					},
+					{
+						"name": "fiend"
+					}
+				],
+				"entries": [
+					"{@note The relic gains the {@item greater energy-resistant} (acid damage) rune.}"
+				]
+			},
+			"tags": {
+				"itemTypes": {
+					"Armor": true
+				},
+				"misc": {
+					"Is rune": true,
+					"Grants passive attribute": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 582,
+				"ID": "CRB"
+			},
+			"name": {
+				"specifier": "Cold",
+				"primary": "Greater Energy-Resistant"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "abjuration"
+					}
+				],
+				"aspects": [
+					{
+						"name": "air"
+					},
+					{
+						"name": "fiend"
+					},
+					{
+						"name": "water"
+					}
+				],
+				"entries": [
+					"{@note The relic gains the {@item greater energy-resistant} (cold damage) rune.}"
+				]
+			},
+			"tags": {
+				"itemTypes": {
+					"Armor": true
+				},
+				"misc": {
+					"Is rune": true,
+					"Grants passive attribute": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 582,
+				"ID": "CRB"
+			},
+			"name": {
 				"specifier": "Electricity",
 				"primary": "Greater Energy-Resistant"
 			},
@@ -2814,6 +3018,48 @@
 				],
 				"entries": [
 					"{@note The relic gains the {@item greater energy-resistant} (electricity damage) rune.}"
+				]
+			},
+			"tags": {
+				"itemTypes": {
+					"Armor": true
+				},
+				"misc": {
+					"Is rune": true,
+					"Grants passive attribute": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 582,
+				"ID": "CRB"
+			},
+			"name": {
+				"specifier": "Fire",
+				"primary": "Greater Energy-Resistant"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "abjuration"
+					}
+				],
+				"aspects": [
+					{
+						"name": "fiend"
+					},
+					{
+						"name": "fire"
+					},
+					{
+						"name": "water"
+					}
+				],
+				"entries": [
+					"{@note The relic gains the {@item greater energy-resistant} (fire damage) rune.}"
 				]
 			},
 			"tags": {

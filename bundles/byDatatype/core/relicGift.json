@@ -166,6 +166,87 @@
 				"ID": "CRB"
 			},
 			"name": {
+				"specifier": "Acid",
+				"primary": "Energy-Resistant"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "abjuration"
+					}
+				],
+				"aspects": [
+					{
+						"name": "earth"
+					},
+					{
+						"name": "fiend"
+					}
+				],
+				"entries": [
+					"{@note The relic gains the {@item energy-resistant} (acid damage) rune.}"
+				]
+			},
+			"tags": {
+				"itemTypes": {
+					"Armor": true
+				},
+				"misc": {
+					"Is rune": true,
+					"Grants passive attribute": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 582,
+				"ID": "CRB"
+			},
+			"name": {
+				"specifier": "Cold",
+				"primary": "Energy-Resistant"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "abjuration"
+					}
+				],
+				"aspects": [
+					{
+						"name": "air"
+					},
+					{
+						"name": "fiend"
+					},
+					{
+						"name": "water"
+					}
+				],
+				"entries": [
+					"{@note The relic gains the {@item energy-resistant} (cold damage) rune.}"
+				]
+			},
+			"tags": {
+				"itemTypes": {
+					"Armor": true
+				},
+				"misc": {
+					"Is rune": true,
+					"Grants passive attribute": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 582,
+				"ID": "CRB"
+			},
+			"name": {
 				"specifier": "Electricity",
 				"primary": "Energy-Resistant"
 			},
@@ -183,6 +264,48 @@
 				],
 				"entries": [
 					"{@note The relic gains the {@item energy-resistant} (electricity damage) rune.}"
+				]
+			},
+			"tags": {
+				"itemTypes": {
+					"Armor": true
+				},
+				"misc": {
+					"Is rune": true,
+					"Grants passive attribute": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 582,
+				"ID": "CRB"
+			},
+			"name": {
+				"specifier": "Fire",
+				"primary": "Energy-Resistant"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "abjuration"
+					}
+				],
+				"aspects": [
+					{
+						"name": "fiend"
+					},
+					{
+						"name": "fire"
+					},
+					{
+						"name": "water"
+					}
+				],
+				"entries": [
+					"{@note The relic gains the {@item energy-resistant} (fire damage) rune.}"
 				]
 			},
 			"tags": {
@@ -421,6 +544,87 @@
 				"ID": "CRB"
 			},
 			"name": {
+				"specifier": "Acid",
+				"primary": "Greater Energy-Resistant"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "abjuration"
+					}
+				],
+				"aspects": [
+					{
+						"name": "earth"
+					},
+					{
+						"name": "fiend"
+					}
+				],
+				"entries": [
+					"{@note The relic gains the {@item greater energy-resistant} (acid damage) rune.}"
+				]
+			},
+			"tags": {
+				"itemTypes": {
+					"Armor": true
+				},
+				"misc": {
+					"Is rune": true,
+					"Grants passive attribute": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 582,
+				"ID": "CRB"
+			},
+			"name": {
+				"specifier": "Cold",
+				"primary": "Greater Energy-Resistant"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "abjuration"
+					}
+				],
+				"aspects": [
+					{
+						"name": "air"
+					},
+					{
+						"name": "fiend"
+					},
+					{
+						"name": "water"
+					}
+				],
+				"entries": [
+					"{@note The relic gains the {@item greater energy-resistant} (cold damage) rune.}"
+				]
+			},
+			"tags": {
+				"itemTypes": {
+					"Armor": true
+				},
+				"misc": {
+					"Is rune": true,
+					"Grants passive attribute": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 582,
+				"ID": "CRB"
+			},
+			"name": {
 				"specifier": "Electricity",
 				"primary": "Greater Energy-Resistant"
 			},
@@ -438,6 +642,48 @@
 				],
 				"entries": [
 					"{@note The relic gains the {@item greater energy-resistant} (electricity damage) rune.}"
+				]
+			},
+			"tags": {
+				"itemTypes": {
+					"Armor": true
+				},
+				"misc": {
+					"Is rune": true,
+					"Grants passive attribute": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 582,
+				"ID": "CRB"
+			},
+			"name": {
+				"specifier": "Fire",
+				"primary": "Greater Energy-Resistant"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "abjuration"
+					}
+				],
+				"aspects": [
+					{
+						"name": "fiend"
+					},
+					{
+						"name": "fire"
+					},
+					{
+						"name": "water"
+					}
+				],
+				"entries": [
+					"{@note The relic gains the {@item greater energy-resistant} (fire damage) rune.}"
 				]
 			},
 			"tags": {
@@ -4479,6 +4725,569 @@
 		{
 			"type": "relicGift",
 			"source": {
+				"page": 114,
+				"ID": "LOHh"
+			},
+			"name": {
+				"primary": "Creative Spark"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "conjuration"
+					},
+					{
+						"trait": "fire"
+					}
+				],
+				"aspects": [
+					{
+						"name": "forge"
+					}
+				],
+				"entries": [
+					{
+						"type": "ability",
+						"style": "compact",
+						"activity": {
+							"number": 2,
+							"unit": "action"
+						},
+						"components": [
+							"command",
+							"{@action Interact}"
+						],
+						"frequency": {
+							"number": 1,
+							"unit": "day"
+						},
+						"entries": [
+							"You strike the relic against a piece of flint and summon a {@creature fire wisp|B3}to assist you, which appears in an unoccupied square next to you. The {@creature fire wisp|B3} doesn’t act in combat, but it can assist you while you {@action Craft} items. You gain a +1 bonus to {@skill Crafting} checks involving blacksmithing and general metalworking, increasing to +2 at 9th level and +3 at 17th level. Once per day, when you roll a critical failure on a {@skill Crafting} check related to blacksmithing, you get a failure instead. The wisp replaces the need for a forge while blacksmithing, but you still require other equipment and tools. The wisp remains for up to 10 minutes or until you {@action Dismiss} it. You can extend this duration by an additional 10 minutes if you feed the wisp one light Bulk worth of charcoal or firewood, or one pint of oil."
+						]
+					}
+				]
+			},
+			"tags": {
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 114,
+				"ID": "LOHh"
+			},
+			"name": {
+				"primary": "Elements of Creation"
+			},
+			"data": {
+				"tier": "Major",
+				"traits": [
+					{
+						"trait": "air"
+					},
+					{
+						"trait": "conjuration"
+					},
+					{
+						"trait": "earth"
+					},
+					{
+						"trait": "water"
+					}
+				],
+				"aspects": [
+					{
+						"name": "forge"
+					}
+				],
+				"prerequisites": "{@relicGift creative spark|LOHh} gift",
+				"entries": [
+					"When you activate creative spark, you can choose to summon an {@creature air wisp|B3}, a {@creature water wisp|B3}, and an {@creature earth wisp|B3} in unoccupied squares next to you, in addition to the {@creature fire wisp|B3}. Unlike a typical {@creature earth wisp|B3}, the summoned {@creature earth wisp|B3} takes the form of a small iron creature resembling an anvil crossed with a horned beetle. Like the {@creature fire wisp|B3}, these additional wisps don’t act in combat but can assist you while you {@action Craft} items. While all four wisps are assisting you, the bonus you gain from {@relicGift creative spark|LOHh} is doubled, and your outcome for {@skill Crafting} checks related to blacksmithing is one degree of success better than your roll. In addition, being assisted by all four wisps replaces the need for any equipment other than blacksmithing tools when crafting metal items. The wisps last for up to 10 minutes or until you {@action Dismiss} them all together as an action. If you extend the duration of the {@creature fire wisp|B3}, it also extends the duration for the other wisps."
+				]
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 114,
+				"ID": "LOHh"
+			},
+			"name": {
+				"primary": "Forge Weld"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "transmutation"
+					}
+				],
+				"aspects": [
+					{
+						"name": "forge"
+					}
+				],
+				"entries": [
+					{
+						"type": "ability",
+						"style": "compact",
+						"activity": {
+							"number": 2,
+							"unit": "action"
+						},
+						"components": [
+							"command",
+							"{@action Interact}"
+						],
+						"frequency": {
+							"number": 1,
+							"unit": "day"
+						},
+						"entries": [
+							"You strike the relic against a non-magical metal object of 4 Bulk or less, repairing it. The object’s edges glow white hot, and you restore 5 Hit Points to the object per level of the relic. If this repairs the item above its Broken Threshold, it is no longer broken. This ability cannot replace lost pieces or restore something that’s been completely destroyed."
+						]
+					}
+				]
+			},
+			"tags": {
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 114,
+				"ID": "LOHh"
+			},
+			"name": {
+				"primary": "Living Forge"
+			},
+			"data": {
+				"tier": "Grand",
+				"traits": [
+					{
+						"trait": "polymorph"
+					},
+					{
+						"trait": "transmutation"
+					}
+				],
+				"aspects": [
+					{
+						"name": "forge"
+					}
+				],
+				"entries": [
+					{
+						"type": "ability",
+						"style": "compact",
+						"activity": {
+							"number": 2,
+							"unit": "action"
+						},
+						"components": [
+							"command",
+							"{@action Interact}"
+						],
+						"frequency": {
+							"number": 1,
+							"unit": "day"
+						},
+						"entries": [
+							"The relic is absorbed into your body, and you transform into an elemental being of red-hot steel. You gain the effects of 7th-level {@spell elemental form} and use the statistics for the forge battle form below. In this form, you can re-shape your limbs into different objects, such as a blade or hammer, by using an {@action Interact} action. Changing your limbs in this way allows you to choose between bludgeoning, physical, or slashing damage.",
+							{
+								"type": "list",
+								"items": [
+									{
+										"type": "item",
+										"name": "Forge",
+										"entries": [
+											"Speed 30 feet; fire resistance 10, weakness 5 to {@trait cold} and {@trait water}; {@b Melee} {@as 1} forgestrike, {@b Damage} {@damage 1d10} {@trait modular}; {@damage 1d4} {@condition persistent damage||persistent fire}."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tags": {
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 114,
+				"ID": "LOHh"
+			},
+			"name": {
+				"primary": "Molten Crucible"
+			},
+			"data": {
+				"tier": "Major",
+				"traits": [
+					{
+						"trait": "fire"
+					},
+					{
+						"trait": "transmutation"
+					}
+				],
+				"aspects": [
+					{
+						"name": "forge"
+					}
+				],
+				"entries": [
+					{
+						"type": "ability",
+						"style": "compact",
+						"activity": {
+							"number": 3,
+							"unit": "action"
+						},
+						"components": [
+							"command",
+							"{@action Interact}"
+						],
+						"frequency": {
+							"number": 1,
+							"unit": "day"
+						},
+						"entries": [
+							"You strike your relic against a weapon, armor, or shield made of metal. The item becomes red hot and, over the next 10 minutes, transforms into a different base item from the same category. This changes the item’s base form while retaining its same materials, runes, and magical properties. Both base items must have an item level of 1 or less, and weapons must require the same number of hands. Specific items can’t be changed in this way unless the GM expressly allows it. For example, a +2 cold iron mace can become a +2 cold iron longsword, or {@item chain mail} can become {@item half plate}, but a {@item moonlit chain} can’t be affected in this way."
+						]
+					}
+				]
+			},
+			"tags": {
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 114,
+				"ID": "LOHh"
+			},
+			"name": {
+				"primary": "Work Harden"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "abjuration"
+					}
+				],
+				"aspects": [
+					{
+						"name": "forge"
+					}
+				],
+				"entries": [
+					{
+						"type": "ability",
+						"style": "compact",
+						"activity": {
+							"number": 2,
+							"unit": "action"
+						},
+						"components": [
+							"command",
+							"{@action Interact}"
+						],
+						"frequency": {
+							"number": 1,
+							"unit": "day"
+						},
+						"entries": [
+							"You strike the relic against a shield or armor made of metal, and steam pours from it like it’s just been quenched. The target item hardens for 10 minutes, increasing its item bonus to AC by 1 if it’s armor or its Hardness by 5 if it’s a shield."
+						]
+					}
+				]
+			},
+			"tags": {
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 149,
+				"ID": "RoE"
+			},
+			"name": {
+				"primary": "At Will Decay"
+			},
+			"data": {
+				"tier": "Grand",
+				"traits": [
+					{
+						"trait": "metal"
+					}
+				],
+				"aspects": [
+					{
+						"name": "metal"
+					}
+				],
+				"entries": [
+					"Your relic’s link to the Plane of Metal tunes it in to the inevitability of rust and decay. You can cast 5th-rank {@spell rust cloud|RoE} at will as an innate spell.",
+					{
+						"type": "ability",
+						"style": "compact",
+						"activity": {
+							"number": 2,
+							"unit": "action"
+						},
+						"traits": [
+							"aura",
+							"concentrate"
+						],
+						"frequency": {
+							"number": 1,
+							"unit": "day"
+						},
+						"entries": [
+							"Rusted flakes swirl in a cloud around you, creating a 15-foot emanation that lasts for 1 minute. You’re {@condition concealed} to anyone outside the cloud. An enemy that starts its turn in the cloud takes 15 slashing damage with a basic Fortitude save. If the target has the {@trait metal} trait or is primarily made of metal, the damage is 30 instead. Unattended non-{@trait magical} {@trait metal} items within the cloud automatically become {@condition broken}."
+						]
+					}
+				]
+			},
+			"tags": {
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 148,
+				"ID": "RoE"
+			},
+			"name": {
+				"primary": "Enhancing Circuitry"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "metal"
+					}
+				],
+				"aspects": [
+					{
+						"name": "metal"
+					}
+				],
+				"entries": [
+					"Your relic is engraved with nodes and elements only visible from up close, lacking only a source of current for its machinations. You gain resistance to electricity equal to half the level of your relic (minimum 1).",
+					{
+						"type": "ability",
+						"style": "compact",
+						"name": "Activate—Complete the Circuit",
+						"activity": {
+							"number": 1,
+							"unit": "reaction"
+						},
+						"components": [
+							"{@trait manipulate}"
+						],
+						"trigger": "You are targeted by or are in the area of an {@trait electricity} effect",
+						"entries": [
+							"Your relic uses the triggering effect to complete its circuit. You choose which path the electricity takes down the circuit, gaining the corresponding benefit.",
+							{
+								"type": "list",
+								"items": [
+									{
+										"type": "item",
+										"name": "Capacitor",
+										"entries": [
+											"You become electrically charged, gaining a +1 status bonus to attack and damage rolls until the end of your next turn."
+										]
+									},
+									{
+										"type": "item",
+										"name": "Inductor",
+										"entries": [
+											"Your resistance against electricity damage increases to the level of your relic until the end of your next turn."
+										]
+									},
+									{
+										"type": "item",
+										"name": "Resistor",
+										"entries": [
+											"Your relic attempts to counteract the effect. On a failure, your relic overheats, dealing fire damage to you equal to the counteract rank of the effect (or double the counteract rank on a critical failure)."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tags": {
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 149,
+				"ID": "RoE"
+			},
+			"name": {
+				"primary": "Precious Anodization"
+			},
+			"data": {
+				"tier": "Major",
+				"traits": [
+					{
+						"trait": "metal"
+					}
+				],
+				"aspects": [
+					{
+						"name": "metal"
+					}
+				],
+				"entries": [
+					{
+						"type": "ability",
+						"style": "compact",
+						"activity": {
+							"number": 1,
+							"unit": "action"
+						},
+						"traits": [
+							"concentrate"
+						],
+						"frequency": {
+							"number": 1,
+							"unit": "day"
+						},
+						"entries": [
+							"For one minute, your relic is affected by a {@spell clad in metal|RoE} spell of a rank equal to half the relic’s level, rounded up. You can choose {@trait uncommon} metals in addition to {@trait common} ones."
+						]
+					}
+				]
+			},
+			"tags": {
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 149,
+				"ID": "RoE"
+			},
+			"name": {
+				"primary": "Rail Dash"
+			},
+			"data": {
+				"tier": "Major",
+				"traits": [
+					{
+						"trait": "metal"
+					}
+				],
+				"aspects": [
+					{
+						"name": "metal"
+					}
+				],
+				"entries": [
+					{
+						"type": "ability",
+						"style": "compact",
+						"activity": {
+							"number": 2,
+							"unit": "action"
+						},
+						"frequency": {
+							"number": 1,
+							"unit": "hour"
+						},
+						"entries": [
+							"Your relic conjures a guideway of magnets beneath you, creating a frictionless path for you to rush forward at high speeds. You {@action Stride} up to three times in a straight line. If you end your final {@action Stride} adjacent to an object or creature, you ram into it, dealing {@damage 1d12} bludgeoning damage for every 2 levels of the relic, with a basic Reflex save."
+						]
+					}
+				]
+			},
+			"tags": {
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
+				"page": 148,
+				"ID": "RoE"
+			},
+			"name": {
+				"primary": "Scrap Shot"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "metal"
+					}
+				],
+				"aspects": [
+					{
+						"name": "metal"
+					}
+				],
+				"entries": [
+					{
+						"type": "ability",
+						"style": "compact",
+						"activity": {
+							"number": 2,
+							"unit": "action"
+						},
+						"traits": [
+							"concentrate",
+							"manipulate"
+						],
+						"entries": [
+							"Magnetic repulsion sends a sharp chunk of metal scrap flying from your relic. Make a spell attack roll with your relic against a target within 30 feet. The chunk deals {@damage 1d6} piercing damage for every 2 levels the relic has (minimum {@damage 1d6}). If the target is wearing metal armor or is made of metal, you gain a +1 circumstance bonus to your spell attack roll, and the target becomes {@condition clumsy 1} until the start of your next turn as the scrap adheres to the target. If your relic is made of a precious metal, the shot is also made of or coated in that metal, bypassing resistances and the like accordingly. The scrap left behind by the shot rusts or crumbles quickly and isn’t worth anything if sold."
+						]
+					}
+				]
+			},
+			"tags": {
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
 				"page": 231,
 				"ID": "SoM"
 			},
@@ -5652,7 +6461,7 @@
 					}
 				],
 				"entries": [
-					"While the relic's fervor gift lasts, you have access to the spell provided by the emotional state, which you can cast using your own spell slots. You also have access to the following activation.",
+					"While the relic's {@relicGift fervor|TV} gift lasts, you have access to the spell provided by the emotional state {@note {@note (see the {@archetype Cathartic Mage|SoM|Cathartic Mage archetype})}, which you can cast using your own spell slots. You also have access to the following activation.",
 					{
 						"type": "ability",
 						"style": "compact",
@@ -5719,7 +6528,7 @@
 							"unit": "hour"
 						},
 						"entries": [
-							"You gain the emotional fervor benefits for your relic's emotional state (see {@archetype Cathartic Mage|SoM|Cathartic Mage Archetype}) for the next 3 rounds, but ignore the spell associated with the fervor. The feeling wears off quickly, so you experience no emotional fallout."
+							"You gain the emotional fervor benefits for your relic's emotional state {@note (see the {@archetype Cathartic Mage|SoM|Cathartic Mage archetype})} for the next 3 rounds, but ignore the spell associated with the fervor. The feeling wears off quickly, so you experience no emotional fallout."
 						]
 					}
 				]

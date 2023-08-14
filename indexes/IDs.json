@@ -89,6 +89,12 @@
 		"path": "./data/common/sourceGroup/Strength of Thousands.json",
 		"official": null
 	},
+	"C-WtD": {
+		"type": "sourceGroup",
+		"fullTitle": "Wake the Dead",
+		"path": "./data/common/sourceGroup/Wake the Dead.json",
+		"official": null
+	},
 	"AV0": {
 		"type": "source",
 		"fullTitle": "Abomination Vaults Player's Guide",
@@ -221,6 +227,12 @@
 		"path": "./data/core/Kingmaker/Kingmaker.json",
 		"official": true
 	},
+	"LTiBA-PSSD": {
+		"type": "source",
+		"fullTitle": "Little Trouble in Big Absalom Sanctioning Document",
+		"path": "./data/core/Little Trouble in Big Absalom Sanctioning Document/Little Trouble in Big Absalom Sanctioning Document.json",
+		"official": true
+	},
 	"LOAG": {
 		"type": "source",
 		"fullTitle": "Lost Omens: Ancestry Guide",
@@ -241,8 +253,8 @@
 	},
 	"LOFb": {
 		"type": "source",
-		"fullTitle": "Lost Omens_ Firebrands",
-		"path": "./data/core/Lost Omens_ Firebands/Lost Omens_ Firebrands.json",
+		"fullTitle": "Lost Omens: Firebrands",
+		"path": "./data/core/Lost Omens_ Firebrands/Lost Omens_ Firebrands.json",
 		"official": true
 	},
 	"LOGM": {
@@ -251,7 +263,7 @@
 		"path": "./data/core/Lost Omens_ Gods & Magic/Lost Omens_ Gods & Magic.json",
 		"official": true
 	},
-	"LOGMWS": {
+	"LOGM-WS": {
 		"type": "source",
 		"fullTitle": "Lost Omens: Gods & Magic Web Supplement",
 		"path": "./data/core/Lost Omens_ Gods & Magic Web Supplement/Lost Omens_ Gods & Magic Web Supplement.json",
@@ -364,5 +376,17 @@
 		"fullTitle": "Treasure Vault",
 		"path": "./data/core/Treasure Vault/Treasure Vault.json",
 		"official": true
+	},
+	"C-WtD1": {
+		"type": "source",
+		"fullTitle": "Wake the Dead #1",
+		"path": "./data/core/Wake the Dead #1/Wake the Dead #1.json",
+		"official": false
+	},
+	"C-WtD2": {
+		"type": "source",
+		"fullTitle": "Wake the Dead #2",
+		"path": "./data/core/Wake the Dead #2/Wake the Dead #2.json",
+		"official": false
 	}
 }

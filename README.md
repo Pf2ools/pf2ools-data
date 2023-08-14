@@ -1,6 +1,6 @@
-# Pf2ools Data
+# The Pf2ools Data Repository
 
-A project in the [Pf2ools](https://github.com/Pf2ools) ecosystem to represent all Pathfinder 2nd Edition Remastered game content in JSON format.
+A project in the [Pf2ools](https://github.com/Pf2ools) ecosystem to represent all Pathfinder 2nd Edition game content in JSON format.
 
 - [Overview](#overview)
   - [Data structure](#data-structure)
@@ -32,7 +32,7 @@ All files are JSON objects with the following properties:
 
 There might also be a `tags` property, which contains various categories and variables that don't directly define the statblock itself.
 
-The exact form of each of these properties can be investigated using the [schema](./schema/).
+The exact form of each of these properties can be investigated over in the [Pf2ools Schema](https://github.com/Pf2ools/pf2ools-schema).
 
 ### Conventions
 

@@ -639,7 +639,7 @@
 					}
 				],
 				"entries": [
-					"While the relic's fervor gift lasts, you have access to the spell provided by the emotional state, which you can cast using your own spell slots. You also have access to the following activation.",
+					"While the relic's {@relicGift fervor|TV} gift lasts, you have access to the spell provided by the emotional state {@note {@note (see the {@archetype Cathartic Mage|SoM|Cathartic Mage archetype})}, which you can cast using your own spell slots. You also have access to the following activation.",
 					{
 						"type": "ability",
 						"style": "compact",
@@ -706,7 +706,7 @@
 							"unit": "hour"
 						},
 						"entries": [
-							"You gain the emotional fervor benefits for your relic's emotional state (see {@archetype Cathartic Mage|SoM|Cathartic Mage Archetype}) for the next 3 rounds, but ignore the spell associated with the fervor. The feeling wears off quickly, so you experience no emotional fallout."
+							"You gain the emotional fervor benefits for your relic's emotional state {@note (see the {@archetype Cathartic Mage|SoM|Cathartic Mage archetype})} for the next 3 rounds, but ignore the spell associated with the fervor. The feeling wears off quickly, so you experience no emotional fallout."
 						]
 					}
 				]
