@@ -35,7 +35,7 @@
 					"unit": "day"
 				},
 				"entries": [
-					"For one minute, your relic is affected by a {@spell clad in metal|RoE} spell of a rank equal to half the relic’s level, rounded up. You can choose {@trait uncommon} metals in addition to {@trait common} ones."
+					"For one minute, your relic is affected by a {@spell clad in metal|RoE} spell of a rank equal to half the relic's level, rounded up. You can choose {@trait uncommon} metals in addition to {@trait common} ones."
 				]
 			}
 		]

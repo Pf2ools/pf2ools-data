@@ -24,7 +24,7 @@
 			{
 				"type": "ability",
 				"style": "compact",
-				"name": "Activate—Complete the Circuit",
+				"name": "Activate\u2014Complete the Circuit",
 				"activity": {
 					"number": 1,
 					"unit": "reaction"

@@ -42,7 +42,7 @@
 					"Critical Success": "Even without wings of your own, the streams of air manage to lift you off the ground. You gain a fly Speed equal to your Speed for 1 week.",
 					"Success": "The winds cling to your feet, even after you leave them behind. You gain resistance equal to your level against falling damage for 1 year.",
 					"Failure": "The sound of rushing air sticks in your ears, disrupting your hearing. You're {@condition deafened}, except the flat check to perform an action with the {@trait auditory} trait is even harder than usual, with a DC of 11 instead of 5. This effect lasts for 1 week.",
-					"Critical Failure": "A bothersome gust begins to follow you, cropping up at the worst of times and skewing your aim. You take a −2 status penalty to all attack rolls for 1 month."
+					"Critical Failure": "A bothersome gust begins to follow you, cropping up at the worst of times and skewing your aim. You take a \u22122 status penalty to all attack rolls for 1 month."
 				}
 			}
 		]

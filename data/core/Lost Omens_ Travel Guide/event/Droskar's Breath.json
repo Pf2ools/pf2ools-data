@@ -38,7 +38,7 @@
 			}
 		],
 		"entries": [
-			"Whether by bad fate or intention, you're caught in the ash cloud of Droskar's Crag as it releases its fumes, requiring 1 day of downtime to escape. The air scorches your lungs as you breathe, and visibility is almost nothing. The only good news is the mountain is not erupting—yet. Attempt a DC 22 check.",
+			"Whether by bad fate or intention, you're caught in the ash cloud of Droskar's Crag as it releases its fumes, requiring 1 day of downtime to escape. The air scorches your lungs as you breathe, and visibility is almost nothing. The only good news is the mountain is not erupting\u2014yet. Attempt a DC 22 check.",
 			{
 				"type": "successDegree",
 				"entries": {

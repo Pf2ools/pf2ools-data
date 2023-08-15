@@ -9,7 +9,7 @@
 	},
 	"data": {
 		"entries": [
-			"You're at home blazing trails in the burning sands, and you made a living guiding or following creatures in the desert. You might be a native nomad, an experienced desert guide, a naturalist, a bandit driven into the dunes by the law—or all of the above.",
+			"You're at home blazing trails in the burning sands, and you made a living guiding or following creatures in the desert. You might be a native nomad, an experienced desert guide, a naturalist, a bandit driven into the dunes by the law\u2014or all of the above.",
 			"Choose two ability boosts. One must be to Constitution or Wisdom, and one is a free ability boost.",
 			"You're trained in the {@skill Survival} skill and the {@skill Lore||Desert Lore} skill. You gain the {@feat Experienced Tracker} skill feat."
 		]

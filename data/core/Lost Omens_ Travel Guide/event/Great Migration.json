@@ -41,8 +41,8 @@
 				"entries": {
 					"Critical Success": "Your predatory senses heighten to an intense degree. You gain a +1 circumstance bonus to {@skill Nature} and {@skill Stealth} checks and gain scent as an imprecise sense with a range of 60 feet. Your instincts remain sharpened for 1 year.",
 					"Success": "Your senses heighten, and you gain a greater understanding of natural predators. As critical success, except you don't gain scent and your senses are heightened for only 1 month.",
-					"Failure": "Keeping up with the prides proves too difficult for you, and you injure yourself. You take a −10-foot penalty to your Speeds for 1 week.",
-					"Critical Failure": "Your meddling causes several cubs to become injured, something that weighs on your conscience. You can't use the {@action Command an Animal} action and take a −2 circumstance penalty on {@skill Nature} checks; both of these effects last for 1 month."
+					"Failure": "Keeping up with the prides proves too difficult for you, and you injure yourself. You take a \u221210-foot penalty to your Speeds for 1 week.",
+					"Critical Failure": "Your meddling causes several cubs to become injured, something that weighs on your conscience. You can't use the {@action Command an Animal} action and take a \u22122 circumstance penalty on {@skill Nature} checks; both of these effects last for 1 month."
 				}
 			}
 		]

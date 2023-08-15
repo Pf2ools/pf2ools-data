@@ -9,7 +9,7 @@
 	},
 	"data": {
 		"entries": [
-			"In an isolated place—like a cave, remote oasis, or secluded mansion—you lived a life of solitude. Adventuring might represent your first foray out among other people in some time.",
+			"In an isolated place\u2014like a cave, remote oasis, or secluded mansion\u2014you lived a life of solitude. Adventuring might represent your first foray out among other people in some time.",
 			"This might be a welcome reprieve from solitude or an unwanted change, but in either case, you're likely still rough around the edges.",
 			"Choose two ability boosts. One must be to Constitution or Intelligence, and one is a free ability boost.",
 			"You're trained in the {@skill Nature} or {@skill Occultism} skill, plus a {@skill Lore} skill related to the terrain you lived in as a hermit (such as {@skill Lore||Cave Lore} or {@skill Lore||Desert Lore}). You gain the {@feat Dubious Knowledge} skill feat."

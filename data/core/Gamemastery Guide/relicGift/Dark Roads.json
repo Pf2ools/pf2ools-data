@@ -39,7 +39,7 @@
 				],
 				"entries": [
 					"Your relic creates a path from your shadow to a nearby one, teleporting you and any items you're wearing or holding from your current space to an unoccupied one within 30 feet that you can see. You can't use the dark roads gift again for {@dice 1d4} rounds.",
-					"If the destination is not within an area of bright light, the range is instead 60 feet. If this would bring another creature with you—even if you're carrying it in an extradimensional container—the gift fails."
+					"If the destination is not within an area of bright light, the range is instead 60 feet. If this would bring another creature with you\u2014even if you're carrying it in an extradimensional container\u2014the gift fails."
 				]
 			}
 		]

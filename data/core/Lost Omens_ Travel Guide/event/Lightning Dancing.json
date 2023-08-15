@@ -41,7 +41,7 @@
 				"entries": {
 					"Critical Success": "Static electricity suffuses your limbs, arcing electricity over objects you touch. Your {@action Strike||Strikes} with melee weapons and unarmed attacks deal {@damage 1d4} additional persistent electricity damage for 1 year.",
 					"Success": "The practice gained from jumping between lightning bolts is surprisingly useful. You gain a +1 circumstance bonus to saves against effects with the {@trait electricity} trait.",
-					"Failure": "The lightning strikes you, charging your body with a magnetic pull. You take a −2 circumstance penalty to AC against attacks made with a metal weapon, as determined by the GM. Additionally, you're considered to be wearing armor for the purpose of effects such as {@spell shocking grasp} that present additional danger to creatures wearing metal armor. Your magnetized state remains for 1 week.",
+					"Failure": "The lightning strikes you, charging your body with a magnetic pull. You take a \u22122 circumstance penalty to AC against attacks made with a metal weapon, as determined by the GM. Additionally, you're considered to be wearing armor for the purpose of effects such as {@spell shocking grasp} that present additional danger to creatures wearing metal armor. Your magnetized state remains for 1 week.",
 					"Critical Failure": "You're struck by a particularly strong bolt of lightning, leaving you with astraphobia. Whenever you take electricity damage, you must also succeed at a Will save against the DC of the damaging effect. On a failure, you become {@condition frightened 2} ({@condition frightened 3} on a critical failure). It takes at least a month of downtime spent on incremental therapy to remove this effect."
 				}
 			}

@@ -9,7 +9,7 @@
 	},
 	"data": {
 		"entries": [
-			"You know that the only way your homeland of Vidrian can remain free from outside conquerors is by forging a strong and unified government. As such, you seek to bind your fellow citizens together through careful diplomacy and force of personality—or, if necessary, subterfuge and intrigue.",
+			"You know that the only way your homeland of Vidrian can remain free from outside conquerors is by forging a strong and unified government. As such, you seek to bind your fellow citizens together through careful diplomacy and force of personality\u2014or, if necessary, subterfuge and intrigue.",
 			"Choose two ability boosts. One must be to Dexterity or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Diplomacy} skill and the {@skill Lore||Politics Lore} skill.",
 			"You gain the {@feat Hobnobber} skill feat."

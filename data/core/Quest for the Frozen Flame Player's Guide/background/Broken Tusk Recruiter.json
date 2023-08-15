@@ -14,9 +14,9 @@
 			}
 		],
 		"entries": [
-			"Your gifted tongue, friendly demeanor, and deep knowledge of Broken Tusk culture and traditions make you an ideal recruiter for new followers. Whenever Broken Tusks come upon weak, weary, or wandering souls, you’re often the first sent to meet these folks and determine if they would be a good fit for the following.",
+			"Your gifted tongue, friendly demeanor, and deep knowledge of Broken Tusk culture and traditions make you an ideal recruiter for new followers. Whenever Broken Tusks come upon weak, weary, or wandering souls, you're often the first sent to meet these folks and determine if they would be a good fit for the following.",
 			"Choose two ability boosts. One must be to Constitution or Charisma, and one is a free ability boost.",
-			"You’re trained in the {@skill Diplomacy} skill and the {@skill Lore||Hillcross Lore} skill. You gain the {@feat Group Impression} skill feat."
+			"You're trained in the {@skill Diplomacy} skill and the {@skill Lore||Hillcross Lore} skill. You gain the {@feat Group Impression} skill feat."
 		]
 	},
 	"tags": {

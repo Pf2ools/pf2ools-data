@@ -9,9 +9,9 @@
 	},
 	"data": {
 		"entries": [
-			"You might have fought for fairer ore distribution for the Metalmaker’s Union, higher chef’s pay in the Provisioners’ Union, or better mercenary contracts for the Union of Axe and Coin. Whatever the case, you have experience in the high-stakes world of the negotiating table, experience that translates surprisingly well to adventuring.",
+			"You might have fought for fairer ore distribution for the Metalmaker's Union, higher chef's pay in the Provisioners' Union, or better mercenary contracts for the Union of Axe and Coin. Whatever the case, you have experience in the high-stakes world of the negotiating table, experience that translates surprisingly well to adventuring.",
 			"Choose two ability boosts. One must be to Intelligence or Charisma, the other is a free boost.",
-			"You’re trained in the {@skill Diplomacy} skill and the {@skill Lore||Legal Lore} skill. You gain the {@feat Contract Negotiator|LOHh} skill feat."
+			"You're trained in the {@skill Diplomacy} skill and the {@skill Lore||Legal Lore} skill. You gain the {@feat Contract Negotiator|LOHh} skill feat."
 		]
 	},
 	"tags": {

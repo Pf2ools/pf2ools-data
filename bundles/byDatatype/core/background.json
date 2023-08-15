@@ -2601,10 +2601,10 @@
 					}
 				],
 				"entries": [
-					"You worked for many years as a hauler within Geb, either on your own or with a larger operation that shipped goods across Geb’s ancient roads. In either case, you were loosely affiliated with the Carters Consortium, and you might have even been part of that faction when allegations of Pharasma worship among its leaders caused the faction’s sharp drop in significance. Yet the goods still need to be moved from ports to warehouses or from town to town, and that was your business. You’ve seen a lot of Geb in your time, and you’re good at interacting with the quick and the dead alike, but you’ve given up the shipping business for more lucrative opportunities.",
+					"You worked for many years as a hauler within Geb, either on your own or with a larger operation that shipped goods across Geb's ancient roads. In either case, you were loosely affiliated with the Carters Consortium, and you might have even been part of that faction when allegations of Pharasma worship among its leaders caused the faction's sharp drop in significance. Yet the goods still need to be moved from ports to warehouses or from town to town, and that was your business. You've seen a lot of Geb in your time, and you're good at interacting with the quick and the dead alike, but you've given up the shipping business for more lucrative opportunities.",
 					"The Carters Consortium values your past work, especially because so few people are sticking by them today. Your party gains 1 Reputation Point with the Carters Consortium at the start of the campaign.",
 					"Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
-					"You’re trained in your choice of the {@skill Deception} or {@skill Diplomacy} skill. You gain a skill feat: {@feat Charming Liar} if you chose {@skill Deception} or {@feat Hobnobber} if you chose {@skill Diplomacy}. You’re also trained in a {@skill Lore} skill with one of Geb’s cities: Graydirge, Mechitar, or Yled."
+					"You're trained in your choice of the {@skill Deception} or {@skill Diplomacy} skill. You gain a skill feat: {@feat Charming Liar} if you chose {@skill Deception} or {@feat Hobnobber} if you chose {@skill Diplomacy}. You're also trained in a {@skill Lore} skill with one of Geb's cities: Graydirge, Mechitar, or Yled."
 				]
 			},
 			"tags": {
@@ -2655,10 +2655,10 @@
 					}
 				],
 				"entries": [
-					"You helped to build and design buildings and public works on behalf of Geb’s architectural faction, the Builders League. You’ve been taught that creating bridges, gatehouses, roads, walls, and more is as much about planning as it is about brute labor. You learned that the Builders League has plans of occult significance for many of its construction projects and might have even aided them in the way you laid stones or designed walls (although you never learned the great design behind those secret plans). Although you’ve left construction behind, the skills in long-term planning and leveraging effort remain with you.",
+					"You helped to build and design buildings and public works on behalf of Geb's architectural faction, the Builders League. You've been taught that creating bridges, gatehouses, roads, walls, and more is as much about planning as it is about brute labor. You learned that the Builders League has plans of occult significance for many of its construction projects and might have even aided them in the way you laid stones or designed walls (although you never learned the great design behind those secret plans). Although you've left construction behind, the skills in long-term planning and leveraging effort remain with you.",
 					"You are still well-regarded by the Builders League. Your party gains 1 Reputation Point with the Builders League at the start of the campaign.",
 					"Choose two ability boosts. One must be to Intelligence or Strength, and one is a free ability boost.",
-					"You’re trained in your choice of the {@skill Athletics} or {@skill Occultism} skill. You gain a skill feat: {@feat Hefty Hauler} if you chose {@skill Athletics} or {@feat Oddity Identification} if you chose {@skill Occultism}. You’re also trained in {@skill Lore||Architecture Lore}."
+					"You're trained in your choice of the {@skill Athletics} or {@skill Occultism} skill. You gain a skill feat: {@feat Hefty Hauler} if you chose {@skill Athletics} or {@feat Oddity Identification} if you chose {@skill Occultism}. You're also trained in {@skill Lore||Architecture Lore}."
 				]
 			},
 			"tags": {
@@ -2709,10 +2709,10 @@
 					}
 				],
 				"entries": [
-					"The number of zombies working across Geb as farmhands, laborers, or shambling soldiers seems nearly uncountable. None of these zombies can do their work if they fall to pieces, so the Reanimators maintain legions of surgeons and tailors to keep zombies stitched together and suitable for service. You were one of these corpse stitchers, working long hours to ensure that Geb’s mindless workforce could perform at its best. On the day you saw some of your friends come under your needle, you realized how expendable Geb’s fleshy population truly is, and you decided that you should seek out a different line of work.",
+					"The number of zombies working across Geb as farmhands, laborers, or shambling soldiers seems nearly uncountable. None of these zombies can do their work if they fall to pieces, so the Reanimators maintain legions of surgeons and tailors to keep zombies stitched together and suitable for service. You were one of these corpse stitchers, working long hours to ensure that Geb's mindless workforce could perform at its best. On the day you saw some of your friends come under your needle, you realized how expendable Geb's fleshy population truly is, and you decided that you should seek out a different line of work.",
 					"The Reanimators appreciate your past service. Your party gains 1 Reputation Point with the Reanimators at the start of the campaign.",
 					"Choose two ability boosts. One must be to Constitution or Wisdom, and one is a free ability boost.",
-					"You’re trained in the {@skill Medicine} skill. You gain your choice of either the {@feat Risky Surgery|APG} or {@feat Stitch Flesh|BotD} skill feats. You’re also trained in {@skill Lore||Zombie Lore}."
+					"You're trained in the {@skill Medicine} skill. You gain your choice of either the {@feat Risky Surgery|APG} or {@feat Stitch Flesh|BotD} skill feats. You're also trained in {@skill Lore||Zombie Lore}."
 				]
 			},
 			"tags": {
@@ -2762,10 +2762,10 @@
 					}
 				],
 				"entries": [
-					"In your past, you accompanied caravans, ships, or both hauling foodstuffs out of Geb for export. You might be a Gebbite or a foreigner who has decided to work in Geb because of the undeniable opportunities. In any case, you’ve traveled between Geb and other nations of the Inner Sea and seen firsthand that many nations view Geb with a combination of barely disguised revulsion and eagerness for its bountiful food exports. Even though you aren’t in that line of business any longer, you understand how vital this international trade is to Geb’s prosperity and appreciate the hardworking people who work in it.",
-					"You are still highly regarded by the Export Guild for your past journeys on the nation’s behalf. Your party gains 1 Reputation Point with the Export Guild at the start of the campaign.",
+					"In your past, you accompanied caravans, ships, or both hauling foodstuffs out of Geb for export. You might be a Gebbite or a foreigner who has decided to work in Geb because of the undeniable opportunities. In any case, you've traveled between Geb and other nations of the Inner Sea and seen firsthand that many nations view Geb with a combination of barely disguised revulsion and eagerness for its bountiful food exports. Even though you aren't in that line of business any longer, you understand how vital this international trade is to Geb's prosperity and appreciate the hardworking people who work in it.",
+					"You are still highly regarded by the Export Guild for your past journeys on the nation's behalf. Your party gains 1 Reputation Point with the Export Guild at the start of the campaign.",
 					"Choose two ability boosts. One must be to Constitution or Intelligence, and one is a free ability boost.",
-					"You’re trained in your choice of the {@skill Crafting} or {@skill Society} skill. You gain a skill feat: {@feat Seasoned|APG} if you chose {@skill Crafting} or {@feat Streetwise} if you chose {@skill Society}. You’re also trained in {@skill Lore||Mercantile Lore}."
+					"You're trained in your choice of the {@skill Crafting} or {@skill Society} skill. You gain a skill feat: {@feat Seasoned|APG} if you chose {@skill Crafting} or {@feat Streetwise} if you chose {@skill Society}. You're also trained in {@skill Lore||Mercantile Lore}."
 				]
 			},
 			"tags": {
@@ -2816,10 +2816,10 @@
 					}
 				],
 				"entries": [
-					"The wealthiest of all the factions in Geb is the Tax Collectors Union, but it’s the money counters in its banks and vaults that keep the numbers tallied. You used to work as one of these drudges who counted other people’s money all day, until you decided to slip some unaccounted coins into your own pocket. You weren’t caught, but you knew it would only be a matter of time before you felt the Union’s wrath if you remained employed. You took the next opportunity to leave with both your official and unofficial final payments.",
+					"The wealthiest of all the factions in Geb is the Tax Collectors Union, but it's the money counters in its banks and vaults that keep the numbers tallied. You used to work as one of these drudges who counted other people's money all day, until you decided to slip some unaccounted coins into your own pocket. You weren't caught, but you knew it would only be a matter of time before you felt the Union's wrath if you remained employed. You took the next opportunity to leave with both your official and unofficial final payments.",
 					"The Tax Collectors Union is unaware of your petty theft, and you remain in good standing with them. Your party gains 1 Reputation Point with the Tax Collectors Union at the start of the campaign.",
 					"Choose two ability boosts. One must be to Dexterity or Intelligence, and one is a free ability boost.",
-					"You’re trained in your choice of the {@skill Society} or {@skill Thievery} skill. You gain a skill feat: {@feat Eye for Numbers|APG} if you chose {@skill Society} or {@feat Subtle Theft} if you chose {@skill Thievery}. You’re also trained in {@skill Lore||Accounting Lore}."
+					"You're trained in your choice of the {@skill Society} or {@skill Thievery} skill. You gain a skill feat: {@feat Eye for Numbers|APG} if you chose {@skill Society} or {@feat Subtle Theft} if you chose {@skill Thievery}. You're also trained in {@skill Lore||Accounting Lore}."
 				]
 			},
 			"tags": {
@@ -2870,10 +2870,10 @@
 					}
 				],
 				"entries": [
-					"The ghost king Geb has returned to a more active role in leading his nation after thousands of years, and it’s shocking that some people in the nation haven’t heard that. You helped the Celebrants plan parades, exciting displays like circuses, news missives, and more to help push messages of loyalty to the nation. Even though most Celebrants are followers of Urgathoa, deity of gluttony and undeath, you might follow a different faith (or no faith at all); more important is helping Celebrants spread their message. You started to see that propaganda was often timed to help the Celebrants, in addition to the nation as a whole, and you saw just how powerful the right message at the right time can be.",
+					"The ghost king Geb has returned to a more active role in leading his nation after thousands of years, and it's shocking that some people in the nation haven't heard that. You helped the Celebrants plan parades, exciting displays like circuses, news missives, and more to help push messages of loyalty to the nation. Even though most Celebrants are followers of Urgathoa, deity of gluttony and undeath, you might follow a different faith (or no faith at all); more important is helping Celebrants spread their message. You started to see that propaganda was often timed to help the Celebrants, in addition to the nation as a whole, and you saw just how powerful the right message at the right time can be.",
 					"You are still well-regarded by the Celebrants. Your party gains 1 Reputation Point with the Celebrants at the start of the campaign.",
 					"Choose two ability boosts. One must be to Charisma or Dexterity, and one is a free ability boost.",
-					"You’re trained in your choice of the {@skill Acrobatics} or {@skill Performance} skill. You gain a skill feat: {@feat Steady Balance} if you chose {@skill Acrobatics} or {@feat Impressive Performance} if you chose {@skill Performance}. You’re also trained in {@skill Lore||Urgathoa Lore}."
+					"You're trained in your choice of the {@skill Acrobatics} or {@skill Performance} skill. You gain a skill feat: {@feat Steady Balance} if you chose {@skill Acrobatics} or {@feat Impressive Performance} if you chose {@skill Performance}. You're also trained in {@skill Lore||Urgathoa Lore}."
 				]
 			},
 			"tags": {
@@ -7773,9 +7773,9 @@
 					}
 				],
 				"entries": [
-					"You have long lived along the southern border of Brevoy, in the shadow of the wilderness known as the Stolen Lands. Life has been hard, but through hunting, trapping, trading, and coaxing crops from the ground, you’ve learned how to survive on the rugged frontier. Whether because of your personal expertise and familiarity with the borderlands or in order to reclaim your family’s land, you’ve joined the expedition into the Stolen Lands.",
+					"You have long lived along the southern border of Brevoy, in the shadow of the wilderness known as the Stolen Lands. Life has been hard, but through hunting, trapping, trading, and coaxing crops from the ground, you've learned how to survive on the rugged frontier. Whether because of your personal expertise and familiarity with the borderlands or in order to reclaim your family's land, you've joined the expedition into the Stolen Lands.",
 					"Choose two ability boosts. One must be to Strength or Wisdom, and one is a free ability boost.",
-					"You’re trained in the {@skill Nature} skill and a {@skill Lore} skill associated with a particular type of wilderness (choose from forest, hills, mountains, plains, rivers, or swamp). You gain the {@feat Train Animal} skill feat."
+					"You're trained in the {@skill Nature} skill and a {@skill Lore} skill associated with a particular type of wilderness (choose from forest, hills, mountains, plains, rivers, or swamp). You gain the {@feat Train Animal} skill feat."
 				]
 			},
 			"tags": {
@@ -7821,7 +7821,7 @@
 					}
 				],
 				"entries": [
-					"You claim a tangential but legitimate connection to one of Brevoy’s noble families. If you aren’t human, you were adopted by one of Brevoy’s nobles or were perhaps a favored servant or even a childhood friend of a noble scion. Whatever the case, you’ve had a comfortable life, though still a far cry from the one your distant cousins or close associates know. An expedition into the storied Stolen Lands seems like just the test to see if you really are worthy of the “noble” title.",
+					"You claim a tangential but legitimate connection to one of Brevoy's noble families. If you aren't human, you were adopted by one of Brevoy's nobles or were perhaps a favored servant or even a childhood friend of a noble scion. Whatever the case, you've had a comfortable life, though still a far cry from the one your distant cousins or close associates know. An expedition into the storied Stolen Lands seems like just the test to see if you really are worthy of the \"noble\" title.",
 					"Choose two ability boosts. One must be to Constitution or Wisdom, and one is a free ability boost.",
 					"Choose one of the Brevic lineages below.",
 					{
@@ -7831,42 +7831,42 @@
 								"type": "item",
 								"name": "Garess",
 								"entries": [
-									"Family ties to the Golushkin Mountain dwarves left its mark. Your family motto is “Strong as the Mountains.” You’re trained in the {@skill Crafting} skill and the {@skill Lore||Architecture Lore} skill. You gain the {@feat Specialty Crafting} skill feat."
+									"Family ties to the Golushkin Mountain dwarves left its mark. Your family motto is \"Strong as the Mountains.\" You're trained in the {@skill Crafting} skill and the {@skill Lore||Architecture Lore} skill. You gain the {@feat Specialty Crafting} skill feat."
 								]
 							},
 							{
 								"type": "item",
 								"name": "Lebeda",
 								"entries": [
-									"Your family’s history of trading along the shores of Lake Reykal pervades your blood. Your family motto is “Success through Grace.” You’re trained in the {@skill Society} skill and the {@skill Lore||Mercantile Lore} skill. You gain the {@feat Multilingual} skill feat."
+									"Your family's history of trading along the shores of Lake Reykal pervades your blood. Your family motto is \"Success through Grace.\" You're trained in the {@skill Society} skill and the {@skill Lore||Mercantile Lore} skill. You gain the {@feat Multilingual} skill feat."
 								]
 							},
 							{
 								"type": "item",
 								"name": "Lodovka",
 								"entries": [
-									"Your family has made a living off the coasts of the Lake of Mists and Veils since before Brevoy existed. Your family motto is “The Waters, Our Fields.” You’re trained in the {@skill Athletics} skill and the {@skill Lore||Fishing Lore} skill. You gain the {@feat Underwater Marauder} skill feat."
+									"Your family has made a living off the coasts of the Lake of Mists and Veils since before Brevoy existed. Your family motto is \"The Waters, Our Fields.\" You're trained in the {@skill Athletics} skill and the {@skill Lore||Fishing Lore} skill. You gain the {@feat Underwater Marauder} skill feat."
 								]
 							},
 							{
 								"type": "item",
 								"name": "Medvyed",
 								"entries": [
-									"Your family has a deep respect for the wilderness and is skilled at hunting and surviving off the land. Your family motto is “Endurance Overcomes All.” You’re trained in the {@skill Survival} skill and the {@skill Lore||Hunting Lore} skill. You gain the {@feat Terrain Expertise} skill feat (choose your terrain from aquatic, forest, mountain, plains, or swamp)."
+									"Your family has a deep respect for the wilderness and is skilled at hunting and surviving off the land. Your family motto is \"Endurance Overcomes All.\" You're trained in the {@skill Survival} skill and the {@skill Lore||Hunting Lore} skill. You gain the {@feat Terrain Expertise} skill feat (choose your terrain from aquatic, forest, mountain, plains, or swamp)."
 								]
 							},
 							{
 								"type": "item",
 								"name": "Orlovsky",
 								"entries": [
-									"Your family has a reputation for avoiding conflicts. Your family motto is “High Above.” You’re trained in the {@skill Diplomacy} skill and the {@skill Lore||Brevoy Lore} skill. You gain the {@feat Group Impression} skill feat."
+									"Your family has a reputation for avoiding conflicts. Your family motto is \"High Above.\" You're trained in the {@skill Diplomacy} skill and the {@skill Lore||Brevoy Lore} skill. You gain the {@feat Group Impression} skill feat."
 								]
 							},
 							{
 								"type": "item",
 								"name": "Surtova",
 								"entries": [
-									"Your family is well known for their political agility and scheming nature. Your family motto is “Ours Is the Right.” You’re trained in the {@skill Deception} skill and the {@skill Lore||Politics Lore} skill. You gain the {@feat Charming Liar} skill feat."
+									"Your family is well known for their political agility and scheming nature. Your family motto is \"Ours Is the Right.\" You're trained in the {@skill Deception} skill and the {@skill Lore||Politics Lore} skill. You gain the {@feat Charming Liar} skill feat."
 								]
 							}
 						]
@@ -7941,9 +7941,9 @@
 					}
 				],
 				"entries": [
-					"One of your parents was a member of one of the great families of Brevoy, perhaps even of the line of Rogarvia itself. Yet you have no substantive proof of your nobility, and you’ve learned that claiming such without evidence is a fool’s game. Whether a recent attempt to prove your heritage brought down the wrath of a noble family or you seek to prove the worth of the blood in your veins, you’ve joined an expedition into the Stolen Lands, hoping to make a name all your own.",
+					"One of your parents was a member of one of the great families of Brevoy, perhaps even of the line of Rogarvia itself. Yet you have no substantive proof of your nobility, and you've learned that claiming such without evidence is a fool's game. Whether a recent attempt to prove your heritage brought down the wrath of a noble family or you seek to prove the worth of the blood in your veins, you've joined an expedition into the Stolen Lands, hoping to make a name all your own.",
 					"Choose two ability boosts. One must be to Charisma or Constitution, and one is a free ability boost.",
-					"You’re trained in the {@skill Lore||Politics Lore} skill. You take a –1 penalty on all Charisma-based skill checks attempted when dealing with members of the nobility, but gain the {@feat Haughty Obstinacy} human ancestry feat, even if you aren’t a {@ancestry human}. If you manage to establish yourself as a true noble or secure a leadership role in a kingdom, you no longer take the penalty to Charisma-based checks."
+					"You're trained in the {@skill Lore||Politics Lore} skill. You take a –1 penalty on all Charisma-based skill checks attempted when dealing with members of the nobility, but gain the {@feat Haughty Obstinacy} human ancestry feat, even if you aren't a {@ancestry human}. If you manage to establish yourself as a true noble or secure a leadership role in a kingdom, you no longer take the penalty to Charisma-based checks."
 				]
 			},
 			"tags": {
@@ -7991,9 +7991,9 @@
 					}
 				],
 				"entries": [
-					"You grew up in northern Brevoy, but the call for heroes willing to help take back your country’s rightful holdings in the Stolen Lands has inflamed your dreams of profit and possibilities, and you have joined an expedition journeying south.",
+					"You grew up in northern Brevoy, but the call for heroes willing to help take back your country's rightful holdings in the Stolen Lands has inflamed your dreams of profit and possibilities, and you have joined an expedition journeying south.",
 					"Choose two ability boosts. One must be to Dexterity or Intelligence, and one is a free ability boost.",
-					"You’re trained in the {@skill Society} skill and the {@skill Lore||Legal Lore} skill. You gain the {@feat Streetwise} skill feat."
+					"You're trained in the {@skill Society} skill and the {@skill Lore||Legal Lore} skill. You gain the {@feat Streetwise} skill feat."
 				]
 			},
 			"tags": {
@@ -8039,9 +8039,9 @@
 					}
 				],
 				"entries": [
-					"You hail from the River Kingdoms or the more lawless reaches of Brevoy. Your life has been hard. You know how to ambush travelers, bully traders, avoid the law, and camp where no one can find you. Recently, you’ve run into some trouble, either with the law or with other bandits, and you’re looking to get away to somewhere no one would ever think to look for you. An expedition into the rugged wilderness seems like a perfect way to lie low until the trouble blows over.",
+					"You hail from the River Kingdoms or the more lawless reaches of Brevoy. Your life has been hard. You know how to ambush travelers, bully traders, avoid the law, and camp where no one can find you. Recently, you've run into some trouble, either with the law or with other bandits, and you're looking to get away to somewhere no one would ever think to look for you. An expedition into the rugged wilderness seems like a perfect way to lie low until the trouble blows over.",
 					"Choose two ability boosts. One must be to Strength or Constitution, and one is a free ability boost.",
-					"You’re trained in the {@skill Intimidation} skill and the {@skill Lore||Banditry Lore} skill. You gain the {@feat Group Coercion} skill feat."
+					"You're trained in the {@skill Intimidation} skill and the {@skill Lore||Banditry Lore} skill. You gain the {@feat Group Coercion} skill feat."
 				]
 			},
 			"tags": {
@@ -8087,9 +8087,9 @@
 					}
 				],
 				"entries": [
-					"You were raised in the south of Brevoy, a land of dense forests and rolling plains, of crystalline rivers and endless sapphire skies. You come from hardy stock and were raised with simple sensibilities—that hard work earns well-deserved gains, the importance of charity and compassion, and the value of personal and familial honor. Yours is the country of the Aldori swordlords and the heroes who refused to bend before the armies of a violent conqueror. You care little for matters of politics and nobles or of deception and schemes. You are thoroughly Brevic, and the call for champions willing to expand your land’s influence into the Stolen Lands has inflamed your sense of patriotism and honor, and so you have joined an expedition to journey southward and build a kingdom.",
+					"You were raised in the south of Brevoy, a land of dense forests and rolling plains, of crystalline rivers and endless sapphire skies. You come from hardy stock and were raised with simple sensibilities—that hard work earns well-deserved gains, the importance of charity and compassion, and the value of personal and familial honor. Yours is the country of the Aldori swordlords and the heroes who refused to bend before the armies of a violent conqueror. You care little for matters of politics and nobles or of deception and schemes. You are thoroughly Brevic, and the call for champions willing to expand your land's influence into the Stolen Lands has inflamed your sense of patriotism and honor, and so you have joined an expedition to journey southward and build a kingdom.",
 					"Choose two ability boosts. One must be to Strength or Constitution, and one is a free ability boost.",
-					"You’re trained in the {@skill Athletics} skill and the {@skill Lore||Farming Lore} skill. You gain the {@feat Hefty Hauler} skill feat."
+					"You're trained in the {@skill Athletics} skill and the {@skill Lore||Farming Lore} skill. You gain the {@feat Hefty Hauler} skill feat."
 				]
 			},
 			"tags": {
@@ -8135,9 +8135,9 @@
 					}
 				],
 				"entries": [
-					"You have lived all your life in and around the city of Restov, growing up on tales of Baron Sirian Aldori and the exploits of your home’s heroic and legendary swordlords. Joining an expedition into the Stolen Lands seems like a perfect way to improve your skills and begin crafting a legend worthy of Baron Aldori.",
+					"You have lived all your life in and around the city of Restov, growing up on tales of Baron Sirian Aldori and the exploits of your home's heroic and legendary swordlords. Joining an expedition into the Stolen Lands seems like a perfect way to improve your skills and begin crafting a legend worthy of Baron Aldori.",
 					"Choose two ability boosts. One must be to Dexterity or Charisma, and one is a free ability boost.",
-					"You’re trained in the {@skill Lore||Warfare Lore} skill. You gain access to {@item aldori dueling sword|LOWG|Aldori dueling swords} and can purchase one as part of your starting equipment. You treat {@item aldori dueling sword|LOWG|Aldori dueling swords} as martial weapons rather than advanced weapons for the purpose of proficiency."
+					"You're trained in the {@skill Lore||Warfare Lore} skill. You gain access to {@item aldori dueling sword|LOWG|Aldori dueling swords} and can purchase one as part of your starting equipment. You treat {@item aldori dueling sword|LOWG|Aldori dueling swords} as martial weapons rather than advanced weapons for the purpose of proficiency."
 				]
 			},
 			"tags": {
@@ -8613,7 +8613,7 @@
 				"entries": [
 					"You have a knack for picking up on simmering tensions and calming frayed nerves. You rely on your intuition to discern how and when violence is imminent, and on your skills—diplomatic and otherwise—to deescalate tense situations. You might choose the adventuring life to tackle new and unfamiliar conflicts, or be trying to escape retaliation from those who thrive on violence and resent your ability to keep the peace.",
 					"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
-					"You’re trained in the {@skill Diplomacy} skill and the {@skill Lore} skill for the city or settlement you lived in when you became a Fightbreaker. You gain the {@feat Group Impression} skill feat."
+					"You're trained in the {@skill Diplomacy} skill and the {@skill Lore} skill for the city or settlement you lived in when you became a Fightbreaker. You gain the {@feat Group Impression} skill feat."
 				]
 			},
 			"tags": {
@@ -8654,9 +8654,9 @@
 			},
 			"data": {
 				"entries": [
-					"The machinations and scheming of King’s Crown have trained you to be on the lookout for those who seem out of place. You’ve learned to spot when the person pouring your tea has sword calluses—or when the person wearing a guard’s uniform doesn’t.",
+					"The machinations and scheming of King's Crown have trained you to be on the lookout for those who seem out of place. You've learned to spot when the person pouring your tea has sword calluses—or when the person wearing a guard's uniform doesn't.",
 					"Choose two ability boosts. One must be Dexterity or Intelligence, and the other is a free boost.",
-					"You’re trained in the {@skill Society} skill, and the {@skill Lore||Guild Lore} skill. You gain the {@feat Courtly Graces} skill feat."
+					"You're trained in the {@skill Society} skill, and the {@skill Lore||Guild Lore} skill. You gain the {@feat Courtly Graces} skill feat."
 				]
 			},
 			"tags": {
@@ -8697,9 +8697,9 @@
 			},
 			"data": {
 				"entries": [
-					"You might have fought for fairer ore distribution for the Metalmaker’s Union, higher chef’s pay in the Provisioners’ Union, or better mercenary contracts for the Union of Axe and Coin. Whatever the case, you have experience in the high-stakes world of the negotiating table, experience that translates surprisingly well to adventuring.",
+					"You might have fought for fairer ore distribution for the Metalmaker's Union, higher chef's pay in the Provisioners' Union, or better mercenary contracts for the Union of Axe and Coin. Whatever the case, you have experience in the high-stakes world of the negotiating table, experience that translates surprisingly well to adventuring.",
 					"Choose two ability boosts. One must be to Intelligence or Charisma, the other is a free boost.",
-					"You’re trained in the {@skill Diplomacy} skill and the {@skill Lore||Legal Lore} skill. You gain the {@feat Contract Negotiator|LOHh} skill feat."
+					"You're trained in the {@skill Diplomacy} skill and the {@skill Lore||Legal Lore} skill. You gain the {@feat Contract Negotiator|LOHh} skill feat."
 				]
 			},
 			"tags": {
@@ -13292,9 +13292,9 @@
 					}
 				],
 				"entries": [
-					"Your gifted tongue, friendly demeanor, and deep knowledge of Broken Tusk culture and traditions make you an ideal recruiter for new followers. Whenever Broken Tusks come upon weak, weary, or wandering souls, you’re often the first sent to meet these folks and determine if they would be a good fit for the following.",
+					"Your gifted tongue, friendly demeanor, and deep knowledge of Broken Tusk culture and traditions make you an ideal recruiter for new followers. Whenever Broken Tusks come upon weak, weary, or wandering souls, you're often the first sent to meet these folks and determine if they would be a good fit for the following.",
 					"Choose two ability boosts. One must be to Constitution or Charisma, and one is a free ability boost.",
-					"You’re trained in the {@skill Diplomacy} skill and the {@skill Lore||Hillcross Lore} skill. You gain the {@feat Group Impression} skill feat."
+					"You're trained in the {@skill Diplomacy} skill and the {@skill Lore||Hillcross Lore} skill. You gain the {@feat Group Impression} skill feat."
 				]
 			},
 			"tags": {
@@ -13340,9 +13340,9 @@
 					}
 				],
 				"entries": [
-					"When the Great Quake rumbled across the eastern lands and opened the rift that southerners called “the Worldwound,” you answered the call to arms to fight back the demonic hordes. What you saw during the war changed you forever—so much so that you became a wanderer, hermit, or other voluntary outcast. When you came upon the Broken Tusk following, you determined you’d finally found a people whose values and traditions made you feel whole again. The Broken Tusk was supposedly once a much bigger following, and so you’ve joined them in the hopes of helping them heal old wounds and rebuild in the shadow of loss. In the process, perhaps this new family will help you do the same.",
+					"When the Great Quake rumbled across the eastern lands and opened the rift that southerners called \"the Worldwound,\" you answered the call to arms to fight back the demonic hordes. What you saw during the war changed you forever—so much so that you became a wanderer, hermit, or other voluntary outcast. When you came upon the Broken Tusk following, you determined you'd finally found a people whose values and traditions made you feel whole again. The Broken Tusk was supposedly once a much bigger following, and so you've joined them in the hopes of helping them heal old wounds and rebuild in the shadow of loss. In the process, perhaps this new family will help you do the same.",
 					"Choose two ability boosts. One must be to Constitution or Wisdom, and one is a free ability boost.",
-					"You’re trained in the {@skill Religion} skill and the {@skill Lore||Demon Lore} skill. You gain the {@feat Pilgrim's Token|APG} skill feat."
+					"You're trained in the {@skill Religion} skill and the {@skill Lore||Demon Lore} skill. You gain the {@feat Pilgrim's Token|APG} skill feat."
 				]
 			},
 			"tags": {
@@ -13388,9 +13388,9 @@
 					}
 				],
 				"entries": [
-					"You’re adept at calming, wrangling, and living beside woolly mammoths and other megafauna commonly found in the Realm of the Mammoth Lords. Perhaps you’ve even formed a particularly strong bond with one or two of your following’s animals, and you tend to get along with other herders in the following, such as young Imek or old Chultei. When the Broken Tusk following must move, you and the other herders know how to convey this message to the animals in your herd.",
+					"You're adept at calming, wrangling, and living beside woolly mammoths and other megafauna commonly found in the Realm of the Mammoth Lords. Perhaps you've even formed a particularly strong bond with one or two of your following's animals, and you tend to get along with other herders in the following, such as young Imek or old Chultei. When the Broken Tusk following must move, you and the other herders know how to convey this message to the animals in your herd.",
 					"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
-					"You’re trained in the {@skill Nature} skill and the {@skill Lore||Herding Lore} skill. You gain the {@feat Train Animal} skill feat."
+					"You're trained in the {@skill Nature} skill and the {@skill Lore||Herding Lore} skill. You gain the {@feat Train Animal} skill feat."
 				]
 			},
 			"tags": {
@@ -13436,9 +13436,9 @@
 					}
 				],
 				"entries": [
-					"Life is only as meaningful as its risks, and the risks you’re willing to take are big indeed. Like Wipa’s halfsister Panuaku, Mammoth Lord Merthig, and Eiwa’s great-grandnephew Pakano, you revel in the thrill of the hunt, especially when it involves mortal combat with megafauna, dinosaurs, and other oversized beasts. Though you’re still early in your hunting career, your talent shows great promise, and you have a natural knack for tracking and taking down big game such as moose, saber-toothed tigers, and even wild mammoths.",
+					"Life is only as meaningful as its risks, and the risks you're willing to take are big indeed. Like Wipa's halfsister Panuaku, Mammoth Lord Merthig, and Eiwa's great-grandnephew Pakano, you revel in the thrill of the hunt, especially when it involves mortal combat with megafauna, dinosaurs, and other oversized beasts. Though you're still early in your hunting career, your talent shows great promise, and you have a natural knack for tracking and taking down big game such as moose, saber-toothed tigers, and even wild mammoths.",
 					"Choose two ability boosts. One must be to Strength or Dexterity, and one is a free ability boost.",
-					"You’re trained in the {@skill Athletics} skill and the {@skill Lore||Hunting Lore} skill. You gain the {@feat Titan Wrestler} skill feat."
+					"You're trained in the {@skill Athletics} skill and the {@skill Lore||Hunting Lore} skill. You gain the {@feat Titan Wrestler} skill feat."
 				]
 			},
 			"tags": {
@@ -13484,9 +13484,9 @@
 					}
 				],
 				"entries": [
-					"The vast tundra and looming mountains of the Realm of the Mammoth Lords may seem featureless and barren to the untrained eye, but you know better. You see what others don’t: nutritious roots buried beneath muddy reeds, succulent bird eggs cradled in craggy rocks, restorative berries nestled among thorny thickets, and more. In the south, farmers toil in dusty fields to eat the same vegetables every day, but your diet is varied and you’re rarely hungry—the entire Realm is your garden.",
+					"The vast tundra and looming mountains of the Realm of the Mammoth Lords may seem featureless and barren to the untrained eye, but you know better. You see what others don't: nutritious roots buried beneath muddy reeds, succulent bird eggs cradled in craggy rocks, restorative berries nestled among thorny thickets, and more. In the south, farmers toil in dusty fields to eat the same vegetables every day, but your diet is varied and you're rarely hungry—the entire Realm is your garden.",
 					"Choose two ability boosts. One must be to Constitution or Wisdom, and one is a free ability boost.",
-					"You’re trained in the {@skill Survival} skill and the {@skill Lore||Herbalism Lore} skill. You gain the {@feat Forager} skill feat."
+					"You're trained in the {@skill Survival} skill and the {@skill Lore||Herbalism Lore} skill. You gain the {@feat Forager} skill feat."
 				]
 			},
 			"tags": {
@@ -13532,9 +13532,9 @@
 					}
 				],
 				"entries": [
-					"You are a pupil of Argakoa the Songsinger, Otter House leader and Mammoth Lord. Argakoa has been the Broken Tusk’s foremost songsinger for many winters, and she sees in you a promising disciple who can carry the torch when it’s time for her to pass it. The role of songsinger is a great distinction. These chanters, musicians, and poets are responsible for recording, preserving, and sharing the Broken Tusk’s oral history. As one of these songsingers, it’s up to you to decide which stories are worthy of passing on and which should be left along the migration trail.",
+					"You are a pupil of Argakoa the Songsinger, Otter House leader and Mammoth Lord. Argakoa has been the Broken Tusk's foremost songsinger for many winters, and she sees in you a promising disciple who can carry the torch when it's time for her to pass it. The role of songsinger is a great distinction. These chanters, musicians, and poets are responsible for recording, preserving, and sharing the Broken Tusk's oral history. As one of these songsingers, it's up to you to decide which stories are worthy of passing on and which should be left along the migration trail.",
 					"Choose two ability boosts. One must be to Intelligence or Charisma, and one is a free ability boost.",
-					"You’re trained in the {@skill Performance} skill and the {@skill Lore||Genealogy Lore} skill. You gain the {@feat Impressive Performance} skill feat."
+					"You're trained in the {@skill Performance} skill and the {@skill Lore||Genealogy Lore} skill. You gain the {@feat Impressive Performance} skill feat."
 				]
 			},
 			"tags": {
@@ -15049,10 +15049,10 @@
 					}
 				],
 				"entries": [
-					"One or more of your ancestors committed a grave atrocity, and even though you’ve tried to live your own life, your family’s grim past looms over you like a relentless shadow. You might have traveled a thousand miles to escape the legends, learned how to ingratiate yourself to others, just tried to ignore the everyday accusing glances, or even accepted the notoriety just to be left alone. You didn’t commit the crime, yet it haunts you. Whether you’re proving the world wrong, proving to yourself that you’re no monster, earning wealth to pay reparations, or just driven to do some good with your life, it’s time to break free of the past. That journey begins with understanding.",
-					"Clan Tolorr preserves the deeds and misdeeds of dwarven legend. With their help, you might not only understand dwarven crimes and reparations, but also learn how to accept your past and leave the world a little better than when you found it. You’ve corresponded with Clan Tolorr, but your most recent message came instead from one of the clan’s guests: a lizardfolk mystic named Valahask who studies the dead and is eager to meet you. He has lobbied on your behalf, earning you an invitation to Clan Tolorr’s upcoming Family Festival.",
+					"One or more of your ancestors committed a grave atrocity, and even though you've tried to live your own life, your family's grim past looms over you like a relentless shadow. You might have traveled a thousand miles to escape the legends, learned how to ingratiate yourself to others, just tried to ignore the everyday accusing glances, or even accepted the notoriety just to be left alone. You didn't commit the crime, yet it haunts you. Whether you're proving the world wrong, proving to yourself that you're no monster, earning wealth to pay reparations, or just driven to do some good with your life, it's time to break free of the past. That journey begins with understanding.",
+					"Clan Tolorr preserves the deeds and misdeeds of dwarven legend. With their help, you might not only understand dwarven crimes and reparations, but also learn how to accept your past and leave the world a little better than when you found it. You've corresponded with Clan Tolorr, but your most recent message came instead from one of the clan's guests: a lizardfolk mystic named Valahask who studies the dead and is eager to meet you. He has lobbied on your behalf, earning you an invitation to Clan Tolorr's upcoming Family Festival.",
 					"Choose two ability boosts. One must be to Constitution or Charisma, and one is a free ability boost.",
-					"Choose whether you’ve navigated your past through kindness or notoriety thus far. For the former, you’re trained in the {@skill Diplomacy} skill and the {@skill Lore||Genealogy Lore} skill, and you gain the {@feat Group Impression} skill feat. For the latter, you’re trained in the {@skill Intimidation} skill and the {@skill Lore||Underworld Lore} skill, and you gain the {@feat Intimidating Glare} skill feat.",
+					"Choose whether you've navigated your past through kindness or notoriety thus far. For the former, you're trained in the {@skill Diplomacy} skill and the {@skill Lore||Genealogy Lore} skill, and you gain the {@feat Group Impression} skill feat. For the latter, you're trained in the {@skill Intimidation} skill and the {@skill Lore||Underworld Lore} skill, and you gain the {@feat Intimidating Glare} skill feat.",
 					"{@b Connection:} Valahask, an iruxi mystic",
 					"{@b Reputation Points:} –1"
 				]
@@ -15105,9 +15105,9 @@
 					}
 				],
 				"entries": [
-					"You already have a close connection to Clan Tolorr, such as having been born into the clan, worked as an esteemed contractor for them, or married into the clan (even if you chose to retain your prior clan affiliation). Whether through dedicated study or just overhearing your fellows’ academic debates, you’ve absorbed boundless trivia about history—especially local lore. Beyond Tolorr halls, your affiliation earns you respect in Highhelm. Your clan expects you to behave well, as your actions reflect on them.",
+					"You already have a close connection to Clan Tolorr, such as having been born into the clan, worked as an esteemed contractor for them, or married into the clan (even if you chose to retain your prior clan affiliation). Whether through dedicated study or just overhearing your fellows' academic debates, you've absorbed boundless trivia about history—especially local lore. Beyond Tolorr halls, your affiliation earns you respect in Highhelm. Your clan expects you to behave well, as your actions reflect on them.",
 					"Choose two ability boosts. One must be to Constitution or Wisdom, and one is a free ability boost.",
-					"You’re trained in the {@skill Society} skill and the {@skill Lore||Highhelm Lore} skill. You gain the {@feat Multilingual} skill feat.",
+					"You're trained in the {@skill Society} skill and the {@skill Lore||Highhelm Lore} skill. You gain the {@feat Multilingual} skill feat.",
 					"{@b Connection:} You have no special connection or sponsor in Clan Tolorr.",
 					"{@b Reputation Points:} +2"
 				]
@@ -15155,9 +15155,9 @@
 					}
 				],
 				"entries": [
-					"Some history survives only so long as its physical remains do. You’ve developed robust museum skills to identify relics, preserve artifacts, recreate ancient technologies, and even rebuild shattered treasures—often with painstaking patience, a steady hand, and even a little magic. Your contributions don’t end there, as whether you’ve mastered diligent recordkeeping or helped uncover smuggling rings that are looting archaeological sites, you’ve made an impression. Hearing of your promising abilities, representatives from Clan Tolorr contacted you, inviting you to study with their museum masters and share your own techniques, all while helping preserve over 10,000 years of history!",
+					"Some history survives only so long as its physical remains do. You've developed robust museum skills to identify relics, preserve artifacts, recreate ancient technologies, and even rebuild shattered treasures—often with painstaking patience, a steady hand, and even a little magic. Your contributions don't end there, as whether you've mastered diligent recordkeeping or helped uncover smuggling rings that are looting archaeological sites, you've made an impression. Hearing of your promising abilities, representatives from Clan Tolorr contacted you, inviting you to study with their museum masters and share your own techniques, all while helping preserve over 10,000 years of history!",
 					"Choose two ability boosts. One must be to Dexterity or Intelligence, and one is a free ability boost.",
-					"You’re trained in either the {@skill Crafting} skill or the {@skill Thievery} skill, and you’re trained in either the {@skill Lore||Accounting Lore} or the {@skill Lore||Underworld Lore} skill. If you selected {@skill Crafting}, you gain the {@feat Quick Repair} skill feat. If you chose {@skill Thievery}, you gain the {@feat Assurance} ({@skill Thievery}) skill feat.",
+					"You're trained in either the {@skill Crafting} skill or the {@skill Thievery} skill, and you're trained in either the {@skill Lore||Accounting Lore} or the {@skill Lore||Underworld Lore} skill. If you selected {@skill Crafting}, you gain the {@feat Quick Repair} skill feat. If you chose {@skill Thievery}, you gain the {@feat Assurance} ({@skill Thievery}) skill feat.",
 					"{@b Connection:} Ria, an oread gnome curator who studies rivethun traditions",
 					"{@b Reputation Points:} +1"
 				]
@@ -15210,10 +15210,10 @@
 					}
 				],
 				"entries": [
-					"Filled with predators, pitfalls, and other perils, the Darklands rightfully scares off most travelers. Not you! Whether you’re a veteran Darklands caravanner, a cartographer seeking safer paths through dangerous territory, or just a spelunker who loves to escape the surface and hear the caverns sing, you’re adept at navigating underground obstacles and finding your way back to civilization.",
-					"Clan Tolorr specializes more in studying the past than extracting it from dangerous areas. Its leader, Arghan Tolorr, was an avid explorer in his youth, and he’s begun an initiative to befriend, recruit, and train subterranean daredevils who can extract relics responsibly. You’re one of his candidates for this pilot program. Helping administrate recruits is Ria, a gnome curator and close Tolorr confidante who helped arrange your travel to Highhelm.",
+					"Filled with predators, pitfalls, and other perils, the Darklands rightfully scares off most travelers. Not you! Whether you're a veteran Darklands caravanner, a cartographer seeking safer paths through dangerous territory, or just a spelunker who loves to escape the surface and hear the caverns sing, you're adept at navigating underground obstacles and finding your way back to civilization.",
+					"Clan Tolorr specializes more in studying the past than extracting it from dangerous areas. Its leader, Arghan Tolorr, was an avid explorer in his youth, and he's begun an initiative to befriend, recruit, and train subterranean daredevils who can extract relics responsibly. You're one of his candidates for this pilot program. Helping administrate recruits is Ria, a gnome curator and close Tolorr confidante who helped arrange your travel to Highhelm.",
 					"Choose two ability boosts. One must be to Strength or Dexterity, and one is a free ability boost.",
-					"You’re trained in either the {@skill Athletics} skill or the {@skill Survival} skill, and you’re trained in the {@skill Lore||Cave Lore} skill. If you selected {@skill Athletics}, you gain the {@feat Combat Climber} skill feat. If you chose {@skill Survival}, you gain the {@feat Terrain Expertise} (Underground) skill feat.",
+					"You're trained in either the {@skill Athletics} skill or the {@skill Survival} skill, and you're trained in the {@skill Lore||Cave Lore} skill. If you selected {@skill Athletics}, you gain the {@feat Combat Climber} skill feat. If you chose {@skill Survival}, you gain the {@feat Terrain Expertise} (Underground) skill feat.",
 					"{@b Connection:} Ria, an oread gnome curator who studies rivethun traditions",
 					"{@b Reputation Points:} +0"
 				]
@@ -15266,10 +15266,10 @@
 					}
 				],
 				"entries": [
-					"Understanding history isn’t just about translating old laws and reading about who invaded whom; it’s also packed with magical outbursts, extraplanar interventions, and unexplained oddities not yet understood by modern science. You have a knack for absorbing esoteric trivia and unraveling past supernatural events. Your studies recently drew you to the dwarven city of Tar-Kazmukh, whose Blue Warders maintain an eclectically magical library. Perusing its shelves didn’t answer your most burning questions, but it did earn you some friends, expose you to a dizzying array of dwarven religious lore, and introduce you to some intriguing mysteries buried in Highhelm’s history.",
-					"Believing that Highhelm might provide you with greater opportunities, a Blue Warder named Rosha Coppervein facilitated introductions between you and their adoptive clan, Clan Tolorr. It seems your credentials and whatever Rosha wrote on your behalf made an impression; within a week, you received an invitation to Highhelm and travel funds to study with Tolorr sages! The shy Rosha has stayed in Tar-Kazmukh for now, enjoying its relative quiet, but you know that they’ll join you in a few weeks for Tolorr’s Family Festival.",
+					"Understanding history isn't just about translating old laws and reading about who invaded whom; it's also packed with magical outbursts, extraplanar interventions, and unexplained oddities not yet understood by modern science. You have a knack for absorbing esoteric trivia and unraveling past supernatural events. Your studies recently drew you to the dwarven city of Tar-Kazmukh, whose Blue Warders maintain an eclectically magical library. Perusing its shelves didn't answer your most burning questions, but it did earn you some friends, expose you to a dizzying array of dwarven religious lore, and introduce you to some intriguing mysteries buried in Highhelm's history.",
+					"Believing that Highhelm might provide you with greater opportunities, a Blue Warder named Rosha Coppervein facilitated introductions between you and their adoptive clan, Clan Tolorr. It seems your credentials and whatever Rosha wrote on your behalf made an impression; within a week, you received an invitation to Highhelm and travel funds to study with Tolorr sages! The shy Rosha has stayed in Tar-Kazmukh for now, enjoying its relative quiet, but you know that they'll join you in a few weeks for Tolorr's Family Festival.",
 					"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
-					"You’re trained in the {@skill Occultism} skill and the {@skill Lore||Dwarven Pantheon} Lore skill, an uncommonly broad {@skill Lore} skill that pertains to {@deity Torag|CRB|Torag’s} faith and those faiths of his divine family. You gain the {@feat Quick Identification} skill feat.",
+					"You're trained in the {@skill Occultism} skill and the {@skill Lore||Dwarven Pantheon} Lore skill, an uncommonly broad {@skill Lore} skill that pertains to {@deity Torag|CRB|Torag's} faith and those faiths of his divine family. You gain the {@feat Quick Identification} skill feat.",
 					"{@b Connection:} Rosha Coppervein, a Blue Warder who married into Clan Tolorr",
 					"{@b Reputation Points:} +0"
 				]
@@ -15317,9 +15317,9 @@
 					}
 				],
 				"entries": [
-					"To Clan Tolorr, history shouldn’t be dry and boring; it deserves to be engaging and made relevant to the living. You couldn’t agree more! Whether it’s your hobby or career, you’ve developed a reputation for translating the past into the present through demonstrations, period performances, acting out famous events, donning replica armor, and other feats of living history—filling in a few historical blanks if it makes a better show. Having learned of your passion, Clan Tolorr has sponsored your visit to Highhelm so that you can learn from each other. It’s a wonderful opportunity, and Tolorr puppetry arts, storytelling, props, and historical rigor are the stuff of legends. Already, you’ve begun researching dwarven history so that you’re prepared for whatever lies ahead.",
+					"To Clan Tolorr, history shouldn't be dry and boring; it deserves to be engaging and made relevant to the living. You couldn't agree more! Whether it's your hobby or career, you've developed a reputation for translating the past into the present through demonstrations, period performances, acting out famous events, donning replica armor, and other feats of living history—filling in a few historical blanks if it makes a better show. Having learned of your passion, Clan Tolorr has sponsored your visit to Highhelm so that you can learn from each other. It's a wonderful opportunity, and Tolorr puppetry arts, storytelling, props, and historical rigor are the stuff of legends. Already, you've begun researching dwarven history so that you're prepared for whatever lies ahead.",
 					"Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
-					"You’re trained in either the {@skill Performance} skill or the {@skill Society} skill, and you’re trained in the {@skill Lore||Dwarf Lore} skill. If you selected {@skill Performance}, you gain the {@feat Impressive Performance} skill feat. If you chose {@skill Society}, you gain the {@feat Dubious Knowledge} skill feat.",
+					"You're trained in either the {@skill Performance} skill or the {@skill Society} skill, and you're trained in the {@skill Lore||Dwarf Lore} skill. If you selected {@skill Performance}, you gain the {@feat Impressive Performance} skill feat. If you chose {@skill Society}, you gain the {@feat Dubious Knowledge} skill feat.",
 					"{@b Connection:} Bulgra Veldollow, a matriarch in Clan Tolorr and accomplished puppeteer",
 					"{@b Reputation Points:} +0"
 				]
@@ -15372,7 +15372,7 @@
 					}
 				],
 				"entries": [
-					"You have always been interested in knowledge and learned to read from a very young age. Perhaps one or both of your parents were librarians or scholars, or maybe the local bookshop or university was a place you felt safe at. Or, you could simply have been an avid reader of stories. Whatever the case, books have always brought you peace and comfort, and you try to never travel without a few packed away in your belongings. Since not every book is written in the same language, you’ve also picked up a few extra languages along the way. Your interest in the written word hasn’t always been a positive, though. You might have been bullied or tormented by your peers for being more interested  n reading than other pursuits. Or maybe you had some unsettling experiences with misinformation or knowledge that sent you in pursuit of something dangerous. Try to come up with one event from your past where your pursuit of books or the testing of knowledge learned from them placed you in danger, but also keep in mind that you managed to escape this danger because of what you’ve learned from your voracious reading habits!",
+					"You have always been interested in knowledge and learned to read from a very young age. Perhaps one or both of your parents were librarians or scholars, or maybe the local bookshop or university was a place you felt safe at. Or, you could simply have been an avid reader of stories. Whatever the case, books have always brought you peace and comfort, and you try to never travel without a few packed away in your belongings. Since not every book is written in the same language, you've also picked up a few extra languages along the way. Your interest in the written word hasn't always been a positive, though. You might have been bullied or tormented by your peers for being more interested n reading than other pursuits. Or maybe you had some unsettling experiences with misinformation or knowledge that sent you in pursuit of something dangerous. Try to come up with one event from your past where your pursuit of books or the testing of knowledge learned from them placed you in danger, but also keep in mind that you managed to escape this danger because of what you've learned from your voracious reading habits!",
 					"This background is associated with the suit of Books.",
 					"Choose two ability boosts. One must be to Intelligence, and one is a free ability boost.",
 					"You gain the {@feat Multilingual} skill feat, are trained in the {@skill Lore||Academia Lore} skill, and gain the following free action.",

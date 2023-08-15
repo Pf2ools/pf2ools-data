@@ -54,7 +54,7 @@
 							"You are {@condition stupefied 1} for 1 minute.",
 							"You are {@condition clumsy 1} for 1 minute.",
 							"You lose {@damage 1d8} Hit Points.",
-							"You take a –1 penalty to damage rolls for 1 minute."
+							"You take a \u20131 penalty to damage rolls for 1 minute."
 						]
 					}
 				]

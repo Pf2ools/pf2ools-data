@@ -1170,7 +1170,7 @@
 							"unit": "day"
 						},
 						"entries": [
-							"Calling upon the bestial nature within, you change  shape into that of an animal. The relic casts {@spell animal form} on you, transforming you into the same type of animal every time, chosen when the gift is gained; the spell level is half the item's level, rounded down.",
+							"Calling upon the bestial nature within, you change shape into that of an animal. The relic casts {@spell animal form} on you, transforming you into the same type of animal every time, chosen when the gift is gained; the spell level is half the item's level, rounded down.",
 							"At 11th level, the spell is 5th level, and the spell level goes up by 1 for every 2 levels beyond that."
 						]
 					}
@@ -2910,7 +2910,7 @@
 							"{@action Interact}"
 						],
 						"entries": [
-							"Your relic pulls at nearby shadows, twisting them into the shape of a simple weapon or a simple tool or item, such as a {@item rope  (50 feet)||rope} or {@item crowbar}. It lasts until it is used for a single activity, until you use shadow smith again, or for 1 minute, whichever comes first, after which it dissipates."
+							"Your relic pulls at nearby shadows, twisting them into the shape of a simple weapon or a simple tool or item, such as a {@item rope (50 feet)||rope} or {@item crowbar}. It lasts until it is used for a single activity, until you use shadow smith again, or for 1 minute, whichever comes first, after which it dissipates."
 						]
 					}
 				]
