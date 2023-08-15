@@ -19,8 +19,8 @@
 		"bundle": "npm run bundle:bySource && npm run bundle:byDatatype -- -SkipEmpty",
 		"bundle:bySource": "pwsh scripts/bundle-bySource.ps1 -ExecutionPolicy Unrestricted -NoProfile",
 		"bundle:byDatatype": "pwsh scripts/bundle-byDatatype.ps1 -ExecutionPolicy Unrestricted -NoProfile",
-		"clean": "npm run clean:json && npm run clean:prettify",
-		"clean:json": "echo \"TODO: this will ideally reorder properties for consistency and remove any unicode escaping\"",
+		"clean": "npm run clean:json -- -rc ./data && npm run clean:prettify -- --log-level warn",
+		"clean:json": "node ./scripts/clean-json.js",
 		"clean:prettify": "npx prettier . --write --cache",
 		"build": "npm run test && npm run index && npm run bundle && npm run clean"
 	},
