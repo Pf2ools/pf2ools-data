@@ -9,5 +9,8 @@
 		"misc": {
 			"Adventure": true
 		}
+	},
+	"data": {
+		"publisher": "Paizo"
 	}
 }
