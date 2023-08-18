@@ -72,6 +72,7 @@ function logError(message) {
 			exitCode: 1,
 			code: "failed.verification",
 		});
+	console.error(chalk.red(message));
 	errorStatus = true;
 }
 function sanitiseFilename(name, specifier) {
@@ -148,10 +149,12 @@ for (const family of fs.readdirSync(dataPath)) {
 			// START: `core`/`homebrew` family directory
 			//   - No non-directories
 			const sourcePath = path.join(familyPath, source);
-			if (!fs.statSync(sourcePath).isDirectory())
+			if (!fs.statSync(sourcePath).isDirectory()) {
 				logError(
 					`The "${family}" family directory can only contain source directories: ${chalk.bold(sourcePath)}`,
 				);
+				continue;
+			}
 			// END: `core`/`homebrew` family directory
 
 			const sourceDirFiles = [];
