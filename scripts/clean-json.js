@@ -145,7 +145,7 @@ if (opts.summary || filePaths.length > 1) {
 		chalk[cleanCount ? "green" : "blue"](
 			`${chalk.bold(cleanCount)} file${cleanCount !== 1 ? "s" : ""} (${
 				Math.round((1000 * cleanCount) / filePaths.length) / 10
-			}%) ${opts.dryRun ? "would be" : "were"} cleaned.`,
+			}%) ${opts.dryRun ? "would be" : cleanCount === 1 ? "was" : "were"} cleaned.`,
 		),
 	);
 }
