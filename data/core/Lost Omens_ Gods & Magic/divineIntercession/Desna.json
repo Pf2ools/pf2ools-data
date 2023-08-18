@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Desna"
+	},
+	"source": {
+		"page": 20,
+		"ID": "LOGM"
+	},
+	"data": {
+		"Minor Boon": [
+			"For those at the end of a journey, Desna gifts a deep sleep. Once, after you rest, you completely recover all Hit Points, remove all negative conditions, and become free of any curses or diseases."
+		],
+		"Moderate Boon": [
+			"Desna twists fortune in your favor. Once per day, after determining the result of a check, you can reroll the check and take the new result."
+		],
+		"Major Boon": [
+			"Desna bestows you with a swirling cloud of lights that forms a pair of wondrous butterfly wings. These wings grant you a fly Speed of 40 feet and shine dim light to a range of 20 feet."
+		],
+		"Minor Curse": [
+			"You always seem to lose your way or have strange mishaps on the road that delay your travel. You (and thus any group that travels with you) travel at only 3/4 normal exploration Speed, before taking into account the terrain and other features that might slow you down further."
+		],
+		"Moderate Curse": [
+			"Misfortune follows you in your travels and requires acts of contrition or benevolence to keep at bay. You must always roll twice and take the worst result when attempting a check. This is a {@trait misfortune} effect. You can express your remorse and ignore this effect for {@dice 1d4} rounds by spending an action, which has the {@trait concentrate} trait. If you perform a truly selfless act of compassion, you ignore this effect for 1 day."
+		],
+		"Major Curse": [
+			"The stars rebuke you for your ways. You are {@condition sickened 4} and {@condition slowed 1} whenever you are exposed to starlight."
+		]
+	}
+}

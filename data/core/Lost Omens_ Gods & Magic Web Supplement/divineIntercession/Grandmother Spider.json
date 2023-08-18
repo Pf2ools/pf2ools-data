@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Grandmother Spider"
+	},
+	"source": {
+		"page": 5,
+		"ID": "LOGM-WS"
+	},
+	"data": {
+		"Minor Boon": [
+			"Grandmother Spider rescues your prank from the jaws of failure. Once, when you would fail a {@skill Deception} check, you critically succeed instead. Grandmother Spider typically grants this boon for deceptions that are necessary for an interesting or consequential prank."
+		],
+		"Moderate Boon": [
+			"You can feel tugs on the strands of fate. You gain a +2 status bonus to initiative rolls."
+		],
+		"Major Boon": [
+			"Grandmother Spider rejoices in freedom and tricks those who would limit it. Any time you would become {@condition grabbed}, {@condition immobilized}, or {@condition restrained}, attempt a DC 10 flat check. On a success, you ignore the effect, and the originator of the effect becomes {@condition grabbed}, {@condition immobilized}, or {@condition restrained} instead. If this simply causes a creature to grab itself, it can usually {@action Escape} as a free action, but it might be stuck if it tried to immobilize you in other ways."
+		],
+		"Minor Curse": [
+			"When your pranks start going wrong, they dissolve into a string of catastrophic failures. When you roll a failure on a {@skill Deception} or {@skill Stealth} check, you get a critical failure instead."
+		],
+		"Moderate Curse": [
+			"Grandmother Spider weaves a web to ensnare you, and you trail webs behind you wherever you go. You become permanently {@condition slowed 1} and take a \u201310-foot circumstance penalty to your Speeds."
+		],
+		"Major Curse": [
+			"Grandmother Spider throws all of her might behind the underdog. Any time a creature with a level lower than yours rolls a success on a check against you, it critically succeeds instead; any time you roll a failure on a check against a creature with a level lower than yours, you critically fail instead."
+		]
+	}
+}

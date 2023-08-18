@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Erastil"
+	},
+	"source": {
+		"page": 22,
+		"ID": "LOGM"
+	},
+	"data": {
+		"Minor Boon": [
+			"Erastil shares in his bounty as long as you work for it. Whenever you roll a critical failure at a check to {@action Subsist} in the wild, you get a failure instead."
+		],
+		"Moderate Boon": [
+			"You share Erastil's sharp eye, allowing you to use a {@item longbow} in any situation. When you attack with a {@item longbow}, you can ignore the {@item longbow|CRB|longbow's} {@trait volley} trait, and {@item longbow|CRB|longbows} have double the normal range increment for you."
+		],
+		"Major Boon": [
+			"You become a friend to the land. You can cast {@spell speak with plants} as a {@trait divine} innate spell. When you are in a healthy natural environment, the land sustains you without need for food or drink. You can cast the {@ritual commune with nature} ritual without any secondary casters or secondary checks."
+		],
+		"Minor Curse": [
+			"Erastil curses your table and punishes you for relying on others' hard work. Any food you didn't grow, gather, or otherwise harvest yourself tastes like ash and leaves you {@condition fatigued}."
+		],
+		"Moderate Curse": [
+			"Erastil's beasts take a dislike to you. Animals' attitudes toward you are one category worse ({@condition friendly} instead of {@condition helpful}, {@condition indifferent} instead of {@condition friendly}, and so on)."
+		],
+		"Major Curse": [
+			"Erastil leaves you unable to have children (or otherwise reproduce or propagate if you do so in a different manner). This curse also affects your livestock, pets, and crops."
+		]
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Gozreh"
+	},
+	"source": {
+		"page": 27,
+		"ID": "LOGM"
+	},
+	"data": {
+		"Minor Boon": [
+			"Gozreh grants their guidance while at sea. You are under the constant effects of {@spell know direction} and become trained in {@skill Lore||Sailing Lore} (or another {@skill Lore} skill if you are already trained in {@skill Lore||Sailing Lore})."
+		],
+		"Moderate Boon": [
+			"You gain the touch of the sea. You can breathe underwater and gain a swim Speed equal to your land Speed."
+		],
+		"Major Boon": [
+			"Gozreh has blessed you with their wind in your stride. You gain a +30-foot status bonus to your Speeds, and you gain a fly Speed equal to your land Speed."
+		],
+		"Minor Curse": [
+			"Lightning begins to strike twice. You gain weakness 5 to electricity, and any natural or magical bolts of lightning always target you rather than the other creatures around you."
+		],
+		"Moderate Curse": [
+			"The current of the waves constantly fights against you, putting you at risk of {@quickref drowning||3|drowning and suffocating} any time you must {@action Swim}. You lose any swim Speed you have, unless it's your only Speed, in which case you take a \u201320-foot status penalty to your swim Speed. When you roll an {@skill Athletics} check to {@action Swim}, you always use the outcome for one degree of success worse than the result of your roll."
+		],
+		"Major Curse": [
+			"Those who displease Gozreh are shunned by nature itself. All animals and nonsapient plant creatures are {@condition hostile} to you, and any animal companion or familiar abandons you. Sapient plants' attitude toward you begins two categories worse than normal, as something about you seems repugnant to them. While plants and animals might not attack you outright if it's not normally in their nature to do so when they are hostile, dogs growl at you, cats hiss, and so on."
+		]
+	}
+}

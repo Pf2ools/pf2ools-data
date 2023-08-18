@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Tsukiyo"
+	},
+	"source": {
+		"page": 9,
+		"ID": "LOGM-WS"
+	},
+	"data": {
+		"Minor Boon": [
+			"Tsukiyo's simplest show of gratitude is a gift of clarity. Once, when you roll a failure on a saving throw against a {@trait mental} effect, you get a critical success instead. Tsukiyo typically grants this boon against a particularly consequential {@trait mental} effect."
+		],
+		"Moderate Boon": [
+			"Tsukiyo watches over you and guards your sleep. You are guaranteed a peaceful night's rest no matter what conditions you are sleeping in. Even {@spell nightmare} and similar abilities can't disrupt your sleep unless they come from a deity, {@trait artifact}, or similarly powerful source."
+		],
+		"Major Boon": [
+			"Tsukiyo shares some of his own nature and can lead a favored soul back along the same path he has walked. The next time you would die, you are instead instantly restored to full health and lose any negative conditions you have."
+		],
+		"Minor Curse": [
+			"Those who offend Tsukiyo find that light actively shuns them. You lose any {@ability low-light vision} or {@ability darkvision} you have, and you treat all light levels as one step lower."
+		],
+		"Moderate Curse": [
+			"If Tsukiyo is particularly offended by someone, they may find themselves lost in delusions of moonlight. When attempting to navigate or find something at night, if you roll a success or critical success on your {@skill Perception} check, {@skill Survival} check, or other check to do so, you get a failure instead."
+		],
+		"Major Curse": [
+			"When Tsukiyo truly loses patience with someone, he forces them to experience the hardships of others firsthand. Whenever you touch another creature or another creature touches you, you immediately gain any negative curses, diseases, and conditions they are suffering. These effects spread to you even when you {@action Strike} another creature or a creature {@action Strike||Strikes} you."
+		]
+	}
+}

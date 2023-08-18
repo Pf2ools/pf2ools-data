@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Achaekek"
+	},
+	"source": {
+		"page": 3,
+		"ID": "LOGM-WS"
+	},
+	"data": {
+		"Minor Boon": [
+			"You hide among the shadows of death. Once, when you would fail a {@skill Stealth} check, you critically succeed instead. Achaekek typically grants this boon for an extremely consequential {@skill Stealth} check that could lead to an assassination, such as one that could get you into position to kill an important target, but rarely on a {@skill Stealth} check to help you escape."
+		],
+		"Moderate Boon": [
+			"You gain the god's approval to take a life. You can cast {@spell death knell} once per day as an innate divine spell."
+		],
+		"Major Boon": [
+			"Death lives in your very blade. You gain the {@classFeature sneak attack|rogue||1} rogue class feature, dealing {@damage 3d6} precision damage. If you already have that class feature, you increase your sneak attack damage by {@damage 3d6}."
+		],
+		"Minor Curse": [
+			"Achaekek's minions seek vengeance. Nonsapient insects (especially mantises) become {@condition hostile} against you."
+		],
+		"Moderate Curse": [
+			"Hubris brings death. Your name and location are mentally projected into the mind of a Red Mantis assassin, who is tasked with eliminating you."
+		],
+		"Major Curse": [
+			"The Mantis God doesn't waste his time toying with or tormenting those who truly anger him, or those who dare to consider themselves divine. He rips open a portal to your location, kills you, drags your soul to judgment in a way that prevents resurrection magic, and then leaves."
+		]
+	}
+}

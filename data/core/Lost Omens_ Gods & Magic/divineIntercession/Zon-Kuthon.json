@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Zon-Kuthon"
+	},
+	"source": {
+		"page": 51,
+		"ID": "LOGM"
+	},
+	"data": {
+		"Minor Boon": [
+			"The Midnight Lord turns your blood and pain into chains of midnight darkness to destroy your foes. Once, for 1 minute, whenever you take slashing, piercing, or bleed damage, chains rip forth from your body, affecting creatures in a line from your position in the direction of the attack (or in the direction of your choice for bleed damage or if you deal the damage yourself) with the effect of a {@spell grim tendrils} spell whose level is equal to half your level rounded up, and whose DC is your highest spell DC (or 10 + your level + your Wisdom modifier if you have no spell DC)."
+		],
+		"Moderate Boon": [
+			"Each morning, during your daily preparations, scars gather into words on your flesh. The scars function as a scroll of a {@filter divine spell|spells||tradition & spell list=divine} of Zon-Kuthon's choosing. After you use the scroll or receive magical healing, the boon fades for the day, though some or all of the scars might remain as a reminder."
+		],
+		"Major Boon": [
+			"Shadows are deeper around you. {@ability Darkvision} and {@ability darkvision||greater darkvision} cannot penetrate darkness within 60 feet of you, but you can see through it normally."
+		],
+		"Minor Curse": [
+			"You are surrounded by spectral chains that cause you to always be {@condition encumbered} and that have the same effects as armor with the {@trait noisy} trait."
+		],
+		"Moderate Curse": [
+			"You share the pain of others, and even minor wounds bring you incredible pain. Whenever you see (or otherwise sense) a creature take damage, you take {@dice 1d6} mental damage. Whenever you take damage any other way than from the first part of this curse, you take {@damage 1d6} mental damage from increased pain and are {@condition sickened 1}. Mental damage from this curse ignores any resistance you have to mental damage."
+		],
+		"Major Curse": [
+			"Zon-Kuthon steals away your joy, leaving you with only pain. You lose that which you cherish the most forever, and lose the ability to feel joy. You can't gain benefits from emotion effects based on positive emotions. If Zon-Kuthon feels you are ready to renounce, destroy, mutilate, or torture that which you once cherished most, he might return it to you to allow you to do so."
+		]
+	}
+}

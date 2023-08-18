@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Calistria"
+	},
+	"source": {
+		"page": 17,
+		"ID": "LOGM"
+	},
+	"data": {
+		"Minor Boon": [
+			"Calistria smiles on the riskiest deceptions. Once, when you roll a failure on a check to {@action Lie}, you get a critical success instead. Calistria typically grants this boon for an extremely consequential lie."
+		],
+		"Moderate Boon": [
+			"A foot-long wasp finds and befriends you. It serves you as a familiar as long as you maintain Calistria's grace. The wasp always has the burrower and flier familiar abilities."
+		],
+		"Major Boon": [
+			"Calistria guides you towards vengeance. You always know the direction and distance towards the nearest creature that has wronged you and thus far gone unpunished."
+		],
+		"Minor Curse": [
+			"Whenever a new person desires vengeance against you, you suffer a painful sting and are afflicted with {@item giant wasp venom|CRB} at stage 1."
+		],
+		"Moderate Curse": [
+			"People react as though you're insulting them, even in normal conversation. Whenever you attempt to {@action Make an Impression}, the outcome is one degree of success worse than the result of your roll. If you converse with someone over a long enough period of time but don't attempt to {@action Make an Impression}, you still insult them, and you suffer the effect of a critical failure to {@action Make an Impression}."
+		],
+		"Major Curse": [
+			"You have wronged those unable to obtain revenge for themselves, and Calistria's curse grants their revenge its own life. Whenever another creature imagines vengeance upon you but can't pursue that vengeance because you are too powerful, well connected, or otherwise untouchable, a creature of roughly your level manifests out of their imagination and performs their desired revenge. Once the revenge is complete or the manifestation is destroyed, the summoned creature vanishes from existence."
+		]
+	}
+}

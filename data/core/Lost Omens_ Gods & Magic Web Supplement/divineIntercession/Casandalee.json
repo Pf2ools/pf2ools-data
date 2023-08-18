@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Casandalee"
+	},
+	"source": {
+		"page": 4,
+		"ID": "LOGM-WS"
+	},
+	"data": {
+		"Minor Boon": [
+			"Casandalee frees your thinking from dangerous control. Once, when you fail a Will save against an effect that would control your actions, you critically succeed instead. Casandalee typically grants this boon for particularly consequential violations of autonomy and agency."
+		],
+		"Moderate Boon": [
+			"Your organs are partially transformed into mechanical counterparts. You gain resistance 10 to negative damage, and the DC of your flat check to remove {@condition persistent damage||persistent bleed damage} is only 5."
+		],
+		"Major Boon": [
+			"Casandalee backs up your memory and soul within her divine data flow. After you die, she casts your consciousness into a new artificial body. While Casandalee constructed your new body artificially, it is otherwise similar to the old, with the same effects as a critical success on a {@ritual resurrection} ritual. Casandalee is instead willing to provide different bodies to those who request them."
+		],
+		"Minor Curse": [
+			"Your joints stiffen, and your mind becomes clouded. You take a \u20132 status penalty to all rolls for initiative."
+		],
+		"Moderate Curse": [
+			"Casandalee attempts to bring you unwanted intellectual advancement to help you become something better. Each day, at some point during the day, Casandalee bestows a strange insight upon you that you find uncomfortable. If you embrace it, you aren't otherwise affected, but if you don't, you become {@condition confused} for 10 minutes."
+		],
+		"Major Curse": [
+			"The code of your soul is constantly being rewritten, and not for the better. You are never temporarily immune against a harmful effect."
+		]
+	}
+}

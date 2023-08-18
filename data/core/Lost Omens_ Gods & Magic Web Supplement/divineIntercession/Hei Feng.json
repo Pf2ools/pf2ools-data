@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Hei Feng"
+	},
+	"source": {
+		"page": 7,
+		"ID": "LOGM-WS"
+	},
+	"data": {
+		"Minor Boon": [
+			"The Heavenly Court's most boastful deity ensures your boasts hit home. Once, when you fail an {@skill Intimidation} check, you critically succeed instead. Hei Feng grants this boon capriciously based on his mood, sometimes even for trivial or inconsequential boasts, and he sometimes grants it for other skill checks related to boasts."
+		],
+		"Moderate Boon": [
+			"Fair winds and currents speed your passage. Any vessel you use to travel over the sea gains a +10-foot status bonus to its Speeds."
+		],
+		"Major Boon": [
+			"The instruments of the storm spare you from their fury. You ignore all effects and penalties caused by precipitation and winds, and you can see normally through fog, rain, and other weather conditions."
+		],
+		"Minor Curse": [
+			"Hei Feng's belligerence hangs over you like a thunderhead. You take a \u20131 status penalty to checks with Charisma-based skills. If you consume even a drop of alcohol, this penalty becomes \u20133 until the next sunrise."
+		],
+		"Moderate Curse": [
+			"Your heart is as quick to change as Hei Feng's. If you roll a failure on a saving throw against an {@trait emotion} effect, you get a critical failure instead."
+		],
+		"Major Curse": [
+			"The Duke of Thunder's ire follows you wherever you go. The weather in a 500-foot radius around you is always stormy. Roughly twice each minute you are outside, you are struck by a bolt of lightning that deals {@damage 10d6} electricity damage (DC 40 basic Reflex save)."
+		]
+	}
+}

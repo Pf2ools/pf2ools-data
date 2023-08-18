@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Lamashtu"
+	},
+	"source": {
+		"page": 33,
+		"ID": "LOGM"
+	},
+	"data": {
+		"Minor Boon": [
+			"Lamashtu's touch mutates a part of your body. You gain either an unarmed Strike that deals {@damage 1d6} damage or one that deals {@damage 1d4} damage and has the {@trait finesse} and {@trait agile} traits. Whether the attack deals bludgeoning, slashing, or piercing damage depends on the mutation. If the unarmed Strike replaces a limb, you can still use the mutated limb for its original functions. Lamashtu chooses the form and function of your mutation."
+		],
+		"Moderate Boon": [
+			"You spread Lamashtu's nightmares everywhere you go. You can cast {@spell confusion} once per day as an {@trait divine} innate spell."
+		],
+		"Major Boon": [
+			"Lamashtu uses your body to birth a new monster, regardless of your gender. Once per day, you can spend 1 minute to birth a monster determined by the GM, which rips its way from your belly. The monster's level is up to your level and it does as it pleases, following Lamashtu's will, though it doesn't attack you unless you have lost her favor. You are {@condition drained 3} from the ordeal."
+		],
+		"Minor Curse": [
+			"Horrid visions torment your mind, overlaying reality at inopportune times. You treat everything around you as if it was {@condition concealed}."
+		],
+		"Moderate Curse": [
+			"Lamashtu marks you as prey. Any creature with imprecise or better {@ability scent} can smell you from 100 × the usual range of their {@ability scent} and can't shake the feeling that you smell like prey, so they might attack you even if they would normally avoid attacking creatures of your ancestry. This smell doesn't magically compel their action, and the {@ability scent} of prey doesn't overcome a deeper bond such as that with an animal companion."
+		],
+		"Major Curse": [
+			"Your dreams are an unending stream of nightmares. You need 16 hours of rest to try to get enough sleep to recover resources in daily preparation that normally require an 8-hour rest, and even then, you must succeed at a DC {@flatDC 15} flat check to do so, and you are still {@condition fatigued} on a successful check."
+		]
+	}
+}

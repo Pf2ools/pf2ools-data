@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Ghlaunder"
+	},
+	"source": {
+		"page": 5,
+		"ID": "LOGM-WS"
+	},
+	"data": {
+		"Minor Boon": [
+			"Your commitment to filth draws a small cloud of disease-laden insects. Once, you can summon a cloud of midges, mosquitos, and flies to surround you for 1 minute. Creatures adjacent to you at any point during that time become {@condition drained 1}, {@condition sickened 1}, and exposed to a blood-borne illness. Ghlaunder typically grants this boon when you can infect a significant number of creatures."
+		],
+		"Moderate Boon": [
+			"Ghlaunder teaches you to bide your time, corrupting and infecting until the time is right. When you expose a creature to a {@trait disease} and it succeeds at its Fortitude save, it is still infected unless it critically succeeds. However, such a creature experiences no effects and the disease does not progress for the first 24 hours, even if the disease is normally fast-acting or someone uses another ability to progress the disease. It's very difficult to detect the infection in the first day; the DC for {@skill Medicine} checks to do so is 5 higher."
+		],
+		"Major Boon": [
+			"Ghlaunder rewards his followers with the ability to safely spread illness\u2014or on occasion, offers respite to desperate petitioners who please him. You do not take negative effects from any disease you are infected with unless or until Ghlaunder rescinds this benefit."
+		],
+		"Minor Curse": [
+			"Ghlaunder drains away your life force for himself. You become {@condition drained 1} and can't reduce your {@condition drained} condition below 1."
+		],
+		"Moderate Curse": [
+			"Ghlaunder leeches your energy from you as easily as blood. Any time you fail a Fortitude save, you become {@condition fatigued} in addition to all other effects."
+		],
+		"Major Curse": [
+			"You are struck with a contagious {@filter disease|afflictions||type=disease} of the GM's choice. You and anyone else you infect can't be cured of the disease or improve its condition to an earlier stage in any way until you infect two other sapient beings with the disease."
+		]
+	}
+}

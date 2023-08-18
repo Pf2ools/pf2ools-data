@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Brigh"
+	},
+	"source": {
+		"page": 4,
+		"ID": "LOGM-WS"
+	},
+	"data": {
+		"Minor Boon": [
+			"Knowledge floods your mind. Once, you can reroll a failed skill check to {@action Recall Knowledge}; you must use the second result, even if it's worse."
+		],
+		"Moderate Boon": [
+			"You become a wellspring of invention. You gain the {@feat Inventor} feat, even if you don't meet its prerequisites, and when you roll a {@skill Crafting} check for the {@feat Inventor} feat, you use the result one degree of success better than the result you rolled."
+		],
+		"Major Boon": [
+			"You gain the companionship of a loyal {@filter construct ally|bestiary||creature type=construct} of Brigh's choice at least 1 level lower than you. If the construct is destroyed, it rebuilds itself over the course of a week, and as you gain levels, the construct upgrades and improves itself, becoming more powerful."
+		],
+		"Minor Curse": [
+			"Your hands shake when attempting delicate work. All your failures to {@action Craft} or {@action Repair} items are instead critical failures."
+		],
+		"Moderate Curse": [
+			"Whenever you try to perform engineering or science tasks, everything just seems to explode. Whenever you attempt to create or use an {@trait alchemical} item or a {@trait construct}, {@action Disable a Device}, and so on, you must attempt a DC 15 flat check. On a failure, something explodes and you take {@damage 1d6} fire damage (or a different type of damage, if appropriate) per level of the item, construct, or device (DC 40 basic Reflex save)."
+		],
+		"Major Curse": [
+			"{@trait construct||Constructs}\u2014even mindless {@trait construct||constructs} you thought you could control\u2014seek your demise. All constructs are hostile to you and attack you when they notice your presence. Occasionally, inanimate statues and other objects animate as constructs to pursue Brigh's vengeance."
+		]
+	}
+}

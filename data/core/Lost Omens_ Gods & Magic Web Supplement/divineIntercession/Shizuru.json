@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Shizuru"
+	},
+	"source": {
+		"page": 9,
+		"ID": "LOGM-WS"
+	},
+	"data": {
+		"Minor Boon": [
+			"Your attacks help eradicate darkness. When you successfully {@action Strike} a foe, your weapon glows with bright light out to 60 feet for 1 minute. This is a {@trait light} effect with a counteract level equal to half your level rounded up."
+		],
+		"Moderate Boon": [
+			"Shizuru's light flows through your blade. Your weapons and unarmed attacks deal an additional {@damage 1d6} fire damage or {@damage 1d6} good damage; you choose each time you make an attack."
+		],
+		"Major Boon": [
+			"Shizuru bestows upon you a golden suit of armor made from sunlight, or transforms your favorite armor to gain that aspect. Once per hour while you are wearing the armor, if an attack would reduce your Hit Points to 0, the attack is instead completely negated."
+		],
+		"Minor Curse": [
+			"Your equipment turns on you for a disgraceful act. The next time you make an attack, your weapon or armor gains the {@condition broken} condition."
+		],
+		"Moderate Curse": [
+			"Shizuru decrees that her light is no longer your ally. You gain {@ability light blindness}."
+		],
+		"Major Curse": [
+			"Those who incite Shizuru's personal wrath earn the hatred of all of her subjects. All imperial dragons and animals you encounter are automatically {@condition hostile} to you, and you gain weakness 15 to draconic breath weapons."
+		]
+	}
+}

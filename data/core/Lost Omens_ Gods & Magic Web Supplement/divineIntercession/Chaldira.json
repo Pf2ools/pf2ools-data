@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Chaldira"
+	},
+	"source": {
+		"page": 5,
+		"ID": "LOGM-WS"
+	},
+	"data": {
+		"Minor Boon": [
+			"Once, you can choose the result of the next ordinary coin you flip or ordinary die you roll. If this ability is used for personal gain at the expense of someone innocent or less fortunate, Chaldira levies her moderate curse on you as punishment."
+		],
+		"Moderate Boon": [
+			"You gain a lucky impetuousness, allowing you to roll for initiative twice and use the higher result once per day. This is a {@trait fortune} effect."
+		],
+		"Major Boon": [
+			"Chaldira's major boon grants truly improbable luck in combat. Your movement doesn't trigger reactions. You always succeed at flat checks you make to hit opponents with {@trait attack} actions; this is a {@trait fortune} effect."
+		],
+		"Minor Curse": [
+			"Any time you refuse a request made in good faith, you vomit up a frog, mouse, or other small animal. This deals no damage and causes no conditions, but is obvious to all bystanders."
+		],
+		"Moderate Curse": [
+			"You are plagued with ill luck just when fortune is most needed. You must always roll flat checks twice and use the worse result. This is a {@trait misfortune} effect."
+		],
+		"Major Curse": [
+			"Ill luck causes even once-certain aid to fail with frustrating regularity. You cannot benefit from circumstance or status bonuses, or from {@trait fortune} effects."
+		]
+	}
+}

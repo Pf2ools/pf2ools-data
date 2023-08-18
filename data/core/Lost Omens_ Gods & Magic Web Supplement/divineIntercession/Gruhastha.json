@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Gruhastha"
+	},
+	"source": {
+		"page": 6,
+		"ID": "LOGM-WS"
+	},
+	"data": {
+		"Minor Boon": [
+			"Books fall open to insightful passages, and memories spring to mind when they are most needed. Once, when you fail a check to {@action Recall Knowledge}, you critically succeed instead. Gruhastha typically grants this boon for an extremely consequential attempt to {@action Recall Knowledge}, particularly when misinformation would have dire consequences."
+		],
+		"Moderate Boon": [
+			"The Keeper speeds your path toward learning new talents. You become permanently trained in two additional skills of your choice. Additionally, you can select a skill you are already trained in and permanently increase your proficiency rank in that skill, following the usual rules for skill increases."
+		],
+		"Major Boon": [
+			"You are a divine inspiration to others around you. When attempting any checks to {@action Recall Knowledge}, you can roll twice and use the better result; this is a {@trait fortune} effect. Additionally, allies within 60 feet gain a +2 status bonus to Will saves."
+		],
+		"Minor Curse": [
+			"As you stray from the truth, dissonant notes seem to interrupt you whenever you speak. You take a \u20132 status penalty to all {@skill Deception} checks."
+		],
+		"Moderate Curse": [
+			"Enlightenment begins to elude you, leaving you at a loss for knowledge. Whenever you attempt a check to {@action Recall Knowledge}, you use a result one degree of success worse than the result you rolled."
+		],
+		"Major Curse": [
+			"The written word turns against you, blurring into illegibility. You are incapable of reading anything or making out symbols of any sort, including the words on scrolls, spellbooks, or magic items."
+		]
+	}
+}

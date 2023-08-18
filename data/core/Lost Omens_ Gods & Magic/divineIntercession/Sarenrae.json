@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Sarenrae"
+	},
+	"source": {
+		"page": 43,
+		"ID": "LOGM"
+	},
+	"data": {
+		"Minor Boon": [
+			"Your healing hands are blessed with a warm flame. Once, when you heal another creature, instead of healing it for the normal amount, you heal the creature to full Hit Points, no matter how much damage it has taken. Sarenrae typically grants this boon in extremely consequential circumstances."
+		],
+		"Moderate Boon": [
+			"Your blade burns the irredeemable. Your attacks deal an additional {@damage 1d6} fire damage that ignores fire resistance."
+		],
+		"Major Boon": [
+			"You are a voice of peace and rehabilitation. When you roll a success at a check to {@action Request} something, you get a critical success instead. In addition, all creatures other than fiends, undead, and mindless creatures allow you one chance to speak your piece and make requests before entering combat. If you or an ally ever use the time from the request to gain an advantage in an ensuing combat (for example, by casting preparatory spells, positioning for combat, or waiting out your opponent's preparatory spells), Sarenrae immediately revokes this boon, or possibly curses your ally."
+		],
+		"Minor Curse": [
+			"The sun burns you for your transgression. You receive a sunburn that causes you to become permanently {@condition clumsy 1}."
+		],
+		"Moderate Curse": [
+			"The sun shines its light on everything you say. You become unable to tell lies, and if you attempt to do so, you instead compulsively blurt out the truth on the matter in question. You are still able to withhold information or lie by omission."
+		],
+		"Major Curse": [
+			"Sarenrae restricts your ability to harm others. All attacks you make, spells you cast, and other sources of damage you deal are {@trait nonlethal} except against fiends and undead, and you can't ever make them lethal. You deal minimum damage except against fiends and undead. All creatures except fiends and undead gain a +4 status bonus to their AC and saving throws against your attacks and other effects."
+		]
+	}
+}

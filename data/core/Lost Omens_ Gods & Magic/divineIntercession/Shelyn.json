@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Shelyn"
+	},
+	"source": {
+		"page": 45,
+		"ID": "LOGM"
+	},
+	"data": {
+		"Minor Boon": [
+			"Once, when you roll a failure on a {@skill Diplomacy} check, you get a critical success instead. Shelyn typically grants this boon only when the {@skill Diplomacy} check would serve to increase love or offer a chance of redemption."
+		],
+		"Moderate Boon": [
+			"You are inspired to create great works and become a virtuoso at all arts. You gain the {@feat Specialty Crafting} feat and the {@feat Virtuosic Performer|CRB|Virtuoso Performer} feat in all categories of {@skill Crafting} and {@skill Performance}."
+		],
+		"Major Boon": [
+			"Your inner beauty and love surround you in an aura. As long as you bear them no ill will, all creatures other than fiends, undead, and mindless creatures start with an attitude of {@condition friendly} toward you, unless they would have been {@condition helpful} instead. This doesn't mean they are willing to change their life or plans for you, and this boon does not prevent their attitudes from worsening if you try to thwart them. This effect doesn't work against deities and similarly powerful creatures. Additionally, the love you share with your friends inspires them. You and your allies gain a +3 status bonus to saving throws and skill checks as long as you can see each other."
+		],
+		"Minor Curse": [
+			"You heart churns with remorse. Each day, you are {@condition sickened 1} as a specific misdeed plays out in your mind over and over in guilt. You can't remove this condition, though it abates enough for you to quickly eat and drink when necessary. If you make amends or otherwise earnestly pursue redemption for the misdeed, the {@condition sickened} condition fades completely that day."
+		],
+		"Moderate Curse": [
+			"Others subconsciously recognize your past betrayals. Whenever you attempt a {@skill Diplomacy} check and roll a failure, you get a critical failure instead, and if you roll a critical success, you get a success instead."
+		],
+		"Major Curse": [
+			"Those who spread misery via false love face Shelyn's greatest curse. You lose the ability to distinguish any living being from another through appearance, voice, {@ability scent}, or similar sensory means. You can make out physical size (so you wouldn't mistake an ant for a horse), but nothing further. If you were merely shallow, every creature you see has generic, bland features, but if your deeds were vile, you see only the faces of those you have wronged."
+		]
+	}
+}

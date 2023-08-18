@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Kurgess"
+	},
+	"source": {
+		"page": 7,
+		"ID": "LOGM-WS"
+	},
+	"data": {
+		"Minor Boon": [
+			"The Strong Man blesses you with a measure of his strength. Increase your maximum and encumbered Bulk limits by 2."
+		],
+		"Moderate Boon": [
+			"You fear no exertion. You can employ exploration tactics normally while {@condition fatigued}."
+		],
+		"Major Boon": [
+			"You possess a true champion's might. When you roll a critical failure on an {@skill Athletics} check, you get a failure instead, and when you roll a success, you instead get a critical success."
+		],
+		"Minor Curse": [
+			"Difficulty lifting burdens is a sign of divine disapproval. Your maximum and encumbered Bulk limits decrease by 2."
+		],
+		"Moderate Curse": [
+			"Kurgess's displeasure breaks your competitive edge, causing you to fail at the cusp of success. If your check result exactly equals the DC, you fail instead of succeeding."
+		],
+		"Major Curse": [
+			"The wrath of Kurgess withers you almost to nothing. You are permanently {@condition drained 2} and {@condition enfeebled 4}."
+		]
+	}
+}

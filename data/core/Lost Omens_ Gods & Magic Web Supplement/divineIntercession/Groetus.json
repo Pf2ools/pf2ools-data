@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Groetus"
+	},
+	"source": {
+		"page": 6,
+		"ID": "LOGM-WS"
+	},
+	"data": {
+		"Minor Boon": [
+			"You wield power over disorder. Once, when you are {@condition confused}, you act normally enough to control your own actions in combat without penalty for the duration, though you still babble incoherently and otherwise behave strangely."
+		],
+		"Moderate Boon": [
+			"Groetus grants you knowledge to further the end times. Each week, he sends you a cryptic, incoherent message about something important to the end times that will happen in the coming week."
+		],
+		"Major Boon": [
+			"Your touch unravels things that have survived past their appointed time, according to Groetus's reckoning. Such a creature or object takes {@damage 10d6} negative damage each round you continue touching it; the damage ignores all Hardness and is capable of destroying nonliving objects, creatures immune to negative effects, and even undead or other creatures with {@ability negative healing|B2}. This boon might even be able to destroy some {@trait artifact|GMG|artifacts} that have survived past their time."
+		],
+		"Minor Curse": [
+			"Whenever you are illuminated by a light source other than natural sunlight, your head appears to be a bare skull. The DC for your recovery checks is 12 + your {@condition dying} value, rather than 10 + your {@condition dying} value, and you don't benefit from effects that reduce the DC, such as from the {@feat Toughness} feat."
+		],
+		"Moderate Curse": [
+			"The horrors at the end of reality become overwhelming and constantly race through your mind. You are permanently {@condition stupefied 2}."
+		],
+		"Major Curse": [
+			"You bring about the end to everything around you. Every item you carry or wear gains the {@condition broken} condition after 10 minutes of exposure to you, and is destroyed after a further hour. This effect can't destroy {@trait artifact|GMG|artifacts} or items of similar power."
+		]
+	}
+}

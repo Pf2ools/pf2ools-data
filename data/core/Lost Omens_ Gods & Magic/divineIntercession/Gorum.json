@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Gorum"
+	},
+	"source": {
+		"page": 22,
+		"ID": "LOGM"
+	},
+	"data": {
+		"Minor Boon": [
+			"Gorum grants you a weapon whenever you need one. You can use an {@action Interact} action to draw a 0-level non-magical iron weapon, even if you have no weapons on your person. Such a weapon lasts only as long as you continue using it to attack, and it can't be sold, given away, melted for scrap iron, or the like."
+		],
+		"Moderate Boon": [
+			"Your blows become unstoppable, carrying the momentum of Gorum's thrill for battle. Your {@item greatsword} {@action Strike|CRB|Strikes} gain the {@trait forceful} trait."
+		],
+		"Major Boon": [
+			"Gorum feeds you the zeal of his undying warriors, allowing you to draw upon your own life force to fight on and on without falling. Whenever you would be reduced to 0 Hit Points, you are instead healed to half your maximum Hit Points and become {@condition doomed 1} (or increase your {@condition doomed} condition by 1)."
+		],
+		"Minor Curse": [
+			"Gorum rewards cowardice with frailty. Any armor you wear and shield you wield reduces its item bonus to AC by 2 (minimum 0) and its Hardness, Hit Points, and Break Threshold by half."
+		],
+		"Moderate Curse": [
+			"You've lost the glory of slaying a worthy opponent. All of your weapon and unarmed attacks decrease their damage dice by one step, and all your attacks are {@trait nonlethal}."
+		],
+		"Major Curse": [
+			"You are unable to keep up with the rigors of combat. The moment a combat breaks out, you become {@condition fatigued} and {@condition slowed 1}. At the end of each of your turns, your {@condition slowed} condition increases by 1. These conditions end only when you are no longer in combat."
+		]
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Asmodeus"
+	},
+	"source": {
+		"page": 15,
+		"ID": "LOGM"
+	},
+	"data": {
+		"Minor Boon": [
+			"Pleased by your talent for manipulation, Asmodeus amplifies your skills. Once, when you fail at the {@skill Diplomacy} check to make a significant or consequential {@action Request}, you can cast {@spell suggestion} on the target of your {@action Request}, suggesting the same course of action. This is a {@trait divine} innate spell."
+		],
+		"Moderate Boon": [
+			"Your eyes glow red like embers and your skin takes on a crimson tone. You gain {@ability darkvision} and fire resistance 5."
+		],
+		"Major Boon": [
+			"Asmodeus helps enforce your bargains and contracts. When a creature enters a bargain or contract with you, uncoerced and of its own free will, it can't voluntarily violate its side of the bargain as long as you uphold your side. You can always choose to violate the bargain yourself, but if you do, the creature is no longer bound to fulfill its part."
+		],
+		"Minor Curse": [
+			"Asmodeus's flames burn you with great malice. You gain weakness 5 to fire."
+		],
+		"Moderate Curse": [
+			"Asmodeus forces your compliance. You can't voluntarily back out of an agreement or contract or go back on your word, though you need follow only the letter of the agreement, not the spirit."
+		],
+		"Major Curse": [
+			"Asmodeus has taken note of the chaos you have wrought. You receive an ancient wound that feels older than time itself. You become permanently {@condition drained||drained 4}, and nothing short of another intercession can remove the condition. Your wound aches fiercely whenever you perform a particularly chaotic act, causing you to become {@condition sickened||sickened 1}."
+		]
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Cayden Cailean"
+	},
+	"source": {
+		"page": 19,
+		"ID": "LOGM"
+	},
+	"data": {
+		"Minor Boon": [
+			"Cayden Cailean helps you recover from nights of carousing. While you still get drunk and otherwise experience the effects of alcohol normally, you are never hung over the next morning."
+		],
+		"Moderate Boon": [
+			"You share some of the bravery Cayden espoused during his ascension. When you roll a success on a saving throw against a {@trait fear} effect, you get a critical success instead. If you have the fighter {@classFeature bravery|fighter|crb|3} class feature, when you roll a critical failure on a save against a {@trait fear} effect, you get a failure instead."
+		],
+		"Major Boon": [
+			"An embodiment of freedom, you break fetters with ease. At the end of each of your turns, you can end one effect that is currently making you {@condition immobilized} (including effects that make you {@condition immobilized} by {@condition grabbed|crb|grabbing} or {@condition restrained|crb|restraining} you) as a free action."
+		],
+		"Minor Curse": [
+			"Individuals who raise Cayden's passing displeasure awake as if from a hard night of drinking and find that drink tastes foul."
+		],
+		"Moderate Curse": [
+			"Cayden has afflicted you with cowardice. Whenever you roll a critical success on a saving throw against a {@trait fear} effect, you get a success instead, and each time you roll a failure on a saving throw against a {@trait fear} effect, you get a critical failure instead."
+		],
+		"Major Curse": [
+			"Cayden curses you to suffer in the presence of drinking, making it hard for you to bear entering any tavern. Whenever any creature drinks alcohol within 100 feet of you, you suffer all negative effects from the alcohol (but only the alcohol) instead. This doesn't apply if the creature gains any special effect from drinking alcohol."
+		]
+	}
+}

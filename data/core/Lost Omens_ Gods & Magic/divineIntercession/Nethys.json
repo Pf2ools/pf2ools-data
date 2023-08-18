@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Nethys"
+	},
+	"source": {
+		"page": 35,
+		"ID": "LOGM"
+	},
+	"data": {
+		"Minor Boon": [
+			"Nethys casts a powerful spell to help you in a pinch. Once, Nethys casts a spell 1 level higher than the highest-level spell you can cast. If you can't cast spells, Nethys casts a 1st-level spell to help you."
+		],
+		"Moderate Boon": [
+			"Nethys grants you insight into the secrets of magic. Add one spell from a different tradition of magic to your spell list. You still must learn it or add it to your repertoire normally"
+		],
+		"Major Boon": [
+			"You are granted supreme magical knowledge and mastery. If you are a prepared spellcaster, you can switch one of your prepared spells for another spell you could have prepared in that slot; if you are a spontaneous spellcaster, you can switch one of the spells in your spell repertoire for another spell you could have chosen for your repertoire instead. In either case, you make this switch by using a single action, which has the {@trait concentrate}. (If you are neither a prepared nor a spontaneous spellcaster, Nethys won't grant you his major boon.)"
+		],
+		"Minor Curse": [
+			"The secrets of magic become mentally taxing. You are permanently {@condition stupefied 1}."
+		],
+		"Moderate Curse": [
+			"Your magic wars against itself like Nethys's dueling halves. Whenever you cast a spell, attempt a DC {@flatDC 11} flat check. On a failure, if your spell was harmful, you instead cast a beneficial spell of the same level on your intended targets, and if it was beneficial, you instead cast a harmful spell of the same level on your intended targets. If the spell benefited some targets and harmed others, you cast a spell of the same level that switches who benefited (for instance, changing a {@spell heal} spell that harmed undead and healed the living to a {@spell harm} spell that healed undead and harmed the living). You still lose the spell slot for the spell you were trying to cast."
+		],
+		"Major Curse": [
+			"Nethys severs your connection to magic. You lose all your spellcasting abilities and cannot gain any future spellcasting."
+		]
+	}
+}

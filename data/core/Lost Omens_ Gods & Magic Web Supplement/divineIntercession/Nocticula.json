@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Nocticula"
+	},
+	"source": {
+		"page": 8,
+		"ID": "LOGM-WS"
+	},
+	"data": {
+		"Minor Boon": [
+			"The night sky inspires you in a specific way. Once, when you roll a failure on a {@skill Crafting} or {@skill Performance} check under the night sky, you critically succeed instead. Nocticula typically grants this boon for a consequential piece of artwork or performance."
+		],
+		"Moderate Boon": [
+			"You draw on the power of midnight to guide you on your journeys. You gain {@ability darkvision}. If you already had {@ability darkvision}, you can cast {@spell darkness} once per day as a {@trait divine} innate spell."
+		],
+		"Major Boon": [
+			"You become an idealized version of yourself, as if created by a divine artist. You permanently gain a set of 4 ability boosts that follow the same rules as the ability boosts you gain at every 5th level."
+		],
+		"Minor Curse": [
+			"Midnight looms and obscures your fate. You are only able to see up to 60 feet away from you, regardless of the lighting or what senses you have."
+		],
+		"Moderate Curse": [
+			"You are plagued with doubt in your own skills. You are always untrained with {@skill Crafting}, {@skill Performance}, and one other skill (determined by the GM, but themed to the event that brought on your curse), regardless of any effect that would improve your proficiency. You can't retrain those skills."
+		],
+		"Major Curse": [
+			"You are exiled from companionship. You can't communicate with any other creature, nor can you feel other creatures' touch."
+		]
+	}
+}

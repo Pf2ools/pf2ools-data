@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Alseta"
+	},
+	"source": {
+		"page": 3,
+		"ID": "LOGM-WS"
+	},
+	"data": {
+		"Minor Boon": [
+			"Alseta's guiding hand aids your journeys. Once, when employing {@trait teleportation} magic, you appear exactly on target, even if you used a notoriously imprecise spell like {@spell plane shift}. Alseta typically grants this boon for extremely consequential magical travel, especially when time is of the essence."
+		],
+		"Moderate Boon": [
+			"New doors open themselves for you. You can cast {@spell knock} once per day as a divine innate spell."
+		],
+		"Major Boon": [
+			"You transition unimpeded through the world. You can open any door or portal simply by placing your palm upon it with a single Interact action, even if it's locked or magically sealed, and you can enter any open door or threshold, even if it's magically warded to prevent entry. This doesn't overcome the locks and magic of {@trait artifact|GMG|artifacts}, deities, and similarly powerful effects."
+		],
+		"Minor Curse": [
+			"Doors jam and locks stick when you try to open them. It takes 3 Interact actions for you to open even an unlocked door, and each attempt to {@action Pick a Lock} takes you 2 rounds instead of 2 actions."
+		],
+		"Moderate Curse": [
+			"Crossing thresholds becomes daunting. Whenever you move through a portal, gateway, or door, you gain the {@condition sickened 2} condition. Magical travel is even more exhausting; after traveling via {@trait teleportation}, {@spell plane shift}, or the like, you also gain the {@condition fatigued} condition until you get a full night's rest."
+		],
+		"Major Curse": [
+			"Transportation magic no longer works for you. You cannot be transported by any magical means, nor can you transport, conjure, or summon others. Even extradimensional spaces like {@item bag of holding (generic)||bags of holding} are inaccessible and unusable to you, as using them requires magical transportation to the extradimensional space."
+		]
+	}
+}
