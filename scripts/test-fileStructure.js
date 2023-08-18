@@ -1,26 +1,26 @@
 // Constants
-const FAMILY_NAMES = ['common', 'core', 'homebrew'];
-const COMMON_DATA_TYPES = ['license', 'sourceGroup'];
+const FAMILY_NAMES = ["common", "core", "homebrew"];
+const COMMON_DATA_TYPES = ["license", "sourceGroup"];
 
-import chalk from 'chalk';
-import { Command } from 'commander';
-import * as fs from 'fs';
-import * as path from 'path';
+import chalk from "chalk";
+import { Command } from "commander";
+import * as fs from "fs";
+import * as path from "path";
 
 // Define CLI
 const program = new Command()
-	.summary('Verify the filesystem of a Pf2ools Data repository')
-	.argument('[path]', 'Data directory path', './data')
-	.option('-a, --all', 'Verify entire filesystem (default: break at first verification failure)')
-	.option('--datatypes <path>', 'Path to a list of datatypes', './indexes/datatypes.json')
+	.summary("Verify the filesystem of a Pf2ools Data repository")
+	.argument("[path]", "Data directory path", "./data")
+	.option("-a, --all", "Verify entire filesystem (default: break at first verification failure)")
+	.option("--datatypes <path>", "Path to a list of datatypes", "./indexes/datatypes.json")
 	.parse(process.argv);
 
 // Load and validate arguments
 const opts = program.opts();
 if (program.args.length > 1)
-	program.error(chalk.red(`${'Too many arguments'} (maximum: 1)`), {
+	program.error(chalk.red(`${"Too many arguments"} (maximum: 1)`), {
 		exitCode: 1,
-		code: 'invalid.args',
+		code: "invalid.args",
 	});
 const dataPath = path.join(...program.processedArgs[0].toString().split(path.sep));
 let dataDir;
@@ -29,18 +29,18 @@ try {
 } catch {
 	program.error(chalk.red(`"${dataPath}" not found`), {
 		exitCode: 1,
-		code: 'invalid.path',
+		code: "invalid.path",
 	});
 }
 if (!dataDir.isDirectory())
 	program.error(chalk.red(`"${dataPath}" is not a directory`), {
 		exitCode: 1,
-		code: 'invalid.path',
+		code: "invalid.path",
 	});
 if (!fs.statSync(opts.datatypes))
 	program.error(chalk.red(`List of datatypes "${opts.datatypes}" not found`), {
 		exitCode: 1,
-		code: 'invalid.path',
+		code: "invalid.path",
 	});
 let datatypesFile;
 try {
@@ -48,19 +48,19 @@ try {
 } catch {
 	program.error(chalk.red(`"${opts.datatypes}" not found`), {
 		exitCode: 1,
-		code: 'invalid.path',
+		code: "invalid.path",
 	});
 }
-if (!datatypesFile.isFile() || path.extname(opts.datatypes) !== '.json')
+if (!datatypesFile.isFile() || path.extname(opts.datatypes) !== ".json")
 	program.error(chalk.red(`"${opts.datatypes}" is not a JSON file`), {
 		exitCode: 1,
-		code: 'invalid.path',
+		code: "invalid.path",
 	});
 const DATATYPES = JSON.parse(fs.readFileSync(opts.datatypes));
-if (!Array.isArray(DATATYPES) || DATATYPES.some((e) => typeof e !== 'string'))
+if (!Array.isArray(DATATYPES) || DATATYPES.some((e) => typeof e !== "string"))
 	program.error(chalk.red(`"${opts.datatypes}" is not an array of strings`), {
 		exitCode: 1,
-		code: 'invalid.datatypes',
+		code: "invalid.datatypes",
 	});
 
 // ====== //
@@ -70,13 +70,13 @@ function logError(message) {
 	if (!opts.all)
 		program.error(chalk.red(message), {
 			exitCode: 1,
-			code: 'failed.verification',
+			code: "failed.verification",
 		});
 	errorStatus = true;
 }
 function sanitiseFilename(name, specifier) {
 	const unsafeCharacters = new RegExp(/[<>:"/\\|?*]/gi);
-	return name.replace(unsafeCharacters, '_') + (specifier ? ` - ${specifier.replace(unsafeCharacters, '_')}` : '');
+	return name.replace(unsafeCharacters, "_") + (specifier ? ` - ${specifier.replace(unsafeCharacters, "_")}` : "");
 }
 
 // ====== //
@@ -93,13 +93,13 @@ for (const family of fs.readdirSync(dataPath)) {
 	if (!FAMILY_NAMES.includes(family)) {
 		logError(
 			`Invalid family directory name: ${chalk.bold(familyPath)}\n\t${chalk.dim(
-				`Expected: ${FAMILY_NAMES.join(', ')}`
-			)}`
+				`Expected: ${FAMILY_NAMES.join(", ")}`,
+			)}`,
 		);
 	}
 	// END: Data directory
 
-	if (family === 'common') {
+	if (family === "common") {
 		for (const datatype of fs.readdirSync(familyPath)) {
 			// START: `common` family directory
 			//   - No non-directories
@@ -107,13 +107,13 @@ for (const family of fs.readdirSync(dataPath)) {
 			const datatypePath = path.join(familyPath, datatype);
 			if (!fs.statSync(datatypePath).isDirectory())
 				logError(
-					`The "common" family directory can only contain common datatype directories: ${chalk.bold(familyPath)}`
+					`The "common" family directory can only contain common datatype directories: ${chalk.bold(familyPath)}`,
 				);
 			if (!COMMON_DATA_TYPES.includes(datatype))
 				logError(
 					`Invalid common datatype directory name: ${chalk.bold(datatypePath)}\n\t${chalk.dim(
-						`Expected: ${COMMON_DATA_TYPES.join(', ')}`
-					)}`
+						`Expected: ${COMMON_DATA_TYPES.join(", ")}`,
+					)}`,
 				);
 			// END: `common` family directory
 
@@ -124,21 +124,21 @@ for (const family of fs.readdirSync(dataPath)) {
 				//   - File datatype must match its directory
 				//   - File must be named as its `title.full` (sanitised)
 				const dataPath = path.join(datatypePath, data);
-				if (!fs.statSync(dataPath).isFile() || path.extname(dataPath) !== '.json')
+				if (!fs.statSync(dataPath).isFile() || path.extname(dataPath) !== ".json")
 					logError(`The "${datatypePath}" directory can only contain JSON files: ${chalk.bold(dataPath)}`);
 				const content = JSON.parse(fs.readFileSync(dataPath));
 				if (content.type !== datatype)
 					logError(
 						`File in incorrect datatype directory: ${chalk.bold(dataPath)}\n\t${chalk.dim(
-							`Expected: ${familyPath}${path.sep}${content.type}${path.sep}${data}`
-						)}`
+							`Expected: ${familyPath}${path.sep}${content.type}${path.sep}${data}`,
+						)}`,
 					);
 				const sanitisedFilename = sanitiseFilename(content.title.full);
-				if (path.basename(data, '.json') !== sanitisedFilename)
+				if (path.basename(data, ".json") !== sanitisedFilename)
 					logError(
 						`Filename does not match title: ${chalk.bold(dataPath)}\n\t${chalk.dim(
-							`Expected: ${datatypePath}${path.sep}${sanitisedFilename}.json`
-						)}`
+							`Expected: ${datatypePath}${path.sep}${sanitisedFilename}.json`,
+						)}`,
 					);
 				// END: Common datatype directories
 			}
@@ -150,7 +150,7 @@ for (const family of fs.readdirSync(dataPath)) {
 			const sourcePath = path.join(familyPath, source);
 			if (!fs.statSync(sourcePath).isDirectory())
 				logError(
-					`The "${family}" family directory can only contain source directories: ${chalk.bold(sourcePath)}`
+					`The "${family}" family directory can only contain source directories: ${chalk.bold(sourcePath)}`,
 				);
 			// END: `core`/`homebrew` family directory
 
@@ -166,20 +166,20 @@ for (const family of fs.readdirSync(dataPath)) {
 				const datatypePath = path.join(sourcePath, datatype);
 				const datatypeStat = fs.statSync(datatypePath);
 				if (datatypeStat.isFile()) {
-					if (path.extname(datatype) !== '.json') {
+					if (path.extname(datatype) !== ".json") {
 						logError(`Source directories can only contain one JSON source file: ${chalk.bold(datatypePath)}`);
 					} else {
 						const content = JSON.parse(fs.readFileSync(datatypePath));
 						sourceDirFiles.push(datatypePath);
 						sourceID = content.ID;
-						if (content.type !== 'source')
+						if (content.type !== "source")
 							logError(`Source directories should contain only one source file: ${chalk.bold(datatypePath)}`);
 						const sanitisedFilename = sanitiseFilename(content.title.full);
-						if (path.basename(datatypePath, '.json') !== sanitisedFilename)
+						if (path.basename(datatypePath, ".json") !== sanitisedFilename)
 							logError(
 								`Filename does not match title: ${chalk.bold(datatypePath)}\n\t${chalk.dim(
-									`Expected: ${datatypePath}${path.sep}${sanitisedFilename}.json`
-								)}`
+									`Expected: ${datatypePath}${path.sep}${sanitisedFilename}.json`,
+								)}`,
 							);
 						if (source !== sanitisedFilename)
 							logError(`Source directory does not match source title: ${chalk.bold(datatypePath)}`);
@@ -197,27 +197,27 @@ for (const family of fs.readdirSync(dataPath)) {
 						//   - File sourceID must match its directory
 						//   - File must be named as its `name.primary` plus specifier (if any; all sanitised)
 						const dataPath = path.join(datatypePath, data);
-						if (!fs.statSync(dataPath).isFile() || path.extname(dataPath) !== '.json')
+						if (!fs.statSync(dataPath).isFile() || path.extname(dataPath) !== ".json")
 							logError(`The "${datatypePath}" directory can only contain JSON files: ${chalk.bold(dataPath)}`);
 						const content = JSON.parse(fs.readFileSync(dataPath));
 						if (content.type !== datatype)
 							logError(
 								`File in incorrect datatype directory: ${chalk.bold(dataPath)}\n\t${chalk.dim(
-									`Expected: ${sourcePath}${path.sep}${content.type}${path.sep}${data}`
-								)}`
+									`Expected: ${sourcePath}${path.sep}${content.type}${path.sep}${data}`,
+								)}`,
 							);
 						if (sourceID && content.source.ID !== sourceID)
 							logError(
 								`Content's source ID does not match parent source file: ${chalk.bold(dataPath)}\n\t${chalk.dim(
-									`Expected source.ID: ${sourceID}`
-								)}`
+									`Expected source.ID: ${sourceID}`,
+								)}`,
 							);
 						const sanitisedFilename = sanitiseFilename(content.name.primary, content.name.specifier);
-						if (path.basename(data, '.json') !== sanitisedFilename)
+						if (path.basename(data, ".json") !== sanitisedFilename)
 							logError(
 								`Filename does not match title: ${chalk.bold(dataPath)}\n\t${chalk.dim(
-									`Expected: ${datatypePath}${path.sep}${sanitisedFilename}.json`
-								)}`
+									`Expected: ${datatypePath}${path.sep}${sanitisedFilename}.json`,
+								)}`,
 							);
 					}
 
@@ -233,7 +233,7 @@ for (const family of fs.readdirSync(dataPath)) {
 				logError(`Source directory lacks a source file: ${chalk.bold(sourcePath)}`);
 			} else if (sourceDirFiles.length > 1) {
 				logError(
-					`Source directory should only have one source file:\n\t${chalk.bold(sourceDirFiles.join('\n\t'))}`
+					`Source directory should only have one source file:\n\t${chalk.bold(sourceDirFiles.join("\n\t"))}`,
 				);
 			}
 			// END: Source directories (part 2)
@@ -242,4 +242,4 @@ for (const family of fs.readdirSync(dataPath)) {
 }
 
 // Summary
-if (!errorStatus) console.log(chalk.green('Data repository is valid'));
+if (!errorStatus) console.log(chalk.green("Data repository is valid"));
