@@ -20,7 +20,7 @@ All the actual game data is in the [`data/`](./data/) directory.
 
 All Paizo-made content is in the [`core/`](./data/core/) directory, and all homebrew content is in the [`homebrew/`](./data/homebrew/) directory. In each of these directories, there is one directory for each source, named according to its title. In each of these directories, there is a source file which describes that source, and further directories for each datatype that source contains. The actual content-data files are within these lattermost directories.
 
-In addition to [`core/`](./data/core/) and [`homebrew/`](./data/homebrew/), there is also a [`common/`](./data/common/) directory. which contains directories for any [license](./data/common/license/) or [source group](./data/common/sourceGroup/) files.
+In addition to [`core/`](./data/core/) and [`homebrew/`](./data/homebrew/), there is also a [`common/`](./data/common/) directory, which contains directories for any [license](./data/common/license/) or [source group](./data/common/sourceGroup/) files.
 
 ### Data structure
 
