@@ -43,6 +43,9 @@
 				"misc": {
 					"Adventure": true
 				}
+			},
+			"data": {
+				"publisher": "Paizo"
 			}
 		},
 		{
@@ -56,6 +59,9 @@
 				"misc": {
 					"Adventure": true
 				}
+			},
+			"data": {
+				"publisher": "Paizo"
 			}
 		},
 		{
@@ -69,6 +75,9 @@
 				"misc": {
 					"Adventure": true
 				}
+			},
+			"data": {
+				"publisher": "Paizo"
 			}
 		},
 		{
@@ -82,6 +91,9 @@
 				"misc": {
 					"Adventure": true
 				}
+			},
+			"data": {
+				"publisher": "Paizo"
 			}
 		},
 		{
@@ -95,6 +107,9 @@
 				"misc": {
 					"Adventure": true
 				}
+			},
+			"data": {
+				"publisher": "Paizo"
 			}
 		},
 		{
@@ -108,6 +123,9 @@
 				"misc": {
 					"Adventure": true
 				}
+			},
+			"data": {
+				"publisher": "Paizo"
 			}
 		},
 		{
@@ -121,6 +139,9 @@
 				"misc": {
 					"Adventure": true
 				}
+			},
+			"data": {
+				"publisher": "Paizo"
 			}
 		},
 		{
@@ -134,6 +155,9 @@
 				"misc": {
 					"Adventure": true
 				}
+			},
+			"data": {
+				"publisher": "Paizo"
 			}
 		},
 		{
@@ -147,6 +171,9 @@
 				"misc": {
 					"Ongoing": true
 				}
+			},
+			"data": {
+				"publisher": "Paizo"
 			}
 		},
 		{
@@ -160,6 +187,9 @@
 				"misc": {
 					"Adventure": true
 				}
+			},
+			"data": {
+				"publisher": "Paizo"
 			}
 		},
 		{
@@ -173,6 +203,9 @@
 				"misc": {
 					"Adventure": true
 				}
+			},
+			"data": {
+				"publisher": "Paizo"
 			}
 		},
 		{
@@ -186,6 +219,9 @@
 				"misc": {
 					"Adventure": true
 				}
+			},
+			"data": {
+				"publisher": "Paizo"
 			}
 		},
 		{
@@ -199,6 +235,9 @@
 				"misc": {
 					"Adventure": true
 				}
+			},
+			"data": {
+				"publisher": "Paizo"
 			}
 		},
 		{
@@ -212,6 +251,9 @@
 				"misc": {
 					"Adventure": true
 				}
+			},
+			"data": {
+				"publisher": "Paizo"
 			}
 		},
 		{
@@ -225,6 +267,9 @@
 				"misc": {
 					"Ongoing": true
 				}
+			},
+			"data": {
+				"publisher": "Paizo"
 			}
 		}
 	]
