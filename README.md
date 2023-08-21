@@ -57,7 +57,7 @@ In both cases, the files should be named fairly intuitively.
 > [!IMPORTANT]
 > You can run `npm run build` yourself, but you must have [PowerShell 7](https://github.com/PowerShell/PowerShell) installed.
 >
-> Some scripts accept optional parameters. See the comments at the top of each for more information; you can use them via `npm run <script> -- [-Parameter ["value"]] [-Switch]`.
+> Some individual scripts accept optional parameters. See the comments at the top of each for more information; you can use them via `npm run <script> -- [-Parameter ["value"] ...] [-Switch ...]`.
 
 ### Versioning
 
