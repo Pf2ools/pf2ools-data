@@ -17,8 +17,7 @@ Get-ChildItem ./data/*/*/* -File | ForEach-Object {
 		if ($IgnoreCollisions) {
 			Write-Warning "ID collision at ""$($file.ID)"" skipped"
 		} else {
-			Write-Error "ID collision at ""$($file.ID)"""
-			break
+			throw "ID collision at ""$($file.ID)"""
 		}
 		$IDs.PSObject.Properties.Remove($file.ID)
 		$collisions.Add($file.ID)
