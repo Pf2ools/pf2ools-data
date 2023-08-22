@@ -31,23 +31,8 @@
 		"trainedSkills": {
 			"count": 2,
 			"skills": {
-				"Acrobatics": true,
-				"Arcana": true,
-				"Athletics": true,
-				"Crafting": true,
-				"Deception": true,
-				"Diplomacy": true,
-				"Intimidation": true,
-				"Lore": true,
-				"Medicine": true,
-				"Nature": true,
 				"Occultism": true,
-				"Performance": true,
-				"Religion": true,
-				"Society": true,
-				"Stealth": true,
-				"Survival": true,
-				"Thievery": true
+				"Any": true
 			}
 		},
 		"misc": {
