@@ -49,7 +49,7 @@
 				"PFS-legal": true
 			},
 			"status": {
-				"WIP": true
+				"Missing content": true
 			}
 		}
 	},
@@ -74,9 +74,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"strength": true,
-						"intelligence": true,
-						"free": true
+						"Strength": true,
+						"Intelligence": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -122,9 +122,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"intelligence": true,
-						"wisdom": true,
-						"free": true
+						"Intelligence": true,
+						"Wisdom": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -160,9 +160,9 @@
 				"abilityBoosts": {
 					"count": 3,
 					"abilities": {
-						"constitution": true,
-						"charisma": true,
-						"free": true
+						"Constitution": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -203,9 +203,9 @@
 				"abilityBoosts": {
 					"count": 3,
 					"abilities": {
-						"wisdom": true,
-						"charisma": true,
-						"free": true
+						"Wisdom": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -246,9 +246,9 @@
 				"abilityBoosts": {
 					"count": 3,
 					"abilities": {
-						"strength": true,
-						"wisdom": true,
-						"free": true
+						"Strength": true,
+						"Wisdom": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -290,9 +290,9 @@
 				"abilityBoosts": {
 					"count": 3,
 					"abilities": {
-						"intelligence": true,
-						"wisdom": true,
-						"free": true
+						"Intelligence": true,
+						"Wisdom": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -338,9 +338,9 @@
 				"abilityBoosts": {
 					"count": 3,
 					"abilities": {
-						"constitution": true,
-						"charisma": true,
-						"free": true
+						"Constitution": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -400,9 +400,9 @@
 				"abilityBoosts": {
 					"count": 3,
 					"abilities": {
-						"strength": true,
-						"constitution": true,
-						"free": true
+						"Strength": true,
+						"Constitution": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -448,9 +448,9 @@
 				"abilityBoosts": {
 					"count": 3,
 					"abilities": {
-						"dexterity": true,
-						"constitution": true,
-						"free": true
+						"Dexterity": true,
+						"Constitution": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -495,9 +495,9 @@
 				"abilityBoosts": {
 					"count": 3,
 					"abilities": {
-						"dexterity": true,
-						"wisdom": true,
-						"free": true
+						"Dexterity": true,
+						"Wisdom": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -515,6 +515,71 @@
 							"sourceID": "CRB"
 						}
 					]
+				}
+			}
+		}
+	],
+	"domain": [
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Metal"
+			},
+			"source": {
+				"page": 145,
+				"ID": "RoE"
+			},
+			"data": {
+				"preamble": "You manipulate flexible, mutable metal. Few deities possess the metal domain, apart from the two elemental lords of metal.",
+				"domainSpell": {
+					"sourceID": "RoE",
+					"name": "Serrate"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "RoE",
+					"name": "Repel Metal"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Toil"
+			},
+			"source": {
+				"page": 97,
+				"ID": "RoE"
+			},
+			"data": {
+				"preamble": "This domain is chosen by devotees who work constantly and refuse to let anything stand in their way.",
+				"domainSpell": {
+					"sourceID": "RoE",
+					"name": "Practice Makes Perfect"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "RoE",
+					"name": "Tireless Worker"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Wood"
+			},
+			"source": {
+				"page": 199,
+				"ID": "RoE"
+			},
+			"data": {
+				"preamble": "You command the indomitable power of wood.",
+				"domainSpell": {
+					"sourceID": "RoE",
+					"name": "Arms of Nature"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "RoE",
+					"name": "Wood Walk"
 				}
 			}
 		}

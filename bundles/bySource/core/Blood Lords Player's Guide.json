@@ -57,9 +57,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"strength": true,
-						"charisma": true,
-						"free": true
+						"Strength": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -111,9 +111,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"strength": true,
-						"intelligence": true,
-						"free": true
+						"Strength": true,
+						"Intelligence": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -165,9 +165,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"constitution": true,
-						"wisdom": true,
-						"free": true
+						"Constitution": true,
+						"Wisdom": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -218,9 +218,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"constitution": true,
-						"intelligence": true,
-						"free": true
+						"Constitution": true,
+						"Intelligence": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -272,9 +272,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"dexterity": true,
-						"intelligence": true,
-						"free": true
+						"Dexterity": true,
+						"Intelligence": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -326,9 +326,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"charisma": true,
-						"dexterity": true,
-						"free": true
+						"Charisma": true,
+						"Dexterity": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {

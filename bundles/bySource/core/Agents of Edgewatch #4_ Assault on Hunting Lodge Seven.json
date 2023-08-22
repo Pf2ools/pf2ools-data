@@ -55,13 +55,13 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"strength": true,
-						"dexterity": true,
-						"constitution": true,
-						"intelligence": true,
-						"wisdom": true,
-						"charisma": true,
-						"free": true
+						"Strength": true,
+						"Dexterity": true,
+						"Constitution": true,
+						"Intelligence": true,
+						"Wisdom": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {

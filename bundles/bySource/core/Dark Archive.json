@@ -59,9 +59,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"constitution": true,
-						"charisma": true,
-						"free": true
+						"Constitution": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -101,9 +101,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"dexterity": true,
-						"charisma": true,
-						"free": true
+						"Dexterity": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -149,9 +149,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"constitution": true,
-						"intelligence": true,
-						"free": true
+						"Constitution": true,
+						"Intelligence": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {

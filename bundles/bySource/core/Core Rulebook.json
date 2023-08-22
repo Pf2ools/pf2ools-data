@@ -54,9 +54,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"intelligence": true,
-						"wisdom": true,
-						"free": true
+						"Intelligence": true,
+						"Wisdom": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -97,9 +97,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"strength": true,
-						"dexterity": true,
-						"free": true
+						"Strength": true,
+						"Dexterity": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -140,9 +140,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"wisdom": true,
-						"charisma": true,
-						"free": true
+						"Wisdom": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -184,9 +184,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"strength": true,
-						"intelligence": true,
-						"free": true
+						"Strength": true,
+						"Intelligence": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -228,9 +228,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"dexterity": true,
-						"charisma": true,
-						"free": true
+						"Dexterity": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -271,9 +271,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"constitution": true,
-						"charisma": true,
-						"free": true
+						"Constitution": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -315,9 +315,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"intelligence": true,
-						"charisma": true,
-						"free": true
+						"Intelligence": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -359,9 +359,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"strength": true,
-						"wisdom": true,
-						"free": true
+						"Strength": true,
+						"Wisdom": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -402,9 +402,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"intelligence": true,
-						"charisma": true,
-						"free": true
+						"Intelligence": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -445,9 +445,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"dexterity": true,
-						"intelligence": true,
-						"free": true
+						"Dexterity": true,
+						"Intelligence": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -488,9 +488,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"intelligence": true,
-						"wisdom": true,
-						"free": true
+						"Intelligence": true,
+						"Wisdom": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -531,9 +531,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"intelligence": true,
-						"charisma": true,
-						"free": true
+						"Intelligence": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -573,9 +573,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"dexterity": true,
-						"charisma": true,
-						"free": true
+						"Dexterity": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -616,9 +616,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"constitution": true,
-						"wisdom": true,
-						"free": true
+						"Constitution": true,
+						"Wisdom": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -660,9 +660,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"constitution": true,
-						"wisdom": true,
-						"free": true
+						"Constitution": true,
+						"Wisdom": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -704,9 +704,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"intelligence": true,
-						"charisma": true,
-						"free": true
+						"Intelligence": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -747,9 +747,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"dexterity": true,
-						"charisma": true,
-						"free": true
+						"Dexterity": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -791,9 +791,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"strength": true,
-						"charisma": true,
-						"free": true
+						"Strength": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -835,9 +835,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"strength": true,
-						"charisma": true,
-						"free": true
+						"Strength": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -879,9 +879,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"constitution": true,
-						"wisdom": true,
-						"free": true
+						"Constitution": true,
+						"Wisdom": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -923,9 +923,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"constitution": true,
-						"intelligence": true,
-						"free": true
+						"Constitution": true,
+						"Intelligence": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -967,9 +967,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"dexterity": true,
-						"wisdom": true,
-						"free": true
+						"Dexterity": true,
+						"Wisdom": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -1011,9 +1011,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"strength": true,
-						"constitution": true,
-						"free": true
+						"Strength": true,
+						"Constitution": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -1054,9 +1054,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"strength": true,
-						"dexterity": true,
-						"free": true
+						"Strength": true,
+						"Dexterity": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -1102,9 +1102,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"intelligence": true,
-						"charisma": true,
-						"free": true
+						"Intelligence": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -1145,9 +1145,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"strength": true,
-						"wisdom": true,
-						"free": true
+						"Strength": true,
+						"Wisdom": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -1188,9 +1188,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"intelligence": true,
-						"charisma": true,
-						"free": true
+						"Intelligence": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -1231,9 +1231,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"constitution": true,
-						"wisdom": true,
-						"free": true
+						"Constitution": true,
+						"Wisdom": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -1275,9 +1275,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"strength": true,
-						"constitution": true,
-						"free": true
+						"Strength": true,
+						"Constitution": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -1319,9 +1319,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"strength": true,
-						"dexterity": true,
-						"free": true
+						"Strength": true,
+						"Dexterity": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -1363,9 +1363,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"intelligence": true,
-						"wisdom": true,
-						"free": true
+						"Intelligence": true,
+						"Wisdom": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -1409,9 +1409,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"dexterity": true,
-						"wisdom": true,
-						"free": true
+						"Dexterity": true,
+						"Wisdom": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -1452,9 +1452,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"dexterity": true,
-						"constitution": true,
-						"free": true
+						"Dexterity": true,
+						"Constitution": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -1496,9 +1496,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"dexterity": true,
-						"intelligence": true,
-						"free": true
+						"Dexterity": true,
+						"Intelligence": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -1539,9 +1539,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"strength": true,
-						"constitution": true,
-						"free": true
+						"Strength": true,
+						"Constitution": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -2371,6 +2371,837 @@
 			"tags": {
 				"group": {
 					"Death and Dying": true
+				}
+			}
+		}
+	],
+	"domain": [
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Air"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You can control winds and the weather.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Pushing Gust"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Disperse into Air"
+				},
+				"advancedApocryphalSpell": {
+					"sourceID": "DA",
+					"name": "Wind Whispers"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Ambition"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You strive to keep up with and outpace the competition.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Blind Ambition"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Competitive Edge"
+				},
+				"apocryphalSpell": {
+					"sourceID": "DA",
+					"name": "Hollow Heart"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Cities"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You have powers over urban environments and denizens.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Face in the Crowd"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Pulse of the City"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Confidence"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You overcome your fear and project pride.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Veil of Confidence"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Delusional Pride"
+				},
+				"advancedApocryphalSpell": {
+					"sourceID": "DA",
+					"name": "Shaken Confidence"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Creation"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You have divine abilities related to crafting and art.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Splash of Art"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Artistic Flourish"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Darkness"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You operate in the darkness and take away the light.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Cloak of Shadow"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Darkened Eyes"
+				},
+				"advancedApocryphalSpell": {
+					"sourceID": "DA",
+					"name": "Isolation"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Death"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You have the power to end lives and destroy undead.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Death's Call"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Eradicate Undeath"
+				},
+				"advancedApocryphalSpell": {
+					"sourceID": "DA",
+					"name": "Euphoric Renewal"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Destruction"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You are a conduit for divine devastation.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Cry of Destruction"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Destructive Aura"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Dreams"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You have the power to enter and manipulate dreams.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Sweet Dream"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Dreamer's Call"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Earth"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You control soil and stone.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Hurtling Stone"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Localized Quake"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Family"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You aid and protect your family and community more effectively.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Soothing Words"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Unity"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Fate"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You see and understand hidden inevitabilities.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Read Fate"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Tempt Fate"
+				},
+				"apocryphalSpell": {
+					"sourceID": "DA",
+					"name": "String of Fate"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Fire"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You control flame.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Fire Ray"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Flame Barrier"
+				},
+				"apocryphalSpell": {
+					"sourceID": "DA",
+					"name": "Cinder Gaze"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Freedom"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You liberate yourself and others from shackles and constraints.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Unimpeded Stride"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Word of Freedom"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Healing"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "Your healing magic is particularly potent.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Healer's Blessing"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Rebuke Death"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Indulgence"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You feast mightily and can shake off the effects of overindulging.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Overstuff"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Take Its Course"
+				},
+				"apocryphalSpell": {
+					"sourceID": "DA",
+					"name": "Frenzied Revelry"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Knowledge"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You receive divine insights.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Scholarly Recollection"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Know the Enemy"
+				},
+				"advancedApocryphalSpell": {
+					"sourceID": "DA",
+					"name": "Wordsmith"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Luck"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You're unnaturally lucky and keep out of harm's way.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Bit of Luck"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Lucky Break"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Magic"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You perform the unexpected and inexplicable.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Magic's Vessel"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Mystic Beacon"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Might"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "Your physical power is bolstered by divine strength.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Athletic Rush"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Enduring Might"
+				},
+				"apocryphalSpell": {
+					"sourceID": "DA",
+					"name": "Victory Cry"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Moon"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You command powers associated with the moon.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Moonbeam"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Touch of the Moon"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Nature"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You hold power over animals and plants.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Vibrant Thorns"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Nature's Bounty"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Nightmares"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You fill minds with horror and dread.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Waking Nightmare"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Shared Nightmare"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Pain"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You punish those who displease you with the sharp sting of pain.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Savor the Sting"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Retributive Pain"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Passion"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You evoke passion, whether as love or lust.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Charming Touch"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Captivating Adoration"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Perfection"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You strive to perfect your mind, body, and spirit.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Perfected Mind"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Perfected Form"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Protection"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You ward yourself and others.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Protector's Sacrifice"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Protector's Sphere"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Secrecy"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You protect secrets and keep them hidden.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Forced Quiet"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Safeguard Secret"
+				},
+				"advancedApocryphalSpell": {
+					"sourceID": "DA",
+					"name": "Weaponize Secret"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Sun"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You harness the power of the sun and other light sources, and punish undead.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Dazzling Flash"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Positive Luminance"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Travel"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You have power over movement and journeys.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Agile Feet"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Traveler's Transit"
+				},
+				"advancedApocryphalSpell": {
+					"sourceID": "DA",
+					"name": "Inevitable Destination"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Trickery"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You deceive others and cause mischief.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Sudden Shift"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Trickster's Twin"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Truth"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You pierce lies and discover the truth.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Word of Truth"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Glimpse the Truth"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Tyranny"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You wield power to rule and enslave others.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Touch of Obedience"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Commanding Lash"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Undeath"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "Your magic carries close ties to the undead.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Touch of Undeath"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Malignant Sustenance"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Water"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You control water and bodies of water.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Tidal Surge"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Downpour"
+				},
+				"advancedApocryphalSpell": {
+					"sourceID": "DA",
+					"name": "Purifying Veil"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Wealth"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "You hold power over wealth, trade, and treasure.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Appearance of Wealth"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Precious Metals"
+				}
+			}
+		},
+		{
+			"type": "domain",
+			"name": {
+				"primary": "Zeal"
+			},
+			"source": {
+				"page": 441,
+				"ID": "CRB"
+			},
+			"data": {
+				"preamble": "Your inner fire increases your combat prowess.",
+				"domainSpell": {
+					"sourceID": "CRB",
+					"name": "Weapon Surge"
+				},
+				"advancedDomainSpell": {
+					"sourceID": "CRB",
+					"name": "Zeal for Battle"
 				}
 			}
 		}

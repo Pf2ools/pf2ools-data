@@ -95,6 +95,12 @@
 		"path": "./data/common/sourceGroup/Wake the Dead.json",
 		"official": null
 	},
+	"AV3": {
+		"type": "source",
+		"fullTitle": "Abomination Vaults #3: Eyes of Empty Death",
+		"path": "./data/core/Abomination Vaults #3_ Eyes of Empty Death/Abomination Vaults #3_ Eyes of Empty Death.json",
+		"official": true
+	},
 	"AV0": {
 		"type": "source",
 		"fullTitle": "Abomination Vaults Player's Guide",
@@ -137,6 +143,12 @@
 		"path": "./data/core/Agents of Edgewatch #4_ Assault on Hunting Lodge Seven/Agents of Edgewatch #4_ Assault on Hunting Lodge Seven.json",
 		"official": true
 	},
+	"AoE5": {
+		"type": "source",
+		"fullTitle": "Agents of Edgewatch #5: Belly of the Black Whale",
+		"path": "./data/core/Agents of Edgewatch #5_ Belly of the Black Whale/Agents of Edgewatch #5_ Belly of the Black Whale.json",
+		"official": true
+	},
 	"AoE0": {
 		"type": "source",
 		"fullTitle": "Agents of Edgewatch Player's Guide",
@@ -159,6 +171,12 @@
 		"type": "source",
 		"fullTitle": "Bestiary 3",
 		"path": "./data/core/Bestiary 3/Bestiary 3.json",
+		"official": true
+	},
+	"BL6": {
+		"type": "source",
+		"fullTitle": "Blood Lords #6: Ghost King's Rage",
+		"path": "./data/core/Blood Lords #6_ Ghost King's Rage/Blood Lords #6_ Ghost King's Rage.json",
 		"official": true
 	},
 	"BL0": {

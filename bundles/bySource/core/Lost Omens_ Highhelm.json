@@ -41,7 +41,7 @@
 		},
 		"tags": {
 			"status": {
-				"WIP": true
+				"Missing content": true
 			},
 			"misc": {
 				"Official": true,
@@ -70,9 +70,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"wisdom": true,
-						"charisma": true,
-						"free": true
+						"Wisdom": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -113,9 +113,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"dexterity": true,
-						"intelligence": true,
-						"free": true
+						"Dexterity": true,
+						"Intelligence": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -156,9 +156,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"intelligence": true,
-						"charisma": true,
-						"free": true
+						"Intelligence": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {

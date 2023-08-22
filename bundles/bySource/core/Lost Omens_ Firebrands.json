@@ -42,7 +42,7 @@
 		},
 		"tags": {
 			"status": {
-				"WIP": true
+				"Missing content": true
 			},
 			"misc": {
 				"Official": true,
@@ -92,9 +92,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"dexterity": true,
-						"wisdom": true,
-						"free": true
+						"Dexterity": true,
+						"Wisdom": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -151,9 +151,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"wisdom": true,
-						"charisma": true,
-						"free": true
+						"Wisdom": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -187,9 +187,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"strength": true,
-						"charisma": true,
-						"free": true
+						"Strength": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -231,9 +231,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"wisdom": true,
-						"charisma": true,
-						"free": true
+						"Wisdom": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -274,9 +274,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"strength": true,
-						"intelligence": true,
-						"free": true
+						"Strength": true,
+						"Intelligence": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -317,9 +317,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"strength": true,
-						"constitution": true,
-						"free": true
+						"Strength": true,
+						"Constitution": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {
@@ -360,9 +360,9 @@
 				"abilityBoosts": {
 					"count": 2,
 					"abilities": {
-						"wisdom": true,
-						"charisma": true,
-						"free": true
+						"Wisdom": true,
+						"Charisma": true,
+						"Free": true
 					}
 				},
 				"trainedSkills": {

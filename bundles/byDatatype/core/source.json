@@ -2,6 +2,41 @@
 	"source": [
 		{
 			"type": "source",
+			"ID": "AV3",
+			"title": {
+				"full": "Abomination Vaults #3: Eyes of Empty Death",
+				"short": "AV3"
+			},
+			"data": {
+				"released": "2021-01-15",
+				"added": "2023-08-08",
+				"modified": "2023-08-08",
+				"url": "https://downloads.paizo.com/AbominationVaults_PlayersGuide.pdf",
+				"groupIDs": [
+					"AV"
+				],
+				"copyright": [
+					"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+					"{@b Daemon, Guardian from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Ian McDowall.",
+					"{@b Daemon, Derghodaemon from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
+					"{@b Froghemoth from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
+					"{@b {@i Pathfinder Adventure Path #165: Eyes of Empty Death}} © 2021, Paizo Inc.; Authors: Stephen RadneyMacFarland, with James Jacobs and Mikhail Rekun."
+				],
+				"license": "OGLv1-0a",
+				"authors": [
+					"Stephen Radney-MacFarland",
+					"James Jacobs and Mikhail Rekun"
+				],
+				"publisher": "Paizo"
+			},
+			"tags": {
+				"misc": {
+					"Official": true
+				}
+			}
+		},
+		{
+			"type": "source",
 			"ID": "AV0",
 			"title": {
 				"full": "Abomination Vaults Player's Guide",
@@ -275,6 +310,43 @@
 					"Ron Lundeen",
 					"Luis Loza",
 					"Hilary Moon Murphy"
+				],
+				"publisher": "Paizo"
+			},
+			"tags": {
+				"misc": {
+					"GM-facing": true,
+					"Official": true
+				}
+			}
+		},
+		{
+			"type": "source",
+			"ID": "AoE5",
+			"title": {
+				"full": "Agents of Edgewatch #5: Belly of the Black Whale",
+				"short": "AoE5"
+			},
+			"data": {
+				"released": "2020-11-15",
+				"added": "2023-08-18",
+				"modified": "2023-08-18",
+				"url": "https://paizo.com/products/btq023dz",
+				"groupIDs": [
+					"AoE"
+				],
+				"copyright": [
+					"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+					"{@b {@i Pathfinder Adventure Path #161: Belly of the Black Whale}} © 2020, Paizo Inc.; Authors: Cole Kronewitter, with Kim Frandsen, Patchen Mortimer, Kyle T. Raes, Andrew White, and Brian Yaksha."
+				],
+				"license": "OGLv1-0a",
+				"authors": [
+					"Cole Kronewitter",
+					"Kim Frandsen",
+					"Patchen Mortimer",
+					"Kyle T. Raes",
+					"Andrew White",
+					"Brian Yaksha"
 				],
 				"publisher": "Paizo"
 			},
@@ -567,6 +639,42 @@
 				"misc": {
 					"Official": true,
 					"PFS-legal": true
+				}
+			}
+		},
+		{
+			"type": "source",
+			"ID": "BL6",
+			"title": {
+				"full": "Blood Lords #6: Ghost King's Rage",
+				"short": "BL6"
+			},
+			"data": {
+				"released": "2022-12-14",
+				"added": "2023-08-18",
+				"modified": "2023-08-18",
+				"url": "https://paizo.com/products/btq02eag",
+				"groupIDs": [
+					"BL"
+				],
+				"copyright": [
+					"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+					"{@b {@i Pathfinder Adventure Path #186: Ghost King's Rage}} © 2022, Paizo Inc.; Authors: Jessica Catalan, with Mike Kimmel."
+				],
+				"license": "OGLv1-0a",
+				"authors": [
+					"Jessica Catalan",
+					"Mike Kimmel"
+				],
+				"publisher": "Paizo"
+			},
+			"tags": {
+				"status": {
+					"Missing content": true
+				},
+				"misc": {
+					"Official": true,
+					"GM-facing": true
 				}
 			}
 		},
@@ -1032,7 +1140,7 @@
 			},
 			"tags": {
 				"status": {
-					"WIP": true
+					"Missing content": true
 				},
 				"misc": {
 					"GM-facing": true,
@@ -1253,7 +1361,7 @@
 			},
 			"tags": {
 				"status": {
-					"WIP": true
+					"Missing content": true
 				},
 				"misc": {
 					"Official": true,
@@ -1481,7 +1589,7 @@
 			},
 			"tags": {
 				"status": {
-					"WIP": true
+					"Missing content": true
 				},
 				"misc": {
 					"Official": true,
@@ -1690,7 +1798,7 @@
 			},
 			"tags": {
 				"status": {
-					"WIP": true
+					"Missing content": true
 				},
 				"misc": {
 					"Official": true,
@@ -2011,7 +2119,7 @@
 					"PFS-legal": true
 				},
 				"status": {
-					"WIP": true
+					"Missing content": true
 				}
 			}
 		},
@@ -2151,7 +2259,7 @@
 			},
 			"tags": {
 				"status": {
-					"WIP": true
+					"Missing content": true
 				},
 				"misc": {
 					"Official": true
