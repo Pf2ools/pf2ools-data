@@ -43,8 +43,8 @@
 		"abilityBoosts": {
 			"count": 2,
 			"abilities": {
-				"charisma": true,
-				"free": true
+				"Charisma": true,
+				"Free": true
 			}
 		},
 		"trainedSkills": {

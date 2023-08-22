@@ -43,8 +43,8 @@
 		"abilityBoosts": {
 			"count": 2,
 			"abilities": {
-				"strength": true,
-				"free": true
+				"Strength": true,
+				"Free": true
 			}
 		},
 		"trainedSkills": {

@@ -20,9 +20,9 @@
 		"abilityBoosts": {
 			"count": 2,
 			"abilities": {
-				"intelligence": true,
-				"dexterity": true,
-				"free": true
+				"Intelligence": true,
+				"Dexterity": true,
+				"Free": true
 			}
 		},
 		"trainedSkills": {

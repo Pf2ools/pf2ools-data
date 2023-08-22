@@ -44,8 +44,8 @@
 		"abilityBoosts": {
 			"count": 2,
 			"abilities": {
-				"wisdom": true,
-				"free": true
+				"Wisdom": true,
+				"Free": true
 			}
 		},
 		"gainedFeats": {

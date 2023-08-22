@@ -18,9 +18,9 @@
 		"abilityBoosts": {
 			"count": 2,
 			"abilities": {
-				"charisma": true,
-				"wisdom": true,
-				"free": true
+				"Charisma": true,
+				"Wisdom": true,
+				"Free": true
 			}
 		},
 		"trainedSkills": {

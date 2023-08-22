@@ -24,9 +24,9 @@
 		"abilityBoosts": {
 			"count": 2,
 			"abilities": {
-				"constitution": true,
-				"intelligence": true,
-				"free": true
+				"Constitution": true,
+				"Intelligence": true,
+				"Free": true
 			}
 		},
 		"trainedSkills": {

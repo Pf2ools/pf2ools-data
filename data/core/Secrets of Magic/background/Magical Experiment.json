@@ -33,7 +33,7 @@
 		"abilityBoosts": {
 			"count": 1,
 			"abilities": {
-				"constitution": true
+				"Constitution": true
 			}
 		},
 		"trainedSkills": {

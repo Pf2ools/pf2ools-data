@@ -44,8 +44,8 @@
 		"abilityBoosts": {
 			"count": 2,
 			"abilities": {
-				"constitution": true,
-				"free": true
+				"Constitution": true,
+				"Free": true
 			}
 		},
 		"gainedFeats": {
