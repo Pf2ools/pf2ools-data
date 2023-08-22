@@ -27,4 +27,4 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: npm test # Validate with schema
-      - run: npm index:IDs # Check against duplicate IDs
+      - run: npm run index:IDs # Check against duplicate IDs
