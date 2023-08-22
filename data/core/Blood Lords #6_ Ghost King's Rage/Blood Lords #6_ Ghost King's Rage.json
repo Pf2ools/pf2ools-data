@@ -25,6 +25,9 @@
 		"publisher": "Paizo"
 	},
 	"tags": {
+		"status": {
+			"WIP": true
+		},
 		"misc": {
 			"Official": true,
 			"GM-facing": true
