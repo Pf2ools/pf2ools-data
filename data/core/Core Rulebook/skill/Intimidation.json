@@ -1,0 +1,22 @@
+{
+	"type": "skill",
+	"source": {
+		"ID": "CRB",
+		"page": 247
+	},
+	"name": {
+		"primary": "Intimidation"
+	},
+	"data": {
+		"entries": [
+			"You bend others to your will using threats.",
+			{
+				"type": "list",
+				"items": [
+					"{@action Coerce}",
+					"{@action Demoralize}"
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"type": "skill",
+	"source": {
+		"ID": "CRB",
+		"page": 243
+	},
+	"name": {
+		"primary": "Crafting"
+	},
+	"data": {
+		"entries": [
+			"You can use this skill to create, understand, and repair items.",
+			{
+				"type": "list",
+				"items": [
+					"{@action Repair}"
+				]
+			},
+			"Even if you're untrained, you can {@action Recall Knowledge}.",
+			{
+				"type": "list",
+				"items": [
+					"{@b {@action Recall Knowledge}} about alchemical reactions, the value of items, engineering, unusual materials, and alchemical or mechanical creatures. The GM determines which creatures this applies to, but it usually includes constructs."
+				]
+			},
+			{
+				"type": "pf2-h3",
+				"name": "Crafting Trained Actions",
+				"entries": [
+					{
+						"type": "list",
+						"items": [
+							"{@action Craft}",
+							"{@action Identify Alchemy}"
+						]
+					},
+					"You must be trained in Crafting to use it to {@action Earn Income}.",
+					{
+						"type": "list",
+						"items": [
+							"{@b {@action Earn Income}} by crafting goods for the market."
+						]
+					}
+				]
+			}
+		]
+	}
+}

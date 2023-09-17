@@ -1,0 +1,23 @@
+{
+	"type": "skill",
+	"source": {
+		"ID": "CRB",
+		"page": 246
+	},
+	"name": {
+		"primary": "Diplomacy"
+	},
+	"data": {
+		"entries": [
+			"You influence others through negotiation and flattery.",
+			{
+				"type": "list",
+				"items": [
+					"{@action Gather Information}",
+					"{@action Make an Impression}",
+					"{@action Request}"
+				]
+			}
+		]
+	}
+}

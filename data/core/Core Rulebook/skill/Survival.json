@@ -1,0 +1,41 @@
+{
+	"type": "skill",
+	"source": {
+		"ID": "CRB",
+		"page": 252
+	},
+	"name": {
+		"primary": "Survival"
+	},
+	"data": {
+		"entries": [
+			"You are adept at living in the wilderness, foraging for food and building shelter, and with training you discover the secrets of tracking and hiding your trail.",
+			{
+				"type": "list",
+				"items": [
+					"{@action Sense Direction}"
+				]
+			},
+			"Even if you're untrained, you can still use Survival to {@action Subsist}",
+			{
+				"type": "list",
+				"items": [
+					"{@action Subsist} in the wild by foraging for food and building shelter."
+				]
+			},
+			{
+				"type": "pf2-h3",
+				"name": "Survival Trained Actions",
+				"entries": [
+					{
+						"type": "list",
+						"items": [
+							"{@action Cover Tracks}",
+							"{@action Track}"
+						]
+					}
+				]
+			}
+		]
+	}
+}

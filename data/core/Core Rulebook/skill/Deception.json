@@ -1,0 +1,35 @@
+{
+	"type": "skill",
+	"source": {
+		"ID": "CRB",
+		"page": 245
+	},
+	"name": {
+		"primary": "Deception"
+	},
+	"data": {
+		"entries": [
+			"You can trick and mislead others using disguises, lies, and other forms of subterfuge.",
+			{
+				"type": "list",
+				"items": [
+					"{@action Create a Diversion}",
+					"{@action Impersonate}",
+					"{@action Lie}"
+				]
+			},
+			{
+				"type": "pf2-h3",
+				"name": "Deception Trained Action",
+				"entries": [
+					{
+						"type": "list",
+						"items": [
+							"{@action Feint}"
+						]
+					}
+				]
+			}
+		]
+	}
+}

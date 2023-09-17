@@ -1,0 +1,41 @@
+{
+	"type": "skill",
+	"source": {
+		"ID": "CRB",
+		"page": 250
+	},
+	"name": {
+		"primary": "Society"
+	},
+	"data": {
+		"entries": [
+			"You understand the people and systems that make civilization run, and you know the historical events that make societies what they are today. Further, you can use that knowledge to navigate the complex physical, societal, and economic workings of settlements. Even if you're untrained in Society, you can use it for the following general skill actions.",
+			{
+				"type": "list",
+				"items": [
+					"{@b {@action Recall Knowledge}} about local history, important personalities, legal institutions, societal structure, and humanoid cultures. The GM might allow Society to apply to other creatures that are major elements of society in your region, such as the draconic nobility in a kingdom of {@trait human||humans} ruled by {@trait dragon||dragons}.",
+					"{@b {@action Subsist}} in a settlement by finding shelter, scrounging, or begging for food."
+				]
+			},
+			{
+				"type": "pf2-h3",
+				"name": "Society Trained Actions",
+				"entries": [
+					{
+						"type": "list",
+						"items": [
+							"{@action Create Forgery}"
+						]
+					},
+					"You must be trained in Society to use it to {@action Decipher Writing}.",
+					{
+						"type": "list",
+						"items": [
+							"{@b {@action Decipher Writing}} that's a coded message, text written in an incomplete or archaic form, or in some cases, text in a language you don't know."
+						]
+					}
+				]
+			}
+		]
+	}
+}
