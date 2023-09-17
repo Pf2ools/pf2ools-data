@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Cold"
+	},
+	"source": {
+		"page": 112,
+		"ID": "LOGM"
+	},
+	"data": {
+		"preamble": "You control ice, snow, and freezing temperatures.",
+		"domainSpell": {
+			"sourceID": "LOGM",
+			"name": "Winter Bolt"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "LOGM",
+			"name": "Diamond Dust"
+		}
+	}
+}

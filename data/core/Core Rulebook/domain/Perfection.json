@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Perfection"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You strive to perfect your mind, body, and spirit.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Perfected Mind"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Perfected Form"
+		}
+	}
+}

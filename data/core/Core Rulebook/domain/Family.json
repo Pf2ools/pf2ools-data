@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Family"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You aid and protect your family and community more effectively.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Soothing Words"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Unity"
+		}
+	}
+}

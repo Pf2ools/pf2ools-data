@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Moon"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You command powers associated with the moon.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Moonbeam"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Touch of the Moon"
+		}
+	}
+}

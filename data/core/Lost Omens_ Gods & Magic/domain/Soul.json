@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Soul"
+	},
+	"source": {
+		"page": 117,
+		"ID": "LOGM"
+	},
+	"data": {
+		"preamble": "You wield power over the spiritual.",
+		"domainSpell": {
+			"sourceID": "LOGM",
+			"name": "Eject Soul"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "LOGM",
+			"name": "Ectoplasmic Interstice"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Metal"
+	},
+	"source": {
+		"page": 145,
+		"ID": "RoE"
+	},
+	"data": {
+		"preamble": "You manipulate flexible, mutable metal. Few deities possess the metal domain, apart from the two elemental lords of metal.",
+		"domainSpell": {
+			"sourceID": "RoE",
+			"name": "Serrate"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "RoE",
+			"name": "Repel Metal"
+		}
+	}
+}

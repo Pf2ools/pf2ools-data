@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Truth"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You pierce lies and discover the truth.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Word of Truth"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Glimpse the Truth"
+		}
+	}
+}

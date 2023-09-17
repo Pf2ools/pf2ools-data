@@ -1,0 +1,25 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Water"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You control water and bodies of water.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Tidal Surge"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Downpour"
+		},
+		"advancedApocryphalSpell": {
+			"sourceID": "DA",
+			"name": "Purifying Veil"
+		}
+	}
+}

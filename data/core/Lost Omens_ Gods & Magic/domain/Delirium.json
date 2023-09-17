@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Delirium"
+	},
+	"source": {
+		"page": 113,
+		"ID": "LOGM"
+	},
+	"data": {
+		"preamble": "You can bring about hallucinations and restlessness.",
+		"domainSpell": {
+			"sourceID": "LOGM",
+			"name": "Hyperfocus"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "LOGM",
+			"name": "Ephemeral Hazards"
+		}
+	}
+}

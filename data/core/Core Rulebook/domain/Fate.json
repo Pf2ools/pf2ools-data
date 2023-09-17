@@ -1,0 +1,25 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Fate"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You see and understand hidden inevitabilities.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Read Fate"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Tempt Fate"
+		},
+		"apocryphalSpell": {
+			"sourceID": "DA",
+			"name": "String of Fate"
+		}
+	}
+}

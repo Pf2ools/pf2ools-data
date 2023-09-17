@@ -1,0 +1,25 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Might"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "Your physical power is bolstered by divine strength.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Athletic Rush"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Enduring Might"
+		},
+		"apocryphalSpell": {
+			"sourceID": "DA",
+			"name": "Victory Cry"
+		}
+	}
+}

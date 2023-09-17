@@ -1,0 +1,25 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Fire"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You control flame.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Fire Ray"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Flame Barrier"
+		},
+		"apocryphalSpell": {
+			"sourceID": "DA",
+			"name": "Cinder Gaze"
+		}
+	}
+}

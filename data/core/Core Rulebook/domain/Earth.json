@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Earth"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You control soil and stone.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Hurtling Stone"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Localized Quake"
+		}
+	}
+}

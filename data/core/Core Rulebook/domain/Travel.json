@@ -1,0 +1,25 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Travel"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You have power over movement and journeys.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Agile Feet"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Traveler's Transit"
+		},
+		"advancedApocryphalSpell": {
+			"sourceID": "DA",
+			"name": "Inevitable Destination"
+		}
+	}
+}

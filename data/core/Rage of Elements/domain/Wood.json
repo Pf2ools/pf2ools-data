@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Wood"
+	},
+	"source": {
+		"page": 199,
+		"ID": "RoE"
+	},
+	"data": {
+		"preamble": "You command the indomitable power of wood.",
+		"domainSpell": {
+			"sourceID": "RoE",
+			"name": "Arms of Nature"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "RoE",
+			"name": "Wood Walk"
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Air"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You can control winds and the weather.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Pushing Gust"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Disperse into Air"
+		},
+		"advancedApocryphalSpell": {
+			"sourceID": "DA",
+			"name": "Wind Whispers"
+		}
+	}
+}

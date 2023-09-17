@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Naga"
+	},
+	"source": {
+		"page": 75,
+		"ID": "AoE5"
+	},
+	"data": {
+		"preamble": "Like the serpentine nagas, you're in tune with cosmic forces that Ravithra once controlled.",
+		"domainSpell": {
+			"sourceID": "AoE5",
+			"name": "Split the Tongue"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "AoE5",
+			"name": "Ordained Purpose"
+		}
+	}
+}

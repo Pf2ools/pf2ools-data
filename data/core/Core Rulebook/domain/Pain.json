@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Pain"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You punish those who displease you with the sharp sting of pain.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Savor the Sting"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Retributive Pain"
+		}
+	}
+}

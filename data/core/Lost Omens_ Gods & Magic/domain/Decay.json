@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Decay"
+	},
+	"source": {
+		"page": 112,
+		"ID": "LOGM"
+	},
+	"data": {
+		"preamble": "You have the power to spoil and deteriorate matter.",
+		"domainSpell": {
+			"sourceID": "LOGM",
+			"name": "Withering Grasp"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "LOGM",
+			"name": "Fallow Field"
+		}
+	}
+}

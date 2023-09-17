@@ -1,0 +1,25 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Confidence"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You overcome your fear and project pride.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Veil of Confidence"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Delusional Pride"
+		},
+		"advancedApocryphalSpell": {
+			"sourceID": "DA",
+			"name": "Shaken Confidence"
+		}
+	}
+}

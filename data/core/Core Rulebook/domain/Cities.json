@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Cities"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You have powers over urban environments and denizens.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Face in the Crowd"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Pulse of the City"
+		}
+	}
+}

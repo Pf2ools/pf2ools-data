@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Lightning"
+	},
+	"source": {
+		"page": 115,
+		"ID": "LOGM"
+	},
+	"data": {
+		"preamble": "You control electricity, thunder, and storms.",
+		"domainSpell": {
+			"sourceID": "LOGM",
+			"name": "Charged Javelin"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "LOGM",
+			"name": "Bottle the Storm"
+		}
+	}
+}

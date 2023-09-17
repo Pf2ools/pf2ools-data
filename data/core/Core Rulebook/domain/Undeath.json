@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Undeath"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "Your magic carries close ties to the undead.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Touch of Undeath"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Malignant Sustenance"
+		}
+	}
+}

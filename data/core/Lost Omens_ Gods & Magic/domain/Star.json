@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Star"
+	},
+	"source": {
+		"page": 117,
+		"ID": "LOGM"
+	},
+	"data": {
+		"preamble": "You command the power of the stars.",
+		"domainSpell": {
+			"sourceID": "LOGM",
+			"name": "Zenith Star"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "LOGM",
+			"name": "Asterism"
+		}
+	}
+}

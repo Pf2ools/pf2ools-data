@@ -1,0 +1,25 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Secrecy"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You protect secrets and keep them hidden.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Forced Quiet"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Safeguard Secret"
+		},
+		"advancedApocryphalSpell": {
+			"sourceID": "DA",
+			"name": "Weaponize Secret"
+		}
+	}
+}

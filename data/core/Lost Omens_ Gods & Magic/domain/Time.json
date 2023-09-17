@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Time"
+	},
+	"source": {
+		"page": 118,
+		"ID": "LOGM"
+	},
+	"data": {
+		"preamble": "You reign over the flow of time.",
+		"domainSpell": {
+			"sourceID": "LOGM",
+			"name": "Delay Consequence"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "LOGM",
+			"name": "Stasis"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Nightmares"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You fill minds with horror and dread.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Waking Nightmare"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Shared Nightmare"
+		}
+	}
+}

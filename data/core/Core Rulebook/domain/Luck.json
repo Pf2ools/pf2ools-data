@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Luck"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You're unnaturally lucky and keep out of harm's way.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Bit of Luck"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Lucky Break"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Plague"
+	},
+	"source": {
+		"page": 115,
+		"ID": "LOGM"
+	},
+	"data": {
+		"preamble": "You wield disease and pestilence like a weapon.",
+		"domainSpell": {
+			"sourceID": "LOGM",
+			"name": "Divine Plagues"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "LOGM",
+			"name": "Foul Miasma"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Passion"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You evoke passion, whether as love or lust.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Charming Touch"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Captivating Adoration"
+		}
+	}
+}

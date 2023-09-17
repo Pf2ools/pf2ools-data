@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Destruction"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You are a conduit for divine devastation.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Cry of Destruction"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Destructive Aura"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Swarm"
+	},
+	"source": {
+		"page": 117,
+		"ID": "LOGM"
+	},
+	"data": {
+		"preamble": "You exert control over masses of creatures.",
+		"domainSpell": {
+			"sourceID": "LOGM",
+			"name": "Swarmsense"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "LOGM",
+			"name": "Swarm Form"
+		}
+	}
+}

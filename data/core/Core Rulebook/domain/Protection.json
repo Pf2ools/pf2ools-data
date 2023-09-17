@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Protection"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You ward yourself and others.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Protector's Sacrifice"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Protector's Sphere"
+		}
+	}
+}

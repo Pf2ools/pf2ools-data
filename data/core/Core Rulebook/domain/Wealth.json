@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Wealth"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You hold power over wealth, trade, and treasure.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Appearance of Wealth"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Precious Metals"
+		}
+	}
+}

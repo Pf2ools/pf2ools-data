@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Healing"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "Your healing magic is particularly potent.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Healer's Blessing"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Rebuke Death"
+		}
+	}
+}

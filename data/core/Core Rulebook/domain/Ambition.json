@@ -1,0 +1,25 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Ambition"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You strive to keep up with and outpace the competition.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Blind Ambition"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Competitive Edge"
+		},
+		"apocryphalSpell": {
+			"sourceID": "DA",
+			"name": "Hollow Heart"
+		}
+	}
+}

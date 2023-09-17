@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Repose"
+	},
+	"source": {
+		"page": 116,
+		"ID": "LOGM"
+	},
+	"data": {
+		"preamble": "You ease mental burdens.",
+		"domainSpell": {
+			"sourceID": "LOGM",
+			"name": "Share Burden"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "LOGM",
+			"name": "Font of Serenity"
+		}
+	}
+}

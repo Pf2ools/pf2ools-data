@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Change"
+	},
+	"source": {
+		"page": 112,
+		"ID": "LOGM"
+	},
+	"data": {
+		"preamble": "You can restructure the physical and metaphysical.",
+		"domainSpell": {
+			"sourceID": "LOGM",
+			"name": "Adapt Self"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "LOGM",
+			"name": "Adaptive Ablation"
+		}
+	}
+}

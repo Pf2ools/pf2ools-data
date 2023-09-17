@@ -1,0 +1,25 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Darkness"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You operate in the darkness and take away the light.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Cloak of Shadow"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Darkened Eyes"
+		},
+		"advancedApocryphalSpell": {
+			"sourceID": "DA",
+			"name": "Isolation"
+		}
+	}
+}

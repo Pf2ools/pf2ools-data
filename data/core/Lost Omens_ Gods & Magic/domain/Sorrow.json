@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Sorrow"
+	},
+	"source": {
+		"page": 116,
+		"ID": "LOGM"
+	},
+	"data": {
+		"preamble": "You have a painful connection to melancholy and sadness.",
+		"domainSpell": {
+			"sourceID": "LOGM",
+			"name": "Lament"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "LOGM",
+			"name": "Overflowing Sorrow"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Void"
+	},
+	"source": {
+		"page": 119,
+		"ID": "LOGM"
+	},
+	"data": {
+		"preamble": "You draw power from emptiness.",
+		"domainSpell": {
+			"sourceID": "LOGM",
+			"name": "Empty Inside"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "LOGM",
+			"name": "Door to Beyond"
+		}
+	}
+}

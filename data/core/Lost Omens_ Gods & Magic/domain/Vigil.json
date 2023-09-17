@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Vigil"
+	},
+	"source": {
+		"page": 118,
+		"ID": "LOGM"
+	},
+	"data": {
+		"preamble": "You watch over those long passed and guard their secrets.",
+		"domainSpell": {
+			"sourceID": "LOGM",
+			"name": "Object Memory"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "LOGM",
+			"name": "Remember the Lost"
+		}
+	}
+}

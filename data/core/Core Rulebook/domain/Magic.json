@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Magic"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You perform the unexpected and inexplicable.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Magic's Vessel"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Mystic Beacon"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Dust"
+	},
+	"source": {
+		"page": 114,
+		"ID": "LOGM"
+	},
+	"data": {
+		"preamble": "You have the power to dry and crumble what opposes you.",
+		"domainSpell": {
+			"sourceID": "LOGM",
+			"name": "Parch"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "LOGM",
+			"name": "Dust Storm"
+		}
+	}
+}

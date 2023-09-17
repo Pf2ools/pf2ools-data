@@ -1,0 +1,25 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Death"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You have the power to end lives and destroy undead.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Death's Call"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Eradicate Undeath"
+		},
+		"advancedApocryphalSpell": {
+			"sourceID": "DA",
+			"name": "Euphoric Renewal"
+		}
+	}
+}

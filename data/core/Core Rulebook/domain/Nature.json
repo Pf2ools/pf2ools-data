@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Nature"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You hold power over animals and plants.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Vibrant Thorns"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Nature's Bounty"
+		}
+	}
+}

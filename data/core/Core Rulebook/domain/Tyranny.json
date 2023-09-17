@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Tyranny"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You wield power to rule and enslave others.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Touch of Obedience"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Commanding Lash"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Zeal"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "Your inner fire increases your combat prowess.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Weapon Surge"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Zeal for Battle"
+		}
+	}
+}

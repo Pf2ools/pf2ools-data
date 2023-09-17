@@ -1,0 +1,25 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Knowledge"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You receive divine insights.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Scholarly Recollection"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Know the Enemy"
+		},
+		"advancedApocryphalSpell": {
+			"sourceID": "DA",
+			"name": "Wordsmith"
+		}
+	}
+}

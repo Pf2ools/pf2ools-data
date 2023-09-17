@@ -1,0 +1,25 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Indulgence"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You feast mightily and can shake off the effects of overindulging.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Overstuff"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Take Its Course"
+		},
+		"apocryphalSpell": {
+			"sourceID": "DA",
+			"name": "Frenzied Revelry"
+		}
+	}
+}

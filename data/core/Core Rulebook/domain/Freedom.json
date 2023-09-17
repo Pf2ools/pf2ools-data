@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Freedom"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You liberate yourself and others from shackles and constraints.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Unimpeded Stride"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Word of Freedom"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Trickery"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You deceive others and cause mischief.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Sudden Shift"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Trickster's Twin"
+		}
+	}
+}

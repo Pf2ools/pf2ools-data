@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Dreams"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You have the power to enter and manipulate dreams.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Sweet Dream"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Dreamer's Call"
+		}
+	}
+}

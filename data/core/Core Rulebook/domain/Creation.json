@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Creation"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You have divine abilities related to crafting and art.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Splash of Art"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Artistic Flourish"
+		}
+	}
+}

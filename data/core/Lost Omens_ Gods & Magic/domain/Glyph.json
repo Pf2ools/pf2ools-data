@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Glyph"
+	},
+	"source": {
+		"page": 114,
+		"ID": "LOGM"
+	},
+	"data": {
+		"preamble": "You wield power over written words and symbols.",
+		"domainSpell": {
+			"sourceID": "LOGM",
+			"name": "Redact"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "LOGM",
+			"name": "Ghostly Transcription"
+		}
+	}
+}

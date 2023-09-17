@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Wyrmkin"
+	},
+	"source": {
+		"page": 119,
+		"ID": "LOGM"
+	},
+	"data": {
+		"preamble": "You draw on the power of dragons, linnorms, and other powerful reptilian creatures.",
+		"domainSpell": {
+			"sourceID": "LOGM",
+			"name": "Draconic Barrage"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "LOGM",
+			"name": "Roar of the Wyrm"
+		}
+	}
+}

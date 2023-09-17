@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Toil"
+	},
+	"source": {
+		"page": 63,
+		"ID": "AoA4"
+	},
+	"data": {
+		"preamble": "This domain is chosen by devotees who work constantly and refuse to let anything stand in their way.",
+		"domainSpell": {
+			"sourceID": "AoA4",
+			"name": "Practice Makes Perfect"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "AoA4",
+			"name": "Tireless Worker"
+		}
+	}
+}

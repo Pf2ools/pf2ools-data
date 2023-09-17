@@ -1,0 +1,21 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Sun"
+	},
+	"source": {
+		"page": 441,
+		"ID": "CRB"
+	},
+	"data": {
+		"preamble": "You harness the power of the sun and other light sources, and punish undead.",
+		"domainSpell": {
+			"sourceID": "CRB",
+			"name": "Dazzling Flash"
+		},
+		"advancedDomainSpell": {
+			"sourceID": "CRB",
+			"name": "Positive Luminance"
+		}
+	}
+}
