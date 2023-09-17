@@ -1,0 +1,73 @@
+{
+	"type": "skill",
+	"source": {
+		"ID": "CRB",
+		"page": 250
+	},
+	"name": {
+		"primary": "Performance"
+	},
+	"data": {
+		"entries": [
+			"You are skilled at a form of performance, using your talents to impress a crowd or make a living.",
+			{
+				"type": "pf2-h3",
+				"name": "Basic Competence",
+				"entries": [
+					"Some performances require you to be more than just charismatic, and if you don't meet the demands of the art form or the audience, the GM might apply a penalty based on the relevant ability score. For example, if you're dancing and have a negative Dexterity modifier, you might take a penalty to your attempt at dancing. Likewise, if you are orating and have a negative Intelligence modifier, you might have to hope your raw Charisma can overcome the penalties from your intellectual shortcomings\u2014or ask someone to help write your speeches!"
+				]
+			},
+			{
+				"type": "pf2-h3",
+				"name": "Performance Traits",
+				"entries": [
+					"When you use an action that utilizes the Performance skill, it gains one or more traits relevant to the type of performance. The GM might change these depending on the circumstances, but the most common performance based traits are listed below.",
+					{
+						"type": "table",
+						"rows": [
+							[
+								"Performance",
+								"Additional Traits"
+							],
+							[
+								"Act or perform comedy",
+								"{@trait Auditory}, {@trait linguistic}, and {@trait visual}"
+							],
+							[
+								"Dance",
+								"{@trait Move} and {@trait visual}"
+							],
+							[
+								"Play an instrument",
+								"{@trait Auditory} and {@trait manipulate}"
+							],
+							[
+								"Orate or sing",
+								"{@trait Auditory} and {@trait linguistic}"
+							]
+						]
+					}
+				]
+			},
+			{
+				"type": "list",
+				"items": [
+					"{@action Perform}"
+				]
+			},
+			{
+				"type": "pf2-h3",
+				"name": "Performance Trained Action",
+				"entries": [
+					"You must be trained in Performance to use it to {@action Earn Income}.",
+					{
+						"type": "list",
+						"items": [
+							"{@b {@action Earn Income}} by staging a performance."
+						]
+					}
+				]
+			}
+		]
+	}
+}

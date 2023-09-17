@@ -1,0 +1,42 @@
+{
+	"type": "skill",
+	"source": {
+		"ID": "CRB",
+		"page": 248
+	},
+	"name": {
+		"primary": "Medicine"
+	},
+	"data": {
+		"entries": [
+			"You can patch up wounds and help people recover from diseases and poisons.",
+			{
+				"type": "list",
+				"items": [
+					"{@action Administer First Aid}"
+				]
+			},
+			"Even if you're untrained in Medicine, you can use it to {@action Recall Knowledge}.",
+			{
+				"type": "list",
+				"items": [
+					"{@b {@action Recall Knowledge}} about diseases, injuries, poisons, and other ailments. You can use this to perform forensic examinations if you spend 10 minutes (or more, as determined by the GM) checking for evidence such as wound patterns. This is most useful when determining how a body was injured or killed."
+				]
+			},
+			{
+				"type": "pf2-h3",
+				"name": "Medicine Trained Actions",
+				"entries": [
+					{
+						"type": "list",
+						"items": [
+							"{@action Treat Disease}",
+							"{@action Treat Poison}",
+							"{@action Treat Wounds}"
+						]
+					}
+				]
+			}
+		]
+	}
+}

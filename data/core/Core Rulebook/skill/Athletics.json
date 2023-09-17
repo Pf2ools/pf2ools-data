@@ -1,0 +1,40 @@
+{
+	"type": "skill",
+	"source": {
+		"ID": "CRB",
+		"page": 241
+	},
+	"name": {
+		"primary": "Athletics"
+	},
+	"data": {
+		"entries": [
+			"Athletics allows you to perform deeds of physical prowess. When you use the {@action Escape} basic action, you can use your {@skill Athletics} modifier instead of your unarmed attack modifier.",
+			{
+				"type": "list",
+				"items": [
+					"{@action Climb}",
+					"{@action Force Open}",
+					"{@action Grapple}",
+					"{@action High Jump}",
+					"{@action Long Jump}",
+					"{@action Shove}",
+					"{@action Swim}",
+					"{@action Trip}"
+				]
+			},
+			{
+				"type": "pf2-h3",
+				"name": "Athletics Trained Action",
+				"entries": [
+					{
+						"type": "list",
+						"items": [
+							"{@action Disarm}"
+						]
+					}
+				]
+			}
+		]
+	}
+}

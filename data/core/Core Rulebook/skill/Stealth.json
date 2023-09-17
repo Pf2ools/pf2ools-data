@@ -1,0 +1,23 @@
+{
+	"type": "skill",
+	"source": {
+		"ID": "CRB",
+		"page": 251
+	},
+	"name": {
+		"primary": "Stealth"
+	},
+	"data": {
+		"entries": [
+			"You are skilled at avoiding detection, allowing you to slip past foes, hide, or conceal an item.",
+			{
+				"type": "list",
+				"items": [
+					"{@action Conceal an Object}",
+					"{@action Hide}",
+					"{@action Sneak}"
+				]
+			}
+		]
+	}
+}

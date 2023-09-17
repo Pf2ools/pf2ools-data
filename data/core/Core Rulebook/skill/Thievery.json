@@ -1,0 +1,35 @@
+{
+	"type": "skill",
+	"source": {
+		"ID": "CRB",
+		"page": 253
+	},
+	"name": {
+		"primary": "Thievery"
+	},
+	"data": {
+		"entries": [
+			"You are trained in a particular set of skills favored by thieves and miscreants.",
+			{
+				"type": "list",
+				"items": [
+					"{@action Palm an Object}",
+					"{@action Steal}"
+				]
+			},
+			{
+				"type": "pf2-h3",
+				"name": "Theivery Trained Actions",
+				"entries": [
+					{
+						"type": "list",
+						"items": [
+							"{@action Disable a Device}",
+							"{@action Pick a Lock}"
+						]
+					}
+				]
+			}
+		]
+	}
+}

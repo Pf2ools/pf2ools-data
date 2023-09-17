@@ -1,0 +1,36 @@
+{
+	"type": "skill",
+	"source": {
+		"ID": "CRB",
+		"page": 249
+	},
+	"name": {
+		"primary": "Occultism"
+	},
+	"data": {
+		"entries": [
+			"You know a great deal about ancient philosophies, esoteric lore, obscure mysticism, and supernatural creatures. Even if you're untrained in Occultism, you can use it to {@action Recall Knowledge}.",
+			{
+				"type": "list",
+				"items": [
+					"{@b {@action Recall Knowledge}} about ancient mysteries; obscure philosophies; creatures of occult significance (like {@trait aberration||aberrations}, {@trait spirit||spirits}, and {@trait ooze||oozes}); and the {@place Positive Energy Plane||Positive Energy}, {@place Negative Energy Plane||Negative Energy}, {@place Shadow Plane||Shadow}, {@place Astral Plane||Astral}, and {@place Ethereal Plane||Ethereal Planes}."
+				]
+			},
+			{
+				"type": "pf2-h3",
+				"name": "Occultism Trained Actions",
+				"entries": [
+					"You must be trained in Occultism to use it for the following general skill actions.",
+					{
+						"type": "list",
+						"items": [
+							"{@b {@action Decipher Writing}} on occult topics, including complex metaphysical systems, syncretic principles, weird philosophies, and incoherent ramblings.",
+							"{@b {@action Identify Magic}}, particularly occult magic.",
+							"{@b {@action Learn a Spell}} from the {@trait occult} tradition."
+						]
+					}
+				]
+			}
+		]
+	}
+}

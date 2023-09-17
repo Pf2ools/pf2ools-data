@@ -1,0 +1,35 @@
+{
+	"type": "skill",
+	"source": {
+		"ID": "CRB",
+		"page": 240
+	},
+	"name": {
+		"primary": "Acrobatics"
+	},
+	"data": {
+		"entries": [
+			"Acrobatics measures your ability to perform tasks requiring coordination and grace. When you use the {@action Escape} basic action, you can use your Acrobatics modifier instead of your unarmed attack modifier.",
+			{
+				"type": "list",
+				"items": [
+					"{@action Balance}",
+					"{@action Tumble Through}"
+				]
+			},
+			{
+				"type": "pf2-h3",
+				"name": "Acrobatics Trained Actions",
+				"entries": [
+					{
+						"type": "list",
+						"items": [
+							"{@action Maneuver in Flight}",
+							"{@action Squeeze}"
+						]
+					}
+				]
+			}
+		]
+	}
+}

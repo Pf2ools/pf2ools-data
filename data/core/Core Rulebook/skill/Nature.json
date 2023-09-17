@@ -1,0 +1,42 @@
+{
+	"type": "skill",
+	"source": {
+		"ID": "CRB",
+		"page": 249
+	},
+	"name": {
+		"primary": "Nature"
+	},
+	"data": {
+		"entries": [
+			"You know a great deal about the natural world, and you command and train animals and magical beasts.",
+			{
+				"type": "list",
+				"items": [
+					"{@action Command an Animal}"
+				]
+			},
+			"Even if you're untrained in Nature, you can use it to {@action Recall Knowledge}.",
+			{
+				"type": "list",
+				"items": [
+					"{@b {@action Recall Knowledge}} about fauna, flora, geography, weather, the environment, creatures of natural origin (like animals, beasts, fey, and plants), the First World, the Material Plane, and the Elemental Planes."
+				]
+			},
+			{
+				"type": "pf2-h3",
+				"name": "Nature Trained Actions",
+				"entries": [
+					"You must be trained in Nature to use the following general skill actions.",
+					{
+						"type": "list",
+						"items": [
+							"{@b {@action Identify Magic}}, particularly primal magic.",
+							"{@b {@action Learn a Spell}} from the {@trait primal} tradition."
+						]
+					}
+				]
+			}
+		]
+	}
+}

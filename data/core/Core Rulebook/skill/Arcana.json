@@ -1,0 +1,42 @@
+{
+	"type": "skill",
+	"source": {
+		"ID": "CRB",
+		"page": 241
+	},
+	"name": {
+		"primary": "Arcana"
+	},
+	"data": {
+		"entries": [
+			"Arcana measures how much you know about arcane magic and creatures. Even if you're untrained, you can {@action Recall Knowledge}.",
+			{
+				"type": "list",
+				"items": [
+					"{@b {@action Recall Knowledge}} about arcane theories; magic traditions; creatures of arcane significance (like {@trait dragon||dragons} and {@trait beast||beasts}); and the Elemental, Astral, and Shadow Planes."
+				]
+			},
+			{
+				"type": "pf2-h3",
+				"name": "Arcana Trained Actions",
+				"entries": [
+					{
+						"type": "list",
+						"items": [
+							"{@action Borrow an Arcane Spell}"
+						]
+					},
+					"You must be trained in Arcana to use it for the following general skill actions.",
+					{
+						"type": "list",
+						"items": [
+							"{@b {@action Decipher Writing}} about arcane theory.",
+							"{@b {@action Identify Magic}}, particularly arcane magic.",
+							"{@b {@action Learn a Spell}} from the {@trait arcane} tradition."
+						]
+					}
+				]
+			}
+		]
+	}
+}
