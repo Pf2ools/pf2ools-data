@@ -12,10 +12,10 @@
 			"Torag repairs your equipment so you may continue your vigil. Once, a shield, weapon, or other item you hold or are wearing recovers all of its Hit Points. The item's Hardness doubles for 1 minute. Torag can grant this boon just as the item would have been destroyed, preventing the item's destruction. Occasionally, he grants this boon to restore an item important to dwarven history that has already been fully destroyed."
 		],
 		"Moderate Boon": [
-			"You are counted as family among Torag and his followers. You gain the effects of a single dwarf ancestry feat of Torag's choice, even if you are not a dwarf, as long as you maintain Torag's blessing."
+			"You are counted as family among Torag and his followers. You gain the effects of a single {@filter dwarf ancestry feat|feats||ancestry & heritage=dwarf} of Torag's choice, even if you are not a {@ancestry dwarf}, as long as you maintain Torag's blessing."
 		],
 		"Major Boon": [
-			"Standing watch or guarding a location counts as resting for you, preventing you from being fatigued due to lack of rest as long as you stand watch for at least 6 hours a day. You can recover your Focus Points (if you have them) by standing guard in addition to any other options you have available. When on guard, you gain a +4 status bonus to Perception to notice ambushes and other dangers approaching. As long as you are holding a shield, you are always Defending during exploration without needing to move at half your travel speed, and you can perform another exploration activity as well. While you are using a shield, its Hardness increases by 5."
+			"Standing watch or guarding a location counts as resting for you, preventing you from being {@condition fatigued} due to lack of rest as long as you stand watch for at least 6 hours a day. You can recover your Focus Points (if you have them) by standing guard in addition to any other options you have available. When on guard, you gain a +4 status bonus to {@skill Perception} to notice ambushes and other dangers approaching. As long as you are holding a shield, you are always {@action defend||Defending} during exploration without needing to move at half your travel speed, and you can perform another exploration activity as well. While you are using a shield, its Hardness increases by 5."
 		],
 		"Minor Curse": [
 			"Shoddy artisanship makes itself known. Whenever an item you're using takes damage, it is broken."
