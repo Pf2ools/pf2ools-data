@@ -1,0 +1,32 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Ilo"
+	},
+	"source": {
+		"ID": "SolthesiaAG"
+	},
+	"data": {
+		"preamble": [
+			"Ilo dutifully watches over its devotees through toil and vigilance. One has to make a concerted effort to earn its wrath, but Ilo returns with unending discomfort."
+		],
+		"Minor Boon": [
+			"Ilo guards your focus and sustains you through the night. The first time you go more than 16 hours without resting, you don't become {@condition fatigued} until an additional 16 hours pass without rest."
+		],
+		"Moderate Boon": [
+			"You gain {@ability low-light vision}. If you already had {@ability low-light vision}, you instead gain {@ability darkvision} or hearing as a precise sense within 20 feet (your choice)."
+		],
+		"Major Boon": [
+			"Your composure is unbreakable. Once per minute when you would be gain an effect that negatively affects your checks or DCs modified by Intelligence or Wisdom, attempt a DC 10 flat check. On a success, you can choose to be unaffected."
+		],
+		"Minor Curse": [
+			"You gain weakness 5 to {@item silver}, and you are {@condition dazzled} whenever you can see the moon."
+		],
+		"Moderate Curse": [
+			"You feel your temples throb ceaselessly. You are permanently {@condition stupefied <1>} and have a \u22123 status penalty to {@action Recall Knowledge}."
+		],
+		"Major Curse": [
+			"Everything becomes tiring. You are permanently {@condition slowed <1>}. Additionally, whenever you rest for the night, attempt a DC 12 flat check. On a failure, you are {@condition fatigued}."
+		]
+	}
+}

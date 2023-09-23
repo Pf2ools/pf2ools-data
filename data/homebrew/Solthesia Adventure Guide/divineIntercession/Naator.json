@@ -1,0 +1,61 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Naator"
+	},
+	"source": {
+		"ID": "SolthesiaAG"
+	},
+	"data": {
+		"preamble": [
+			"The Dream Guide doesn't often show much interest in mortals, rarely even acknowledging its own petitioners. However, the few it does bond with are blessed with slivers of its power, and those that would harm them its ire."
+		],
+		"Minor Boon": [
+			"Naator guards your rest. You gain a +8 status bonus to checks and DCs resisting harmful effects that would specifically disturb your sleep, such as the {@spell nightmare} spell, but not harmful effects that merely occur while you are sleeping, such as an assassin's attack."
+		],
+		"Moderate Boon": [
+			"You gain the Weight of Sleep action.",
+			{
+				"type": "ability",
+				"style": "compact",
+				"name": "Weight of Sleep",
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"traits": [
+					"divine",
+					"incapacitation",
+					"manipulate",
+					"sleep"
+				],
+				"requirements": "You have a free hand",
+				"entries": [
+					"You touch a creature to suddenly burden them with the overpowering need to sleep. The target must attempt a Will save against your innate spell DC. An unwilling creature has a +5 circumstance bonus unless it is {@condition grabbed}, {@condition immobilized}, or {@condition restrained}. A willing creature can choose to critically fail its save. You can't target yourself with Weight of Sleep.",
+					{
+						"type": "successDegree",
+						"entries": {
+							"Critical Success": "The target is unaffected and has a +5 status bonus against your Weight of Sleep for 24 hours.",
+							"Success": "The target is unaffected.",
+							"Failure": "The target resists the urge to sleep but is {@condition slowed <1>} and {@condition clumsy <1>} for 1 round.",
+							"Critical Failure": "The target falls {@condition unconscious} and can't attempt {@skill Perception} checks to wake up. While a willing target is asleep, it is immune to harmful effects that specifically disturb its sleep, such as the {@spell nightmare} spell. A willing target that sleeps for at least 1 hour gains the benefit of a 4th-level {@spell restoration} spell. The target automatically wakes up after 1 hour if it is unwilling, or either 1 hour or 8 hours if it is willing (its choice)."
+						}
+					}
+				]
+			}
+		],
+		"Major Boon": [
+			"Naator walks with you always, and now wakefulness and sleep are not so different. You no longer need to sleep, although you must still rest for 8 continuous hours every 24 hours to be able to make your daily preparations. This rest can take the form of any light, mundane activity that doesn't require a significant degree of mental exertion.",
+			"Additionally, you can cast {@spell dreaming potential} as an innate {@trait divine} spell."
+		],
+		"Minor Curse": [
+			"Naator stalks you just out of sight, causing you a perpetual anxiety you can never quite quiet. You have a \u22122 status penalty to saves against effects that would make you {@condition frightened}. Additionally, the first time each minute you gain the {@condition frightened} condition, you become your choice of {@condition immobilized} or {@condition fleeing} for 1 round."
+		],
+		"Moderate Curse": [
+			"Naator tasks its more unsavoury emissaries with harassing you. You permanently suffer the effects of the {@curse curse of nightmares}."
+		],
+		"Major Curse": [
+			"Naator itself hunts your dreams. Each night, you are targetted by the {@spell nightmare} spell just before sleeping and the {@spell canticle of everlasting grief} spell just after waking up (both DC 35; Naator is considered to have met you)."
+		]
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Dolos"
+	},
+	"source": {
+		"ID": "SolthesiaAG"
+	},
+	"data": {
+		"preamble": [
+			"The Great Owl is protective of its followers, rewarding those most receptive of its mentorship and twisting the minds of those who would bring them harm."
+		],
+		"Minor Boon": [
+			"You gain the effects of {@spell true seeing} once. Dolos typically grants this boon at a critical juncture, but only when you already suspect that something is not as it seems."
+		],
+		"Moderate Boon": [
+			"Dolos grants you a small token with the {@relicGift precognition} relic gift. The GM chooses the token's form, or if one of your mundane belongings is transformed into this token."
+		],
+		"Major Boon": [
+			"You gain the {@feat Mental Static} {@class psychic} feat, and you can trigger it also when you roll a success on a Will save against a {@trait mental} effect from a creature. Additionally, you gain a focus pool of 1 Focus Point, or increase the number of Focus Points in your focus pool by 1, and you learn the {@spell light of revelation} focus spell."
+		],
+		"Minor Curse": [
+			"The next time you consciously plan to harm a devotee of Dolos or something significant to them, that devotee immediately becomes aware of it. The devotee sees a vision of your appearance and the target of your ill will, but not any details of your plan. If this occurs during encounter mode, the devotee also gains a +5 status bonus to any checks or DCs to resist your hostile actions for 1 round."
+		],
+		"Moderate Curse": [
+			"You become permanently illiterate for as long as you maintain Dolos' ire. Whenever you see writing more complex than a child's, make a DC 25 Will save. On a failure, you are {@condition frightened <1>} of the text for as long as you can see it ({@condition frightened <2>} on a critical failure). On a success or critical success, you don't need to make the save again against that text for 24 hours."
+		],
+		"Major Curse": [
+			"Dolos afflicts your mind until it breaks. You are afflicted with {@disease brain worms} at stage 1, except the DC is 35 and you always target yourself with your attacks while {@condition confused}. This disease is {@trait magical} and not caused by physical worms. If you ever rid yourself of the affliction, you return to stage 1 after {@dice 1d4} weeks unless you have begun to make amends with Dolos."
+		]
+	}
+}

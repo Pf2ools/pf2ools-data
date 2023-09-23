@@ -1,0 +1,32 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Mehi"
+	},
+	"source": {
+		"ID": "SolthesiaAG"
+	},
+	"data": {
+		"preamble": [
+			"It is said that the Dawn Chorus sustains its flock through an endless stream of a thousand tiny mercies, bringing a gentle song to the devoted and a harsh screech to those that mean them ill."
+		],
+		"Minor Boon": [
+			"Mehi watches its faithful through a thousand tiny eyes. Once, while outdoors, a small bird sings a song only you can understand. The song contains a cryptic clue or piece of advice for your current situation or stated goal. After receiving the message, you can ask one question in response to the bird, which responds briefly but truthfully (as far as Mehi knows). Mehi typically grants this boon when you are especially lost or uncertain about something significant."
+		],
+		"Moderate Boon": [
+			"You need only strain your ears to hear Mehi's song. You can cast {@spell clairaudience} once a day as a {@trait divine} innate spell."
+		],
+		"Major Boon": [
+			"Mehi's silence wraps you always. You gain resistance 10 to sonic. Additionally, you are immune to harmful {@trait auditory} and {@trait linguistic} effects and the {@condition deafened} condition."
+		],
+		"Minor Curse": [
+			"Mehi's voice is discordant with yours. You have a \u22125 status penalty to {@action Perform} using sound (for example, music or spoken word)."
+		],
+		"Moderate Curse": [
+			"Your ears are always ringing. You have weakness 5 to sonic and are permanently {@condition stupefied <1>}. Additionally, if you perform an action with the {@trait auditory} trait, you must succeed at a DC {@flatDC 5} flat check or the action is lost; attempt the check after spending the action but before any effects are applied."
+		],
+		"Major Curse": [
+			"Mehi stops singing for you entirely. You have weakness 5 to sonic and are permanently {@condition deafened} and {@condition stupefied <5>}."
+		]
+	}
+}
