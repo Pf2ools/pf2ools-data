@@ -11,7 +11,7 @@
 			"Ram'jara grants strength to the pillars of the community and champions of liberty and goodwill. For those that would conquer or oppress its herd, however, Ram'jara has only hatred."
 		],
 		"Minor Boon": [
-			"Ram'jara frees you from your bonds. Once, when you either {@action Escape},  and You have a +2 status bonus to {@action Escape}."
+			"Ram'jara frees you from your bonds. Once, when you either {@action Escape}, and You have a +2 status bonus to {@action Escape}."
 		],
 		"Moderate Boon": [
 			"Ram'jara gives you the courage to fight through the worst. Your penalty due to the {@condition frightened} condition is one lower than its value. For example, when you are {@condition frightened <3>}, you would have a \u22122 status penalty to all your checks and DCs."

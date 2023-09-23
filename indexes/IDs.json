@@ -1,4 +1,10 @@
 {
+	"CC-BY-SA-v4-0": {
+		"type": "license",
+		"fullTitle": "Creative Commons Attribution-ShareAlike 4.0 International Public License",
+		"path": "./data/common/license/Creative Commons Attribution-ShareAlike 4.0 International Public License.json",
+		"official": null
+	},
 	"OGLv1-0a": {
 		"type": "license",
 		"fullTitle": "Open Game License v1.0a",
@@ -405,6 +411,12 @@
 		"type": "source",
 		"fullTitle": "Wake the Dead #2",
 		"path": "./data/core/Wake the Dead #2/Wake the Dead #2.json",
+		"official": false
+	},
+	"SolthesiaAG": {
+		"type": "source",
+		"fullTitle": "Solthesia Adventure Guide",
+		"path": "./data/homebrew/Solthesia Adventure Guide/Solthesia Adventure Guide.json",
 		"official": false
 	}
 }

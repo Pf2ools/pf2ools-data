@@ -33,28 +33,5 @@
 				"Official": true
 			}
 		}
-	},
-	"domain": [
-		{
-			"type": "domain",
-			"name": {
-				"primary": "Abominations"
-			},
-			"source": {
-				"page": 65,
-				"ID": "AV3"
-			},
-			"data": {
-				"preamble": "You seek to instill abhorrence and horror in those around you.",
-				"domainSpell": {
-					"sourceID": "AV3",
-					"name": "Lift Nature's Caul"
-				},
-				"advancedDomainSpell": {
-					"sourceID": "AV3",
-					"name": "Fearful Feast"
-				}
-			}
-		}
-	]
+	}
 }

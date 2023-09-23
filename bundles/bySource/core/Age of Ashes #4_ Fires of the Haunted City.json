@@ -76,49 +76,5 @@
 				}
 			}
 		}
-	],
-	"domain": [
-		{
-			"type": "domain",
-			"name": {
-				"primary": "Duty"
-			},
-			"source": {
-				"page": 64,
-				"ID": "AoA4"
-			},
-			"data": {
-				"preamble": "You defend oaths and carry out your divine missions with great dedication.",
-				"domainSpell": {
-					"sourceID": "LOGM",
-					"name": "Oathkeeper's Insignia"
-				},
-				"advancedDomainSpell": {
-					"sourceID": "LOGM",
-					"name": "Dutiful Challenge"
-				}
-			}
-		},
-		{
-			"type": "domain",
-			"name": {
-				"primary": "Toil"
-			},
-			"source": {
-				"page": 63,
-				"ID": "AoA4"
-			},
-			"data": {
-				"preamble": "This domain is chosen by devotees who work constantly and refuse to let anything stand in their way.",
-				"domainSpell": {
-					"sourceID": "AoA4",
-					"name": "Practice Makes Perfect"
-				},
-				"advancedDomainSpell": {
-					"sourceID": "AoA4",
-					"name": "Tireless Worker"
-				}
-			}
-		}
 	]
 }

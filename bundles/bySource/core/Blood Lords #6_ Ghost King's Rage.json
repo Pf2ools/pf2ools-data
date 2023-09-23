@@ -34,28 +34,5 @@
 				"GM-facing": true
 			}
 		}
-	},
-	"domain": [
-		{
-			"type": "domain",
-			"name": {
-				"primary": "Introspection"
-			},
-			"source": {
-				"page": 73,
-				"ID": "BL6"
-			},
-			"data": {
-				"preamble": "You guide others in examining their lives, emotions, and motivations to ultimately become a truer version of themselves—a difficult and often painful process.",
-				"domainSpell": {
-					"sourceID": "CRB",
-					"name": "Guided Introspection"
-				},
-				"advancedDomainSpell": {
-					"sourceID": "CRB",
-					"name": "Confront Selves"
-				}
-			}
-		}
-	]
+	}
 }
