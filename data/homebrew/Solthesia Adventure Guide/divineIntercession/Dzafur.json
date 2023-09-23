@@ -1,0 +1,32 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Dzafur"
+	},
+	"source": {
+		"ID": "SolthesiaAG"
+	},
+	"data": {
+		"preamble": [
+			"The Fat Frog rewards the most keen and tenacious among its faithful, and damns those that would contravene its orders."
+		],
+		"Minor Boon": [
+			"Dzafur blesses your work. For one week, roll your checks to {@action Earn Income} twice and take the better result. This is a {@trait fortune} effect."
+		],
+		"Moderate Boon": [
+			"Dzafur blesses your mind. Increase your proficiency in {@skill Lore||Legal Lore} by one rank. Additionally, you become trained in one other {@skill Lore} subcategory of the GM's choice."
+		],
+		"Major Boon": [
+			"Dzafur blesses your leadership. You are immune to the {@condition confused} condition. Additionally, you and your allies within 60 feet gain a +2 status bonus to {@action Aid} and {@action Follow the Expert}."
+		],
+		"Minor Curse": [
+			"Dzafur pointedly indicates your impropriety. The next time you {@action Coerce}, {@action Lie}, {@action Impersonate}, or make a check to unfairly negotiate a contract, weedy river-water fills mouth. Reroll the check with a \u22125 circumstance penalty and take the worse result. This is a {@trait misfortune} effect. Dzafur times the outburst in such a way to highlight your dishonesty or underhandedness."
+		],
+		"Moderate Curse": [
+			"A persistent damp clings to your home, properties, and belongings, creating a stale odour and encouraging decay. You have a \u22122 status penalty to Wisdom- and Charisma-based checks and DCs in your properties or workplaces, or when interacting closely with your belongings."
+		],
+		"Major Curse": [
+			"You become caked in an unpleasant, foul-smelling, highly conspicuous slime no matter how often you wash it off. You are permanently {@condition clumsy <2>}, all your Speeds have a \u221210-feet status penalty, and anything you write is illegible to both you and everyone else."
+		]
+	}
+}

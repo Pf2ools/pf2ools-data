@@ -1,0 +1,20 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Unumaator"
+	},
+	"source": {
+		"ID": "SolthesiaAG"
+	},
+	"data": {
+		"preamble": [
+			"Despite maintaining a number of devoted monastic orders, Unumaator bestows its boons and curses seemingly at random. Its monks nonetheless insist that there is an ineffable truth behind the chaos, and that through all of its gifts a specific meaning can be read by those open to the One Who Is."
+		],
+		"Major Boon": [
+			"Unumaator drapes the void over you. You gain the effects of the {@spell mask of terror} spell (DC 30) permanently. The {@trait illusion} is invisible until the moment just before a creature takes a hostile action, and is only ever visible to that creature."
+		],
+		"Major Curse": [
+			"Unumaator blots out the void from you, condemning you from ever truly joining the whole. You gain {@ability light blindness}. Additionally, while in darkness, you are both {@condition blinded} and {@condition deafened}."
+		]
+	}
+}

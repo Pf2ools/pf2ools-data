@@ -1,0 +1,55 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Boazandravul"
+	},
+	"source": {
+		"ID": "SolthesiaAG"
+	},
+	"data": {
+		"preamble": [
+			"The Rock of the Mountain keeps a stern watch over its monasteries and mendicants, warding and empowering the diligent while condemning the rash and profligate."
+		],
+		"Minor Boon": [
+			"Once, when you fail a Fortitude saving throw, you critically succeed instead. Boazandravul typically grants this boon when you would otherwise become unable to protect others are in immediate danger."
+		],
+		"Moderate Boon": [
+			"You can cast the {@ritual commune with nature} ritual; when you do so as the primary caster, you have a +3 status bonus to the check. Additionally, you have a +2 status bonus to saves against {@trait disease} and {@trait poison}."
+		],
+		"Major Boon": [
+			"You feel the strength of Boazandravul hold you firm. Increase your maximum and {@condition encumbered} Bulk limits by 5. Additionally, you gain the Centre the Mountain's Spine activity.",
+			{
+				"type": "ability",
+				"style": "compact",
+				"name": "Centre the Mountain's Spine",
+				"activity": {
+					"number": 3,
+					"unit": "action"
+				},
+				"traits": [
+					"concentrate",
+					"divine",
+					"healing",
+					"manipulate"
+				],
+				"frequency": {
+					"unit": "minute",
+					"number": 10
+				},
+				"requirements": "You are {@condition enfeebled} or {@condition sickened}",
+				"entries": [
+					"Reduce the value of the {@condition enfeebled} or {@condition sickened} condition by one."
+				]
+			}
+		],
+		"Minor Curse": [
+			"The earth itself shuns you. You have a \u22125 penalty to {@action Cover Tracks}, {@action Subsist}, or {@action Track} outdoors."
+		],
+		"Moderate Curse": [
+			"Your possessions become brittle. Reduce the Hardness and Broken Threshold of any stone or metal items you possess by half. Each time you {@action Strike} with a stone or metal weapon, or are hit while wearing stone or metal armour or wielding a stone or metal shield, reduce that item's Hit Points by 1. This curse has no effect on {@trait artifact||artifacts} or similarly powerful items."
+		],
+		"Major Curse": [
+			"Boazandravul sends a {@trait dragon} emissary to punish you, preferably (but not exclusively) by imprisoning or grievously maiming you. The {@trait dragon} avoids harming other creatures or their possessions, potentially waiting until you are travelling alone or otherwise informing a community of the upcoming battle."
+		]
+	}
+}

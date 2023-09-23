@@ -1,0 +1,34 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "V'rar"
+	},
+	"source": {
+		"ID": "SolthesiaAG"
+	},
+	"data": {
+		"preamble": [
+			"The Laughing Dog cares more for devotion than veneration, and loves those who love it freely. However, it is fickle and possessive\u2014those that would frustrate its preferred playthings may receive very sudden retribution."
+		],
+		"Minor Boon": [
+			"Once, when you would become {@condition drained}, {@condition enfeebled}, {@condition petrified}, or {@condition sickened}, or gain {@condition persistent damage} from effects that coat your skin, V'rar will burn away your troubles. You are unaffected by the triggering effect as your body momentarily erupts in flame before your skin knits back together. You can choose to direct the flame towards a creature within 5 feet, dealing {@damage 3d10} fire damage (DC 25 basic Reflex save).",
+			"V'rar doesn't typically have the patience to hold this boon for the most opportune moment. When the GM grants you this boon, you can choose to ignore it and instead have it trigger on another eligible effect within 10 minutes. The boon automatically occurs after 10 minutes if you haven't already used it."
+		],
+		"Moderate Boon": [
+			"V'rar's fiery embrace comforts you. You gain resistance 5 to fire and can treat the {@table temperature effects} of heat as up to 50° lower. You are also immune to nonmagical fires that don't extend beyond a 5-foot cube."
+		],
+		"Major Boon": [
+			"You can feel V'rar protectively padding around your mind. You have a +10 status bonus to saves against {@trait emotion} effects."
+		],
+		"Minor Curse": [
+			"Your wounds fester and rot. You gain only half as many Hit Points from nonmagical healing and resting, and you have a \u22122 status penalty to saves against {@trait disease||diseases}."
+		],
+		"Moderate Curse": [
+			"V'rar makes it difficult for you to find comfort around open flames. You gain weakness 5 to fire, and you have a \u22123 status penalty on checks to resist {@trait fire} effects."
+		],
+		"Major Curse": [
+			"A deafening, hysterical cackle fills the air as you spontaneously combust. You suffer {@damage 10d10 + 40} fire damage (DC 45 basic Fortitude save), {@damage 1d10} {@condition persistent damage||persistent fire damage}, and {@damage 1d10} {@condition persistent damage||persistent negative damage}. While suffering any of the {@condition persistent damage}, you are {@condition deafened} by the disembodied laughter; you are also {@condition blinded} and {@condition flat-footed} while suffering the {@condition persistent damage||persistent fire damage}. All of this damage is {@trait magical}.",
+			"V'rar typically lacks the patience to inflict this curse at a particularly improper time, nor to inflict it on a creature more than once for a single offence."
+		]
+	}
+}

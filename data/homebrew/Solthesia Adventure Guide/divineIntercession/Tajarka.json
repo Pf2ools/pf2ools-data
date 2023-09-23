@@ -1,0 +1,51 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Tajarka"
+	},
+	"source": {
+		"ID": "SolthesiaAG"
+	},
+	"data": {
+		"preamble": [
+			"The Great Loving Death rarely interposes on the living. However, it offers succour to those that need it, and an easier path towards the grave for those that deserve it."
+		],
+		"Minor Boon": [
+			"Tajarka is unwilling to let its flower wither so soon. Once, when your {@condition wounded} value changes, you gain a +5-foot status bonus to your Speeds and {@ability fast healing <1>} for 10 minutes. Tajarka typically grants this boon when you are struggling to escape serious danger."
+		],
+		"Moderate Boon": [
+			"Tajarka protects your lifeforce from waning. You gain a +3 status bonus to saves against effects that would make you {@condition drained}, {@condition enfeebled}, or {@condition sickened}."
+		],
+		"Major Boon": [
+			"Tajarka entrusts you to tenderly cultivate your own garden. You can cast the {@ritual plant growth} ritual without any secondary casters or secondary checks, and you gain the Gardener's Blessing action.",
+			{
+				"type": "ability",
+				"style": "compact",
+				"name": "Gardener's Blessing",
+				"activity": {
+					"number": 3,
+					"unit": "action"
+				},
+				"traits": [
+					"abjuration",
+					"concentrate",
+					"divine",
+					"manipulate"
+				],
+				"entries": [
+					"You touch a willing creature to bless its life. For 1 week, it has a +2 status bonus to saves against {@trait poison} and {@trait disease}, and, whenever it would regain Hit Points, it regains an additional {@dice 1d8}."
+				]
+			}
+		],
+		"Minor Curse": [
+			"Mosses, vines, and weeds work to claim your property. The plants persistently grow into any land you own, manage, or rest in, potentially damaging structures over time. In wild land, you may find the undergrowth form a mat around you while you sleep, causing minor hindrances such as obscuring possessions or obstructing your movement.",
+			"The plants are rarely ever useful for food or crafting, but are also rarely ever directly harmful."
+		],
+		"Moderate Curse": [
+			"Tajarka makes it easier for your life to slip away. Whenever you make a recovery check against {@condition persistent damage} or {@condition dying}, the DC increases by 2."
+		],
+		"Major Curse": [
+			"The thread fastening your soul weakens. You become permanently {@condition doomed <2>} and can only regain Hit Points through magic."
+		]
+	}
+}
