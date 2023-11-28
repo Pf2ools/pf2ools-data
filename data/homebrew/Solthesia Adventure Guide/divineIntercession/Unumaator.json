@@ -10,11 +10,23 @@
 		"preamble": [
 			"Despite maintaining a number of devoted monastic orders, Unumaator bestows its boons and curses seemingly at random. Its monks nonetheless insist that there is an ineffable truth behind the chaos, and that through all of its gifts a specific meaning can be read by those open to the One Who Is."
 		],
+		"Minor Boon": [
+			"Ineffable insight comes to you when gazing into darkness. You can cast {@spell read omens} once per month as an innate {@trait divine} spell. Instead of within 1 week, the chosen event must occur between 1 week and 100 years. Each time you cast the spell this way, roll a {@dice d20}. On a roll of 1, you lose this boon."
+		],
+		"Moderate Boon": [
+			"You feel comfortable in the dark. You gain {@ability darkvision}. If you already had {@ability darkvision}, you instead gain {@ability greater darkvision}."
+		],
 		"Major Boon": [
 			"Unumaator drapes the void over you. You gain the effects of the {@spell mask of terror} spell (DC 30) permanently. The {@trait illusion} is invisible until the moment just before a creature takes a hostile action, and is only ever visible to that creature."
 		],
+		"Minor Curse": [
+			"Everything is so tiring. In exploration mode, you become {@condition fatigued} if you use an exploration activity for more than 1 hour. In encounter mode, you become {@condition fatigued} if, for 10 consecutive rounds, you don't end your turn with at least one unused action. This {@condition fatigued||fatigue} goes away after taking a seated rest for at least 1 hour."
+		],
+		"Moderate Curse": [
+			"You see terrifying shapes shifting in the dark. While you can see an area of darkness, you are targetted by the {@spell waking dream} spell whenever anything sudden and unexpected occurs. The DC depends on the severity of the shock: DC 15 for mundane, harmless events (a fly buzzing past your ear; an {@condition unnoticed} creature calling out a greeting), DC 23 for stressful events (bumping into or tripping over something; an abrupt scream or roar), or DC 30 for truly shocking events (being violently attacked; witnessing something supernaturally terrifying). The spell is {@action sustain a spell||Sustained} as long as possible, but you can't be affected by it more than once every hour."
+		],
 		"Major Curse": [
-			"Unumaator blots out the void from you, condemning you from ever truly joining the whole. You gain {@ability light blindness}. Additionally, while in darkness, you are both {@condition blinded} and {@condition deafened}."
+			"Unumaator blots out the void from you, condemning you from ever truly joining the whole. Your eyes become a solid inky-black, and you gain {@ability light blindness}. Additionally, while in darkness, you are both {@condition blinded} and {@condition deafened}."
 		]
 	}
 }
