@@ -335,7 +335,7 @@
 					"Ram'jara grants strength to the pillars of the community and champions of liberty and goodwill. For those that would conquer or oppress its herd, however, Ram'jara has only hatred."
 				],
 				"Minor Boon": [
-					"Ram'jara frees you from your bonds. Once, when you either {@action Escape},  and You have a +2 status bonus to {@action Escape}."
+					"Ram'jara frees you from your bonds. Once, when you either {@action Escape}, and You have a +2 status bonus to {@action Escape}."
 				],
 				"Moderate Boon": [
 					"Ram'jara gives you the courage to fight through the worst. Your penalty due to the {@condition frightened} condition is one lower than its value. For example, when you are {@condition frightened <3>}, you would have a −2 status penalty to all your checks and DCs."
@@ -450,11 +450,23 @@
 				"preamble": [
 					"Despite maintaining a number of devoted monastic orders, Unumaator bestows its boons and curses seemingly at random. Its monks nonetheless insist that there is an ineffable truth behind the chaos, and that through all of its gifts a specific meaning can be read by those open to the One Who Is."
 				],
+				"Minor Boon": [
+					"Ineffable insight comes to you when gazing into darkness. You can cast {@spell read omens} once per month as an innate {@trait divine} spell. Instead of within 1 week, the chosen event must occur between 1 week and 100 years. Each time you cast the spell this way, roll a {@dice d20}. On a roll of 1, you lose this boon."
+				],
+				"Moderate Boon": [
+					"You feel comfortable in the dark. You gain {@ability darkvision}. If you already had {@ability darkvision}, you instead gain {@ability greater darkvision}."
+				],
 				"Major Boon": [
 					"Unumaator drapes the void over you. You gain the effects of the {@spell mask of terror} spell (DC 30) permanently. The {@trait illusion} is invisible until the moment just before a creature takes a hostile action, and is only ever visible to that creature."
 				],
+				"Minor Curse": [
+					"Everything is so tiring. In exploration mode, you become {@condition fatigued} if you use an exploration activity for more than 1 hour. In encounter mode, you become {@condition fatigued} if, for 10 consecutive rounds, you don't end your turn with at least one unused action. This {@condition fatigued||fatigue} goes away after taking a seated rest for at least 1 hour."
+				],
+				"Moderate Curse": [
+					"You see terrifying shapes shifting in the dark. While you can see an area of darkness, you are targetted by the {@spell waking dream} spell whenever anything sudden and unexpected occurs. The DC depends on the severity of the shock: DC 15 for mundane, harmless events (a fly buzzing past your ear; an {@condition unnoticed} creature calling out a greeting), DC 23 for stressful events (bumping into or tripping over something; an abrupt scream or roar), or DC 30 for truly shocking events (being violently attacked; witnessing something supernaturally terrifying). The spell is {@action sustain a spell||Sustained} as long as possible, but you can't be affected by it more than once every hour."
+				],
 				"Major Curse": [
-					"Unumaator blots out the void from you, condemning you from ever truly joining the whole. You gain {@ability light blindness}. Additionally, while in darkness, you are both {@condition blinded} and {@condition deafened}."
+					"Unumaator blots out the void from you, condemning you from ever truly joining the whole. Your eyes become a solid inky-black, and you gain {@ability light blindness}. Additionally, while in darkness, you are both {@condition blinded} and {@condition deafened}."
 				]
 			}
 		},
@@ -489,6 +501,47 @@
 				"Major Curse": [
 					"A deafening, hysterical cackle fills the air as you spontaneously combust. You suffer {@damage 10d10 + 40} fire damage (DC 45 basic Fortitude save), {@damage 1d10} {@condition persistent damage||persistent fire damage}, and {@damage 1d10} {@condition persistent damage||persistent negative damage}. While suffering any of the {@condition persistent damage}, you are {@condition deafened} by the disembodied laughter; you are also {@condition blinded} and {@condition flat-footed} while suffering the {@condition persistent damage||persistent fire damage}. All of this damage is {@trait magical}.",
 					"V'rar typically lacks the patience to inflict this curse at a particularly improper time, nor to inflict it on a creature more than once for a single offence."
+				]
+			}
+		},
+		{
+			"type": "divineIntercession",
+			"name": {
+				"primary": "Vohis-om-vire"
+			},
+			"source": {
+				"ID": "SolthesiaAG"
+			},
+			"data": {
+				"preamble": [
+					"The Autumn Lord rarely intercedes for those outside its court, expecting that the Rondamic state apparatus act appropriately on its behalf. However, it has been known to exercise its power to honour the loyal and reform the subversive, should an exceptional case be made with the recipient in its presence."
+				],
+				"Minor Boon": [
+					"Vohis-om-vire protects those devoted to its glory. Once, when you would take bludgeoning or piercing damage, dense bark spreads from the wound and erupts into flames. For 1 minute, you gain the following benefits:",
+					{
+						"type": "list",
+						"items": [
+							"You gain resistance 5 to bludgeoning, piercing, and fire damage.",
+							"Adjacent creatures that hit you with a melee attack, as well as creatures that hit you with unarmed attacks, take 1 fire damage each time they do.",
+							"You cast bright light in a 10-foot radius and dim light for the next 10 feet."
+						]
+					},
+					"Vohis-om-vire typically grants this boon when you are outmatched but have little hope (or justification) to escape."
+				],
+				"Moderate Boon": [
+					"Your passage to carry out official business is assured to be safe and swift. You can cast {@spell tree stride} as an innate {@trait divine} spell once per day. You can cast the spell with only 3 actions, but you can only travel through maples."
+				],
+				"Major Boon": [
+					"You carry the authority of the Autumn Lord wherever you go. While actively serving your country, you have a +1 status bonus to AC and all saves and a +3 status bonus to {@skill Diplomacy} and {@skill Intimidation} checks, as well as to {@action Recall Knowledge} checks about the Rondaumic Empire. Additionally, you can cast {@spell shape wood} and {@spell speak with plants} as innate {@trait divine} spells at will."
+				],
+				"Minor Curse": [
+					"Vohis-om-vire assigns an emissary to hold you accountable. You become afflicted with the {@curse oath of the flesh} curse, except damage from the curse can be healed once you make fair amends for the broken promise."
+				],
+				"Moderate Curse": [
+					"It displeases Vohis-om-vire for its enemies to walk freely amongst its subjects, so it sets an emissary to monitor you. Once each month, you are targetted by a 6th-level {@spell brand the impenitent|LOGM} spell (DC 30), except the duration on a success and failure is 1 day and 1 week respectively. The symbol is visible to the blessed of Vohis-om-vire, as well as the aristocrats, officers, and soldiers of the Rondamic Empire. While the symbol lasts, if a citizen of Rondam observes you committing a crime or otherwise acting with hostility, the nearest officer is telepathically alerted to their concerns and learns your position."
+				],
+				"Major Curse": [
+					"Judging you irredeemable, Vohis-om-vire offers you no mercy. After spending at least 10 minutes in a forest well-claimed by Vohis-om-vire, you are targetted by three simultaneous instances of the {@spell murderous vine} spell (DC 30). Vohis-om-vire typically waits until you are alone or passing through a narrow passage. If you defeat the vines, Vohis-om-vire repeats the curse every few minutes that you remain in its forest. Depending on the nature of your crimes, the vines' damage may be {@trait nonlethal} so that Vohis-om-vire can later send an emissary to capture you."
 				]
 			}
 		},
