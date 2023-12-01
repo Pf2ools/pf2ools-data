@@ -69,7 +69,7 @@ The [`bundles/`](./bundles/) and [`indexes/`](./indexes/) directories will be re
 
 ## Contributing
 
-Please see [`CONTRIBUTING.md`](./CONTRIBUTING.md).
+Please see [`CONTRIBUTING.md`](./CONTRIBUTING.md) or join our [Discord server](https://discord.gg/2hzNxErtVu) for more information.
 
 ## Legal
 

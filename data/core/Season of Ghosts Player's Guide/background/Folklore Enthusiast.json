@@ -1,0 +1,65 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Folklore Enthusiast"
+	},
+	"source": {
+		"page": 11,
+		"ID": "SoG0"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "rare"
+			}
+		],
+		"entries": [
+			"Willowshore is a small town in a rural part of Shenmen, but that doesn't exempt it from the world of the strange and unexplained. There are plenty of mysterious events and haunting legends about Willowshore or its hinterlands, and as a result of your upbringing, you've become particularly interested in learning more about them. While much of the regional folklore comes from one of Willowshore's many religions and local faiths (of which you might be a practicing member or perhaps instead have a secular interest in the lore), you've noticed that these beliefs also influence artisans and crafters in ways they might not even realize. You're convinced that many of these local beliefs have roots in a deeper, historical event of great significance and hope one day to learn more about Willowshore's true history.",
+			"If you're religious, your home is likely near a shrine associated with your faith\u2014if your faith isn't represented among Willowshore's shrines, speak with your GM about potentially having a shrine to your faith in or near to your home.",
+			"During the Reenactment Festival, you likely spent time chatting with others about ghost stories and sharing spooky legends and tales. You weren't chosen to be an abductee during the Reenactment Festival so much as you volunteered, eagerly, for the chance\u2014you might have even participated in previous years as an abductee!",
+			"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
+			"You're trained in the {@skill Religion} skill and the {@skill Lore||Art Lore} skill. You gain the {@feat Oddity Identification} skill feat.",
+			{
+				"type": "ability",
+				"style": "compact",
+				"activity": {
+					"number": 1,
+					"unit": "free"
+				},
+				"trigger": "You're about to roll any check to {@action Recall Knowledge}",
+				"entries": [
+					"You have a flash of insight as you recall an old parable, obscure legend, or applicable tale to the topic at hand. This {@action Recall Knowledge} check loses the {@trait secret} trait. Increase the result of your check to {@action Recall Knowledge} by one degree of success."
+				]
+			}
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"Intelligence": true,
+				"Wisdom": true,
+				"Free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Religion": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Oddity Identification",
+					"sourceID": "CRB"
+				}
+			]
+		},
+		"misc": {
+			"Grants ability": true
+		}
+	}
+}

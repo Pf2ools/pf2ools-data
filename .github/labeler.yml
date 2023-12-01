@@ -1,0 +1,26 @@
+# Core data updates
+"🎯 Paizo data":
+  - "data/core/**"
+
+# Homebrew data updates
+"🎯 Homebrew data":
+  - "data/homebrew/**"
+
+# Source file modifications
+"🎯 Source file":
+  - "data/core/*/*.json"
+  - "data/homebrew/*/*.json"
+  - "data/common/sourceGroup/*"
+
+# Documentation updates
+"🎯 Documentation":
+  - any: ["**/*.md", "!CHANGELOG.md"]
+
+# Script updates
+"🎯 Scripts":
+  - "scripts/**"
+
+# Github actions
+"🎯 Github Actions":
+  - ".github/workflows/*"
+  - ".github/labeler.yml"
