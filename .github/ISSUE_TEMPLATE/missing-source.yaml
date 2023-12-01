@@ -1,0 +1,49 @@
+name: Missing source
+description: Report a Paizo source we haven't converted yet
+title: ""
+labels: "🪲 Missing source"
+projects: []
+assignees: []
+body:
+  - type: checkboxes
+    id: no_duplicate
+    attributes:
+      label: Have you confirmed that this source hasn't been reported before?
+      description: Please search past issues to confirm that you aren't duplicating another one!
+      options:
+        - label: I have searched the issues and can't find anything else reporting this.
+          required: true
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: What's the source's name?
+      description: Provide the full, official title for the source.
+      placeholder: Player Core
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Where can we find it?
+      description: Include a source for that source—a storepage link or similar!
+      placeholder: https://paizo.com/products/btq02ej2?Pathfinder-Player-Core
+    validations:
+      required: true
+  - type: dropdown
+    id: info
+    attributes:
+      label: What type of source is it?
+      description: Pick the one that best applies.
+      options:
+        - Sourcebook
+        - Large adventure (e.g. a chapter in an adventure path)
+        - Small adventure (e.g. a one-shot)
+        - Pathfinder Society playbook
+        - Blog post, comic, or some other small, one-off supplement
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+    value: Thanks for letting us know! Please drop by our [Discord server](https://discord.gg/2hzNxErtVu) if you'd like to start converting this source yourself.
