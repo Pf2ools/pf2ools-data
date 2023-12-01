@@ -1,0 +1,31 @@
+{
+	"type": "source",
+	"ID": "Rust",
+	"title": {
+		"full": "Rusthenge",
+		"short": "Rust"
+	},
+	"data": {
+		"released": "2023-10-18",
+		"added": "2023-12-01",
+		"modified": "2023-12-01",
+		"url": "https://paizo.com/products/btq02efw",
+		"copyright": [
+			"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+			"{@b {@i Pathfinder Adventure: Rusthenge}} © 2023, Paizo Inc.; Authors: Vanessa Hoskins."
+		],
+		"license": "OGLv1-0a",
+		"authors": [
+			"Vanessa Hoskins"
+		],
+		"publisher": "Paizo"
+	},
+	"tags": {
+		"status": {
+			"Missing content": true
+		},
+		"misc": {
+			"Official": true
+		}
+	}
+}
