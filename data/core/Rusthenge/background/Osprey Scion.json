@@ -1,0 +1,48 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Osprey Scion"
+	},
+	"source": {
+		"page": 61,
+		"ID": "Rust"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "rare"
+			}
+		],
+		"entries": [
+			"You are the birth or adopted child of one of the five elders of Osprey Cove, and your parent or guardian volunteers you to accompany Elder Ordwi on her trip to Iron Harbor, hoping to get an unbiased account of events. If your parent or guardian is Ordwi, then she values your companionship and insight and wants you along on this important mission.",
+			"Choose two ability boosts. One must be to Constitution or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Diplomacy} skill, and the {@skill Lore||Xin-Edasseril Lore} skill. You gain the {@feat Hobnobber} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"Constitution": true,
+				"Charisma": true,
+				"Free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Diplomacy": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Hobnobber",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

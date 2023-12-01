@@ -1,0 +1,48 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Osprey Fisher"
+	},
+	"source": {
+		"page": 61,
+		"ID": "Rust"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "rare"
+			}
+		],
+		"entries": [
+			"Fishing is Osprey Cove's number one profession, and you've apprenticed under the best of them: Elder Anlorgog. You're also a keen study of boats and ships, so Elder Ordwi wants you along on her trip to Iron Harbor to help her evaluate the strength and purpose of the village's fleet—particularly if they're building ships meant for war.",
+			"Choose two ability boosts. One must be to Strength or Dexterity, and one is a free ability boost.",
+			"You're trained in the {@skill Crafting} skill, and the {@skill Lore||Sailing Lore} skill. You gain the {@feat Quick Repair} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"Strength": true,
+				"Dexterity": true,
+				"Free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Crafting": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Quick Repair",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}
