@@ -1,25 +1,26 @@
-# Data updates
-data:
-  - "data/**"
-
 # Core data updates
-core:
+"🎯 Paizo data":
   - "data/core/**"
 
 # Homebrew data updates
-homebrew:
+"🎯 Homebrew data":
   - "data/homebrew/**"
 
 # Source file modifications
-source:
+"🎯 Source file":
   - "data/core/*/*.json"
   - "data/homebrew/*/*.json"
   - "data/common/sourceGroup/*"
 
 # Documentation updates
-documentation:
+"🎯 Documentation":
   - any: ["**/*.md", "!CHANGELOG.md"]
 
 # Script updates
-scripts:
+"🎯 Scripts":
   - "scripts/**"
+
+# Github actions
+"🎯 Github Actions":
+  - ".github/workflows/*"
+  - ".github/labeler.yml"
