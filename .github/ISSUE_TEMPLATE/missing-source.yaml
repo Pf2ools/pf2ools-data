@@ -6,12 +6,11 @@ projects: []
 assignees: []
 body:
   - type: checkboxes
-    id: no_duplicate
+    id: Before we continue...
     attributes:
-      label: Have you confirmed that this source hasn't been reported before?
-      description: Please search past issues to confirm that you aren't duplicating another one!
+      label: Are you the first person reporting this?
       options:
-        - label: I have searched the issues and can't find anything else reporting this.
+        - label: I have checked the [current issues](https://github.com/Pf2ools/pf2ools-data/issues) for duplicate reports.
           required: true
     validations:
       required: true
