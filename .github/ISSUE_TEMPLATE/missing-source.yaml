@@ -8,9 +8,10 @@ body:
   - type: checkboxes
     id: Before we continue...
     attributes:
-      label: Are you the first person reporting this?
       options:
-        - label: I have checked the [current issues](https://github.com/Pf2ools/pf2ools-data/issues) for duplicate reports.
+        - label: I have checked that this source isn't already on the [conversion tracker](https://github.com/orgs/Pf2ools/projects/1).
+          required: true
+        - label: I have confirmed that this source has been released.
           required: true
     validations:
       required: true
@@ -45,4 +46,4 @@ body:
       required: true
   - type: markdown
     attributes:
-    value: Thanks for letting us know! Please drop by our [Discord server](https://discord.gg/2hzNxErtVu) if you'd like to start converting this source yourself.
+    value: Thanks for letting us know! Please drop by our [Discord server](https://discord.gg/2hzNxErtVu) if you'd like to help convert any amount of this source.

@@ -8,9 +8,7 @@
 
 # Source file modifications
 "🎯 Source file":
-  - "data/core/*/*.json"
-  - "data/homebrew/*/*.json"
-  - "data/common/sourceGroup/*"
+  - "data/*/*/*.json"
 
 # Documentation updates
 "🎯 Documentation":

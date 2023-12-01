@@ -25,6 +25,9 @@
 		"publisher": "Paizo"
 	},
 	"tags": {
+		"status": {
+			"Missing content": true
+		},
 		"publicationType": {
 			"Comic": true
 		}
