@@ -1,5 +1,8 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
-  - name: "Pf2ools community Discord server"
+  - name: "Homebrew issues and requests"
     url: "https://discord.gg/2hzNxErtVu"
-    about: "Please see the #brew-conversion channel for *all* homebrew issues and requests. We're also available just to chat!"
+    about: "Please see the #brew-conversion channel for all homebrew issues and requests."
+  - name: "Community Discord server"
+    url: "https://discord.gg/2hzNxErtVu"
+    about: "We're also available just to chat!"
