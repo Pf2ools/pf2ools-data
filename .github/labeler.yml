@@ -1,0 +1,25 @@
+# Data updates
+data:
+  - "data/**"
+
+# Core data updates
+core:
+  - "data/core/**"
+
+# Homebrew data updates
+homebrew:
+  - "data/homebrew/**"
+
+# Source file modifications
+source:
+  - "data/core/*/*.json"
+  - "data/homebrew/*/*.json"
+  - "data/common/sourceGroup/*"
+
+# Documentation updates
+documentation:
+  - any: ["**/*.md", "!CHANGELOG.md"]
+
+# Script updates
+scripts:
+  - "scripts/**"
