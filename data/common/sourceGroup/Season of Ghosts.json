@@ -1,0 +1,16 @@
+{
+	"type": "sourceGroup",
+	"ID": "SoG",
+	"title": {
+		"full": "Season of Ghosts",
+		"short": "SoG"
+	},
+	"tags": {
+		"misc": {
+			"Adventure": true
+		}
+	},
+	"data": {
+		"publisher": "Paizo"
+	}
+}
