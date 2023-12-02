@@ -393,7 +393,7 @@
 					}
 				],
 				"entries": [
-					"Though the Worldwound was closed by the Fifth Crusade in 4713 ar, the repercussions still linger in the Sarkoris Scar. At the site of the portal's closing, a much smaller tear blinks in and out of existence for a week every 3 years. You spend a week to ward the area with binding symbols and other methods to contain any demons that might escape. Attempt a DC 28 check.",
+					"Though the Worldwound was closed by the Fifth Crusade in 4713 AR, the repercussions still linger in the Sarkoris Scar. At the site of the portal's closing, a much smaller tear blinks in and out of existence for a week every 3 years. You spend a week to ward the area with binding symbols and other methods to contain any demons that might escape. Attempt a DC 28 check.",
 					{
 						"type": "successDegree",
 						"entries": {

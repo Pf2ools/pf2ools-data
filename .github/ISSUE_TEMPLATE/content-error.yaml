@@ -1,0 +1,39 @@
+name: Content error
+description: Report a conversion error, typo, formatting problem, or missing tag from a Paizo source here!
+title: "[Typo] "
+labels: "🪲 Content error"
+projects: []
+assignees:
+  - Spappz
+body:
+  - type: input
+    id: name
+    attributes:
+      label: What's got the problem?
+      description: State the statblock's title and type ('feat', 'spell', 'item', etc.).
+      placeholder: Fireball (spell)
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Where can we find it?
+      description: State the source title in full, including the page number if possible. If the source is an online publication, a link would also be helpful!
+      placeholder: Player Core, page 331
+    validations:
+      required: true
+  - type: textarea
+    id: info
+    attributes:
+      label: What *is* the problem?
+      description: Describe the error in clear, concise terms, including what the correct content should be. Feel free to include images if that's easier!
+      placeholder: The spell's range is listed as 200 feet, but it should be 500 feet.
+  - type: input
+    id: pf2ools_link
+    attributes:
+      label: Pf2ools link
+      description: Just helps us double-check things quickly 😉
+      placeholder: https://pf2etools.com/spells.html#fireball_crb
+  - type: markdown
+    attributes:
+    value: Thanks for helping out!

@@ -1,0 +1,33 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Tar K'hala"
+	},
+	"source": {
+		"ID": "SolthesiaAG"
+	},
+	"data": {
+		"preamble": [
+			"It is said that the Twisted Serpent follows all who meet it to the ends of the earth. However, it takes particular effort to earn its vested interest."
+		],
+		"Minor Boon": [
+			"Tar K'hala offers to correct your minor mistakes. Once, when you {@action Coerce}, {@action Lie}, {@action Impersonate}, {@action Make an Impression}, or {@action Request} and critically fail, you can choose to instead either get a failure or reroll the check with a +2 status bonus and use the second result. Tar K'hala typically gants this boon when it would prevent extremely unfavourable consequences."
+		],
+		"Moderate Boon": [
+			"Tar K'hala helps its own, granting you a familiar that takes the form of a black snake for as long as you serve Tar K'hala. You can choose one familiar ability; the GM chooses another. These abilities are permanent.",
+			"If you already have a familiar, you can instead choose to replace it with the snake. Your familiar gains two additional familiar abilities, one of which is chosen by the GM and is permanent."
+		],
+		"Major Boon": [
+			"Tar K'hala's most devoted servants hear its whispers both in wakefulness and sleep. You can cast {@spell read omens} once per day as a {@trait divine} innate spell. You can also cast the {@ritual commune} ritual without any secondary casters or secondary checks; when you do so, contact a servitor of Tar K'hala, and roll a success, you get a critical success instead."
+		],
+		"Minor Curse": [
+			"Nonsapient snakes' attitudes toward you begin one step worse than usual, and can never be more favourable than {@condition indifferent} except through magic. Snakes have a +2 status bonus to {@action Strike} you."
+		],
+		"Moderate Curse": [
+			"Your own lips betray you. You gain a \u221210 status penalty to {@action Lie}, and a \u22125 status penalty to {@action Make an Impression} and {@action Request}."
+		],
+		"Major Curse": [
+			"Those who have truly sought to undermine Tar K'hala's designs are not permitted to even flounder. The Twisted Serpent blesses four of its fanatics with knowledge of your name and location, and charges them to utterly destroy you, whether by pen or sword."
+		]
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Zekets"
+	},
+	"source": {
+		"ID": "SolthesiaAG"
+	},
+	"data": {
+		"preamble": [
+			"Although the Mistbird's blessings are typically subtle, calming the skies for a traveller and bringing gentle rain for a community, it rewards its most faithful devotees with the means to travel freely and easily. Those that earn its ire\u2014the destructive, the cruel, and the imprisoning\u2014find the sky itself spitting on them wherever they go."
+		],
+		"Minor Boon": [
+			"You feel as one with the open air. For one week, you gain a +3 status bonus to {@action Sense Direction} while outdoors and to {@action Recall Knowledge} about the weather."
+		],
+		"Moderate Boon": [
+			"Zekets' breeze lifts you. You gain a +5-foot status bonus to your Speeds while outdoors, and any air-driven vehicle you travel in gains a +10-foot status bonus to its Speeds."
+		],
+		"Major Boon": [
+			"Zekets has freed your body to drift as the clouds do. You can cast {@spell gaseous form} on yourself as an innate {@trait divine} spell at will. When you do so, you gain a +15-foot status bonus to your fly Speed."
+		],
+		"Minor Curse": [
+			"You struggle to feel comfortable outside. You experience {@table temperature effects} as if they were 20° colder if the temperature is no more than 64°F, or as if they were 20° hotter if the temperature is 64°F or greater."
+		],
+		"Moderate Curse": [
+			"The air seems to tense around you. You gain weakness 3 to sonic, and you have a -3 status penalty to cause or resist {@trait auditory} or {@trait sonic} effects."
+		],
+		"Major Curse": [
+			"The sky itself abhors your presence. The weather in a 500-foot radius around you is always stormy. Roughly twice each minute you are outside, a sudden gust of wind buffets you. Make a DC 40 basic Fortitude save. On a failure, you fall and land {@condition prone}. On a critical failure, you also take {@damage 1d6} bludgeoning damage and are are blown 10 feet toward some obstacle or danger."
+		]
+	}
+}

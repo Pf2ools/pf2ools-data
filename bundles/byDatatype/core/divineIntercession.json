@@ -266,7 +266,7 @@
 					"Tactical advantages never seem to work the way you planned. You can't receive a circumstance bonus to your attack rolls, and enemies don't take any circumstance penalties to their AC against your attacks."
 				],
 				"Major Curse": [
-					"All blades reject your wicked heart. Any weapon you wield automatically becomes broken after you {@action Strike} with it. This curse can't break artifacts or similarly powerful weapons."
+					"All blades reject your wicked heart. Any weapon you wield automatically becomes broken after you {@action Strike} with it. This curse can't break {@trait artifact||artifacts} or similarly powerful weapons."
 				]
 			}
 		},
@@ -431,16 +431,16 @@
 			},
 			"data": {
 				"Minor Boon": [
-					"Your attack becomes more destructive. Once, one of your failed or successful attacks becomes a critical hit, and your weapon or unarmed attack gains the {@trait reach d12} trait for this attack, replacing any {@trait deadly} trait it already had. Rovagug typically grants this boon when the critical hit could destroy something precious or significant."
+					"Your attack becomes more destructive. Once, one of your failed or successful attacks becomes a critical hit, and your weapon or unarmed attack gains the {@trait deadly <d12>} trait for this attack, replacing any {@trait deadly} trait it already had. Rovagug typically grants this boon when the critical hit could destroy something precious or significant."
 				],
 				"Moderate Boon": [
-					"You can devour all. You mouth grows into a horrible circular, insectile maw of needle-like teeth. You gain a bite unarmed attack that deals {@damage 1d8} piercing damage. Additionally, you can stomach eating anything you can fit down your throat—even rocks or small objects. You gain a +4 status bonus to saves resulting from eating something, such as diseases, poisons, or other effects of the ingested object. This doesn't allow you to digest magic items that would otherwise be difficult or impossible to destroy, such as cursed items or artifacts."
+					"You can devour all. You mouth grows into a horrible circular, insectile maw of needle-like teeth. You gain a bite unarmed attack that deals {@damage 1d8} piercing damage. Additionally, you can stomach eating anything you can fit down your throat—even rocks or small objects. You gain a +4 status bonus to saves resulting from eating something, such as {@trait diseases}, {@trait poisons}, or other effects of the {@item ingested} object. This doesn't allow you to digest magic items that would otherwise be difficult or impossible to destroy, such as {@trait cursed} items or {@item artifact||artifacts}."
 				],
 				"Major Boon": [
 					"You can crack the surface of Golaron, accelerating the release of the Rough Beast. You gain the {@feat Quaking Stomp} barbarian feat."
 				],
 				"Minor Curse": [
-					"Whenever you are imprisoned, you thrash and shake as your mind fills with desperation. Any time you are restrained or otherwise imprisoned (such as being sent to jail), you are also {@condition clumsy 2} and {@condition stupefied 2}."
+					"Whenever you are imprisoned, you thrash and shake as your mind fills with desperation. Any time you are {@condition restrained} or otherwise imprisoned (such as being sent to jail), you are also {@condition clumsy 2} and {@condition stupefied 2}."
 				],
 				"Moderate Curse": [
 					"Your destructive rage seeks to remain unbound. Any armor you wear automatically becomes broken. Other items in your possession occasionally become broken over time."
@@ -1001,7 +1001,7 @@
 			},
 			"data": {
 				"Minor Boon": [
-					"The Strong Man blesses you with a measure of his strength. Increase your maximum and encumbered Bulk limits by 2."
+					"The Strong Man blesses you with a measure of his strength. Increase your maximum and {@condition encumbered} Bulk limits by 2."
 				],
 				"Moderate Boon": [
 					"You fear no exertion. You can employ exploration tactics normally while {@condition fatigued}."
@@ -1010,7 +1010,7 @@
 					"You possess a true champion's might. When you roll a critical failure on an {@skill Athletics} check, you get a failure instead, and when you roll a success, you instead get a critical success."
 				],
 				"Minor Curse": [
-					"Difficulty lifting burdens is a sign of divine disapproval. Your maximum and encumbered Bulk limits decrease by 2."
+					"Difficulty lifting burdens is a sign of divine disapproval. Your maximum and {@condition encumbered} Bulk limits decrease by 2."
 				],
 				"Moderate Curse": [
 					"Kurgess's displeasure breaks your competitive edge, causing you to fail at the cusp of success. If your check result exactly equals the DC, you fail instead of succeeding."

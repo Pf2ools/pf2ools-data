@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "Homebrew issues and requests"
+    url: "https://discord.gg/2hzNxErtVu"
+    about: "Please see the #brew-conversion channel of our Discord server for all homebrew issues and requests. We're also available just to chat!"

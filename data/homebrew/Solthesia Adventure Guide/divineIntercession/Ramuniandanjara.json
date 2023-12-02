@@ -1,0 +1,32 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Ramuniandanjara"
+	},
+	"source": {
+		"ID": "SolthesiaAG"
+	},
+	"data": {
+		"preamble": [
+			"Ram'jara grants strength to the pillars of the community and champions of liberty and goodwill. For those that would conquer or oppress its herd, however, Ram'jara has only hatred."
+		],
+		"Minor Boon": [
+			"Ram'jara frees you from your bonds. Once, when you either {@action Escape}, and You have a +2 status bonus to {@action Escape}."
+		],
+		"Moderate Boon": [
+			"Ram'jara gives you the courage to fight through the worst. Your penalty due to the {@condition frightened} condition is one lower than its value. For example, when you are {@condition frightened <3>}, you would have a \u22122 status penalty to all your checks and DCs."
+		],
+		"Major Boon": [
+			"Ram'jara names you freer of men. You gain a +4 status bonus to checks to {@action Request} during attempts to satisfy one of Ram'jara's edicts. Additionally, you can cast {@spell word of freedom} as a {@trait divine} innate spell once per round without spending a Focus Point. Each creature can only benefit from your {@spell word of freedom} once each day."
+		],
+		"Minor Curse": [
+			"Your legs seem to get in each other's way. You have a \u22122 status penalty to {@action Balance} and a \u22125-feet status penalty to {@action Leap}. Additionally, whenever you {@action Step}, make a DC {@flatDC 5} flat check. On a failure, you fall {@condition prone} after moving."
+		],
+		"Moderate Curse": [
+			"Ram'jara delights in watching others knock sense into you. You take a \u22122 status penalty to AC, you have weakness 5 to bludgeoning, and you become {@condition stupefied <1>} for {@dice 1d4} rounds whenever you are hit by an attack in the {@group brawling} group."
+		],
+		"Major Curse": [
+			"Lacking recourse, Ram'jara makes you a prisoner of your own body. Over the course of one week, your body below the jaw becomes progressively stiffer until they no longer move at all. You have a \u22124 status penalty to AC, {@skill Perception}, and Reflex saves, and you are permanently {@condition flat-footed}. You can't act in any way that requires movement from something other than your face or voice."
+		]
+	}
+}

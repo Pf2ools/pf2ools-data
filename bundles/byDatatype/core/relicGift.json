@@ -5876,6 +5876,61 @@
 		{
 			"type": "relicGift",
 			"source": {
+				"page": 85,
+				"ID": "SKT1"
+			},
+			"name": {
+				"primary": "Ancestors' Call"
+			},
+			"data": {
+				"tier": "Minor",
+				"traits": [
+					{
+						"trait": "divination"
+					},
+					{
+						"trait": "dwarf"
+					},
+					{
+						"trait": "mental"
+					}
+				],
+				"aspects": [
+					{
+						"name": "mind"
+					}
+				],
+				"entries": [
+					"Dwarven spirits gravitate toward this relic, and you can call upon them to inhabit you and your allies to impart ancestral secrets. When you gain this gift, choose three {@filter common 1st-level dwarf ancestry feats|feats||type=ancestry|Level=[1]|ancestry & heritage=dwarf|rarity=common}.",
+					{
+						"type": "ability",
+						"style": "compact",
+						"activity": {
+							"number": 1,
+							"unit": "action"
+						},
+						"components": [
+							"envision"
+						],
+						"frequency": {
+							"number": 1,
+							"unit": "hour"
+						},
+						"entries": [
+							"Select one of the three ancestry feats. You and each ally in a 10-foot-radius burst centered on you gain that feat and the {@trait dwarf} trait for 1 minute."
+						]
+					}
+				]
+			},
+			"tags": {
+				"misc": {
+					"Grants ability": true
+				}
+			}
+		},
+		{
+			"type": "relicGift",
+			"source": {
 				"page": 200,
 				"ID": "TV"
 			},

@@ -1,4 +1,10 @@
 {
+	"CC-BY-SA-v4-0": {
+		"type": "license",
+		"fullTitle": "Creative Commons Attribution-ShareAlike 4.0 International Public License",
+		"path": "./data/common/license/Creative Commons Attribution-ShareAlike 4.0 International Public License.json",
+		"official": null
+	},
 	"OGLv1-0a": {
 		"type": "license",
 		"fullTitle": "Open Game License v1.0a",
@@ -371,6 +377,24 @@
 		"path": "./data/core/Secrets of Magic/Secrets of Magic.json",
 		"official": true
 	},
+	"SKT1": {
+		"type": "source",
+		"fullTitle": "Sky King's Tomb #1: Mantle of Gold",
+		"path": "./data/core/Sky King's Tomb #1_ Mantle of Gold/Sky King's Tomb #1_ Mantle of Gold.json",
+		"official": true
+	},
+	"SKT2": {
+		"type": "source",
+		"fullTitle": "Sky King's Tomb #2: Cult of the Cave Worm",
+		"path": "./data/core/Sky King's Tomb #2_ Cult of the Cave Worm/Sky King's Tomb #2_ Cult of the Cave Worm.json",
+		"official": true
+	},
+	"SKT3": {
+		"type": "source",
+		"fullTitle": "Sky King's Tomb #3: Heavy is the Crown",
+		"path": "./data/core/Sky King's Tomb #3_ Heavy is the Crown/Sky King's Tomb #3_ Heavy is the Crown.json",
+		"official": true
+	},
 	"SKT0": {
 		"type": "source",
 		"fullTitle": "Sky King's Tomb Player's Guide",
@@ -405,6 +429,18 @@
 		"type": "source",
 		"fullTitle": "Wake the Dead #2",
 		"path": "./data/core/Wake the Dead #2/Wake the Dead #2.json",
+		"official": false
+	},
+	"SolthesiaAG": {
+		"type": "source",
+		"fullTitle": "Solthesia Adventure Guide",
+		"path": "./data/homebrew/Solthesia Adventure Guide/Solthesia Adventure Guide.json",
+		"official": false
+	},
+	"Spappz": {
+		"type": "source",
+		"fullTitle": "Spappz's Public Assortment of Miscellany",
+		"path": "./data/homebrew/Spappz's Public Assortment of Miscellany/Spappz's Public Assortment of Miscellany.json",
 		"official": false
 	}
 }

@@ -1,0 +1,30 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Dvadat Zikir"
+	},
+	"source": {
+		"ID": "SolthesiaAG"
+	},
+	"data": {
+		"preamble": [
+			"Dvadat Zikir typically only intercedes within its insular communities of devotees, capriciously exalting its most enthusiastic celebrants while corrupting its abstainers and apostates until they return to its fold."
+		],
+		"Minor Boon": [
+			"Once, when you would suffer a harmful effect and can use a reaction, Dvadat Zikir seizes your mind to spur you to safety. You use your reaction to immediately {@action Step} twice before resolving the triggering effect; you are unaffected if you end the movement outside its range. For 1 round, you are {@condition quickened <1>}, have a +3 status bonus to saves against {@trait mental} effects, and are {@condition controlled} by Dvadat Zikir.",
+			"Dvadat Zikir typically grants this boon only when it would save you from a certain, physically caused death. It usually uses its control over you to simply have you escape unless it is certain it can neutralise the threat through you."
+		],
+		"Moderate Boon": [
+			"Dvadat Zikir worms its way behind your eyes and grants you sight. During each of your daily preparations, roll a {@dice d8}. You gain the following sense until you next make your daily preparations: 1 = {@ability darkvision}, 2 = echolocation (precise) 60 feet, 3 = {@ability lifesense} (precise) 60 feet, 4 = {@ability scent} (imprecise) 300 feet, 5 = thoughtsense (imprecise) 30 feet, 6 = {@ability tremorsense} (precise) 100 feet, 7 = {@ability wavesense} (precise) 500 feet, 8 = your choice from this list."
+		],
+		"Major Boon": [
+			"Dvadat Zikir blesses the tongue of its most loyal servants. You can cast {@spell subconscious suggestion} as an innate {@trait divine} spell. If the target gets a critical success against your {@spell subconscious suggestion}, it instead gets a success, but it is also immune to your {@spell subconscious suggestion} for 1 day."
+		],
+		"Minor Curse": [
+			"For lesser infractions, Dvadat Zikir's emissaries mar only the body. You suffer the effects of the {@curse curse of biting swarms|LOIL} as long as you have Dvadat Zikir's disfavour."
+		],
+		"Major Curse": [
+			"Dvadat Zikir reserves its greatest gift, ironically, for its greatest offenders, prying into your mind and cleaving it open. You suffer the effects of the {@spell synesthesia} spell permanently. Additionally, Dvadat Zikir casts the {@ritual geas} ritual on you at 10th level, commanding you to follow its edicts with an unlimited duration. It doesn't need secondary casters or secondary checks to do so, and it automatically gets a critical success on its primary check."
+		]
+	}
+}

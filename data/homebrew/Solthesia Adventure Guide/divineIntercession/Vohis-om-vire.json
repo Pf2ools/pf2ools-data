@@ -1,0 +1,41 @@
+{
+	"type": "divineIntercession",
+	"name": {
+		"primary": "Vohis-om-vire"
+	},
+	"source": {
+		"ID": "SolthesiaAG"
+	},
+	"data": {
+		"preamble": [
+			"The Autumn Lord rarely intercedes for those outside its court, expecting that the Rondamic state apparatus act appropriately on its behalf. However, it has been known to exercise its power to honour the loyal and reform the subversive, should an exceptional case be made with the recipient in its presence."
+		],
+		"Minor Boon": [
+			"Vohis-om-vire protects those devoted to its glory. Once, when you would take bludgeoning or piercing damage, dense bark spreads from the wound and erupts into flames. For 1 minute, you gain the following benefits:",
+			{
+				"type": "list",
+				"items": [
+					"You gain resistance 5 to bludgeoning, piercing, and fire damage.",
+					"Adjacent creatures that hit you with a melee attack, as well as creatures that hit you with unarmed attacks, take 1 fire damage each time they do.",
+					"You cast bright light in a 10-foot radius and dim light for the next 10 feet."
+				]
+			},
+			"Vohis-om-vire typically grants this boon when you are outmatched but have little hope (or justification) to escape."
+		],
+		"Moderate Boon": [
+			"Your passage to carry out official business is assured to be safe and swift. You can cast {@spell tree stride} as an innate {@trait divine} spell once per day. You can cast the spell with only 3 actions, but you can only travel through maples."
+		],
+		"Major Boon": [
+			"You carry the authority of the Autumn Lord wherever you go. While actively serving your country, you have a +1 status bonus to AC and all saves and a +3 status bonus to {@skill Diplomacy} and {@skill Intimidation} checks, as well as to {@action Recall Knowledge} checks about the Rondaumic Empire. Additionally, you can cast {@spell shape wood} and {@spell speak with plants} as innate {@trait divine} spells at will."
+		],
+		"Minor Curse": [
+			"Vohis-om-vire assigns an emissary to hold you accountable. You become afflicted with the {@curse oath of the flesh} curse, except damage from the curse can be healed once you make fair amends for the broken promise."
+		],
+		"Moderate Curse": [
+			"It displeases Vohis-om-vire for its enemies to walk freely amongst its subjects, so it sets an emissary to monitor you. Once each month, you are targetted by a 6th-level {@spell brand the impenitent|LOGM} spell (DC 30), except the duration on a success and failure is 1 day and 1 week respectively. The symbol is visible to the blessed of Vohis-om-vire, as well as the aristocrats, officers, and soldiers of the Rondamic Empire. While the symbol lasts, if a citizen of Rondam observes you committing a crime or otherwise acting with hostility, the nearest officer is telepathically alerted to their concerns and learns your position."
+		],
+		"Major Curse": [
+			"Judging you irredeemable, Vohis-om-vire offers you no mercy. After spending at least 10 minutes in a forest well-claimed by Vohis-om-vire, you are targetted by three simultaneous instances of the {@spell murderous vine} spell (DC 30). Vohis-om-vire typically waits until you are alone or passing through a narrow passage. If you defeat the vines, Vohis-om-vire repeats the curse every few minutes that you remain in its forest. Depending on the nature of your crimes, the vines' damage may be {@trait nonlethal} so that Vohis-om-vire can later send an emissary to capture you."
+		]
+	}
+}

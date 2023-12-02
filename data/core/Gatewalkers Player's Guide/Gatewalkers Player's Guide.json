@@ -24,6 +24,9 @@
 		"publisher": "Paizo"
 	},
 	"tags": {
+		"status": {
+			"Missing content": true
+		},
 		"misc": {
 			"Official": true
 		}
