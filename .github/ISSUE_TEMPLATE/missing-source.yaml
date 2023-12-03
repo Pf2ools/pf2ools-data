@@ -6,8 +6,8 @@ assignees: []
 body:
   - type: checkboxes
     id: checks
-    label: Before we continue...
     attributes:
+      label: Before we continue...
       options:
         - label: I have checked that this source isn't already on the [conversion tracker](https://github.com/orgs/Pf2ools/projects/1).
           required: true
