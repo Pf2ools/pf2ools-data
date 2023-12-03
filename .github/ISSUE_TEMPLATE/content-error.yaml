@@ -36,4 +36,4 @@ body:
       placeholder: https://pf2etools.com/spells.html#fireball_crb
   - type: markdown
     attributes:
-    value: Thanks for helping out!
+      value: Thanks for helping out!
