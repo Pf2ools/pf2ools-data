@@ -1,6 +1,5 @@
 name: Missing source
 description: Report a Paizo source we haven't converted yet
-title: ""
 labels: "🪲 Missing source"
 projects: []
 assignees: []
