@@ -46,4 +46,4 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: "### Thanks for letting us know!\nPlease drop by our [Discord server](https://discord.gg/2hzNxErtVu) if you'd like to help convert any amount of this source."
+    value: Thanks for letting us know! Please drop by our [Discord server](https://discord.gg/2hzNxErtVu) if you'd like to help convert any amount of this source.

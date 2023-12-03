@@ -24,4 +24,4 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: "### Thanks for letting us know!"
+    value: Thanks for letting us know!
