@@ -16,7 +16,7 @@
 		"index:IDs": "pwsh scripts/index-IDs.ps1 -ExecutionPolicy Unrestricted -NoProfile",
 		"index:datatypes": "pwsh scripts/index-datatypes.ps1 -ExecutionPolicy Unrestricted -NoProfile",
 		"index:shortNames": "pwsh scripts/index-shortNames.ps1 -ExecutionPolicy Unrestricted -NoProfile",
-		"bundle": "npm run bundle:bySource && npm run bundle:byDatatype -- -SkipEmpty",
+		"bundle": "npm run bundle:bySource -- -Compress && npm run bundle:byDatatype -- -Compress -SkipEmpty",
 		"bundle:bySource": "pwsh scripts/bundle-bySource.ps1 -ExecutionPolicy Unrestricted -NoProfile",
 		"bundle:byDatatype": "pwsh scripts/bundle-byDatatype.ps1 -ExecutionPolicy Unrestricted -NoProfile",
 		"clean": "npm run clean:json -- -rc ./data && npm run clean:prettify -- --log-level warn",

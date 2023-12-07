@@ -24,6 +24,6 @@ If you use Visual Studio Code, you can set up repository-wide, schema-informed v
 
 Finding data a bit overwhelming, or want to put different skills to use? There's other places open for contribution!
 
-- **pf2ools-site:** create features, fix bugs, or write or improve the website's documentation
+- **pf2ools-app:** create features, fix bugs, or write or improve the website's documentation
 - **pf2ools-utils:** build or improve scripts to aid conversion, validation, or data manipulation
 - **pf2ools-schema:** propose improvements to the data-format itself, or add/improve annotations to aid converters in their work here
