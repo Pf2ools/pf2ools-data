@@ -28,7 +28,7 @@ All files are JSON objects with the following properties:
 
 - `type`, which defines the type of data described;
 - `name` or `title`, which defines the content's name;
-- `data`, which represents the content itself.
+- `data` or `reference`, which represents the content itself (or where to find it).
 
 There might also be a `tags` property, which contains various categories and variables that don't directly define the statblock itself.
 
@@ -36,11 +36,21 @@ The exact form of each of these properties can be investigated over in the [Pf2o
 
 ### Conventions
 
-Pf2ools follows the following standardisation conventions:
+The following conventions are enforced:
 
 - Files _must_ be encoded with UTF-8 (without BOM), use "LF" as the end-of-line sequence, and end with a newline.
 - Files _must_ use tabs for indentation and have no trailing whitespace.
-- Filenames _must_ match the contained data's `name.display` or use the format `<name.display> - <name.specifier>.json` (e.g. `Attack of Opportunity - Swashbuckler.json`) if `specifier` is defined. The only exceptions are source, source group, and license files (which are all named following their `title.full`). Filesystem-unsafe characters (e.g. "?", ":") _must_ be replaced with an underscore "\_".
+- Filenames _must_ match the contained data's `name.display` or use the format `<name.display>; <name.specifier>.json` (e.g. `Attack of Opportunity; Swashbuckler.json`) if `specifier` is defined. The only exceptions are source, source group, and license files (which are all named following their `title.full`). Filesystem-unsafe characters (e.g. "?", ":") _must_ be replaced with an underscore "\_".
+- JSON strings _must_ not contain leading or trailing whitespace.
+
+There are also more subjective conventions which, although not automatically enforced, are nonetheless encouraged by the maintainers as a sort of 'code of conversion':
+
+- The data _should_ reflect the actual, rules-as-written text, arranged and presented as the author intended.
+- The data _should_ reflect the most up-to-date version of its sources.
+- An older version of a source _may_ be maintained if deemed sufficiently different from a more recent version, or if deemed significant enough in some other fashion. Such a version _should_ be clearly indicated.
+- Text providing book directions, such as page numbers or chapter names, _should_ be stripped where the meaning of the sentence is otherwise unchanged. Inline links _should_ instead be made using Pf2ools' `@tag` format.
+- Obvious typos and grammatical errors, where the intended meaning is unambiguous, _should_ be corrected.
+- Converters _may_ add inline footnotes or other unobtrusive editorialisation to ambiguous passages, or where an imperfect or opinionated conversion has been made.
 
 ## Using the data
 

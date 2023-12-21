@@ -77,7 +77,7 @@ function logError(message) {
 }
 function sanitiseFilename(name, specifier) {
 	const unsafeCharacters = new RegExp(/[<>:"/\\|?*]/gi);
-	return name.replace(unsafeCharacters, "_") + (specifier ? ` - ${specifier.replace(unsafeCharacters, "_")}` : "");
+	return name.replace(unsafeCharacters, "_") + (specifier ? `; ${specifier.replace(unsafeCharacters, "_")}` : "");
 }
 
 // ====== //
