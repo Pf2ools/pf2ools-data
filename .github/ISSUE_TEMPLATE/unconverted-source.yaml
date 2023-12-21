@@ -1,4 +1,4 @@
-name: Missing source
+name: Unconverted source
 description: Report a Paizo source we haven't converted yet
 labels: "📝 Unconverted source"
 projects: []

@@ -29,6 +29,6 @@
       - any-glob-to-any-file: ["bundles/**", "indexes/**"]
 
 # Github actions
-"🎯 Github Actions":
+"🎯 Special files":
   - changed-files:
-      - any-glob-to-any-file: [".github/workflows/*", ".github/labeler.yml"]
+      - any-glob-to-any-file: [".github/**", ".*", "package*", "LICENSE", "*.license"]
