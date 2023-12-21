@@ -35,7 +35,7 @@
 			"options": [
 				{
 					"name": "Schooled in Secrets",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

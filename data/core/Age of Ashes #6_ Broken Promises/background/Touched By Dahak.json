@@ -40,7 +40,7 @@
 			"options": [
 				{
 					"name": "Titan Wrestler",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

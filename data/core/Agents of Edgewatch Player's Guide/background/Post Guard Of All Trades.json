@@ -37,7 +37,7 @@
 			"options": [
 				{
 					"name": "Dubious Knowledge",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		},

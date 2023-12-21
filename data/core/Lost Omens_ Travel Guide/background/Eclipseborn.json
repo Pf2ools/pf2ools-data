@@ -39,7 +39,7 @@
 			"options": [
 				{
 					"name": "ill omen",
-					"sourceID": "LOGM"
+					"source": "LOGM"
 				}
 			]
 		}

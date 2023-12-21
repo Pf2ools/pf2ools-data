@@ -36,11 +36,11 @@
 			"options": [
 				{
 					"name": "Titan Wrestler",
-					"sourceID": "CRB"
+					"source": "CRB"
 				},
 				{
 					"name": "Train Animal",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

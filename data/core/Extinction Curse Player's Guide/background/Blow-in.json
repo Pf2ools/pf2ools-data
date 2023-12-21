@@ -37,11 +37,11 @@
 			"options": [
 				{
 					"name": "Lengthy Diversion",
-					"sourceID": "CRB"
+					"source": "CRB"
 				},
 				{
 					"name": "Subtle Theft",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

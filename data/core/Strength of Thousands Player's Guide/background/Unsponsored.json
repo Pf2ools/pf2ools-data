@@ -42,11 +42,11 @@
 			"options": [
 				{
 					"name": "Group Impression",
-					"sourceID": "CRB"
+					"source": "CRB"
 				},
 				{
 					"name": "Intimidating Glare",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

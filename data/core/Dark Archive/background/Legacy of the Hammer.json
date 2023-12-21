@@ -40,7 +40,7 @@
 			"options": [
 				{
 					"name": "Concealing Legerdemain",
-					"sourceID": "APG"
+					"source": "APG"
 				}
 			]
 		}

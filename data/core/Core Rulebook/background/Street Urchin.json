@@ -35,7 +35,7 @@
 			"options": [
 				{
 					"name": "Pickpocket",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

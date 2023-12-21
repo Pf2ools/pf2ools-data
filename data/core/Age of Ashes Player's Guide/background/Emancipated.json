@@ -36,7 +36,7 @@
 			"options": [
 				{
 					"name": "Terrain Stalker",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

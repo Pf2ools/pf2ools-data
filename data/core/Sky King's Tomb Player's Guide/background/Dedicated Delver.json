@@ -44,11 +44,11 @@
 			"options": [
 				{
 					"name": "Combat Climber",
-					"sourceID": "CRB"
+					"source": "CRB"
 				},
 				{
 					"name": "Terrain Expertise",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

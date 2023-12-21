@@ -43,11 +43,11 @@
 			"options": [
 				{
 					"name": "Titan Swing",
-					"sourceID": "DA"
+					"source": "DA"
 				},
 				{
 					"name": "Express Rider",
-					"sourceID": "APG"
+					"source": "APG"
 				}
 			]
 		}

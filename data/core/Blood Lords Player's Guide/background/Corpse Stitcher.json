@@ -41,11 +41,11 @@
 			"options": [
 				{
 					"name": "Risky Surgery",
-					"sourceID": "APG"
+					"source": "APG"
 				},
 				{
 					"name": "Stitch Flesh",
-					"sourceID": "BotD"
+					"source": "BotD"
 				}
 			]
 		}

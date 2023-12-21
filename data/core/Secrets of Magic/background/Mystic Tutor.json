@@ -44,7 +44,7 @@
 			"options": [
 				{
 					"name": "Recognize Spell",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

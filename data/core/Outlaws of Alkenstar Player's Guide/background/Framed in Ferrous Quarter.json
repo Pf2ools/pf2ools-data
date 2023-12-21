@@ -42,7 +42,7 @@
 			"options": [
 				{
 					"name": "Specialty Crafting",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

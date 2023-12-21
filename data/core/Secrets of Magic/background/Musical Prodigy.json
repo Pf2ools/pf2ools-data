@@ -35,7 +35,7 @@
 			"options": [
 				{
 					"name": "Virtuosic Performer",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

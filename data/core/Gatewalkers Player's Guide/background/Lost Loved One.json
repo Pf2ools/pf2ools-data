@@ -40,11 +40,11 @@
 			"options": [
 				{
 					"name": "Ghostly Grasp",
-					"sourceID": "DA"
+					"source": "DA"
 				},
 				{
 					"name": "Multilingual",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}
