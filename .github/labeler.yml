@@ -1,24 +1,34 @@
 # Core data updates
 "🎯 Paizo data":
-  - "data/core/**"
+  - changed-files:
+      - any-glob-to-any-file: ["data/core/**"]
 
 # Homebrew data updates
 "🎯 Homebrew data":
-  - "data/homebrew/**"
+  - changed-files:
+      - any-glob-to-any-file: ["data/homebrew/**"]
 
 # Source file modifications
 "🎯 Source file":
-  - "data/*/*/*.json"
+  - changed-files:
+      - any-glob-to-any-file: ["data/*/*/*.json"]
 
 # Documentation updates
 "🎯 Documentation":
-  - any: ["**/*.md", "!CHANGELOG.md"]
+  - changed-files:
+      - all-globs-to-any-file: ["**/*.md", "!CHANGELOG.md"]
 
 # Script updates
 "🎯 Scripts":
-  - "scripts/**"
+  - changed-files:
+      - any-glob-to-any-file: ["scripts/**"]
+
+# Build-file updates
+"🎯 Build files":
+  - changed-files:
+      - any-glob-to-any-file: ["bundles/**", "indexes/**"]
 
 # Github actions
 "🎯 Github Actions":
-  - ".github/workflows/*"
-  - ".github/labeler.yml"
+  - changed-files:
+      - any-glob-to-any-file: [".github/workflows/*", ".github/labeler.yml"]
