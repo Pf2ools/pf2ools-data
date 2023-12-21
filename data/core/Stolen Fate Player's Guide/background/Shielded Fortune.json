@@ -53,7 +53,7 @@
 			"options": [
 				{
 					"name": "Toughness",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		},

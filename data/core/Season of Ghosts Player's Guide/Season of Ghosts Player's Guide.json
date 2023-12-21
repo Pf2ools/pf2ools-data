@@ -10,7 +10,7 @@
 		"added": "2023-12-01",
 		"modified": "2023-12-01",
 		"url": "https://downloads.paizo.com/SeasonofGhosts_PlayersGuide.pdf",
-		"groupIDs": [
+		"groups": [
 			"SoG"
 		],
 		"copyright": [

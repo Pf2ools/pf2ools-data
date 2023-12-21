@@ -33,11 +33,11 @@
 			"options": [
 				{
 					"name": "Additional Lore",
-					"sourceID": "CRB"
+					"source": "CRB"
 				},
 				{
 					"name": "Diehard",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

@@ -39,7 +39,7 @@
 			"options": [
 				{
 					"name": "disrupt undead",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

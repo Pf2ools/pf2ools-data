@@ -35,7 +35,7 @@
 			"options": [
 				{
 					"name": "Bargain Hunter",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

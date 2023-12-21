@@ -42,11 +42,11 @@
 			"options": [
 				{
 					"name": "Eye for Numbers",
-					"sourceID": "APG"
+					"source": "APG"
 				},
 				{
 					"name": "Subtle Theft",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

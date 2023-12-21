@@ -40,7 +40,7 @@
 			"options": [
 				{
 					"name": "Train Animal",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

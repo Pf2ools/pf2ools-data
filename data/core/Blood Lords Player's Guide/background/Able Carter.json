@@ -42,11 +42,11 @@
 			"options": [
 				{
 					"name": "Charming Liar",
-					"sourceID": "CRB"
+					"source": "CRB"
 				},
 				{
 					"name": "Hobnobber",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

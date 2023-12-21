@@ -42,11 +42,11 @@
 			"options": [
 				{
 					"name": "Dubious Knowledge",
-					"sourceID": "CRB"
+					"source": "CRB"
 				},
 				{
 					"name": "Quick Identification",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

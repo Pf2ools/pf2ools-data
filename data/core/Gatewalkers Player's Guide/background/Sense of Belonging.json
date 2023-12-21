@@ -41,11 +41,11 @@
 			"options": [
 				{
 					"name": "Eerie Flicker",
-					"sourceID": "DA"
+					"source": "DA"
 				},
 				{
 					"name": "Forager",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

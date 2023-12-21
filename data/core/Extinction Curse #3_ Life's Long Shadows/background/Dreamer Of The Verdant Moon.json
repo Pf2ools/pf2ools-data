@@ -40,7 +40,7 @@
 			"options": [
 				{
 					"name": "Ravening's Desperation",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

@@ -35,7 +35,7 @@
 			"options": [
 				{
 					"name": "Inoculation",
-					"sourceID": "APG"
+					"source": "APG"
 				}
 			]
 		}

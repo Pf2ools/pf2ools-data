@@ -42,11 +42,11 @@
 			"options": [
 				{
 					"name": "Steady Balance",
-					"sourceID": "CRB"
+					"source": "CRB"
 				},
 				{
 					"name": "Impressive Performance",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

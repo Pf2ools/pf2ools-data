@@ -40,7 +40,7 @@
 			"options": [
 				{
 					"name": "Armor Assist",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

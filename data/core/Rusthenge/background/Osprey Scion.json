@@ -40,7 +40,7 @@
 			"options": [
 				{
 					"name": "Hobnobber",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}

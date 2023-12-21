@@ -6,16 +6,17 @@
 	"devDependencies": {
 		"chalk": "^5.3.0",
 		"commander": "^11.1.0",
-		"prettier": "^3.1.0"
+		"prettier": "^3.1.1"
 	},
 	"scripts": {
 		"test": "npm run test:fileStructure && npm run test:data",
 		"test:fileStructure": "node ./scripts/test-fileStructure.js",
 		"test:data": "echo \"TODO: this will simply validate all data against the schema (breaking early)\"",
-		"index": "npm run index:datatypes && npm run index:IDs -- -IgnoreCollisions && npm run index:shortNames",
+		"index": "npm run index:datatypes -- -Compress && npm run index:IDs -- -IgnoreCollisions -Compress && npm run index:shortNames -- -Compress && npm run index:homebrewSources -- -Compress",
 		"index:IDs": "pwsh scripts/index-IDs.ps1 -ExecutionPolicy Unrestricted -NoProfile",
 		"index:datatypes": "pwsh scripts/index-datatypes.ps1 -ExecutionPolicy Unrestricted -NoProfile",
 		"index:shortNames": "pwsh scripts/index-shortNames.ps1 -ExecutionPolicy Unrestricted -NoProfile",
+		"index:homebrewSources": "pwsh scripts/index-homebrewSources.ps1 -ExecutionPolicy Unrestricted -NoProfile",
 		"bundle": "npm run bundle:bySource -- -Compress && npm run bundle:byDatatype -- -Compress -SkipEmpty",
 		"bundle:bySource": "pwsh scripts/bundle-bySource.ps1 -ExecutionPolicy Unrestricted -NoProfile",
 		"bundle:byDatatype": "pwsh scripts/bundle-byDatatype.ps1 -ExecutionPolicy Unrestricted -NoProfile",

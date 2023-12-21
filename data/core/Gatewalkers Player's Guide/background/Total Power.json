@@ -43,11 +43,11 @@
 			"options": [
 				{
 					"name": "Bone Spikes",
-					"sourceID": "DA"
+					"source": "DA"
 				},
 				{
 					"name": "Intimidating Glare",
-					"sourceID": "CRB"
+					"source": "CRB"
 				}
 			]
 		}
