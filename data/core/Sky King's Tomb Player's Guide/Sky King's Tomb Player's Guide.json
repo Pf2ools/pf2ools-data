@@ -10,14 +10,14 @@
 		"added": "2023-08-08",
 		"modified": "2023-08-08",
 		"url": "https://downloads.paizo.com/SkyKingsTombPlayersGuide.pdf",
-		"groups": [
+		"groupIDs": [
 			"SKT"
 		],
 		"copyright": [
 			"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
 			"{@b {@i Pathfinder Sky King's Tomb Player's Guide}} © 2023, Paizo Inc.; Authors: John Compton and Crystal Frasier."
 		],
-		"license": "OGLv1-0a",
+		"licenseID": "OGLv1-0a",
 		"authors": [
 			"John Compton",
 			"Crystal Frasier"

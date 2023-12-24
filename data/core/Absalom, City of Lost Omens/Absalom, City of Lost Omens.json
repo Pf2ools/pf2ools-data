@@ -10,14 +10,14 @@
 		"added": "2023-08-08",
 		"modified": "2023-08-08",
 		"url": "https://paizo.com/products/btq02ap2",
-		"groups": [
+		"groupIDs": [
 			"LO"
 		],
 		"copyright": [
 			"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
 			"{@b {@i Pathfinder Lost Omens Absalom, City of Lost Omens}} © 2021, Paizo Inc.; Authors: Allie Bustion, John Compton, Jeremy Corff, Katina Davis, Vanessa Hoskins, James Jacobs, Virginia Jordan, Erik Mona, Matt Morris, Liane Merciel, Dave Nelson, Samantha Phelan, Jessica Redekop, Mikhail Rekun, Brian Richmond, David N. Ross, Simone D. Sallé, Shahreena Shahrani, Abigail Slater, Chris Spivey, Diego Valdez, and Skylar-James Wall."
 		],
-		"license": "OGLv1-0a",
+		"licenseID": "OGLv1-0a",
 		"authors": [
 			"Allie Bustion",
 			"John Compton",

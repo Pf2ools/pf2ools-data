@@ -10,7 +10,7 @@
 		"added": "2023-08-08",
 		"modified": "2023-08-08",
 		"url": "https://downloads.paizo.com/AbominationVaults_PlayersGuide.pdf",
-		"groups": [
+		"groupIDs": [
 			"AV"
 		],
 		"copyright": [
@@ -20,7 +20,7 @@
 			"{@b Froghemoth from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
 			"{@b {@i Pathfinder Adventure Path #165: Eyes of Empty Death}} © 2021, Paizo Inc.; Authors: Stephen RadneyMacFarland, with James Jacobs and Mikhail Rekun."
 		],
-		"license": "OGLv1-0a",
+		"licenseID": "OGLv1-0a",
 		"authors": [
 			"Stephen Radney-MacFarland",
 			"James Jacobs and Mikhail Rekun"

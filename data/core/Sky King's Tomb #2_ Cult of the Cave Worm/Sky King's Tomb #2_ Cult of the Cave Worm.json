@@ -10,14 +10,14 @@
 		"added": "2023-11-29",
 		"modified": "2023-11-29",
 		"url": "https://paizo.com/products/btq02eod",
-		"groups": [
+		"groupIDs": [
 			"SKT"
 		],
 		"copyright": [
 			"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
 			"{@b {@i Pathfinder Adventure Path #194: Cult of the Cave Worm}} © 2023, Paizo Inc.; Authors: Scott D. Young, with Vanessa Hoskins."
 		],
-		"license": "OGLv1-0a",
+		"licenseID": "OGLv1-0a",
 		"authors": [
 			"Scott D. Young",
 			"Vanessa Hoskins"

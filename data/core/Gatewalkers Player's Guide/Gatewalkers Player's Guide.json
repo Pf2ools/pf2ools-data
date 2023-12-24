@@ -10,14 +10,14 @@
 		"added": "2023-08-08",
 		"modified": "2023-08-08",
 		"url": "https://downloads.paizo.com/GatewalkersPlayersGuide.pdf",
-		"groups": [
+		"groupIDs": [
 			"Gwrs"
 		],
 		"copyright": [
 			"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
 			"{@b {@i Gatewalkers Player's Guide}} © 2022, Paizo Inc.; Author: Patrick Renie."
 		],
-		"license": "OGLv1-0a",
+		"licenseID": "OGLv1-0a",
 		"authors": [
 			"Patrick Renie"
 		],

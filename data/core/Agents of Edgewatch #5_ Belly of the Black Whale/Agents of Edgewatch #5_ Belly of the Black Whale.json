@@ -10,14 +10,14 @@
 		"added": "2023-08-18",
 		"modified": "2023-08-18",
 		"url": "https://paizo.com/products/btq023dz",
-		"groups": [
+		"groupIDs": [
 			"AoE"
 		],
 		"copyright": [
 			"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
 			"{@b {@i Pathfinder Adventure Path #161: Belly of the Black Whale}} © 2020, Paizo Inc.; Authors: Cole Kronewitter, with Kim Frandsen, Patchen Mortimer, Kyle T. Raes, Andrew White, and Brian Yaksha."
 		],
-		"license": "OGLv1-0a",
+		"licenseID": "OGLv1-0a",
 		"authors": [
 			"Cole Kronewitter",
 			"Kim Frandsen",
