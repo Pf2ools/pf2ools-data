@@ -10,14 +10,14 @@
 		"added": "2023-08-08",
 		"modified": "2023-08-08",
 		"url": "https://paizo-images.s3-us-west-2.amazonaws.com/image/download/PZO9303+Gods+%26+Magic+Web+Supplement.pdf",
-		"groups": [
+		"groupIDs": [
 			"LO"
 		],
 		"copyright": [
 			"{@b Genie, Marid from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
 			"{@b {@i Pathfinder Lost Omens Gods & Magic Web Supplement}} © 2020, Paizo Inc.; Authors: James Case, Adam Daigle, Leo Glass, James Jacobs, Virginia Jordan, Jason Keeley, Jacky Leung, Lyz Liddell, Luis Loza, Ron Lundeen, Matt Morris, Nathan Reinecke, Simone D. Sallé, Michael Sayre, Shahreena Shahrani, Isabelle Thorne, and Diego Valdez."
 		],
-		"license": "OGLv1-0a",
+		"licenseID": "OGLv1-0a",
 		"authors": [
 			"James Case",
 			"Adam Daigle",

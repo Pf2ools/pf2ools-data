@@ -12,7 +12,7 @@
 		"added": "2023-08-08",
 		"modified": "2023-08-08",
 		"url": "https://paizo.com/products/btq026k5",
-		"groups": [
+		"groupIDs": [
 			"LO"
 		],
 		"copyright": [
@@ -28,7 +28,7 @@
 			"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
 			"{@b {@i Pathfinder Lost Omens Ancestry Guide (Second Edition)}} © 2021, Paizo Inc.; Authors: Calder CaDavid, James Case, Jessica Catalan, Eleanor Ferron, Lyz Liddell, Luis Loza, Ron Lundeen, Patchen Mortimer, Andrew Mullen, Samantha Phelan, Jessica Redekop, Mikhail Rekun, David N. Ross, Mark Seifter, Owen K.C. Stephens, Isabelle Thorne, and Linda Zayas-Palmer."
 		],
-		"license": "OGLv1-0a",
+		"licenseID": "OGLv1-0a",
 		"authors": [
 			"Calder CaDavid",
 			"James Case",

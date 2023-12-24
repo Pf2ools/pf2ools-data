@@ -14,10 +14,10 @@
 			"{@b Pathfinder Core Rulebook (Second Edition)} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
 			"{@b Pathfinder: Wake the Dead #2} © 2023, Paizo Inc.; Authors: Mikhail Rekun and Fred Van Lente."
 		],
-		"groups": [
+		"groupIDs": [
 			"C-WtD"
 		],
-		"license": "OGLv1-0a",
+		"licenseID": "OGLv1-0a",
 		"authors": [
 			"Mikhail Rekun",
 			"Fred Van Lente"

@@ -10,7 +10,7 @@
 		"added": "2023-08-08",
 		"modified": "2023-08-08",
 		"url": "https://paizo.com/products/btq02dxx",
-		"groups": [
+		"groupIDs": [
 			"LO"
 		],
 		"copyright": [
@@ -20,7 +20,7 @@
 			"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
 			"{@b {@i Pathfinder Lost Omens: Impossible Lands}} © 2022, Paizo Inc.; Authors: Mariam Ahmad, Saif Ansari, Alexandria Bustion, Basheer Ghouse, Michelle Jones, TJ Kahn, Matt Morris, Dave Nelson, Mikhail Rekun, Michael Sayre, Tan Shao Han, Ruvaid Virk, Jabari Weathers, and Brian Yaksha."
 		],
-		"license": "OGLv1-0a",
+		"licenseID": "OGLv1-0a",
 		"authors": [
 			"Mariam Ahmad",
 			"Saif Ansari",
