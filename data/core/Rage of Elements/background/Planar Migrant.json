@@ -40,11 +40,11 @@
 			"options": [
 				{
 					"name": "Heft Hauler",
-					"source": "CRB"
+					"sourceID": "CRB"
 				},
 				{
 					"name": "Prescient Planner",
-					"source": "APG"
+					"sourceID": "APG"
 				}
 			]
 		}

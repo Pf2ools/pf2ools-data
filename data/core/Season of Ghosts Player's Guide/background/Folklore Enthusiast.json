@@ -54,7 +54,7 @@
 			"options": [
 				{
 					"name": "Oddity Identification",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		},

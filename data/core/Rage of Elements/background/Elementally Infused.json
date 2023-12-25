@@ -39,27 +39,27 @@
 			"options": [
 				{
 					"name": "Gale Blast",
-					"source": "SoM"
+					"sourceID": "SoM"
 				},
 				{
 					"name": "Scatter Scree",
-					"source": "SoM"
+					"sourceID": "SoM"
 				},
 				{
 					"name": "Produce Flame",
-					"source": "CRB"
+					"sourceID": "CRB"
 				},
 				{
 					"name": "Needle Darts",
-					"source": "RoE"
+					"sourceID": "RoE"
 				},
 				{
 					"name": "Spout",
-					"source": "SoM"
+					"sourceID": "SoM"
 				},
 				{
 					"name": "Root Reading",
-					"source": "RoE"
+					"sourceID": "RoE"
 				}
 			]
 		}

@@ -40,7 +40,7 @@
 			"options": [
 				{
 					"name": "Quick Repair",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

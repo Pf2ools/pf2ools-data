@@ -35,7 +35,7 @@
 			"options": [
 				{
 					"name": "Steady Balance",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

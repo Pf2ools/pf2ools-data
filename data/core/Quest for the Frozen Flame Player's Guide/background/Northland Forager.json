@@ -40,7 +40,7 @@
 			"options": [
 				{
 					"name": "Forager",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

@@ -42,11 +42,11 @@
 			"options": [
 				{
 					"name": "Hobnobber",
-					"source": "CRB"
+					"sourceID": "CRB"
 				},
 				{
 					"name": "Eye for Numbers",
-					"source": "APG"
+					"sourceID": "APG"
 				}
 			]
 		}

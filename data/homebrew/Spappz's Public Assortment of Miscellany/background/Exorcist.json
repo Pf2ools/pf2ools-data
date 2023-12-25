@@ -40,7 +40,7 @@
 			"options": [
 				{
 					"name": "Spirit Sense",
-					"source": "APG"
+					"sourceID": "APG"
 				}
 			]
 		}

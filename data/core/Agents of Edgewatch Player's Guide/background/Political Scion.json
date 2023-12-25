@@ -38,7 +38,7 @@
 			"options": [
 				{
 					"name": "Hobnobber",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		},

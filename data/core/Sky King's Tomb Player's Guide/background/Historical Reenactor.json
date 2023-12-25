@@ -43,11 +43,11 @@
 			"options": [
 				{
 					"name": "Impressive Performance",
-					"source": "CRB"
+					"sourceID": "CRB"
 				},
 				{
 					"name": "Dubious Knowledge",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

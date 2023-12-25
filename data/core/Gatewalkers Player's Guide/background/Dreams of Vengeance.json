@@ -41,11 +41,11 @@
 			"options": [
 				{
 					"name": "Blasting Beams",
-					"source": "DA"
+					"sourceID": "DA"
 				},
 				{
 					"name": "Titan Wrestler",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

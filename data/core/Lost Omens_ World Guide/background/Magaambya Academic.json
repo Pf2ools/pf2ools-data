@@ -36,7 +36,7 @@
 			"options": [
 				{
 					"name": "Recognize Spell",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

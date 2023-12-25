@@ -35,7 +35,7 @@
 			"options": [
 				{
 					"name": "Armor Assist",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

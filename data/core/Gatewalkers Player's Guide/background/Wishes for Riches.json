@@ -42,11 +42,11 @@
 			"options": [
 				{
 					"name": "Consume Energy",
-					"source": "DA"
+					"sourceID": "DA"
 				},
 				{
 					"name": "Subtle Theft",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

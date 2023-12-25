@@ -39,7 +39,7 @@
 			"options": [
 				{
 					"name": "Battle Medicine",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		},

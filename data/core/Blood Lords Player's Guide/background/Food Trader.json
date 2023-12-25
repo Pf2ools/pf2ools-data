@@ -42,11 +42,11 @@
 			"options": [
 				{
 					"name": "Seasoned",
-					"source": "APG"
+					"sourceID": "APG"
 				},
 				{
 					"name": "Streetwise",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

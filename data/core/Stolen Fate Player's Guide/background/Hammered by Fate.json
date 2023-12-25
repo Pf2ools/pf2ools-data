@@ -58,7 +58,7 @@
 			"options": [
 				{
 					"name": "Hefty Hauler",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		},

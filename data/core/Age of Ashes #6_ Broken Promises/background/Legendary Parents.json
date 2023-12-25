@@ -40,7 +40,7 @@
 			"options": [
 				{
 					"name": "Group Coercion",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

@@ -44,7 +44,7 @@
 			"options": [
 				{
 					"name": "Alchemical Crafting",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}
