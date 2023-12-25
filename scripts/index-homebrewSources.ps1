@@ -37,7 +37,7 @@ Get-ChildItem ./bundles/bySource/homebrew/* -File | ForEach-Object {
 			added            = $file.source.data.added
 			modified         = $file.source.data.modified
 			tags             = $file.source.tags
-			datatypes        = $file.PSObject.Properties.Name -ne 'source'
+			indexOfDatatypes        = $file.PSObject.Properties.Name -ne 'source'
 		}
 	}
 }
