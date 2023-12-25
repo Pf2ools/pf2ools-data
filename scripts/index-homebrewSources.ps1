@@ -33,11 +33,13 @@ Get-ChildItem ./bundles/bySource/homebrew/* -File | ForEach-Object {
 			path             = 'bundles/bySource/homebrew/' + ($_.Name -replace '\\', '/' -replace '^./')
 			fullTitle        = $file.source.title.full
 			publisherAuthors = $file.source.data.publisher ?? (($file.source.data.authors.Count -gt 3 ? ($file.source.data.authors[0..2], 'et al.') : $file.source.data.authors) -join ', ')
+			URL              = $file.source.data.URL
 			released         = $file.source.data.released
 			added            = $file.source.data.added
 			modified         = $file.source.data.modified
 			tags             = $file.source.tags
-			indexOfDatatypes        = $file.PSObject.Properties.Name -ne 'source'
+			datatypes        = $file.PSObject.Properties.Name -ne 'source'
+			# sourceURL        This must be manually inserted if the data isn't in https://github.com/Pf2ools/pf2ools-data
 		}
 	}
 }
