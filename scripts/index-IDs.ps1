@@ -9,7 +9,7 @@ $IDs = [PSCustomObject]::new()
 $collisions = [System.Collections.Generic.List[String]]::new()
 
 Get-ChildItem ./data/*/*/* -File | ForEach-Object {
-	$path = (Resolve-Path $_.FullName -Relative) -replace '\\', '/'
+	$path = (Resolve-Path $_.FullName -Relative) -replace '\\', '/' -replace '^\./'
 	$file = Get-Content $_ -Encoding utf8NoBOM | ConvertFrom-Json
 
 	if ($IDs.($file.ID)) {

@@ -30,7 +30,7 @@ Get-ChildItem ./bundles/bySource/homebrew/* -File | ForEach-Object {
 		# Do nothing
 	} else {
 		$index.($file.source.ID) = [PSCustomObject]@{
-			path             = 'bundles/bySource/homebrew/' + ($_.Name -replace '\\', '/' -replace '^./')
+			path             = 'bundles/bySource/homebrew/' + ($_.Name -replace '\\', '/' -replace '^\./')
 			fullTitle        = $file.source.title.full
 			publisherAuthors = $file.source.data.publisher ?? (($file.source.data.authors.Count -gt 3 ? ($file.source.data.authors[0..2], 'et al.') : $file.source.data.authors) -join ', ')
 			URL              = $file.source.data.URL
