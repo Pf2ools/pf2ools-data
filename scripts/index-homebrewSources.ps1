@@ -1,6 +1,8 @@
 PARAM(
 	# Forces the script to write a file even if there are duplicates.
 	[switch]$IgnoreCollisions,
+	# Cause the script to output a record indexed by ID, rather than an array
+	[switch]$AsRecord,
 	# Compresses the JSON output
 	[switch]$Compress
 )
@@ -29,7 +31,7 @@ Get-ChildItem ./bundles/bySource/homebrew/* -File | ForEach-Object {
 	} elseif ($collisions -contains $file.source.ID) {
 		# Do nothing
 	} else {
-		$index.($file.source.ID) = [PSCustomObject]@{
+		$index.($file.source.ID) = @{
 			path             = 'bundles/bySource/homebrew/' + ($_.Name -replace '\\', '/' -replace '^\./')
 			fullTitle        = $file.source.title.full
 			publisherAuthors = $file.source.data.publisher ?? (($file.source.data.authors.Count -gt 3 ? ($file.source.data.authors[0..2], 'et al.') : $file.source.data.authors) -join ', ')
@@ -41,6 +43,13 @@ Get-ChildItem ./bundles/bySource/homebrew/* -File | ForEach-Object {
 			datatypes        = $file.PSObject.Properties.Name -ne 'source'
 			# sourceURL        This must be manually inserted if the data isn't in https://github.com/Pf2ools/pf2ools-data
 		}
+	}
+}
+
+if (-not $AsRecord) {
+	$index = $index.Keys | ForEach-Object {
+		$index.$_.ID = $_
+		$index.$_
 	}
 }
 

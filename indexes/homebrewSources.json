@@ -1,1 +1,38 @@
-{"Spappz":{"path":"bundles/bySource/homebrew/Spappz's Public Assortment of Miscellany.json","fullTitle":"Spappz's Public Assortment of Miscellany","publisherAuthors":"Spappz","URL":"https://github.com/pf2ools/pf2ools-data","released":"2023-09-17","added":"2023-09-17","modified":"2023-09-17","tags":{"misc":{"Playtest":true}},"datatypes":["background"]},"SolthesiaAG":{"path":"bundles/bySource/homebrew/Solthesia Adventure Guide.json","fullTitle":"Solthesia Adventure Guide","publisherAuthors":"Spappz","URL":"https://github.com/pf2ools/pf2ools-data","released":"2023-09-17","added":"2023-09-17","modified":"2023-09-17","tags":{"misc":{"Playtest":true}},"datatypes":["divineIntercession"]}}
+[
+  {
+    "fullTitle": "Solthesia Adventure Guide",
+    "ID": "SolthesiaAG",
+    "modified": "2023-09-17",
+    "path": "bundles/bySource/homebrew/Solthesia Adventure Guide.json",
+    "tags": {
+      "misc": {
+        "Playtest": true
+      }
+    },
+    "added": "2023-09-17",
+    "URL": "https://github.com/pf2ools/pf2ools-data",
+    "publisherAuthors": "Spappz",
+    "datatypes": [
+      "divineIntercession"
+    ],
+    "released": "2023-09-17"
+  },
+  {
+    "fullTitle": "Spappz's Public Assortment of Miscellany",
+    "ID": "Spappz",
+    "modified": "2023-09-17",
+    "path": "bundles/bySource/homebrew/Spappz's Public Assortment of Miscellany.json",
+    "tags": {
+      "misc": {
+        "Playtest": true
+      }
+    },
+    "added": "2023-09-17",
+    "URL": "https://github.com/pf2ools/pf2ools-data",
+    "publisherAuthors": "Spappz",
+    "datatypes": [
+      "background"
+    ],
+    "released": "2023-09-17"
+  }
+]
