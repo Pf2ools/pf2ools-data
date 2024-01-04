@@ -12,7 +12,7 @@ Get-ChildItem ./data/*/*/*/* -File | ForEach-Object {
 	$path = (Resolve-Path $_.FullName -Relative) -replace '\\', '/' -replace '^\./'
 	$file = Get-Content $_ -Encoding utf8NoBOM | ConvertFrom-Json
 
-	$UUID = $file.name.primary + '|' + $file.source.ID + '|' + $file.name.specifier
+	$UUID = $file.type + '|' + $file.name.primary + '|' + $file.source.ID + '|' + $file.name.specifier
 
 	if ($UUIDs.($UUID)) {
 		# Note PS is case-insensitive so handles those collisions automatically
