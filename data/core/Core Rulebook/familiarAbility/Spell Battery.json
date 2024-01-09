@@ -1,0 +1,21 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Spell Battery"
+	},
+	"source": {
+		"ID": "CRB",
+		"page": 218
+	},
+	"data": {
+		"abilityType": "Master",
+		"entries": [
+			"You gain one additional spell slot at least 3 levels lower than your highest-level spell slot; you must be able to cast 4th-level spells using spell slots to select this master ability."
+		]
+	},
+	"tags": {
+		"misc": {
+			"hasRequirement": true
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Shadow Step"
+	},
+	"source": {
+		"ID": "SoM",
+		"page": 229
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"Your familiar gains the Shadow Step action. You must be at least 7th level to select this familiar ability for your familiar.",
+			{
+				"type": "ability",
+				"name": "Shadow Step",
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"requirements": "The familiar is in dim light or darkness",
+				"traits": [
+					"conjuration",
+					"shadow",
+					"teleportation"
+				],
+				"entries": [
+					"The familiar teleports itself up to 30 feet. The destination must be in dim light or darkness and must be within your familiar's line of sight and line of effect. This action has the trait matching your tradition of magic, or {@trait occult} if you aren't a spellcaster."
+				]
+			},
+			"{@note This ability is available only to {@feat shadow familiar|SoM|shadow familiars}.}"
+		]
+	},
+	"tags": {
+		"misc": {
+			"hasRequirement": true
+		}
+	}
+}

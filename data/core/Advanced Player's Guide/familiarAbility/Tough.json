@@ -1,0 +1,16 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Tough"
+	},
+	"source": {
+		"ID": "APG",
+		"page": 147
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"Your familiar's maximum Hit Points increase by 2 per level."
+		]
+	}
+}

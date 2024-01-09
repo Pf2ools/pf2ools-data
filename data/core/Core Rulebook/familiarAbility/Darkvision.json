@@ -1,0 +1,21 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Darkvision"
+	},
+	"source": {
+		"ID": "CRB",
+		"page": 218
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"It gains {@ability darkvision}."
+		]
+	},
+	"tags": {
+		"misc": {
+			"affectsSenses": true
+		}
+	}
+}

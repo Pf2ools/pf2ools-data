@@ -1,0 +1,21 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Wavesense"
+	},
+	"source": {
+		"ID": "LOGB",
+		"page": 34
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"Your familiar can sense vibrations in the water. It gains imprecise {@ability wavesense} with a range of 30 feet."
+		]
+	},
+	"tags": {
+		"misc": {
+			"affectsSenses": true
+		}
+	}
+}

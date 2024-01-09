@@ -1,0 +1,21 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Ambassador"
+	},
+	"source": {
+		"ID": "LOGB",
+		"page": 34
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"Your familiar knows how to act cute or focused on cue, helping you make a good impression. Despite being a minion, your familiar gains 1 reaction at the start of its turns, which it can use only to {@action Aid} you on a {@skill Diplomacy} check to {@action Make an Impression} (it still has to prepare to help you as normal for the Aid reaction, which requires it to participate throughout the activity). It automatically succeeds at its check to {@action Aid} you with those skills or automatically critically succeeds if you're a master of the skill in question."
+		]
+	},
+	"tags": {
+		"misc": {
+			"grantsAbility": true
+		}
+	}
+}

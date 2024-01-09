@@ -1,0 +1,21 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Fast Movement"
+	},
+	"source": {
+		"ID": "CRB",
+		"page": 218
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"Increase one of the familiar's Speeds from 25 feet to 40 feet."
+		]
+	},
+	"tags": {
+		"misc": {
+			"affectsMovement": true
+		}
+	}
+}

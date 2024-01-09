@@ -1,0 +1,22 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Poison Reservoir"
+	},
+	"source": {
+		"ID": "APG",
+		"page": 146
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"Your homunculus familiar has a reservoir for poison, allowing it to apply an injury poison to an adjacent ally's exposed weapon with a single {@action Interact} action. You must supply the poison and instill it into this reservoir using two consecutive {@action Interact} actions. You must have a homunculus familiar to select this ability."
+		]
+	},
+	"tags": {
+		"misc": {
+			"grantsAbility": true,
+			"hasRequirement": true
+		}
+	}
+}

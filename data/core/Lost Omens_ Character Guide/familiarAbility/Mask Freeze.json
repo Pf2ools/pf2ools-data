@@ -1,0 +1,22 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Mask Freeze"
+	},
+	"source": {
+		"ID": "LOCG",
+		"page": 100
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"When in mask form, your familiar can hide its obvious supernatural qualities to pass as a simple, unassuming mask. It doesn't need to {@action Impersonate} to fool a passing glance, and it gains a +4 circumstance bonus to its {@skill Deception} DC against an active observer {@action Seek||Seeking} or otherwise studying it.",
+			"{@note This ability is available only to {@feat mask familiar|LOCG|mask familiars}.}"
+		]
+	},
+	"tags": {
+		"misc": {
+			"hasRequirement": true
+		}
+	}
+}

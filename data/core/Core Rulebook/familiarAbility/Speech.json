@@ -1,0 +1,21 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Speech"
+	},
+	"source": {
+		"ID": "CRB",
+		"page": 218
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"It understands and speaks a language you know."
+		]
+	},
+	"tags": {
+		"misc": {
+			"affectsCommunication": true
+		}
+	}
+}
