@@ -27,7 +27,12 @@ Get-ChildItem ./data/*/*/*/* -File | ForEach-Object {
 	} elseif ($collisions -contains $UUID) {
 		# Do nothing
 	} else {
-		$UUIDs.$UUID = $path
+		$UUIDs.$UUID = @{
+			path = $path
+		}
+		if ($file.reference) {
+			$UUIDs.$UUID.reference = $file.reference.type
+		}
 	}
 }
 
