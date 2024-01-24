@@ -12,6 +12,9 @@
 		"test": "npm run test:fileStructure && npm run test:data",
 		"test:fileStructure": "node ./scripts/test-fileStructure.js",
 		"test:data": "echo \"TODO: this will simply validate all data against the schema (breaking early)\"",
+		"clean": "npm run clean:json -- -rc ./data && npm run clean:prettify -- --log-level warn",
+		"clean:json": "node ./scripts/clean-json.js",
+		"clean:prettify": "npx prettier . --write --cache",
 		"index": "npm run index:datatypes -- -Compress && npm run index:IDs -- -IgnoreCollisions -Compress && npm run index:shortNames -- -Compress && npm run index:homebrewSources -- -Compress && npm run index:UUIDs -- -Compress",
 		"index:IDs": "pwsh scripts/index-IDs.ps1 -ExecutionPolicy Unrestricted -NoProfile",
 		"index:datatypes": "pwsh scripts/index-datatypes.ps1 -ExecutionPolicy Unrestricted -NoProfile",
@@ -21,10 +24,7 @@
 		"bundle": "npm run bundle:bySource -- -Compress && npm run bundle:byDatatype -- -Compress -SkipEmpty",
 		"bundle:bySource": "pwsh scripts/bundle-bySource.ps1 -ExecutionPolicy Unrestricted -NoProfile",
 		"bundle:byDatatype": "pwsh scripts/bundle-byDatatype.ps1 -ExecutionPolicy Unrestricted -NoProfile",
-		"clean": "npm run clean:json -- -rc ./data && npm run clean:prettify -- --log-level warn",
-		"clean:json": "node ./scripts/clean-json.js",
-		"clean:prettify": "npx prettier . --write --cache",
-		"build": "npm run test && npm run index && npm run bundle && npm run clean"
+		"build": "npm run test && npm run clean && npm run index && npm run bundle"
 	},
 	"repository": {
 		"type": "git",
