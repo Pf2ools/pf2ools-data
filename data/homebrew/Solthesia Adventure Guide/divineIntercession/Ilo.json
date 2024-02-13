@@ -27,6 +27,10 @@
 		],
 		"Major Curse": [
 			"Everything becomes tiring. You are permanently {@condition slowed <1>}. Additionally, whenever you rest for the night, attempt a DC 12 flat check. On a failure, you are {@condition fatigued}."
-		]
+		],
+		"deity": {
+			"sourceID": "SolthesiaAG",
+			"name": "Ilo"
+		}
 	}
 }

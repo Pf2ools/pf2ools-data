@@ -36,6 +36,10 @@
 		],
 		"Major Curse": [
 			"Judging you irredeemable, Vohis-om-vire offers you no mercy. After spending at least 10 minutes in a forest well-claimed by Vohis-om-vire, you are targetted by three simultaneous instances of the {@spell murderous vine} spell (DC 30). Vohis-om-vire typically waits until you are alone or passing through a narrow passage. If you defeat the vines, Vohis-om-vire repeats the curse every few minutes that you remain in its forest. Depending on the nature of your crimes, the vines' damage may be {@trait nonlethal} so that Vohis-om-vire can later send an emissary to capture you."
-		]
+		],
+		"deity": {
+			"sourceID": "SolthesiaAG",
+			"name": "Vohis-om-vire"
+		}
 	}
 }

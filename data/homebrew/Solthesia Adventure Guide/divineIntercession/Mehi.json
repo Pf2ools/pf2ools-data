@@ -27,6 +27,10 @@
 		],
 		"Major Curse": [
 			"Mehi stops singing for you entirely. You have weakness 5 to sonic and are permanently {@condition deafened} and {@condition stupefied <5>}."
-		]
+		],
+		"deity": {
+			"sourceID": "SolthesiaAG",
+			"name": "Mehi"
+		}
 	}
 }

@@ -29,6 +29,10 @@
 		"Major Curse": [
 			"A deafening, hysterical cackle fills the air as you spontaneously combust. You suffer {@damage 10d10 + 40} fire damage (DC 45 basic Fortitude save), {@damage 1d10} {@condition persistent damage||persistent fire damage}, and {@damage 1d10} {@condition persistent damage||persistent negative damage}. While suffering any of the {@condition persistent damage}, you are {@condition deafened} by the disembodied laughter; you are also {@condition blinded} and {@condition flat-footed} while suffering the {@condition persistent damage||persistent fire damage}. All of this damage is {@trait magical}.",
 			"V'rar typically lacks the patience to inflict this curse at a particularly improper time, nor to inflict it on a creature more than once for a single offence."
-		]
+		],
+		"deity": {
+			"sourceID": "SolthesiaAG",
+			"name": "V'rar"
+		}
 	}
 }

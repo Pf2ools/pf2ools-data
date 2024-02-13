@@ -27,6 +27,10 @@
 		],
 		"Major Curse": [
 			"Dolos afflicts your mind until it breaks. You are afflicted with {@disease brain worms} at stage 1, except the DC is 35 and you always target yourself with your attacks while {@condition confused}. This disease is {@trait magical} and not caused by physical worms. If you ever rid yourself of the affliction, you return to stage 1 after {@dice 1d4} weeks unless you have begun to make amends with Dolos."
-		]
+		],
+		"deity": {
+			"sourceID": "SolthesiaAG",
+			"name": "Dolos"
+		}
 	}
 }

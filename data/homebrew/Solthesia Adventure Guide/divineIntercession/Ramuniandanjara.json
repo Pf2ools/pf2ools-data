@@ -27,6 +27,10 @@
 		],
 		"Major Curse": [
 			"Lacking recourse, Ram'jara makes you a prisoner of your own body. Over the course of one week, your body below the jaw becomes progressively stiffer until they no longer move at all. You have a \u22124 status penalty to AC, {@skill Perception}, and Reflex saves, and you are permanently {@condition flat-footed}. You can't act in any way that requires movement from something other than your face or voice."
-		]
+		],
+		"deity": {
+			"sourceID": "SolthesiaAG",
+			"name": "Ramuniandanjara"
+		}
 	}
 }

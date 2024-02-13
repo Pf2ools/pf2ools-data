@@ -56,6 +56,10 @@
 		],
 		"Major Curse": [
 			"Naator itself hunts your dreams. Each night, you are targetted by the {@spell nightmare} spell just before sleeping and the {@spell canticle of everlasting grief} spell just after waking up (both DC 35; Naator is considered to have met you)."
-		]
+		],
+		"deity": {
+			"sourceID": "SolthesiaAG",
+			"name": "Naator"
+		}
 	}
 }

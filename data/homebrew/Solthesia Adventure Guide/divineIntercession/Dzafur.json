@@ -27,6 +27,10 @@
 		],
 		"Major Curse": [
 			"You become caked in an unpleasant, foul-smelling, highly conspicuous slime no matter how often you wash it off. You are permanently {@condition clumsy <2>}, all your Speeds have a \u221210-feet status penalty, and anything you write is illegible to both you and everyone else."
-		]
+		],
+		"deity": {
+			"sourceID": "SolthesiaAG",
+			"name": "Dzafur"
+		}
 	}
 }

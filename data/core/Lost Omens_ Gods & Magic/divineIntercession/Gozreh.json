@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"Those who displease Gozreh are shunned by nature itself. All animals and nonsapient plant creatures are {@condition hostile} to you, and any animal companion or familiar abandons you. Sapient plants' attitude toward you begins two categories worse than normal, as something about you seems repugnant to them. While plants and animals might not attack you outright if it's not normally in their nature to do so when they are hostile, dogs growl at you, cats hiss, and so on."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Gozreh"
+		}
 	}
 }

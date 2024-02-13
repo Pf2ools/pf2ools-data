@@ -27,6 +27,10 @@
 		],
 		"Major Curse": [
 			"The sky itself abhors your presence. The weather in a 500-foot radius around you is always stormy. Roughly twice each minute you are outside, a sudden gust of wind buffets you. Make a DC 40 basic Fortitude save. On a failure, you fall and land {@condition prone}. On a critical failure, you also take {@damage 1d6} bludgeoning damage and are are blown 10 feet toward some obstacle or danger."
-		]
+		],
+		"deity": {
+			"sourceID": "SolthesiaAG",
+			"name": "Zekets"
+		}
 	}
 }

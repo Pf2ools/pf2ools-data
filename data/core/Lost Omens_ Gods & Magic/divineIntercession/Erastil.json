@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"Erastil leaves you unable to have children (or otherwise reproduce or propagate if you do so in a different manner). This curse also affects your livestock, pets, and crops."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Erastil"
+		}
 	}
 }

@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"Small wounds bleed more than seems physically possible. Whenever you take slashing or piercing damage, you also take {@condition persistent damage||persistent bleed damage} equal to the level of the creature or effect that inflicted the damage."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Milani"
+		}
 	}
 }

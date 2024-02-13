@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"The wrath of Kurgess withers you almost to nothing. You are permanently {@condition drained 2} and {@condition enfeebled 4}."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Kurgess"
+		}
 	}
 }

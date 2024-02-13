@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"Dvadat Zikir reserves its greatest gift, ironically, for its greatest offenders, prying into your mind and cleaving it open. You suffer the effects of the {@spell synesthesia} spell permanently. Additionally, Dvadat Zikir casts the {@ritual geas} ritual on you at 10th level, commanding you to follow its edicts with an unlimited duration. It doesn't need secondary casters or secondary checks to do so, and it automatically gets a critical success on its primary check."
-		]
+		],
+		"deity": {
+			"sourceID": "SolthesiaAG",
+			"name": "Dvadat Zikir"
+		}
 	}
 }

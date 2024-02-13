@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"Pharasma wills the end of your life and your lineage. You become unable to have children (or otherwise procreate by any means, including create spawn abilities) and are permanently {@condition doomed 2}."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Pharasma"
+		}
 	}
 }

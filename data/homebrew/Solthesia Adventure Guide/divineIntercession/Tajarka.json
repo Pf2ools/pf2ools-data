@@ -46,6 +46,10 @@
 		],
 		"Major Curse": [
 			"The thread fastening your soul weakens. You become permanently {@condition doomed <2>} and can only regain Hit Points through magic."
-		]
+		],
+		"deity": {
+			"sourceID": "SolthesiaAG",
+			"name": "Tajarka"
+		}
 	}
 }

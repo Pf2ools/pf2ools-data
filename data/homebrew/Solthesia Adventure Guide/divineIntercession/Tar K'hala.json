@@ -28,6 +28,10 @@
 		],
 		"Major Curse": [
 			"Those who have truly sought to undermine Tar K'hala's designs are not permitted to even flounder. The Twisted Serpent blesses four of its fanatics with knowledge of your name and location, and charges them to utterly destroy you, whether by pen or sword."
-		]
+		],
+		"deity": {
+			"sourceID": "SolthesiaAG",
+			"name": "Tar K'hala"
+		}
 	}
 }

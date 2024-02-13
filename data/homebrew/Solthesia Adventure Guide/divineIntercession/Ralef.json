@@ -16,6 +16,10 @@
 		"Major Curse": [
 			"Ralef places a recurring curse to humble you. Each midnight, make a DC {@flatDC 6} flat check. On a failure, you must succeed on a DC 40 Fortitude save or be transformed into a harmless, {@trait Tiny} fish for 24 hours. Your mind is unchanged, although there is very little you can do in this form. This is a {@trait polymorph} effect. If you die while transformed, the transformation is permanent.",
 			"Ralef will typically delay your first transformation until you are close enough to some water\u2014whether a river or a bucket\u2014to survive at least one day in your new form."
-		]
+		],
+		"deity": {
+			"sourceID": "SolthesiaAG",
+			"name": "Ralef"
+		}
 	}
 }

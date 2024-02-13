@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"Cayden curses you to suffer in the presence of drinking, making it hard for you to bear entering any tavern. Whenever any creature drinks alcohol within 100 feet of you, you suffer all negative effects from the alcohol (but only the alcohol) instead. This doesn't apply if the creature gains any special effect from drinking alcohol."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Cayden Cailean"
+		}
 	}
 }

@@ -27,6 +27,10 @@
 		],
 		"Major Curse": [
 			"Unumaator blots out the void from you, condemning you from ever truly joining the whole. Your eyes become a solid inky-black, and you gain {@ability light blindness}. Additionally, while in darkness, you are both {@condition blinded} and {@condition deafened}."
-		]
+		],
+		"deity": {
+			"sourceID": "SolthesiaAG",
+			"name": "Unumaator"
+		}
 	}
 }

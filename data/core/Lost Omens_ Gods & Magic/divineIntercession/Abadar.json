@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"You become honest to a fault. You constantly suffer the critical failure effect of {@spell zone of truth}. Additionally, you are always offered the worst possible option in a bargain."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Abadar"
+		}
 	}
 }

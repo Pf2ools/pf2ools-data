@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"When you would regain Hit Points due to either a {@trait positive} or {@trait negative} effect, you lose that many Hit Points instead."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Arazni"
+		}
 	}
 }
