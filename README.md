@@ -40,7 +40,7 @@ Pf2ools follows the following standardisation conventions:
 
 - Files _must_ be encoded with UTF-8 (without BOM), use "LF" as the end-of-line sequence, and end with a newline.
 - Files _must_ use tabs for indentation and have no trailing whitespace.
-- Filenames _must_ match the contained data's `name.display` or use the format `<name.display> - <name.specifier>.json` (e.g. `Attack of Opportunity - Swashbuckler.json`) if `specifier` is defined. The only exceptions are source, source group, and license files (which are all named following their `title.full`). Filesystem-unsafe characters (e.g. "?", ":") _must_ be replaced with an underscore "\_".
+- Filenames _must_ match the contained data's `name.display` or use the format `<name.display>; <name.specifier>.json` (e.g. `Attack of Opportunity; Swashbuckler.json`) if `specifier` is defined. The only exceptions are source, source group, and license files (which are all named following their `title.full`). Filesystem-unsafe characters (e.g. "?", ":") _must_ be replaced with an underscore "\_".
 
 ## Using the data
 
@@ -77,4 +77,4 @@ Content maintained by Pf2ools is reproduced without claim of ownership and under
 
 Content published by Paizo Inc. is reproduced in accordance with the [Community Use Policy](./CUP.license).
 
-All other original content (e.g. [scripts](./scripts/)) is licensed under the [MIT license](./LICENSE).
+All original content (e.g. [scripts](./scripts/)) is licensed under the [MIT license](./LICENSE).
