@@ -28,7 +28,8 @@
 			"Missing content": true
 		},
 		"misc": {
-			"Official": true
+			"Official": true,
+			"legacyRuleset": true
 		}
 	}
 }

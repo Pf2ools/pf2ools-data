@@ -26,7 +26,8 @@
 	},
 	"tags": {
 		"misc": {
-			"Official": true
+			"Official": true,
+			"legacyRuleset": true
 		}
 	}
 }

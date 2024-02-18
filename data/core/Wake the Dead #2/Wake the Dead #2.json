@@ -30,6 +30,9 @@
 		},
 		"publicationType": {
 			"Comic": true
+		},
+		"misc": {
+			"legacyRuleset": true
 		}
 	}
 }

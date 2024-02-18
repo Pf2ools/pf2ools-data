@@ -87,7 +87,8 @@
 	"tags": {
 		"misc": {
 			"Official": true,
-			"PFS-legal": true
+			"PFS-legal": true,
+			"legacyRuleset": true
 		}
 	}
 }

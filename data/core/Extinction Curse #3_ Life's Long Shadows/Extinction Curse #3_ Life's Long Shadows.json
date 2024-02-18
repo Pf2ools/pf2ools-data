@@ -41,7 +41,8 @@
 	"tags": {
 		"misc": {
 			"GM-facing": true,
-			"Official": true
+			"Official": true,
+			"legacyRuleset": true
 		}
 	}
 }

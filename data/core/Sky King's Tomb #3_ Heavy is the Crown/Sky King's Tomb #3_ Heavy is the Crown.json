@@ -34,7 +34,8 @@
 		},
 		"misc": {
 			"Official": true,
-			"GM-facing": true
+			"GM-facing": true,
+			"legacyRuleset": true
 		}
 	}
 }
