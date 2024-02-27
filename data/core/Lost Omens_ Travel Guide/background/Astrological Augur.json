@@ -39,7 +39,7 @@
 			"options": [
 				{
 					"name": "augury",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

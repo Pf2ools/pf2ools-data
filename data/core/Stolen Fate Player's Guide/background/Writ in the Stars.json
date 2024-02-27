@@ -53,7 +53,7 @@
 			"options": [
 				{
 					"name": "Pilgrim's Token",
-					"source": "APG"
+					"sourceID": "APG"
 				}
 			]
 		},

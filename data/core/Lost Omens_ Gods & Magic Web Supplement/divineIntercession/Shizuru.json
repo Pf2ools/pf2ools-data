@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"Those who incite Shizuru's personal wrath earn the hatred of all of her subjects. All imperial dragons and animals you encounter are automatically {@condition hostile} to you, and you gain weakness 15 to draconic breath weapons."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Shizuru"
+		}
 	}
 }

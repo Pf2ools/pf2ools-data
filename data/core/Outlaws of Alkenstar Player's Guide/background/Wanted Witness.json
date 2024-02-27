@@ -41,7 +41,7 @@
 			"options": [
 				{
 					"name": "Read Lips",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

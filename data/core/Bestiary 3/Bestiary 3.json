@@ -9,7 +9,7 @@
 		"released": "2021-04-07",
 		"added": "2023-08-08",
 		"modified": "2023-08-08",
-		"url": "https://paizo.com/products/btq027mn",
+		"URL": "https://paizo.com/products/btq027mn",
 		"copyright": [
 			"{@b Flumph from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Ian McDowell and Douglas Naismith.",
 			"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
@@ -87,7 +87,8 @@
 	"tags": {
 		"misc": {
 			"Official": true,
-			"PFS-legal": true
+			"PFS-legal": true,
+			"legacyRuleset": true
 		}
 	}
 }

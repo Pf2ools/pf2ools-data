@@ -1,0 +1,21 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Snoop"
+	},
+	"source": {
+		"ID": "LOGB",
+		"page": 34
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"Your familiar keeps its eyes and ears open, ready to relay every snippet of gossip it catches, helping you gather information. Despite being a {@trait minion}, your familiar gains 1 reaction at the start of its turns, which it can use only to {@action Aid} you on a {@skill Diplomacy} check to {@action Gather Information} (it still has to prepare to help you as normal for the {@action Aid} reaction, which requires it to participate throughout the activity). It automatically succeeds at its check to {@action Aid} you with those skills or automatically critically succeeds if you're a master of the skill in question."
+		]
+	},
+	"tags": {
+		"misc": {
+			"grantsAbility": true
+		}
+	}
+}

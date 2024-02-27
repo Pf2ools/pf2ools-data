@@ -1,0 +1,21 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Touch Telepathy"
+	},
+	"source": {
+		"ID": "APG",
+		"page": 146
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"Your familiar can telepathically communicate with you via touch. If it also has the {@familiarAbility speech} ability, it can telepathically communicate via touch with any creature if they share a language."
+		]
+	},
+	"tags": {
+		"misc": {
+			"affectsCommunication": true
+		}
+	}
+}

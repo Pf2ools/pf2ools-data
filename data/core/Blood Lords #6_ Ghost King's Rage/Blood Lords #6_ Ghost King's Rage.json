@@ -9,7 +9,7 @@
 		"released": "2022-12-14",
 		"added": "2023-08-18",
 		"modified": "2023-08-18",
-		"url": "https://paizo.com/products/btq02eag",
+		"URL": "https://paizo.com/products/btq02eag",
 		"groupIDs": [
 			"BL"
 		],
@@ -30,7 +30,8 @@
 		},
 		"misc": {
 			"Official": true,
-			"GM-facing": true
+			"GM-facing": true,
+			"legacyRuleset": true
 		}
 	}
 }

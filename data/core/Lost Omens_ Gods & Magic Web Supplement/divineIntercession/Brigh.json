@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"{@trait construct||Constructs}\u2014even mindless {@trait construct||constructs} you thought you could control\u2014seek your demise. All constructs are hostile to you and attack you when they notice your presence. Occasionally, inanimate statues and other objects animate as constructs to pursue Brigh's vengeance."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Brigh"
+		}
 	}
 }

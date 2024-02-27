@@ -1,0 +1,21 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Major Resistance"
+	},
+	"source": {
+		"ID": "LOGB",
+		"page": 34
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"Your familiar increases the resistance it gains from its resistance familiar ability to a value equal to your level. To select this, your familiar must have the {@familiarAbility greater resistance|LOTGB} ability and you must be at least 8th level."
+		]
+	},
+	"tags": {
+		"misc": {
+			"hasRequirement": true
+		}
+	}
+}

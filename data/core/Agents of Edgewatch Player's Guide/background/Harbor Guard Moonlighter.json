@@ -36,7 +36,7 @@
 			"options": [
 				{
 					"name": "Quick Jump",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		},

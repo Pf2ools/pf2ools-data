@@ -9,7 +9,7 @@
 		"released": "2022-03-28",
 		"added": "2023-08-08",
 		"modified": "2023-08-08",
-		"url": "https://downloads.paizo.com/Outlaws+of+Alkenstar+Player's+Guide.pdf",
+		"URL": "https://downloads.paizo.com/Outlaws+of+Alkenstar+Player's+Guide.pdf",
 		"groupIDs": [
 			"OoA"
 		],
@@ -25,7 +25,8 @@
 	},
 	"tags": {
 		"misc": {
-			"Official": true
+			"Official": true,
+			"legacyRuleset": true
 		}
 	}
 }

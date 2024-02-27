@@ -1,0 +1,21 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Burrower"
+	},
+	"source": {
+		"ID": "CRB",
+		"page": 218
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"It gains a burrow Speed of 5 feet, allowing it to dig Tiny holes."
+		]
+	},
+	"tags": {
+		"misc": {
+			"affectsMovement": true
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Manual Dexterity"
+	},
+	"source": {
+		"ID": "CRB",
+		"page": 218
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"It can use up to two of its limbs as if they were hands to use {@trait manipulate} actions."
+		]
+	}
+}

@@ -9,7 +9,7 @@
 		"released": "2023-08-02",
 		"added": "2023-11-29",
 		"modified": "2023-11-29",
-		"url": "https://paizo.com/products/btq02eao",
+		"URL": "https://paizo.com/products/btq02eao",
 		"groupIDs": [
 			"SKT"
 		],
@@ -31,7 +31,8 @@
 		},
 		"misc": {
 			"Official": true,
-			"GM-facing": true
+			"GM-facing": true,
+			"legacyRuleset": true
 		}
 	}
 }

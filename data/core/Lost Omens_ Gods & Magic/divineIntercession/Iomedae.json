@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"All blades reject your wicked heart. Any weapon you wield automatically becomes broken after you {@action Strike} with it. This curse can't break {@trait artifact||artifacts} or similarly powerful weapons."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Iomedae"
+		}
 	}
 }

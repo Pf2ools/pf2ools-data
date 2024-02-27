@@ -1,0 +1,21 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Climber"
+	},
+	"source": {
+		"ID": "CRB",
+		"page": 218
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"It gains a climb Speed of 25 feet."
+		]
+	},
+	"tags": {
+		"misc": {
+			"affectsMovement": true
+		}
+	}
+}

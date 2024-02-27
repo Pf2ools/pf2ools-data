@@ -21,7 +21,7 @@ $shortNames = [hashtable]::new()
 
 # Grab all short names and add to $shortNames
 Get-ChildItem ./data/*/*/* -File | ForEach-Object {
-	$path = (Resolve-Path $_.FullName -Relative) -replace '\\', '/'
+	$path = (Resolve-Path $_.FullName -Relative) -replace '\\', '/' -replace '^\./'
 	$file = Get-Content $_ -Encoding utf8NoBOM | ConvertFrom-Json
 
 	if ($file.type -in $familyList) {

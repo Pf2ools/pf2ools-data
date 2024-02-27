@@ -35,7 +35,7 @@
 			"options": [
 				{
 					"name": "Combat Climber",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

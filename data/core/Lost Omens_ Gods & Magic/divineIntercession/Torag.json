@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"You are forever cast out from your home. Members of your community have their attitudes towards you shift two steps worse, meaning those who used to be {@condition helpful} are now {@condition indifferent}, those who were {@condition friendly} are now {@condition unfriendly}, and all others are now {@condition hostile}. This doesn't necessarily result in violence, but {@condition hostile} community members generally seek your permanent exile."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Torag"
+		}
 	}
 }

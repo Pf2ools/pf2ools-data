@@ -9,7 +9,7 @@
 		"released": "2021-10-13",
 		"added": "2023-08-08",
 		"modified": "2023-08-08",
-		"url": "https://paizo.com/products/btq027kc",
+		"URL": "https://paizo.com/products/btq027kc",
 		"groupIDs": [
 			"LO"
 		],
@@ -59,7 +59,8 @@
 	"tags": {
 		"misc": {
 			"Official": true,
-			"PFS-legal": true
+			"PFS-legal": true,
+			"legacyRuleset": true
 		}
 	}
 }

@@ -36,11 +36,11 @@
 			"options": [
 				{
 					"name": "Cat Fall",
-					"source": "CRB"
+					"sourceID": "CRB"
 				},
 				{
 					"name": "Quick Jump",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

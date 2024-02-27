@@ -40,7 +40,7 @@
 			"options": [
 				{
 					"name": "Natural Medicine",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

@@ -1,0 +1,21 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Flier"
+	},
+	"source": {
+		"ID": "CRB",
+		"page": 218
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"It gains a fly Speed of 25 feet."
+		]
+	},
+	"tags": {
+		"misc": {
+			"affectsMovement": true
+		}
+	}
+}

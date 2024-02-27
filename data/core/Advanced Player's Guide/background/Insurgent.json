@@ -35,7 +35,7 @@
 			"options": [
 				{
 					"name": "Lengthy Diversion",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

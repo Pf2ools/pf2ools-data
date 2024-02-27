@@ -9,7 +9,7 @@
 		"released": "2023-07-26",
 		"added": "2023-08-11",
 		"modified": "2023-08-11",
-		"url": "https://www.dynamite.com/htmlfiles/viewProduct.html?PRO=C72513033022202011",
+		"URL": "https://www.dynamite.com/htmlfiles/viewProduct.html?PRO=C72513033022202011",
 		"copyright": [
 			"{@b Pathfinder Core Rulebook (Second Edition)} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
 			"{@b Pathfinder: Wake the Dead #2} © 2023, Paizo Inc.; Authors: Mikhail Rekun and Fred Van Lente."
@@ -30,6 +30,9 @@
 		},
 		"publicationType": {
 			"Comic": true
+		},
+		"misc": {
+			"legacyRuleset": true
 		}
 	}
 }

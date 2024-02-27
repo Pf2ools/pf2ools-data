@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"Mirrors break whenever you cross their paths. You cannot be concealed by {@trait illusion} magic of any kind (the spell automatically fails), and all creatures that see you know your true identity."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Sivanah"
+		}
 	}
 }

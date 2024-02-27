@@ -19,7 +19,7 @@ function Group-SourceContent {
 			[pscustomobject]::new()
 		} else {
 			[pscustomobject]@{
-				source = Get-ChildItem $SourcePath -File | Get-Content -Encoding utf8NoBOM | ConvertFrom-Json
+				source = @(Get-ChildItem $SourcePath -File | Get-Content -Encoding utf8NoBOM | ConvertFrom-Json)
 			}
 		}
 		Get-ChildItem $SourcePath -Directory | ForEach-Object {

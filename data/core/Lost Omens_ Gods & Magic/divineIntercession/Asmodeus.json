@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"Asmodeus has taken note of the chaos you have wrought. You receive an ancient wound that feels older than time itself. You become permanently {@condition drained||drained 4}, and nothing short of another intercession can remove the condition. Your wound aches fiercely whenever you perform a particularly chaotic act, causing you to become {@condition sickened||sickened 1}."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Asmodeus"
+		}
 	}
 }

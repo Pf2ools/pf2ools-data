@@ -1,0 +1,16 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Damage Avoidance"
+	},
+	"source": {
+		"ID": "CRB",
+		"page": 218
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"Choose one type of save. It takes no damage when it succeeds at that type of save; this doesn't prevent effects other than damage."
+		]
+	}
+}

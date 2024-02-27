@@ -42,11 +42,11 @@
 			"options": [
 				{
 					"name": "Crafter's Appraisal",
-					"source": "APG"
+					"sourceID": "APG"
 				},
 				{
 					"name": "Forager",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

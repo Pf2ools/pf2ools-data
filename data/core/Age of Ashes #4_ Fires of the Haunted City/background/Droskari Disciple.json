@@ -34,7 +34,7 @@
 			"options": [
 				{
 					"name": "Skill Training",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

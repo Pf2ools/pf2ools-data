@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"Transportation magic no longer works for you. You cannot be transported by any magical means, nor can you transport, conjure, or summon others. Even extradimensional spaces like {@item bag of holding (generic)||bags of holding} are inaccessible and unusable to you, as using them requires magical transportation to the extradimensional space."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Alseta"
+		}
 	}
 }

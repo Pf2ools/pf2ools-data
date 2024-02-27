@@ -1,0 +1,16 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Threat Display"
+	},
+	"source": {
+		"ID": "LOGB",
+		"page": 34
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"Your familiar helps you convey wordless threats through body language. Whenever you attempt an {@skill Intimidation} check to {@action Demoralize} a creature, if your familiar is within 30 feet of your target and can act, it accompanies you with snarls, hisses, or raising its hackles. If it can do so, you don't take the normal \u20134 penalty on the {@skill Intimidation} check if your target doesn't understand the language you're speaking."
+		]
+	}
+}

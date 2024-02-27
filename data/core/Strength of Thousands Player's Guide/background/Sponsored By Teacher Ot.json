@@ -45,11 +45,11 @@
 			"options": [
 				{
 					"name": "Survey Wildlife",
-					"source": "CRB"
+					"sourceID": "CRB"
 				},
 				{
 					"name": "Impressive Performance",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

@@ -35,7 +35,7 @@
 			"options": [
 				{
 					"name": "Crafter's Appraisal",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

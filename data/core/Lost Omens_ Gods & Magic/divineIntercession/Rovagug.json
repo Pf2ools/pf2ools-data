@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"You are useful only as a beacon of destruction. You are permanently {@condition confused}, rampaging against anything and everything in your sight, and you deal an additional 18 damage with your unarmed and weapon {@action Strike|CRB|Strikes}."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Rovagug"
+		}
 	}
 }

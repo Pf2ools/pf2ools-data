@@ -1,0 +1,21 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Innate Surge"
+	},
+	"source": {
+		"ID": "APG",
+		"page": 147
+	},
+	"data": {
+		"abilityType": "Master",
+		"entries": [
+			"Once per day, you can draw upon your familiar's innate magic to replenish your own. You can cast one innate spell gained from an ancestry feat that you have already cast today. You must still {@action Cast a Spell||Cast the Spell} and meet the spell's other requirements."
+		]
+	},
+	"tags": {
+		"misc": {
+			"grantsAbility": true
+		}
+	}
+}

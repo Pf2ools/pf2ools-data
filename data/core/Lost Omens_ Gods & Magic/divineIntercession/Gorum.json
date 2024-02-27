@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"You are unable to keep up with the rigors of combat. The moment a combat breaks out, you become {@condition fatigued} and {@condition slowed 1}. At the end of each of your turns, your {@condition slowed} condition increases by 1. These conditions end only when you are no longer in combat."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Gorum"
+		}
 	}
 }

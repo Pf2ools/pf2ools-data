@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"Your dreams are an unending stream of nightmares. You need 16 hours of rest to try to get enough sleep to recover resources in daily preparation that normally require an 8-hour rest, and even then, you must succeed at a DC {@flatDC 15} flat check to do so, and you are still {@condition fatigued} on a successful check."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Lamashtu"
+		}
 	}
 }

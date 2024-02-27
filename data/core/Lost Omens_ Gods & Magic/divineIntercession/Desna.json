@@ -25,6 +25,10 @@
 		],
 		"Major Curse": [
 			"The stars rebuke you for your ways. You are {@condition sickened 4} and {@condition slowed 1} whenever you are exposed to starlight."
-		]
+		],
+		"deity": {
+			"sourceID": "LOGM",
+			"name": "Desna"
+		}
 	}
 }

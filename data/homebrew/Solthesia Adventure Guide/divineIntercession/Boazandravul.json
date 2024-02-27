@@ -50,6 +50,10 @@
 		],
 		"Major Curse": [
 			"Boazandravul sends a {@trait dragon} emissary to punish you, preferably (but not exclusively) by imprisoning or grievously maiming you. The {@trait dragon} avoids harming other creatures or their possessions, potentially waiting until you are travelling alone or otherwise informing a community of the upcoming battle."
-		]
+		],
+		"deity": {
+			"sourceID": "SolthesiaAG",
+			"name": "Boazandravul"
+		}
 	}
 }

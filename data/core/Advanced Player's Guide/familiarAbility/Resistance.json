@@ -1,0 +1,16 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Resistance"
+	},
+	"source": {
+		"ID": "APG",
+		"page": 146
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"Choose two of the following: {@trait acid}, {@trait cold}, {@trait electricity}, {@trait fire}, {@trait poison}, or {@trait sonic}. Your familiar gains resistance equal to half your level against the chosen damage types."
+		]
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Scent"
+	},
+	"source": {
+		"ID": "CRB",
+		"page": 218
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"It gains {@ability scent} (imprecise, 30 feet)."
+		]
+	},
+	"tags": {
+		"misc": {
+			"affectsSenses": true
+		}
+	}
+}

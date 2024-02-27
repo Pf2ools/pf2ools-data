@@ -9,7 +9,7 @@
 		"released": "2020-01-13",
 		"added": "2023-08-08",
 		"modified": "2023-08-08",
-		"url": "https://paizo.com/products/btq022ks",
+		"URL": "https://paizo.com/products/btq022ks",
 		"groupIDs": [
 			"EC"
 		],
@@ -25,7 +25,8 @@
 	},
 	"tags": {
 		"misc": {
-			"Official": true
+			"Official": true,
+			"legacyRuleset": true
 		}
 	}
 }

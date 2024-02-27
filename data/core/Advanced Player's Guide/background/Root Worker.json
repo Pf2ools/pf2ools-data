@@ -35,7 +35,7 @@
 			"options": [
 				{
 					"name": "Root Magic",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

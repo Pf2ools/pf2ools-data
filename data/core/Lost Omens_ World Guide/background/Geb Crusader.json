@@ -36,7 +36,7 @@
 			"options": [
 				{
 					"name": "Student of the Canon",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}

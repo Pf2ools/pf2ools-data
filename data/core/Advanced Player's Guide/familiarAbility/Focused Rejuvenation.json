@@ -1,0 +1,16 @@
+{
+	"type": "familiarAbility",
+	"name": {
+		"primary": "Focused Rejuvenation"
+	},
+	"source": {
+		"ID": "APG",
+		"page": 146
+	},
+	"data": {
+		"abilityType": "Familiar",
+		"entries": [
+			"When you {@action Refocus}, you generate magical energy that heals your familiar. Your familiar regains 1 Hit Point per level whenever you {@action Refocus}."
+		]
+	}
+}

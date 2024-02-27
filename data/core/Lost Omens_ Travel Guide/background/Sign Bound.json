@@ -140,55 +140,55 @@
 			"options": [
 				{
 					"name": "ghost sound",
-					"source": "CRB"
+					"sourceID": "CRB"
 				},
 				{
 					"name": "light",
-					"source": "CRB"
+					"sourceID": "CRB"
 				},
 				{
 					"name": "charm",
-					"source": "CRB"
+					"sourceID": "CRB"
 				},
 				{
 					"name": "endure elements",
-					"source": "CRB"
+					"sourceID": "CRB"
 				},
 				{
 					"name": "guidance",
-					"source": "CRB"
+					"sourceID": "CRB"
 				},
 				{
 					"name": "phantom steed",
-					"source": "CRB"
+					"sourceID": "CRB"
 				},
 				{
 					"name": "know direction",
-					"source": "CRB"
+					"sourceID": "CRB"
 				},
 				{
 					"name": "longstrider",
-					"source": "CRB"
+					"sourceID": "CRB"
 				},
 				{
 					"name": "speak with animals",
-					"source": "CRB"
+					"sourceID": "CRB"
 				},
 				{
 					"name": "remove fear",
-					"source": "CRB"
+					"sourceID": "CRB"
 				},
 				{
 					"name": "true strike",
-					"source": "CRB"
+					"sourceID": "CRB"
 				},
 				{
 					"name": "message",
-					"source": "CRB"
+					"sourceID": "CRB"
 				},
 				{
 					"name": "stabilize",
-					"source": "CRB"
+					"sourceID": "CRB"
 				}
 			]
 		}
