@@ -1,0 +1,32 @@
+{
+	"type": "source",
+	"ID": "SDfS0",
+	"title": {
+		"full": "Seven Dooms for Sandpoint Player's Guide",
+		"short": "SDfS0"
+	},
+	"data": {
+		"released": "2024-03-08",
+		"added": "2024-03-09",
+		"modified": "2024-03-09",
+		"URL": "https://downloads.paizo.com/SevenDoomsforSandpoint_PlayersGuide.pdf",
+		"groupIDs": [
+			"SDfS"
+		],
+		"copyright": [
+			"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+			"{@b {@i Pathfinder Seven Dooms for Sandpoint Player's Guide}} © 2024, Paizo Inc.; Authors: James Jacobs."
+		],
+		"licenseID": "OGLv1-0a",
+		"authors": [
+			"James Jacobs"
+		],
+		"publisher": "Paizo"
+	},
+	"tags": {
+		"misc": {
+			"Official": true,
+			"legacyRuleset": true
+		}
+	}
+}

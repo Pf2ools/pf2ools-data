@@ -1,0 +1,50 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Cathedral Child"
+	},
+	"source": {
+		"page": 12,
+		"ID": "SDfS0"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "rare"
+			}
+		],
+		"entries": [
+			"You grew up in the shadow of the Sandpoint Cathedral, perhaps literally. Abstalar Zantus, the caretaker of the cathedral, may be your adoptive father or religious mentor. Though Abstalar worships Desna, the Sandpoint Cathedral is multidenominational and includes chapels devoted to Abadar, Desna, Erastil, Gozreh, Sarenrae, and Shelyn; so worshippers from all non-evil faiths are welcome here. Regardless of your beliefs, faith has been and remains a strong part of your life, and you've come to rely upon your faith to help you not only get through dangers in your adventures, but navigate the sometimes complex social problems that raise their ugly head in town. Conflicts between the cathedral and the Scarnettis seem like they've been growing lately.",
+			"You may live in one of the many apartments set aside for acolytes in the cathedral itself, or you might have family or own a small house elsewhere in town, but regardless of where you live, you've spent many an hour in the cathedral helping Abstalar\u2014particularly when it comes to copying religious texts or otherwise serving as a scribe. It's likely you play the part of healer in the party, but the drive to join an adventuring group itself may have even been inspired by Abstalar himself, who could have recognized in you an eagerness for adventuring, even before you did.",
+			"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
+			"You're trained in the {@skill Religion} skill and the {@skill Lore||Scribing Lore} skill. You gain the {@feat Battle Medicine} skill feat.",
+			"Increase the party's reputation with Sandpoint Cathedral by 1 and reduce the party's reputation with the Scarnetti Consortium by 1."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"Wisdom": true,
+				"Charisma": true,
+				"Free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Religion": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Battle Medicine",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}
