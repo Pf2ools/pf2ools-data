@@ -1,0 +1,16 @@
+{
+	"type": "sourceGroup",
+	"ID": "7DfS",
+	"title": {
+		"full": "Seven Dooms for Sandpoint",
+		"short": "7DfS"
+	},
+	"tags": {
+		"misc": {
+			"Adventure": true
+		}
+	},
+	"data": {
+		"publisher": "Paizo"
+	}
+}
