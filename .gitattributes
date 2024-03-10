@@ -1,9 +1,11 @@
 # Auto detect text files and perform LF normalization
-*          text=auto eol=lf
+*             text=auto eol=lf
 
 # Specific filetypes
-*.md       text diff=markdown
+*.md          text diff=markdown
 
 # Overrides
 bundles/      linguist-generated
+data/         linguist-detectable
 indexes/      linguist-generated
+*.license     linguist-documentation
