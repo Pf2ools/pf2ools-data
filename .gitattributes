@@ -5,4 +5,5 @@
 *.md       text diff=markdown
 
 # Overrides
-dist/      linguist-generated
+bundles/      linguist-generated
+indexes/      linguist-generated
