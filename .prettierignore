@@ -1,3 +1,3 @@
 # Ignore generated JSONs (compressed by default)
-bundles/
-indexes/
+bundles
+indexes
