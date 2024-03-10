@@ -3,3 +3,6 @@
 
 # Specific filetypes
 *.md       text diff=markdown
+
+# Overrides
+dist/      linguist-generated
