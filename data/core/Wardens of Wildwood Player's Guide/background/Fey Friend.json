@@ -1,0 +1,48 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Fey Friend"
+	},
+	"source": {
+		"page": 7,
+		"ID": "WoW0"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "uncommon"
+			}
+		],
+		"entries": [
+			"Many grow up hearing cautionary tales of mischievous fey, and with good reason: from sprites' pranks to gremlins' sabotage to redcaps' outright lethality, fey pose a real danger to the unwary. But not for you\u2014usually! Whether you grew up near an enchanted wilderness, have visited the First World, frequently deal with nature spirits, or even were a fey foundling raised by otherworldly beings, you're well acquainted with fey, their myriad traditions, and their even more numerous tricks. Fey and the Wildwood Lodge aren't the same thing, yet there's enough overlap that you're sure to fit in at the upcoming Greenwood Gala.",
+			"Choose two ability boosts. One must be to Charisma or Dexterity, and one is a free ability boost.",
+			"You're trained in the {@skill Deception} skill and the {@skill Lore||Fey Lore} skill. You gain the {@feat Charming Liar} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"Charisma": true,
+				"Dexterity": true,
+				"Free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Deception": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Charming Liar",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"type": "sourceGroup",
+	"ID": "WoW",
+	"title": {
+		"full": "Wardens of Wildwood",
+		"short": "WoW"
+	},
+	"data": {
+		"publisher": "Paizo"
+	},
+	"tags": {
+		"misc": {
+			"Adventure": true
+		}
+	}
+}
