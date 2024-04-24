@@ -1,0 +1,13 @@
+{
+	"type": "license",
+	"ID": "ORC",
+	"title": {
+		"full": "Open RPG Creative License",
+		"short": "ORC"
+	},
+	"data": {
+		"entries": [
+			"This product is licensed under the ORC License located at the Library of Congress at TX 9-307-067 and available online at various locations including {@link paizo.com/orclicense}, {@link azoralaw.com/orclicense}, and others. All warranties are disclaimed as set forth therein."
+		]
+	}
+}
