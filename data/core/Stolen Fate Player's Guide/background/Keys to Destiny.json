@@ -45,7 +45,7 @@
 			"count": 2,
 			"abilities": {
 				"Dexterity": true,
-				"Free": true
+				"free": true
 			}
 		},
 		"trainedSkills": {

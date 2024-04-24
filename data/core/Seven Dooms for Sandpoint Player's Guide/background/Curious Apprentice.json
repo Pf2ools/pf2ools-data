@@ -27,7 +27,7 @@
 			"abilities": {
 				"Intelligence": true,
 				"Strength": true,
-				"Free": true
+				"free": true
 			}
 		},
 		"trainedSkills": {

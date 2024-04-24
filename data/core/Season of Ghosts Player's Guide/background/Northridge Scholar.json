@@ -39,7 +39,7 @@
 			"abilities": {
 				"Constitution": true,
 				"Strength": true,
-				"Free": true
+				"free": true
 			}
 		},
 		"trainedSkills": {

@@ -20,7 +20,7 @@
 			"abilities": {
 				"Intelligence": true,
 				"Constitution": true,
-				"Free": true
+				"free": true
 			}
 		},
 		"trainedSkills": {

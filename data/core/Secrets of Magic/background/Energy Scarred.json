@@ -27,7 +27,7 @@
 			"count": 2,
 			"abilities": {
 				"Constitution": true,
-				"Free": true
+				"free": true
 			}
 		},
 		"trainedSkills": {

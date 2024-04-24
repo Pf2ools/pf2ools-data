@@ -44,7 +44,7 @@
 			"count": 2,
 			"abilities": {
 				"Strength": true,
-				"Free": true
+				"free": true
 			}
 		},
 		"trainedSkills": {
