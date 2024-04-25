@@ -4,23 +4,18 @@ labels: "📝 Unconverted source"
 projects: []
 assignees: []
 body:
+  - type: markdown
+    attributes:
+      value: Please enter the source's full, official title as the issue's title above (e.g. "Lost Omens: Divine Mysteries").
   - type: checkboxes
     id: checks
     attributes:
       label: Before we continue...
       options:
-        - label: I have checked that this source isn't already on the [conversion tracker](https://github.com/orgs/Pf2ools/projects/1).
+        - label: This source isn't already on the [conversion tracker](https://github.com/orgs/Pf2ools/projects/1).
           required: true
-        - label: I have confirmed that this source has been released.
+        - label: This source has been released and is publicly available.
           required: true
-    validations:
-      required: true
-  - type: input
-    id: name
-    attributes:
-      label: What's the source's name?
-      description: Provide the full, official title for the source.
-      placeholder: Player Core
     validations:
       required: true
   - type: input
@@ -37,11 +32,12 @@ body:
       label: What type of source is it?
       description: Pick the one that best applies.
       options:
-        - Sourcebook
-        - Large adventure (e.g. a chapter in an adventure path)
-        - Small adventure (e.g. a one-shot)
+        - Sourcebook (e.g. Call of the Wild)
+        - Setting book (e.g. Tian Xia World Guide, Lost Omens: Divine Mysteries)
+        - Large adventure (e.g. Wardens of Wildwood \#1: Pactbreaker)
+        - Small adventure (e.g. _Rusthenge_)
         - Pathfinder Society playbook
-        - Blog post, comic, or some other small, one-off supplement
+        - Blog post, comic, or some other small supplement
     validations:
       required: true
   - type: markdown
