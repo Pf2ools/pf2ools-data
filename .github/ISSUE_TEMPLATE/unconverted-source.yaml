@@ -32,12 +32,12 @@ body:
       label: What type of source is it?
       description: Pick the one that best applies.
       options:
-        - Sourcebook (e.g. Call of the Wild)
-        - Setting book (e.g. Tian Xia World Guide, Lost Omens: Divine Mysteries)
-        - Large adventure (e.g. Wardens of Wildwood \#1: Pactbreaker)
-        - Small adventure (e.g. _Rusthenge_)
-        - Pathfinder Society playbook
-        - Blog post, comic, or some other small supplement
+        - "Sourcebook (e.g. Call of the Wild)"
+        - "Setting book (e.g. Tian Xia World Guide, Lost Omens: Divine Mysteries)"
+        - "Large adventure (e.g. Wardens of Wildwood #1: Pactbreaker)"
+        - "Small adventure (e.g. Rusthenge)"
+        - "Pathfinder Society playbook"
+        - "Blog post, comic, or some other small supplement"
     validations:
       required: true
   - type: markdown
