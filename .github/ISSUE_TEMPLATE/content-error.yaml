@@ -8,7 +8,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: "Please enter the erroneous content's type, name, and source as the issue''s title above.\n**Example:** [Typo] Creature: Pixiu (Lost Omens: Tian Xia World Guide)"
+      value: "Please enter the erroneous content's type, name, and source as the issue's title above.\n**Example:** [Typo] Creature: Pixiu (Lost Omens: Tian Xia World Guide)"
   - type: input
     id: name
     attributes:
