@@ -8,7 +8,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: 'Please enter the missing content''s type, name, and source as the issue''s title above (e.g. "[Miss] Creature: Pixiu (Lost Omens: Tian Xia World Guide)").'
+      value: 'Please enter the missing content''s type, name, and source as the issue''s title above.\n**Example:** [Miss] Creature: Pixiu (Lost Omens: Tian Xia World Guide)'
   - type: checkboxes
     id: checks
     attributes:

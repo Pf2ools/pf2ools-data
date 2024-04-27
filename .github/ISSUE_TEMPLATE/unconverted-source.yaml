@@ -6,7 +6,7 @@ assignees: []
 body:
   - type: markdown
     attributes:
-      value: 'Please enter the source''s full, official title as the issue''s title above (e.g. "Lost Omens: Divine Mysteries").'
+      value: 'Please enter the source''s full, official title as the issue''s title above.\n**Example:** Lost Omens: Divine Mysteries'
   - type: checkboxes
     id: checks
     attributes:
