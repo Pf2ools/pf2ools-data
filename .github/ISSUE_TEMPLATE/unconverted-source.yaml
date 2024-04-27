@@ -12,9 +12,9 @@ body:
     attributes:
       label: Before we continue...
       options:
-        - label: This source isn't already on the [conversion tracker](https://github.com/orgs/Pf2ools/projects/1).
+        - label: "This source isn't already on the [conversion tracker](https://github.com/orgs/Pf2ools/projects/1)."
           required: true
-        - label: This source has been released and is publicly available.
+        - label: "This source has been released and is publicly available."
           required: true
     validations:
       required: true
@@ -22,15 +22,15 @@ body:
     id: link
     attributes:
       label: Where can we find it?
-      description: Include a source for that source—a storepage link or similar!
-      placeholder: https://paizo.com/products/btq02ej2?Pathfinder-Player-Core
+      description: "Include a source for that source—a storepage link or similar!"
+      placeholder: "https://paizo.com/products/btq02ej2?Pathfinder-Player-Core"
     validations:
       required: true
   - type: dropdown
     id: info
     attributes:
-      label: What type of source is it?
-      description: Pick the one that best applies.
+      label: "What type of source is it?"
+      description: "Pick the one that best applies."
       options:
         - "Sourcebook (e.g. Call of the Wild)"
         - "Setting book (e.g. Tian Xia World Guide, Lost Omens: Divine Mysteries)"

@@ -6,20 +6,32 @@ projects: []
 assignees:
   - Spappz
 body:
+  - type: markdown
+    attributes:
+      value: 'Please enter the missing content''s type, name, and source as the issue''s title above (e.g. "[Miss] Creature: Pixiu (Lost Omens: Tian Xia World Guide)").'
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before we continue...
+      options:
+        - label: "The content's source isn't already listed as 'Missing content' on the [conversion tracker](https://github.com/orgs/Pf2ools/projects/1)."
+          required: true
+    validations:
+      required: true
   - type: input
     id: datatype
     attributes:
       label: What are we missing?
-      description: State the statblock's title and type ('feat', 'spell', 'item', etc.).
-      placeholder: Fireball (spell)
+      description: "State the statblock's title and type ('feat', 'spell', 'item', etc.)."
+      placeholder: "Fireball (spell)"
     validations:
       required: true
   - type: input
     id: name
     attributes:
-      label: Where can we find it?
-      description: Provide the full, official title for the source, including the page number if possible. If the source is an online publication, a link would also be helpful!
-      placeholder: Player Core, page 331
+      label: "Where can we find it?"
+      description: "Provide the full, official title for the source, including the page number if possible. If the source is an online publication, a link would also be helpful!"
+      placeholder: "Player Core, page 331"
     validations:
       required: true
   - type: markdown
