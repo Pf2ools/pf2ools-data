@@ -23,7 +23,7 @@
 		"abilityBoosts": {
 			"count": 3,
 			"abilities": {
-				"Free": true
+				"free": true
 			}
 		},
 		"misc": {

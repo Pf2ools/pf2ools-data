@@ -1,0 +1,48 @@
+{
+	"type": "background",
+	"name": {
+		"primary": "Green Faith Pilgrim"
+	},
+	"source": {
+		"page": 7,
+		"ID": "WoW0"
+	},
+	"data": {
+		"traits": [
+			{
+				"trait": "uncommon"
+			}
+		],
+		"entries": [
+			"You are an adherent of the Green Faith, striving to bring harmony between nature and civilization. While you might hail from Shining Kingdom region surrounding the Verduran Forest, the annual Moot of Ages draws visitors from across the world. Traveling here is a sacred journey that could deepen your understanding of nature's will. As part of your journey and natural communion, you've relied heavily on flora and fauna to ease your sores and other injuries.",
+			"Choose two ability boosts. One must be to Constitution or Wisdom, and one is a free ability boost.",
+			"You're trained in the {@skill Nature} skill and the {@skill Lore||Green Faith Lore} skill. You gain the {@feat Natural Medicine} skill feat."
+		]
+	},
+	"tags": {
+		"abilityBoosts": {
+			"count": 2,
+			"abilities": {
+				"Constitution": true,
+				"Wisdom": true,
+				"free": true
+			}
+		},
+		"trainedSkills": {
+			"count": 2,
+			"skills": {
+				"Nature": true,
+				"Lore": true
+			}
+		},
+		"gainedFeats": {
+			"count": 1,
+			"options": [
+				{
+					"name": "Natural Medicine",
+					"sourceID": "CRB"
+				}
+			]
+		}
+	}
+}

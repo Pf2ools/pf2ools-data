@@ -47,7 +47,7 @@
 			"count": 2,
 			"abilities": {
 				"Charisma": true,
-				"Free": true
+				"free": true
 			}
 		},
 		"trainedSkills": {

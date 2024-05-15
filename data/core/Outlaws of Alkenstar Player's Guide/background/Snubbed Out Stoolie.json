@@ -27,7 +27,7 @@
 			"abilities": {
 				"Strength": true,
 				"Charisma": true,
-				"Free": true
+				"free": true
 			}
 		},
 		"trainedSkills": {

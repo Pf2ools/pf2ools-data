@@ -25,7 +25,7 @@
 			"abilities": {
 				"Dexterity": true,
 				"Charisma": true,
-				"Free": true
+				"free": true
 			}
 		},
 		"trainedSkills": {

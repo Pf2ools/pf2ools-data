@@ -1,0 +1,35 @@
+{
+	"type": "source",
+	"ID": "WoW0",
+	"title": {
+		"full": "Wardens of Wildwood Player's Guide",
+		"short": "WoW0"
+	},
+	"data": {
+		"released": "2024-04-23",
+		"added": "2024-04-24",
+		"modified": "2024-04-24",
+		"URL": "https://downloads.paizo.com/WardensofWildwood_PlayersGuide.pdf",
+		"groupIDs": [
+			"WoW"
+		],
+		"copyright": [
+			"{@b Attribution:} This product is original game content and is not based on a licensed game system.",
+			"If you use our Licensed Material in your own published work, please credit us in your product as follows:",
+			"{@b {@i Pathfinder Wardens of Wildwood Player's Guide}} © 2024, Paizo Inc.; Authors: John Compton and Michelle Y. Kim.",
+			"{@b Reserved Material:} Reserved Material elements in this product include all elements designated as Reserved Material under the ORC License. To avoid confusion, such items include: All trademarks, registered trademarks, proper nouns (characters, deities, locations, etc., as well as all adjectives, names, titles, and descriptive terms derived from proper nouns), artworks, characters, dialogue, locations, organizations, plots, storylines, and trade dress.",
+			"{@b Expressly Designated Licensed Material:} This product contains no Expressly Designated Licensed Material."
+		],
+		"licenseID": "ORC",
+		"authors": [
+			"John Compton",
+			"Michelle Y. Kim"
+		],
+		"publisher": "Paizo"
+	},
+	"tags": {
+		"misc": {
+			"Official": true
+		}
+	}
+}

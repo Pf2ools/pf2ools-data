@@ -20,7 +20,7 @@
 			"abilities": {
 				"Strength": true,
 				"Dexterity": true,
-				"Free": true
+				"free": true
 			}
 		},
 		"trainedSkills": {
