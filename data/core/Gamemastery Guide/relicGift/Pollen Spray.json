@@ -38,11 +38,11 @@
 					"Pollen and poison spores spray from your relic, dealing {@damage 1d6} poison damage for every 2 relic levels (minimum {@damage 1d6}) to all creatures in a 15-foot cone (basic Fortitude save). On a critical failure, targets are also {@condition dazzled} for 1 round. You can't use Pollen Spray again for {@dice 1d4} rounds."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

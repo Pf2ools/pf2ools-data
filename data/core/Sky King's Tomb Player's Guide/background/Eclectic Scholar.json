@@ -20,32 +20,32 @@
 			"You're trained in the {@skill Occultism} skill and the {@skill Lore||Dwarven Pantheon Lore} skill, an uncommonly broad {@skill Lore} skill that pertains to {@deity Torag|CRB|Torag's} faith and those faiths of his divine family. You gain the {@feat Quick Identification} skill feat.",
 			"{@b Connection:} Rosha Coppervein, a Blue Warder who married into Clan Tolorr",
 			"{@b Reputation Points:} +0"
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Intelligence": true,
-				"Wisdom": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Occultism": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Quick Identification",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Intelligence": true,
+					"Wisdom": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Occultism": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Quick Identification",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

@@ -42,11 +42,11 @@
 					"Your relic spews forth a dense sphere of water. Make a spell attack roll against a target within 30 feet. On a success, you deal {@damage 2d10} bludgeoning damage plus 2 bludgeoning {@trait splash} damage. At 3rd level and every 2 levels thereafter, increase the initial damage by {@damage 1d10} and the {@trait splash} damage by 1."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

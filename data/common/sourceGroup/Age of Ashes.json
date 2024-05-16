@@ -5,12 +5,12 @@
 		"full": "Age of Ashes",
 		"short": "AoA"
 	},
-	"tags": {
-		"misc": {
-			"Adventure": true
-		}
-	},
 	"data": {
-		"publisher": "Paizo"
+		"publisher": "Paizo",
+		"_tags": {
+			"misc": {
+				"Adventure": true
+			}
+		}
 	}
 }

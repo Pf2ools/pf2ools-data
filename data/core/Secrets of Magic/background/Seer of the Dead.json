@@ -17,25 +17,25 @@
 			"You have long been gifted with the ability to see and speak with the departed. This could have manifested at your birth or when a chance encounter linked you inextricably to the spirits of the dead. Their constant presence might feel like a curse, or it might provide you with welcome companionship.",
 			"You gain one ability boost. It must be to Constitution or Wisdom.",
 			"You're trained in {@skill Religion} and {@skill Lore||Undead Lore}. You gain the effects of the {@spell spirit sense|APG} spell at all times."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 1,
-			"abilities": {
-				"Constitution": true,
-				"Wisdom": true
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 1,
+				"abilities": {
+					"Constitution": true,
+					"Wisdom": true
+				}
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Religion": true,
+					"Lore": true
+				}
+			},
+			"misc": {
+				"Grants situational benefit": true
 			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Religion": true,
-				"Lore": true
-			}
-		},
-		"misc": {
-			"Grants situational benefit": true
 		}
 	}
 }

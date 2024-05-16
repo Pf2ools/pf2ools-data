@@ -25,11 +25,11 @@
 			"John Compton",
 			"Michelle Y. Kim"
 		],
-		"publisher": "Paizo"
-	},
-	"tags": {
-		"misc": {
-			"Official": true
+		"publisher": "Paizo",
+		"_tags": {
+			"misc": {
+				"Official": true
+			}
 		}
 	}
 }

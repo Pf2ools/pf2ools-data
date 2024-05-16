@@ -18,37 +18,37 @@
 			"The Tax Collectors Union is unaware of your petty theft, and you remain in good standing with them. Your party gains 1 Reputation Point with the Tax Collectors Union at the start of the campaign.",
 			"Choose two ability boosts. One must be to Dexterity or Intelligence, and one is a free ability boost.",
 			"You're trained in your choice of the {@skill Society} or {@skill Thievery} skill. You gain a skill feat: {@feat Eye for Numbers|APG} if you chose {@skill Society} or {@feat Subtle Theft} if you chose {@skill Thievery}. You're also trained in {@skill Lore||Accounting Lore}."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Dexterity": true,
-				"Intelligence": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Society": true,
-				"Thievery": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Eye for Numbers",
-					"sourceID": "APG"
-				},
-				{
-					"name": "Subtle Theft",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Dexterity": true,
+					"Intelligence": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Society": true,
+					"Thievery": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Eye for Numbers",
+						"sourceID": "APG"
+					},
+					{
+						"name": "Subtle Theft",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

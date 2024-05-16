@@ -17,32 +17,32 @@
 			"A person cannot live on fish alone, which is why you work with Elder Bo'Mel on her farm. Elder Ordwi asked you to accompany her to Iron Harbor because she values your input in evaluating how the village might be making use of their natural resources.",
 			"Choose two ability boosts. One must be to Strength or Constitution, and one is a free ability boost.",
 			"You're trained in the {@skill Nature} skill, and the {@skill Lore||Architecture Lore} skill. You gain the {@feat Natural Medicine} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Constitution": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Nature": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Natural Medicine",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Constitution": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Nature": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Natural Medicine",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

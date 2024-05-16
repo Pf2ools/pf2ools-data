@@ -24,11 +24,11 @@
 		],
 		"entries": [
 			"You gain the {@feat Fascinating Performance} skill feat while wearing or wielding the relic, even if you don't meet its prerequisites. If you critically succeed against an observer, that target doesn't become temporarily immune to this effect."
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants passive attribute": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants passive attribute": true
+			}
 		}
 	}
 }

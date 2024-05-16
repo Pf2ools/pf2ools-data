@@ -34,14 +34,14 @@
 					"Drawing upon divine fury, you single out a target that damaged you or an ally within the past round and fill your relic with divine vengeance against them. Make a {@action Strike} against that foe, dealing an additional damage die on a hit. If the target is {@trait evil}, it is also {@condition enfeebled 1} until the start of your next turn on a hit (or {@condition enfeebled 2} on a critical hit)."
 				]
 			}
-		]
-	},
-	"tags": {
-		"itemTypes": {
-			"Weapon": true
-		},
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"itemTypes": {
+				"Weapon": true
+			},
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

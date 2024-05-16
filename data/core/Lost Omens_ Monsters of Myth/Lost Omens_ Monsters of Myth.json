@@ -35,16 +35,16 @@
 			"Shay Snow",
 			"Jason Tondro"
 		],
-		"publisher": "Paizo"
-	},
-	"tags": {
-		"status": {
-			"Missing content": true
-		},
-		"misc": {
-			"Official": true,
-			"PFS-legal": true,
-			"legacyRuleset": true
+		"publisher": "Paizo",
+		"_tags": {
+			"status": {
+				"Missing content": true
+			},
+			"misc": {
+				"Official": true,
+				"PFS-legal": true,
+				"legacyRuleset": true
+			}
 		}
 	}
 }

@@ -40,16 +40,16 @@
 			"Neil Spicer",
 			"Greg A. Vaughan"
 		],
-		"publisher": "Paizo"
-	},
-	"tags": {
-		"status": {
-			"Missing content": true
-		},
-		"misc": {
-			"GM-facing": true,
-			"Official": true,
-			"legacyRuleset": true
+		"publisher": "Paizo",
+		"_tags": {
+			"status": {
+				"Missing content": true
+			},
+			"misc": {
+				"GM-facing": true,
+				"Official": true,
+				"legacyRuleset": true
+			}
 		}
 	}
 }

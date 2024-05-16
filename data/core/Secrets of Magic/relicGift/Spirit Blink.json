@@ -42,12 +42,12 @@
 					"You blink between the realm of mortals and the {@plane Ethereal Plane}. This grants you the effects of {@spell blink}, except the resistance is equal to the soul seed's level instead of 5."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Soul seed": true,
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Soul seed": true,
+				"Grants ability": true
+			}
 		}
 	}
 }

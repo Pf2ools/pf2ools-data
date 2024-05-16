@@ -21,11 +21,11 @@
 		],
 		"entries": [
 			"Your relic enhances your skill with {@skill Crafting} or {@skill Performance}. (Choose one.) If you succeed at a check with the chosen skill, you get a critical success instead."
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants passive attribute": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants passive attribute": true
+			}
 		}
 	}
 }

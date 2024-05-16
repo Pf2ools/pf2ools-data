@@ -40,14 +40,14 @@
 					"At 11th level, the spell is 5th level, and the spell level goes up by 1 for every 2 levels beyond that."
 				]
 			}
-		]
-	},
-	"tags": {
-		"itemTypes": {
-			"Worn Item": true
-		},
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"itemTypes": {
+				"Worn Item": true
+			},
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

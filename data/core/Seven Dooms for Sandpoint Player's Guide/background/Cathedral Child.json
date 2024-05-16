@@ -19,32 +19,32 @@
 			"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Religion} skill and the {@skill Lore||Scribing Lore} skill. You gain the {@feat Battle Medicine} skill feat.",
 			"Increase the party's reputation with Sandpoint Cathedral by 1 and reduce the party's reputation with the Scarnetti Consortium by 1."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Wisdom": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Religion": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Battle Medicine",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Wisdom": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Religion": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Battle Medicine",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

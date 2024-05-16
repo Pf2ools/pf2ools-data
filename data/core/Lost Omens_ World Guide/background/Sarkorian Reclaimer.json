@@ -13,32 +13,32 @@
 			"Choose two ability boosts. One must be to Constitution or Wisdom, and one is a free boost.",
 			"You're trained in the {@skill Medicine} skill and the {@skill Lore||Abyssal Lore} skill.",
 			"You gain the {@feat Battle Medicine} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Wisdom": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Medicine": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Battle Medicine",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Wisdom": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Medicine": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Battle Medicine",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

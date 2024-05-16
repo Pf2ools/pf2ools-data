@@ -20,32 +20,32 @@
 			"Choose two ability boosts. One must be to Dexterity or Intelligence, and one is a free ability boost.",
 			"You're trained in the {@skill Arcana} skill and the {@skill Lore||Academia Lore} skill. You gain the {@feat Multilingual} skill feat, but one of the languages you gain from this feat must be {@language Thassilonian|LOWG}.",
 			"Increase the party's reputation with Runewatchers by 1 and reduce the party's reputation with Townsfolk by 1."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Dexterity": true,
-				"Intelligence": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Arcana": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Multilingual",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Dexterity": true,
+					"Intelligence": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Arcana": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Multilingual",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

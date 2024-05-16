@@ -28,15 +28,15 @@
 		],
 		"entries": [
 			"{@note The relic gains the {@item energy-resistant} (cold damage) rune.}"
-		]
-	},
-	"tags": {
-		"itemTypes": {
-			"Armor": true
-		},
-		"misc": {
-			"Is rune": true,
-			"Grants passive attribute": true
+		],
+		"_tags": {
+			"itemTypes": {
+				"Armor": true
+			},
+			"misc": {
+				"Is rune": true,
+				"Grants passive attribute": true
+			}
 		}
 	}
 }

@@ -12,36 +12,36 @@
 			"Whether in a monastery, a religious household, or just as part of your everyday life, your upbringing was steeped in the traditions of a faith or philosophy. You might remain committed or you may have turned from your childhood creed, but your skills are still founded in your devotion.",
 			"Choose two ability boosts. One boost must be to an ability specified in the Divine Ability entry for your deity, and one is a free ability boost.",
 			"You're trained in your deity's associated skill, and you gain {@feat Assurance} with that skill. You gain a {@skill Lore} skill with a subcategory associated with your deity ({@skill Lore||Abadar Lore}, for instance)."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Dexterity": true,
-				"Constitution": true,
-				"Intelligence": true,
-				"Wisdom": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Any": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Assurance",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Dexterity": true,
+					"Constitution": true,
+					"Intelligence": true,
+					"Wisdom": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Any": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Assurance",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

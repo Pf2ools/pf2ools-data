@@ -38,27 +38,27 @@
 				],
 				"type": "ability"
 			}
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Wisdom": true,
-				"free": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Pilgrim's Token",
-					"sourceID": "APG"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Wisdom": true,
+					"free": true
 				}
-			]
-		},
-		"misc": {
-			"Grants ability": true
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Pilgrim's Token",
+						"sourceID": "APG"
+					}
+				]
+			},
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

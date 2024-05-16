@@ -13,32 +13,32 @@
 			"You're excited to meet new people and cultures, and answering the Call for Heroes seems to be an interesting way to do so.",
 			"Choose two ability boosts. One must be Constitution or Intelligence, and one is a free ability boost.",
 			"You're trained in the {@skill Diplomacy} skill and one of the following {@skill Lore} skills thematically associated with the members of the ancestry you grew up with: Dwarf, Elf, Gnome, Goblin, or Halfling. You gain the {@feat Hobnobber} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Intelligence": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Diplomacy": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Hobnobber",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Intelligence": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Diplomacy": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Hobnobber",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

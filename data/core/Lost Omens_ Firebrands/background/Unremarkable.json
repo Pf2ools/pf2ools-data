@@ -12,32 +12,32 @@
 			"Your face is particularly unremarkable, even if your presence or actions may not be. You know how to use this to your advantage, making it difficult for people to identify and collect information about you.",
 			"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
 			"You are trained in the {@skill Deception} skill and the {@skill Lore||Acting Lore} skill. You gain the {@feat Lengthy Diversion} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Wisdom": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Deception": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Lengthy Diversion",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Wisdom": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Deception": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Lengthy Diversion",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

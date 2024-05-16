@@ -42,11 +42,11 @@
 					"Your relic sends out a wave of bad luck, forcing the creature to reroll and take the worse result."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

@@ -39,12 +39,12 @@
 					"Flames roar forth from the triggering creature, dealing {@damage 6d6} fire damage to all creatures in a 15-foot burst centered on it, including that creature (basic Reflex). You aren't affected by the activation, though your allies are. If this damage reduces the triggering creature to 0 Hit Points, it is reduced to a fine ash, though its gear remains. You can't use this activation again for {@dice 1d4} rounds."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants passive attribute": true,
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants passive attribute": true,
+				"Grants ability": true
+			}
 		}
 	}
 }

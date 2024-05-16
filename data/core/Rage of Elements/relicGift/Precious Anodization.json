@@ -38,11 +38,11 @@
 					"For one minute, your relic is affected by a {@spell clad in metal|RoE} spell of a rank equal to half the relic's level, rounded up. You can choose {@trait uncommon} metals in addition to {@trait common} ones."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

@@ -41,11 +41,11 @@
 					"Your relic acts as a relay for vitality. You or an adjacent willing creature regain a number of Hit Points equal to the amount in excess of the triggering creature's maximum Hit Points; for instance, if the triggering creature was missing 5 Hit Points and was targeted by a heal spell that restored 12 Hit Points, you or an adjacent willing creature would regain the remaining 7 Hit Points."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

@@ -18,21 +18,21 @@
 			"Your commitment to the cause is so clear, it overcame whatever disqualified your previous attempts to join the new Shining Crusade.",
 			"Choose two ability boosts. One must be to Strength or Constitution, and one is a free ability boost.",
 			"You're trained in the {@skill Lore||Warfare Lore} skill, and you gain the {@feat Canny Acumen} feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Constitution": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 1,
-			"skills": {
-				"Lore": true
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Constitution": true,
+					"free": true
+				}
+			},
+			"trainedSkills": {
+				"count": 1,
+				"skills": {
+					"Lore": true
+				}
 			}
 		}
 	}

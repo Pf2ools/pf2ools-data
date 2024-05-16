@@ -20,33 +20,33 @@
 			"From rivers that {@spell charm} all who come near to forests that speak through {@spell dream message||dream messages}, you have seen and studied many kinds of magical terrain. The world is so rich in magic that it can affect the land itself, and you have traveled extensively to learn the ways of identifying the oddities of magical terrain wherever it arises.",
 			"Choose two ability boosts. One must be Constitution or Wisdom and one is a free ability boost.",
 			"You're trained in your choice of {@skill Nature} or {@skill Occultism} and the {@skill Lore||Magical Terrain Lore} skill. You gain the {@feat Terrain Expertise} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Wisdom": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Nature": true,
-				"Occultism": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Terrain Expertise",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Wisdom": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Nature": true,
+					"Occultism": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Terrain Expertise",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

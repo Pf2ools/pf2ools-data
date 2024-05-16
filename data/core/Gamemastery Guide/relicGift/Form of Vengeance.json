@@ -22,14 +22,14 @@
 		"entries": [
 			"Whenever you use the relic's {@relicGift form of fury} activation, it can cast {@spell aerial form} or {@spell dinosaur form} instead of {@spell animal form}. Like {@relicGift form of fury}, these spells also turn you into the same type of animal each time (so you have three forms you can assume in total, one from each spell). The spell level is the same as defined in {@relicGift form of fury}.",
 			"While transformed, you can switch from one of the three forms to another by {@action sustain an activation||Sustaining the Activation}. This doesn't change the duration."
-		]
-	},
-	"tags": {
-		"itemTypes": {
-			"Worn Item": true
-		},
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"itemTypes": {
+				"Worn Item": true
+			},
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

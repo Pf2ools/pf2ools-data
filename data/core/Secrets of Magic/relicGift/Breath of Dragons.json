@@ -39,12 +39,12 @@
 					"You breathe out a cone or line of energy. You deal {@damage 2d6} damage for every 2 levels of the soul seed to all creatures in either a 30-foot cone or an 80-foot line, with a basic Reflex save. The shape is whichever is appropriate for the soul seed's draconic origin, as is the damage type. This ability has the trait matching the damage type."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Soul seed": true,
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Soul seed": true,
+				"Grants ability": true
+			}
 		}
 	}
 }

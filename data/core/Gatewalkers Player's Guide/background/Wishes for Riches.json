@@ -19,36 +19,36 @@
 			"Your deviant abilities are of the dragon classification. You gain the {@feat Consume Energy|DA} deviant feat with the cold type. As a quirk, your deviant abilities manifest in a silver hue, and when you use a deviant ability you absorb the color silver from your surroundings. The absorbed color returns to your surroundings within an hour.",
 			"Choose two ability boosts. One must be to Charisma or Dexterity, and one is a free ability boost.",
 			"You're trained in the {@skill Thievery} skill and the {@skill Lore||Games Lore} skill. You gain the {@feat Subtle Theft} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Dexterity": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Thievery": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 2,
-			"options": [
-				{
-					"name": "Consume Energy",
-					"sourceID": "DA"
-				},
-				{
-					"name": "Subtle Theft",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Dexterity": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Thievery": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 2,
+				"options": [
+					{
+						"name": "Consume Energy",
+						"sourceID": "DA"
+					},
+					{
+						"name": "Subtle Theft",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

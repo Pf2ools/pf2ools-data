@@ -19,32 +19,32 @@
 			"Choose two ability boosts. One must be to Intelligence or Strength, and one is a free ability boost.",
 			"You're trained in the {@skill Occultism} skill and the {@skill Lore||Poetry Lore} skill. You gain the {@feat Hefty Hauler} skill feat (carrying around all those books builds muscles, after all!).",
 			"Increase the party's reputation with Sandpoint Mercantile League by 1 and reduce the party's reputation with Scarnetti Consortium by 1."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Intelligence": true,
-				"Strength": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Occultism": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Hefty Hauler",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Intelligence": true,
+					"Strength": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Occultism": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Hefty Hauler",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

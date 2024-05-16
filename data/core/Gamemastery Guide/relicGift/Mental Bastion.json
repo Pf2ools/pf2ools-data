@@ -21,11 +21,11 @@
 		],
 		"entries": [
 			"Your relic takes over some of your mental processes and enhances others. You gain {@ability telepathy}; if you already have {@ability telepathy}, you instead increase its range by 30 feet. Whenever you would become {@condition stupefied}, reduce the value by 1. You are permanently {@condition quickened} and can use the additional action to {@action Recall Knowledge}."
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants passive attribute": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants passive attribute": true
+			}
 		}
 	}
 }

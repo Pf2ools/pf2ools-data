@@ -42,11 +42,11 @@
 					"Your relic reshapes the earth around you. You cast 5th-level {@spell wall of stone}."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

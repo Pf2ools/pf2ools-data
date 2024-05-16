@@ -14,35 +14,35 @@
 			"Thankfully, you found an out: an invitation to transfer to the newly formed Edgewatch. You accepted the offer in the hope that some fresh experience in a new district, surrounded by new people, might reignite the hope and passion you felt for the job so long ago.",
 			"Choose two ability boosts. One must be to Constitution or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Survival} skill, as well as either {@skill Lore||Labor Lore} or {@skill Lore||Underworld Lore}. You gain a +1 circumstance bonus to {@skill Deception}, {@skill Diplomacy}, and {@skill Intimidation} checks to interact with Muckruckers, mercenaries, and adventurers. You gain the {@feat Experienced Tracker} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Survival": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Experienced Tracker",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
-		},
-		"misc": {
-			"Grants situational benefit": true
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Survival": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Experienced Tracker",
+						"sourceID": "CRB"
+					}
+				]
+			},
+			"misc": {
+				"Grants situational benefit": true
+			}
 		}
 	}
 }

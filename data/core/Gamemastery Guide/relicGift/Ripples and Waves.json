@@ -40,12 +40,12 @@
 					"Ankle-deep water floods outward from you, filling a 60-foot emanation centered on you for 1 minute. Enemies within the area without a swim Speed treat the area as difficult terrain for movement on land. While the effect persists, you can have any {@trait water} effects you generate originate from any point within the emanation, in addition to their normal range and area."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants passive attribute": true,
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants passive attribute": true,
+				"Grants ability": true
+			}
 		}
 	}
 }

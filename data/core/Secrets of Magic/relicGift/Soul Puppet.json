@@ -39,12 +39,12 @@
 					"You bind loose souls, briefly animating an {@trait undead} creature. The soul seed casts {@spell animate dead|APG} at a level equal to half the soul seed's level rounded up. You can {@action sustain an activation||Sustain this Activation} as you would the spell."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Soul seed": true,
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Soul seed": true,
+				"Grants ability": true
+			}
 		}
 	}
 }

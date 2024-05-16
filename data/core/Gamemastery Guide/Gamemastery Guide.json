@@ -57,14 +57,14 @@
 			"Landon Winkler",
 			"Linda Zayas-Palmer"
 		],
-		"publisher": "Paizo"
-	},
-	"tags": {
-		"misc": {
-			"GM-facing": true,
-			"Official": true,
-			"PFS-legal": true,
-			"legacyRuleset": true
+		"publisher": "Paizo",
+		"_tags": {
+			"misc": {
+				"GM-facing": true,
+				"Official": true,
+				"PFS-legal": true,
+				"legacyRuleset": true
+			}
 		}
 	}
 }

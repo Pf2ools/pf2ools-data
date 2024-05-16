@@ -12,32 +12,32 @@
 			"You've seen the sorts of things that technology brings\u2014polluted environments, workers put out of their jobs or horribly injured, and the slow erosion of society\u2014and you've vowed to inform the larger world of these ills. You do so with long, impassioned speeches on street corners and village squares and by talking personally with the heads of various guilds. Adventuring into the wider world could help spread your message even farther.",
 			"Choose two ability boosts. One must be to Constitution or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Intimidation} skill and the {@skill Lore||Guild Lore} skill. You gain the {@feat Group Coercion} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Intimidation": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Group Coercion",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Intimidation": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Group Coercion",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

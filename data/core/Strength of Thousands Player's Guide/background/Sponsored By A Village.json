@@ -18,37 +18,37 @@
 			"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
 			"You're trained in your choice of the {@skill Crafting} or {@skill Survival} skill. You gain a skill feat: {@feat Crafter's Appraisal|APG} if you chose {@skill Crafting} or {@feat Forager} if you chose {@skill Survival}. You're also trained in the {@skill Lore} skill appropriate for the terrain around your community (such as {@skill Lore||Forest Lore} or {@skill Lore||Jungle Lore}).",
 			"Your recommended primary branch is the Cascade Bearers."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Intelligence": true,
-				"Wisdom": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Survival": true,
-				"Crafting": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Crafter's Appraisal",
-					"sourceID": "APG"
-				},
-				{
-					"name": "Forager",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Intelligence": true,
+					"Wisdom": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Survival": true,
+					"Crafting": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Crafter's Appraisal",
+						"sourceID": "APG"
+					},
+					{
+						"name": "Forager",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

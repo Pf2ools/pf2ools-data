@@ -13,32 +13,32 @@
 			"You've decided that joining an adventuring group would be the best way to secure aid in your quest to build your own reputation, and are attending the Call for Heroes to find such allies.",
 			"Choose two ability boosts. One must be Dexterity or Intelligence, and one is a free ability boost.",
 			"You're trained in the {@skill Survival} skill and the Darklands, Desert, or {@skill Lore||Jungle Lore} skill. You gain the {@feat Terrain Expertise} skill feat (underground if you have {@skill Lore||Darklands Lore}, desert if you have {@skill Lore||Desert Lore}, or forest if you have {@skill Lore||Jungle Lore})."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Dexterity": true,
-				"Intelligence": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Survival": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Terrain Expertise",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Dexterity": true,
+					"Intelligence": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Survival": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Terrain Expertise",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

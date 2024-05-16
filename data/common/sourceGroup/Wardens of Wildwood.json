@@ -6,11 +6,11 @@
 		"short": "WoW"
 	},
 	"data": {
-		"publisher": "Paizo"
-	},
-	"tags": {
-		"misc": {
-			"Adventure": true
+		"publisher": "Paizo",
+		"_tags": {
+			"misc": {
+				"Adventure": true
+			}
 		}
 	}
 }

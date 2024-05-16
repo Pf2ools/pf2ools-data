@@ -23,11 +23,11 @@
 					"If you are simply asleep, the GM decides you wake up either because you have had a restful night's sleep or something disrupted that rest."
 				]
 			}
-		]
-	},
-	"tags": {
-		"group": {
-			"Death and Dying": true
+		],
+		"_tags": {
+			"group": {
+				"Death and Dying": true
+			}
 		}
 	}
 }

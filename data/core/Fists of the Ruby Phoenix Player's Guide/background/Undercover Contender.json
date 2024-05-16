@@ -14,32 +14,32 @@
 			"You've told a small squad of your closest confidants about your mission, and you've managed to secure a spot in the tournament's prequalifier along with them. You and your team have to win fights to stay in the competition long enough to make sure things go smoothly. If that means you end up being the Ruby Phoenix Champions, all the better.",
 			"Choose two ability boosts. One must be to Charisma or Dexterity, and one is a free ability boost.",
 			"You're trained in {@skill Deception} and the {@skill Lore||Underworld Lore} skill. You gain the {@feat Lengthy Diversion} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Charisma": true,
-				"Dexterity": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Deception": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Lengthy Diversion",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Charisma": true,
+					"Dexterity": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Deception": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Lengthy Diversion",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

@@ -45,11 +45,11 @@
 					"Select one of the three ancestry feats. You and each ally in a 10-foot-radius burst centered on you gain that feat and the {@trait dwarf} trait for 1 minute."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

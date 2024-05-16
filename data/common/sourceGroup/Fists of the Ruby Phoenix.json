@@ -5,12 +5,12 @@
 		"full": "Fists of the Ruby Phoenix",
 		"short": "FRP"
 	},
-	"tags": {
-		"misc": {
-			"Adventure": true
-		}
-	},
 	"data": {
-		"publisher": "Paizo"
+		"publisher": "Paizo",
+		"_tags": {
+			"misc": {
+				"Adventure": true
+			}
+		}
 	}
 }

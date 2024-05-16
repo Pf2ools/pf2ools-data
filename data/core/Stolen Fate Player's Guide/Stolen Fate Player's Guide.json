@@ -21,15 +21,15 @@
 		"authors": [
 			"James Jacobs"
 		],
-		"publisher": "Paizo"
-	},
-	"tags": {
-		"status": {
-			"Missing content": true
-		},
-		"misc": {
-			"Official": true,
-			"legacyRuleset": true
+		"publisher": "Paizo",
+		"_tags": {
+			"status": {
+				"Missing content": true
+			},
+			"misc": {
+				"Official": true,
+				"legacyRuleset": true
+			}
 		}
 	}
 }

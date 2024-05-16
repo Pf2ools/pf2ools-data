@@ -14,32 +14,32 @@
 			"Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Deception} skill and the {@skill Lore||Mzali Lore} skill.",
 			"You gain the {@feat Lie to Me} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Deception": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Lie to Me",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Deception": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Lie to Me",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

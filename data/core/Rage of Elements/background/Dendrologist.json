@@ -13,32 +13,32 @@
 			"There are trees everywhere, and your study of them will inevitably take you ever further afield in search of new varieties, perhaps even to the Plane of Wood itself.",
 			"Choose two attribute boosts. One must be to Intelligence or Wisdom, and one is a free attribute boost.",
 			"You're trained in the {@skill Survival} skill and the {@skill Lore||Plane of Wood Lore} skill. You gain the {@feat Terrain Expertise} skill feat for forests."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 3,
-			"abilities": {
-				"Intelligence": true,
-				"Wisdom": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Survival": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Terrain Expertise",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 3,
+				"abilities": {
+					"Intelligence": true,
+					"Wisdom": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Survival": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Terrain Expertise",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

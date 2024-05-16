@@ -13,38 +13,38 @@
 			"Randomly determine two harrow suits tied to your character, each reflecting a specific ability score. You can do so by drawing cards from a harrow deck or by rolling a {@dice d6}: 1 = hammers (Strength), 2 = keys (Dexterity), 3 = shields (Constitution), 4 = books (Intelligence), 5 = stars (Wisdom), 6 = crowns (Charisma). The first suit is your aligned score, and the second suit is your misaligned score.",
 			"Choose two ability boosts. One must be to your aligned or misaligned score, and one is a free ability boost.",
 			"You're trained in your choice of the {@skill Occultism}, {@skill Performance}, or {@skill Society} skill and the {@skill Lore||Harrow Lore} skill. You gain the {@feat Dubious Knowledge} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Dexterity": true,
-				"Constitution": true,
-				"Intelligence": true,
-				"Wisdom": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Performance": true,
-				"Occultism": true,
-				"Society": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Dubious Knowledge",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Dexterity": true,
+					"Constitution": true,
+					"Intelligence": true,
+					"Wisdom": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Performance": true,
+					"Occultism": true,
+					"Society": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Dubious Knowledge",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

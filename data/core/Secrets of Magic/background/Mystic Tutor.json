@@ -20,33 +20,33 @@
 			"You spent years predicting, identifying, and harnessing the innate magical talents of those around you. A magic-rich world has taught you that you can never have too much training when everyone around you is capable of magic.",
 			"Choose two ability boosts. One must be Intelligence or Wisdom and one is a free ability boost.",
 			"Your innate {@trait magical} trait is {@trait arcane} or {@trait occult}. You're trained in either {@skill Arcana} or {@skill Occultism}, depending on your innate {@trait magical} trait, and the {@skill Lore||Academia Lore} skill. You gain the {@feat Recognize Spell} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Intelligence": true,
-				"Wisdom": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Arcana": true,
-				"Occultism": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Recognize Spell",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Intelligence": true,
+					"Wisdom": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Arcana": true,
+					"Occultism": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Recognize Spell",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

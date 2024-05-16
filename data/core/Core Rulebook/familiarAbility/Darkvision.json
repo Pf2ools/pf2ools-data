@@ -11,11 +11,11 @@
 		"abilityType": "Familiar",
 		"entries": [
 			"It gains {@ability darkvision}."
-		]
-	},
-	"tags": {
-		"misc": {
-			"affectsSenses": true
+		],
+		"_tags": {
+			"misc": {
+				"affectsSenses": true
+			}
 		}
 	}
 }

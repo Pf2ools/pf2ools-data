@@ -14,26 +14,26 @@
 			"You'll prove them wrong, one way or another, and show everyone that you can protect the ones you hold most dear.",
 			"Choose two ability boosts. One must be to Constitution or Wisdom, and one is a free ability boost.",
 			"You're trained in the {@skill Nature} skill and your choice of {@skill Lore||Hunting Lore} or {@skill Lore||Stabling Lore}. You start out with a {@creature riding horse}, as well as a suit of {@quickref shoddy||1|shoddy items} {@item half plate} armor, a {@quickref shoddy||1|shoddy items} {@item longsword}, and a {@quickref shoddy||1|shoddy items} {@item lance}."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Wisdom": true,
-				"free": true
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Wisdom": true,
+					"free": true
+				}
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Nature": true,
+					"Lore": true
+				}
+			},
+			"misc": {
+				"Grants equipment": true
 			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Nature": true,
-				"Lore": true
-			}
-		},
-		"misc": {
-			"Grants equipment": true
 		}
 	}
 }

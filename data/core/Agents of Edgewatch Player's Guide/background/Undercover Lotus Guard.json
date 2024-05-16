@@ -13,35 +13,35 @@
 			"You transferred to the Edgewatch after your cover was unexpectedly blown and you needed a safe place to lie low away from the Ivy District. With your mastery of disguise and your ability to confidently converse with criminal masterminds, it won't be long before you've made yourself an indispensable undercover operator in this precinct as well.",
 			"Choose two ability boosts. One must be to Intelligence or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Deception} skill, {@skill Lore||Art Lore}, and {@skill Lore||Underworld Lore}. You gain a +1 circumstance bonus to Deception, Diplomacy, and Intimidation checks to interact with Lotus Guards and high-ranking criminals like guild masters, gang leaders, and mob bosses. You gain the {@feat Charming Liar} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Intelligence": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 3,
-			"skills": {
-				"Deception": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Charming Liar",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Intelligence": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
-		},
-		"misc": {
-			"Grants situational benefit": true
+			},
+			"trainedSkills": {
+				"count": 3,
+				"skills": {
+					"Deception": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Charming Liar",
+						"sourceID": "CRB"
+					}
+				]
+			},
+			"misc": {
+				"Grants situational benefit": true
+			}
 		}
 	}
 }

@@ -12,32 +12,32 @@
 			"You or someone close to you worked with the Knights of Ozem before Lastwall fell. In addition to knowledge of the organization's tenets and goals, you have germane understanding of the order's history. You believe there are valuable lessons in the Knights of Ozem's exploits.",
 			"Choose two ability boosts. One must be to Strength or Intelligence, and one is a free ability boost.",
 			"You're trained in the {@skill Society} skill and the {@skill Lore||Warfare Lore} skill. You gain the {@feat Courtly Graces} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Intelligence": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Society": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Courtly Graces",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Intelligence": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Society": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Courtly Graces",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

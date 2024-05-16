@@ -38,11 +38,11 @@
 					"Your relic casts {@spell time jump|som} on you to your specifications."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

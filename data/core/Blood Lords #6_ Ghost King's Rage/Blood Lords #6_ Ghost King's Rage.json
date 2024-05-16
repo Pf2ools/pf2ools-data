@@ -22,16 +22,16 @@
 			"Jessica Catalan",
 			"Mike Kimmel"
 		],
-		"publisher": "Paizo"
-	},
-	"tags": {
-		"status": {
-			"Missing content": true
-		},
-		"misc": {
-			"Official": true,
-			"GM-facing": true,
-			"legacyRuleset": true
+		"publisher": "Paizo",
+		"_tags": {
+			"status": {
+				"Missing content": true
+			},
+			"misc": {
+				"Official": true,
+				"GM-facing": true,
+				"legacyRuleset": true
+			}
 		}
 	}
 }

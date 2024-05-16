@@ -24,16 +24,16 @@
 		],
 		"entries": [
 			"{@note The relic gains the {@item holy} rune.}"
-		]
-	},
-	"tags": {
-		"itemTypes": {
-			"Weapon": true
-		},
-		"misc": {
-			"Is rune": true,
-			"Grants ability": true,
-			"Grants passive attribute": true
+		],
+		"_tags": {
+			"itemTypes": {
+				"Weapon": true
+			},
+			"misc": {
+				"Is rune": true,
+				"Grants ability": true,
+				"Grants passive attribute": true
+			}
 		}
 	}
 }

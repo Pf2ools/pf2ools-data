@@ -11,11 +11,11 @@
 		"abilityType": "Master",
 		"entries": [
 			"Once per day, your familiar can use 2 actions with the {@trait concentrate} trait to give up some of its animating energy and heal you. It must be in your space to do so. You restore a number of Hit Points equal to {@dice 1d8} times half your level (minimum {@dice 1d8})."
-		]
-	},
-	"tags": {
-		"misc": {
-			"grantsAbility": true
+		],
+		"_tags": {
+			"misc": {
+				"grantsAbility": true
+			}
 		}
 	}
 }

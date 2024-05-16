@@ -55,11 +55,11 @@
 					"Your relic attempts to {@quickref counteract|crb|3|counteracting} the effect, expending 1 gallon of stored liquid. At the GM's discretion, you can use this ability on effects made of other liquids, such as blood."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

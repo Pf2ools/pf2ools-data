@@ -36,12 +36,12 @@
 					"The damage increases by {@damage 1d6} at 3rd level and every 2 levels thereafter."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Soul seed": true,
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Soul seed": true,
+				"Grants ability": true
+			}
 		}
 	}
 }

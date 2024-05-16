@@ -20,36 +20,36 @@
 			"Your deviant abilities are of the troll classification. You gain the {@feat Titan Swing|DA} deviant feat. As a quirk, whenever you use a deviant ability, your feet elongate and your leg bones crack as your lower limbs transform into those of a rabbit, wolf, or other spry, long-heeled animal.",
 			"Choose two ability boosts. One must be to Dexterity or Intelligence, and one is a free ability boost.",
 			"You're trained in the {@skill Nature} skill and the {@skill Lore||Stabling Lore} skill. You gain the {@feat Express Rider|APG} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Dexterity": true,
-				"Intelligence": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Nature": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 2,
-			"options": [
-				{
-					"name": "Titan Swing",
-					"sourceID": "DA"
-				},
-				{
-					"name": "Express Rider",
-					"sourceID": "APG"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Dexterity": true,
+					"Intelligence": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Nature": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 2,
+				"options": [
+					{
+						"name": "Titan Swing",
+						"sourceID": "DA"
+					},
+					{
+						"name": "Express Rider",
+						"sourceID": "APG"
+					}
+				]
+			}
 		}
 	}
 }

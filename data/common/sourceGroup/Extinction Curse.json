@@ -5,12 +5,12 @@
 		"full": "Extinction Curse",
 		"short": "EC"
 	},
-	"tags": {
-		"misc": {
-			"Adventure": true
-		}
-	},
 	"data": {
-		"publisher": "Paizo"
+		"publisher": "Paizo",
+		"_tags": {
+			"misc": {
+				"Adventure": true
+			}
+		}
 	}
 }

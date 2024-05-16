@@ -11,12 +11,12 @@
 		"abilityType": "Familiar",
 		"entries": [
 			"Your familiar is your academic confidant. Despite being a {@trait minion}, your familiar gains 1 reaction at the start of its turns, which it can use only to {@action Aid} you on a {@action Recall Knowledge} skill check for a skill in which it has the {@familiarAbility skilled|APG} familiar ability (it still has to prepare to help you as normal for the {@action Aid} reaction). It automatically succeeds at its check to {@action Aid} you with those skills or automatically critically succeeds if you're a master of the skill in question. Your familiar must have the {@familiarAbility skilled|APG} ability to select this."
-		]
-	},
-	"tags": {
-		"misc": {
-			"grantsAbility": true,
-			"hasRequirement": true
+		],
+		"_tags": {
+			"misc": {
+				"grantsAbility": true,
+				"hasRequirement": true
+			}
 		}
 	}
 }

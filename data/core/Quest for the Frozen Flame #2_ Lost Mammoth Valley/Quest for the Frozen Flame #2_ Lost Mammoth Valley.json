@@ -25,13 +25,13 @@
 		"authors": [
 			"Jessica Catalan"
 		],
-		"publisher": "Paizo"
-	},
-	"tags": {
-		"misc": {
-			"Official": true,
-			"GM-facing": true,
-			"legacyRuleset": true
+		"publisher": "Paizo",
+		"_tags": {
+			"misc": {
+				"Official": true,
+				"GM-facing": true,
+				"legacyRuleset": true
+			}
 		}
 	}
 }

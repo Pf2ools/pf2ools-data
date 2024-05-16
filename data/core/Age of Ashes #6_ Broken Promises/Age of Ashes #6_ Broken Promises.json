@@ -24,13 +24,13 @@
 			"Alex Riggs",
 			"Owen K.C. Stephens"
 		],
-		"publisher": "Paizo"
-	},
-	"tags": {
-		"misc": {
-			"GM-facing": true,
-			"Official": true,
-			"legacyRuleset": true
+		"publisher": "Paizo",
+		"_tags": {
+			"misc": {
+				"GM-facing": true,
+				"Official": true,
+				"legacyRuleset": true
+			}
 		}
 	}
 }

@@ -43,14 +43,14 @@
 					"The shadow doesn't take up space, grant {@quickref flanking|crb|3|flanking}, or have any other attributes a creature would, and it automatically follows the chosen foe. The shadow can't make any attack other than its {@action Strike}, and feats or spells that affect weapons do not apply to it."
 				]
 			}
-		]
-	},
-	"tags": {
-		"itemTypes": {
-			"Weapon": true
-		},
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"itemTypes": {
+				"Weapon": true
+			},
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

@@ -11,11 +11,11 @@
 		"abilityType": "Master",
 		"entries": [
 			"You can summon your familiar to your side. Once per day, you can use a 3-action activity, which has the {@trait concentrate} trait, to teleport your familiar to your space. Your familiar must be within 1 mile or the attempt to summon it fails. This is a {@trait conjuration} and {@trait teleport} effect."
-		]
-	},
-	"tags": {
-		"misc": {
-			"grantsAbility": true
+		],
+		"_tags": {
+			"misc": {
+				"grantsAbility": true
+			}
 		}
 	}
 }

@@ -114,83 +114,83 @@
 					}
 				]
 			}
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Dexterity": true,
-				"Constitution": true,
-				"Intelligence": true,
-				"Wisdom": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 1,
-			"skills": {
-				"Lore": true
-			}
-		},
-		"gainedSpells": {
-			"count": 1,
-			"options": [
-				{
-					"name": "ghost sound",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "light",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "charm",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "endure elements",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "guidance",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "phantom steed",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "know direction",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "longstrider",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "speak with animals",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "remove fear",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "true strike",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "message",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "stabilize",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Dexterity": true,
+					"Constitution": true,
+					"Intelligence": true,
+					"Wisdom": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 1,
+				"skills": {
+					"Lore": true
+				}
+			},
+			"gainedSpells": {
+				"count": 1,
+				"options": [
+					{
+						"name": "ghost sound",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "light",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "charm",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "endure elements",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "guidance",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "phantom steed",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "know direction",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "longstrider",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "speak with animals",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "remove fear",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "true strike",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "message",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "stabilize",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

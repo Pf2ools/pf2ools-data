@@ -22,12 +22,12 @@
 			"Patrick Renie",
 			"Luis Loza"
 		],
-		"publisher": "Paizo"
-	},
-	"tags": {
-		"misc": {
-			"Official": true,
-			"legacyRuleset": true
+		"publisher": "Paizo",
+		"_tags": {
+			"misc": {
+				"Official": true,
+				"legacyRuleset": true
+			}
 		}
 	}
 }

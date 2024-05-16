@@ -14,35 +14,35 @@
 			"You transferred to the Edgewatch, the Precipice Quarter's new precinct, in the hope that you might meet others who sought to help\u2014not exploit\u2014Absalom's misguided.",
 			"Choose two ability boosts. One must be to Dexterity or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Thievery} skill and your choice of {@skill Lore||Legal Lore} or {@skill Lore||Underworld Lore}. You gain a +1 circumstance bonus to {@skill Deception}, {@skill Diplomacy}, and {@skill Intimidation} checks to interact with Token Guards and convicted criminals such as prison inmates. You gain the {@feat Pickpocket} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Dexterity": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Thievery": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Pickpocket",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Dexterity": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
-		},
-		"misc": {
-			"Grants situational benefit": true
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Thievery": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Pickpocket",
+						"sourceID": "CRB"
+					}
+				]
+			},
+			"misc": {
+				"Grants situational benefit": true
+			}
 		}
 	}
 }

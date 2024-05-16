@@ -29,11 +29,11 @@
 					"A swim Speed equal to your land Speed."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants passive attribute": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants passive attribute": true
+			}
 		}
 	}
 }

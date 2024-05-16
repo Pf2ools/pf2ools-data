@@ -39,11 +39,11 @@
 					"Your relic summons a creature to fight at your side, casting {@spell summon animal} with a level of half the item's level rounded up. You can {@action sustain an activation||Sustain this Activation} as you would the spell."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

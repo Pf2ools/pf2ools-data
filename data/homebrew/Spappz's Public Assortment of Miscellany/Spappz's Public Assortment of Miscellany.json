@@ -17,11 +17,11 @@
 		"licenseID": "OGLv1-0a",
 		"authors": [
 			"Spappz"
-		]
-	},
-	"tags": {
-		"misc": {
-			"Playtest": true
+		],
+		"_tags": {
+			"misc": {
+				"Playtest": true
+			}
 		}
 	}
 }

@@ -19,37 +19,37 @@
 			"You're trained in either the {@skill Performance} skill or the {@skill Society} skill, and you're trained in the {@skill Lore||Dwarf Lore} skill. If you selected {@skill Performance}, you gain the {@feat Impressive Performance} skill feat. If you chose {@skill Society}, you gain the {@feat Dubious Knowledge} skill feat.",
 			"{@b Connection:} Bulgra Veldollow, a matriarch in Clan Tolorr and accomplished puppeteer",
 			"{@b Reputation Points:} +0"
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Performance": true,
-				"Society": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Impressive Performance",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "Dubious Knowledge",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Performance": true,
+					"Society": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Impressive Performance",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "Dubious Knowledge",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

@@ -12,33 +12,33 @@
 			"You were once rescued or liberated from a hopeless situation by a group of Firebrands, and you have since aspired to become a Firebrand to continue their legacy. You still follow news of their adventures, and you hope to one day meet your heroes as comrades.",
 			"Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
 			"You are trained in your choice of the {@skill Athletics} or {@skill Performance} skill as well as the {@skill Lore||Firebrand Lore} skill. You gain the {@feat Assurance} skill feat in your chosen skill."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Athletics": true,
-				"Performance": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Assurance",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Athletics": true,
+					"Performance": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Assurance",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

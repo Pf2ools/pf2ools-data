@@ -5,12 +5,12 @@
 		"full": "Abomination Vaults",
 		"short": "AV"
 	},
-	"tags": {
-		"misc": {
-			"Adventure": true
-		}
-	},
 	"data": {
-		"publisher": "Paizo"
+		"publisher": "Paizo",
+		"_tags": {
+			"misc": {
+				"Adventure": true
+			}
+		}
 	}
 }

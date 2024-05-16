@@ -20,37 +20,37 @@
 			"You're trained in either the {@skill Athletics} skill or the {@skill Survival} skill, and you're trained in the {@skill Lore||Cave Lore} skill. If you selected {@skill Athletics}, you gain the {@feat Combat Climber} skill feat. If you chose {@skill Survival}, you gain the {@feat Terrain Expertise} (Underground) skill feat.",
 			"{@b Connection:} Ria, an oread gnome curator who studies rivethun traditions",
 			"{@b Reputation Points:} +0"
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Dexterity": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Athletics": true,
-				"Survival": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Combat Climber",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "Terrain Expertise",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Dexterity": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Athletics": true,
+					"Survival": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Combat Climber",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "Terrain Expertise",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

@@ -40,12 +40,12 @@
 					"At 17th level, you can {@action activate an item||Activate} and {@action Dismiss} the ability as often as you want, and it has unlimited duration."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Soul seed": true,
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Soul seed": true,
+				"Grants ability": true
+			}
 		}
 	}
 }

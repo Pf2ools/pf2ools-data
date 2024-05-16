@@ -12,32 +12,32 @@
 			"Woodcraft comes naturally to you, and you have learned how to use the forest to your tactical advantage against superior forces in skirmishes against the Molthuni army or the Ironfang Legion.",
 			"Choose two ability boosts. One must be to Dexterity or Wisdom, and one is a free ability boost.",
 			"You're trained in the {@skill Stealth} skill and the {@skill Lore||Forest Lore} skill. You gain the {@feat Terrain Stalker|CRB|Terrain Stalker (underbrush)} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Dexterity": true,
-				"Wisdom": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Stealth": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Terrain Stalker",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Dexterity": true,
+					"Wisdom": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Stealth": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Terrain Stalker",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

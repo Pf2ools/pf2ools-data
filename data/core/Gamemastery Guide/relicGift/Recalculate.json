@@ -38,11 +38,11 @@
 					"Analysis of angles, probabilities, and myriad other factors flows from your relic into your mind after you miss an attack, preparing you for the next one. You gain a +1 circumstance bonus to your next attack roll against the target you missed, as long as it is made before the beginning of your next turn."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

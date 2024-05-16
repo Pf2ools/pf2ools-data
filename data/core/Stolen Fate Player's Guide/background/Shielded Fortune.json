@@ -38,27 +38,27 @@
 				],
 				"type": "ability"
 			}
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"free": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Toughness",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"free": true
 				}
-			]
-		},
-		"misc": {
-			"Grants ability": true
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Toughness",
+						"sourceID": "CRB"
+					}
+				]
+			},
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

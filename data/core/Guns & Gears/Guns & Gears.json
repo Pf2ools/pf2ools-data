@@ -43,13 +43,13 @@
 			"Andrew White",
 			"Scott D. Young"
 		],
-		"publisher": "Paizo"
-	},
-	"tags": {
-		"misc": {
-			"Official": true,
-			"PFS-legal": true,
-			"legacyRuleset": true
+		"publisher": "Paizo",
+		"_tags": {
+			"misc": {
+				"Official": true,
+				"PFS-legal": true,
+				"legacyRuleset": true
+			}
 		}
 	}
 }

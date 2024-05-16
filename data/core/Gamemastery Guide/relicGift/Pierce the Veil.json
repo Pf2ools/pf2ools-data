@@ -21,11 +21,11 @@
 		],
 		"entries": [
 			"The relic allows you to pierce the veil between life and death. While you are holding or wearing the relic, you have the {@ability negative healing|b2} ability (as though you were {@trait undead}; positive energy harms you and negative energy heals you). In addition, whenever you are healed by a {@trait negative} spell or effect, you gain resistance 5 to all damage (except force, {@item ghost touch}, and positive) until the start of your next turn. Finally, you gain a +2 item bonus to all saves against {@trait death} effects while you are the bearer of the relic; this increases to a +3 item bonus at 13th level."
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants passive attribute": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants passive attribute": true
+			}
 		}
 	}
 }
