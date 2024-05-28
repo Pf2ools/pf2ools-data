@@ -37,33 +37,33 @@
 				],
 				"type": "ability"
 			}
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Intelligence": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 1,
-			"skills": {
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Multilingual",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Intelligence": true,
+					"free": true
 				}
-			]
-		},
-		"misc": {
-			"Grants ability": true
+			},
+			"trainedSkills": {
+				"count": 1,
+				"skills": {
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Multilingual",
+						"sourceID": "CRB"
+					}
+				]
+			},
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

@@ -27,26 +27,26 @@
 					"{@bold Touch Telepathy} The experiments to your body allowed you to link minds via touch. You gain telepathy with creatures as long as you are in physical contact. This allows you to communicate mentally with any creatures you're in physical contact with, as long as you both share a language. This doesn't give any special access to their thoughts, and communicates no more information than normal speech would."
 				]
 			}
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 1,
-			"abilities": {
-				"Constitution": true
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 1,
+				"abilities": {
+					"Constitution": true
+				}
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Occultism": true,
+					"Lore": true
+				}
+			},
+			"misc": {
+				"Grants sense": true,
+				"Grants resistance": true,
+				"Grants ability": true
 			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Occultism": true,
-				"Lore": true
-			}
-		},
-		"misc": {
-			"Grants sense": true,
-			"Grants resistance": true,
-			"Grants ability": true
 		}
 	}
 }

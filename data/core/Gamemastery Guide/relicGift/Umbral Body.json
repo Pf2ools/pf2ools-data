@@ -38,11 +38,11 @@
 					"Shadowy essence infuses your body, and you can reshape wisps of yourself into a variety of damaging shadows. This has the effect of a 6th-level {@spell shadow blast}, choosing from only bludgeoning, slashing, or piercing damage. You can't use this activation again for {@action 1d4} rounds."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

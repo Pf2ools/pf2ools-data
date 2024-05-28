@@ -22,12 +22,12 @@
 		"authors": [
 			"Ron Lundeen"
 		],
-		"publisher": "Paizo"
-	},
-	"tags": {
-		"misc": {
-			"Official": true,
-			"legacyRuleset": true
+		"publisher": "Paizo",
+		"_tags": {
+			"misc": {
+				"Official": true,
+				"legacyRuleset": true
+			}
 		}
 	}
 }

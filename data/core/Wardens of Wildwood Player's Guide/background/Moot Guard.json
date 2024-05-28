@@ -17,32 +17,32 @@
 			"You are a respected guardian of the Verduran Forest, and the Wildwood Lodge has called upon you to manage security at their upcoming Greenwood Gala. What deeds earned you such trust and esteem? Perhaps you haveskirmished with Taldan poachers, subdued riotous fey festivities, or spent years systematically sabotaging illegal Andoren woodcutting ventures. Maybe you are officially part of the Wildwood Lodge, serving as a part- time bodyguard and negotiator to help maintain order\u2014 otherwise Taldan nobles might send in their own army to keep the peace. Whatever the case, you know that tensions are building between factions who support and oppose the lodge's current leader, Valenar the Green, and you might have to step in to keep the Greenwood Gala fun and welcoming.",
 			"Choose two ability boosts. One must be to Strength or Constitution, and one is a free ability boost.",
 			"You're trained in the {@skill Intimidation} skill and the {@skill Lore||Warfare Lore} skill. You gain the {@feat Intimidating Glare} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Constitution": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Intimidation": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Intimidating Glare",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Constitution": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Intimidation": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Intimidating Glare",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

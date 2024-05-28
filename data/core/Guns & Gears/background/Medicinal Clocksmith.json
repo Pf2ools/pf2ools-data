@@ -12,32 +12,32 @@
 			"While others might have looked to clockwork as a mechanical innovation, you see the potential in the technology to improve the health of patients. You might be an experienced field medic who reached for a scrapped construct to help a wounded soldier, or a vanguard surgeon who's found replacing organs with clockwork more effective than repairing them. Perhaps you've also worked to \"optimize\" organic bodies with fine machinery, with or without the permission of your patients.",
 			"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
 			"You're trained in the {@skill Medicine} skill and the {@skill Lore||Engineering Lore} skill. You gain the {@feat Risky Surgery|APG} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Intelligence": true,
-				"Wisdom": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Medicine": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Risky Surgery",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Intelligence": true,
+					"Wisdom": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Medicine": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Risky Surgery",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

@@ -17,32 +17,32 @@
 			"You are a digger from the Hookclaw kobold tribe, born beneath the streets of Absalom, with muscles and mind hardened by years spent tunneling through rock and earth and a confidence built upon your pride in your draconic heritage.",
 			"Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Crafting} skill, the {@skill Lore||Mining Lore} skill, and the Engineering Lore skill. You gain the {@feat Improvise Tool|APG} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Crafting": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Improvise Tool",
-					"sourceID": "APG"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Crafting": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Improvise Tool",
+						"sourceID": "APG"
+					}
+				]
+			}
 		}
 	}
 }

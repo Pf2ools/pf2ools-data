@@ -17,32 +17,32 @@
 			"You aren't a mere visitor or settler living on a woodland's outskirts; you're an avid inhabitant of the Verduran Forest or another verdant wilderness. Intelligent plants like arboreals and leshies have accepted you as their neighbor, and you're adept at communicating with such creatures to avoid misunderstandings and violence. Even if you aren't part of the Wildwood Lodge, you have such a deeply ingrained connection to nature that the druids welcome you to their event.",
 			"Choose two ability boosts. One must be to Intelligence or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Diplomacy} skill and the {@skill Lore||Forest Lore} skill. You gain the {@feat No Cause for Alarm|APG} skill feat, and you can choose {@language Arboreal|B1} as one of your known languages."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Intelligence": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Diplomacy": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "No Cause for Alarm",
-					"sourceID": "APG"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Intelligence": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Diplomacy": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "No Cause for Alarm",
+						"sourceID": "APG"
+					}
+				]
+			}
 		}
 	}
 }

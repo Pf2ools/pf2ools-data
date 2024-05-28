@@ -11,11 +11,11 @@
 		"abilityType": "Familiar",
 		"entries": [
 			"Your familiar is keenly aware of any vibrations traveling through a surface. It gains imprecise {@ability tremorsense} with a range of 30 feet."
-		]
-	},
-	"tags": {
-		"misc": {
-			"affectsSenses": true
+		],
+		"_tags": {
+			"misc": {
+				"affectsSenses": true
+			}
 		}
 	}
 }

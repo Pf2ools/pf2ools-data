@@ -12,32 +12,32 @@
 			"You practically live behind the controls of a vehicle, and can handle just about anything the road, waves, and sky can throw at you. You likely adventure to test your skills in unusual environments and new and interesting vehicles.",
 			"Choose two ability boosts. One must be to Strength or Dexterity, and one is a free ability boost.",
 			"You're trained in the {@skill Acrobatics} skill and the {@skill Lore||Piloting Lore} skill. You gain the {@feat Assurance} skill feat with {@skill Lore||Piloting Lore}."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Dexterity": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Acrobatics": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Assurance",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Dexterity": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Acrobatics": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Assurance",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

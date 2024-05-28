@@ -13,32 +13,32 @@
 			"You decided to join the Call for Heroes to hoping to gain an opportunity to explore Citadel Altaerein.",
 			"Choose two ability boosts. One must be Strength or Intelligence, and one is a free ability boost.",
 			"You're trained in the {@skill Society} skill and the {@skill Lore||Architecture Lore} skill. You gain the {@feat Courtly Graces} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Intelligence": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Society": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Courtly Graces",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Intelligence": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Society": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Courtly Graces",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

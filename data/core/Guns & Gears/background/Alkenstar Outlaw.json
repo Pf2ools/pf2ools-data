@@ -18,32 +18,32 @@
 			"The life of an adventurer might even be a relief compared to a life forever on the run from Alkenstar authorities and their allies.",
 			"Choose two ability boosts. One boost must be to Dexterity or Constitution, and one is a free ability boost.",
 			"You're trained in {@skill Thievery} and {@skill Lore||Underworld Lore}. You gain the {@feat Subtle Theft} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Dexterity": true,
-				"Constitution": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Thievery": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Subtle Theft",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Dexterity": true,
+					"Constitution": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Thievery": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Subtle Theft",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

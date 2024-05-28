@@ -12,32 +12,32 @@
 			"Blacksmithing might be an ancient profession, but you are its cutting edge. You've studied the properties of different metals, experimented with them by combining them, exposing them to different elements and processes, and have even delved into the metaphysical nature of metal in your quest to master it. You might have taken up adventuring to acquire more funding and materials or to test your designs.",
 			"Choose two attribute boosts. One must be to Strength or Intelligence, and one is a free attribute boost.",
 			"You're trained in the {@skill Crafting} skill and the {@skill Lore||Plane of Metal Lore} skill. You gain the {@feat Specialty Crafting} skill feat with the blacksmithing specialty."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Intelligence": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Crafting": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Specialty Crafting",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Intelligence": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Crafting": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Specialty Crafting",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

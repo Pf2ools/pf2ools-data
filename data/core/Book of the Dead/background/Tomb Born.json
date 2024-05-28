@@ -33,25 +33,25 @@
 				],
 				"type": "ability"
 			}
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Dexterity": true,
-				"Constitution": true,
-				"free": true
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Dexterity": true,
+					"Constitution": true,
+					"free": true
+				}
+			},
+			"trainedSkills": {
+				"count": 1,
+				"skills": {
+					"Lore": true
+				}
+			},
+			"misc": {
+				"Grants ability": true
 			}
-		},
-		"trainedSkills": {
-			"count": 1,
-			"skills": {
-				"Lore": true
-			}
-		},
-		"misc": {
-			"Grants ability": true
 		}
 	}
 }

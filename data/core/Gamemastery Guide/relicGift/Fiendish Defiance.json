@@ -21,14 +21,14 @@
 		],
 		"entries": [
 			"The fiendish power of your relic offers you more protection against {@trait celestial||celestials} and allows you to ignore harm. While wearing the relic, you gain a +1 status bonus to AC against attacks by {@trait celestial||celestials} and resistance to an energy type corresponding to the relic's fiendish origin (such as fire resistance from a {@trait devil}). The resistance is equal to half the relic's level (minimum 1)."
-		]
-	},
-	"tags": {
-		"itemTypes": {
-			"Worn Item": true
-		},
-		"misc": {
-			"Grants passive attribute": true
+		],
+		"_tags": {
+			"itemTypes": {
+				"Worn Item": true
+			},
+			"misc": {
+				"Grants passive attribute": true
+			}
 		}
 	}
 }

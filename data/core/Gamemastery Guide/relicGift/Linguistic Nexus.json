@@ -24,11 +24,11 @@
 		],
 		"entries": [
 			"Your relic grants you a powerful neural plasticity, and as a result, you can learn languages more easily. You learn an additional language of your choice for every 2 levels of the relic (minimum 1). You can {@action retraining||retrain} one of the languages from the relic with only a single week of downtime."
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants passive attribute": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants passive attribute": true
+			}
 		}
 	}
 }

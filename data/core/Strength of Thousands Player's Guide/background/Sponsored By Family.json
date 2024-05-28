@@ -18,37 +18,37 @@
 			"Choose two ability boosts. One must be to Intelligence or Charisma, and one is a free ability boost.",
 			"You're trained in your choice of the {@skill Diplomacy} or {@skill Society} skill. You gain a skill feat: {@feat Hobnobber} if you chose {@skill Diplomacy} or {@feat Eye for Numbers|APG} if you chose {@skill Society}. You're also trained in {@skill Lore||Magaambya Lore}.",
 			"Your recommended primary branch is the Uzunjati."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Intelligence": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Diplomacy": true,
-				"Society": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Hobnobber",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "Eye for Numbers",
-					"sourceID": "APG"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Intelligence": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Diplomacy": true,
+					"Society": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Hobnobber",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "Eye for Numbers",
+						"sourceID": "APG"
+					}
+				]
+			}
 		}
 	}
 }

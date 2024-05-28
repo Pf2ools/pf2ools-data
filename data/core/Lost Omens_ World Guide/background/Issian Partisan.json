@@ -13,32 +13,32 @@
 			"Steeped in the cultural legacy of pirates and smugglers, you rely on your cleverness and charm as you make your way throughout the world.",
 			"Choose two ability boosts. One must be to Intelligence or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Deception} skill and the {@skill Lore||Underworld Lore} skill. You gain the {@feat Charming Liar} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Intelligence": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Deception": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Charming Liar",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Intelligence": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Deception": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Charming Liar",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

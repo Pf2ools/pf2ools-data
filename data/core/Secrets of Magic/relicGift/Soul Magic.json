@@ -41,12 +41,12 @@
 					"You infuse yourself or a willing creature that you touch with spiritual energy. This has the effect of {@spell divine inspiration}."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Soul seed": true,
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Soul seed": true,
+				"Grants ability": true
+			}
 		}
 	}
 }

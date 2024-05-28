@@ -12,32 +12,32 @@
 			"You have spent your youth wandering the lands of Varisia and beyond among the brightly painted wagons of a Varisian caravan. You have heard endless tales of your people's history and lore, and have learned many songs and stories from the disparate people you have met.",
 			"Choose two ability boosts. One must be to Dexterity or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Performance} skill and the {@skill Lore||Circus Lore} skill. You gain the {@feat Fascinating Performance} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Dexterity": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Performance": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Fascinating Performance",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Dexterity": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Performance": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Fascinating Performance",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

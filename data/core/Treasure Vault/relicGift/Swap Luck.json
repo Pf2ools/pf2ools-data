@@ -39,11 +39,11 @@
 					"You swap rolls with another target who's willing to swap with you. Each of you determines the new results with your new rolls."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

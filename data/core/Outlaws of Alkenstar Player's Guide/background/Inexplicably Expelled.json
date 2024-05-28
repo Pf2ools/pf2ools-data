@@ -21,32 +21,32 @@
 			"Unfortunately for Mugland, he chose the wrong student to destroy. Now, you'll do whatever's necessary to get your revenge on the villain who stole the future you had worked so hard to build for yourself.",
 			"Choose two ability boosts. One must be to Intelligence or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Crafting} skill and the {@skill Lore||Academia Lore} skill. You gain the {@feat Alchemical Crafting} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Intelligence": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Crafting": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Alchemical Crafting",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Intelligence": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Crafting": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Alchemical Crafting",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

@@ -12,11 +12,11 @@
 		"entries": [
 			"Your familiar naturally recovers in the shadows. After spending 10 consecutive minutes in an area of dim light or darkness, your familiar recovers a number of Hit Points equal to half your level.",
 			"{@note This ability is available only to {@feat shadow familiar|SoM|shadow familiars}.}"
-		]
-	},
-	"tags": {
-		"misc": {
-			"hasRequirement": true
+		],
+		"_tags": {
+			"misc": {
+				"hasRequirement": true
+			}
 		}
 	}
 }

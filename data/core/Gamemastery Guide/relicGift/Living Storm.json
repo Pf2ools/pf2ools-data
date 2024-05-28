@@ -27,12 +27,12 @@
 		],
 		"entries": [
 			"The relic grants you a fly Speed equal to your Speed or 60 feet, whichever is greater. In addition, a creature that {@action strike||Strikes} you with a melee attack takes 5 electricity damage, and you can cast 5th-level {@spell lightning bolt} as an innate spell."
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants passive attribute": true,
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants passive attribute": true,
+				"Grants ability": true
+			}
 		}
 	}
 }

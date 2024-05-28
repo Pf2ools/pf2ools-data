@@ -19,32 +19,32 @@
 			"Not only is it as though you were never a shieldmarshal at all, but you've got a rap sheet implicating you as a key member in the criminal organizations you spent your career infiltrating. Luckily, no one could take away the skills you learned from your deep-cover missions, and your new notoriety has earned you quite a reputation among Alkenstar's criminal elite. Through your underworld connections, you've identified Deputy Shieldmarshal Anjelique Loveless as the one responsible for your fall from grace. It seems you were onto something that she didn't want you to know about, but there's only one way to figure out exactly why Loveless ruined your reputation and gave you your outlaw status\u2014find her.",
 			"Choose two ability boosts. One must be to Strength or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Deception} skill and the {@skill Lore||Underworld Lore} skill. You gain the {@feat Lie to Me} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Deception": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Lie to Me",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Deception": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Lie to Me",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

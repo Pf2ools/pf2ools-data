@@ -64,57 +64,57 @@
 					}
 				]
 			}
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Wisdom": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Crafting": true,
-				"Society": true,
-				"Lore": true,
-				"Athletics": true,
-				"Survival": true,
-				"Diplomacy": true,
-				"Deception": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Specialty Crafting",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "Multilingual",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "Underwater Marauder",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "Terrain Expertise",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "Group Impression",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "Charming Liar",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Wisdom": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Crafting": true,
+					"Society": true,
+					"Lore": true,
+					"Athletics": true,
+					"Survival": true,
+					"Diplomacy": true,
+					"Deception": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Specialty Crafting",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "Multilingual",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "Underwater Marauder",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "Terrain Expertise",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "Group Impression",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "Charming Liar",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

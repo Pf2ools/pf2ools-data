@@ -19,32 +19,32 @@
 			"You're trained in the {@skill Society} skill and the {@skill Lore||Highhelm Lore} skill. You gain the {@feat Multilingual} skill feat.",
 			"{@b Connection:} You have no special connection or sponsor in Clan Tolorr.",
 			"{@b Reputation Points:} +2"
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Wisdom": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Society": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Multilingual",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Wisdom": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Society": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Multilingual",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

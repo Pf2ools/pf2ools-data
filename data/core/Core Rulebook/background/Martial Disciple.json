@@ -12,37 +12,37 @@
 			"You dedicated yourself to intense training and rigorous study to become a great warrior. The school you attended might have been a traditionalist monastery, an elite military academy, or the local branch of a prestigious mercenary organization.",
 			"Choose two ability boosts. One must be to Strength or Dexterity, and one is a free ability boost.",
 			"You're trained in your choice of the {@skill Acrobatics} or {@skill Athletics} skill. You gain a skill feat: {@feat Cat Fall} if you chose {@skill Acrobatics} or {@feat Quick Jump} if you chose {@skill Athletics}. You're also trained in the {@skill Lore||Warfare Lore} skill."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Dexterity": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Acrobatics": true,
-				"Athletics": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Cat Fall",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "Quick Jump",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Dexterity": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Acrobatics": true,
+					"Athletics": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Cat Fall",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "Quick Jump",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

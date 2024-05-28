@@ -24,15 +24,15 @@
 		],
 		"entries": [
 			"{@note The relic gains the {@item greater flaming} rune.}"
-		]
-	},
-	"tags": {
-		"itemTypes": {
-			"Weapon": true
-		},
-		"misc": {
-			"Is rune": true,
-			"Grants passive attribute": true
+		],
+		"_tags": {
+			"itemTypes": {
+				"Weapon": true
+			},
+			"misc": {
+				"Is rune": true,
+				"Grants passive attribute": true
+			}
 		}
 	}
 }

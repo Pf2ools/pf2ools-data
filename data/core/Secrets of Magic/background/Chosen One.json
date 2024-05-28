@@ -36,26 +36,26 @@
 					"This is a {@trait misfortune} effect. You can't use prophecy's pawn again until the GM uses this option or 24 hours pass, whichever comes first."
 				]
 			}
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Charisma": true,
-				"free": true
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Charisma": true,
+					"free": true
+				}
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Any": true,
+					"Lore": true
+				}
+			},
+			"misc": {
+				"Grants ability": true
 			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Any": true,
-				"Lore": true
-			}
-		},
-		"misc": {
-			"Grants ability": true
 		}
 	}
 }

@@ -31,35 +31,35 @@
 					"Increase the party's reputation with Southbank by an additional 2 points (your GM has information about Willowshore reputation)."
 				]
 			}
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Charisma": true,
-				"Constitution": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Crafting": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Hobnobber",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Charisma": true,
+					"Constitution": true,
+					"free": true
 				}
-			]
-		},
-		"misc": {
-			"Grants ability": true
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Crafting": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Hobnobber",
+						"sourceID": "CRB"
+					}
+				]
+			},
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

@@ -15,35 +15,35 @@
 			"But you don't care\u2014you know you're doing the right thing by taking on the rough jobs of a low-ranking guard, and you're ready to shine based on your own merits, not those of your lofty kin.",
 			"Choose two ability boosts. One must be to Constitution or Intelligence, and one is a free ability boost.",
 			"You're trained in the {@skill Diplomacy} skill and {@skill Lore||Legal Lore}. You gain a +1 circumstance bonus to {@skill Deception}, {@skill Diplomacy}, and {@skill Intimidation} checks to interact with members of Absalom's political establishment. You gain the {@feat Hobnobber} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Intelligence": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Diplomacy": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Hobnobber",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Intelligence": true,
+					"free": true
 				}
-			]
-		},
-		"misc": {
-			"Grants situational benefit": true
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Diplomacy": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Hobnobber",
+						"sourceID": "CRB"
+					}
+				]
+			},
+			"misc": {
+				"Grants situational benefit": true
+			}
 		}
 	}
 }

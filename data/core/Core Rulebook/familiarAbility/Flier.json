@@ -11,11 +11,11 @@
 		"abilityType": "Familiar",
 		"entries": [
 			"It gains a fly Speed of 25 feet."
-		]
-	},
-	"tags": {
-		"misc": {
-			"affectsMovement": true
+		],
+		"_tags": {
+			"misc": {
+				"affectsMovement": true
+			}
 		}
 	}
 }

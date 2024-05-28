@@ -12,32 +12,32 @@
 			"You are a child of the Bonuwat people, and the sea's salt flows through your veins. You've taken to sailing and swimming gracefully and with ease, earning you the honorific \"wavetouched.\" Choose two ability boosts. One must be to Strength or Wisdom, and one is a free ability boost.",
 			"You're trained in the {@skill Athletics} skill and the {@skill Lore||Ocean Lore} skill.",
 			"You gain the {@feat Underwater Marauder} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Wisdom": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Athletics": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Underwater Marauder",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Wisdom": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Athletics": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Underwater Marauder",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

@@ -14,32 +14,32 @@
 			"The tough circumstances of your upbringing in one of Goka's more downtrodden neighborhoods\u2014such as industrial Oldtown, the slums of the Scales district, or even the crime-ridden undercity\u2014taught you lessons of self-reliance and how to quickly make friends in unlikely circumstances. You've scraped together an entry into the Ruby Phoenix Tournament's prequalifier with a team you can trust. Now all that's left is to pull off the impossible and win this thing once and for all.",
 			"Choose two ability boosts. One must be to Constitution or Dexterity, and one is a free ability boost.",
 			"You're trained in {@skill Society} and the {@skill Lore||Goka Lore} skill. You gain the {@feat Streetwise} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Dexterity": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Society": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Streetwise",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Dexterity": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Society": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Streetwise",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

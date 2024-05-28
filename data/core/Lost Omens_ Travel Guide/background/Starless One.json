@@ -37,26 +37,26 @@
 					"You break the influence over your fortunes and claim a stable hold over your fate. You ignore the {@trait fortune} or {@trait misfortune} effect and can roll the triggering roll normally."
 				]
 			}
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Wisdom": true,
-				"Charisma": true,
-				"free": true
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Wisdom": true,
+					"Charisma": true,
+					"free": true
+				}
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Occultism": true,
+					"Lore": true
+				}
+			},
+			"misc": {
+				"Grants ability": true
 			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Occultism": true,
-				"Lore": true
-			}
-		},
-		"misc": {
-			"Grants ability": true
 		}
 	}
 }

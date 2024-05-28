@@ -12,32 +12,32 @@
 			"Even in a city renowned for its alchemy, you were able to rise above the competition.",
 			"Choose two ability boosts. One must be to Dexterity or Intelligence, and one is a free ability boost.",
 			"You're trained in the {@skill Crafting} skill and the {@skill Lore||Alchemical Lore} skill. You gain the {@feat Specialty Crafting} skill feat with alchemy."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Dexterity": true,
-				"Intelligence": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Crafting": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Specialty Crafting",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Dexterity": true,
+					"Intelligence": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Crafting": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Specialty Crafting",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

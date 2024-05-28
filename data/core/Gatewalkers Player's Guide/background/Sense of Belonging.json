@@ -18,36 +18,36 @@
 			"Your deviant abilities are of the wraith classification. You gain the {@feat Eerie Flicker|DA} deviant feat. As a quirk, whenever you use a deviant ability, plants around you spontaneously bloom and then wilt, as if rapidly aging.",
 			"Choose two ability boosts. One must be to Constitution or Intelligence, and one is a free ability boost.",
 			"You're trained in the {@skill Survival} skill and the {@skill Lore||Scouting Lore} skill. You gain the {@feat Forager} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Intelligence": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Survival": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 2,
-			"options": [
-				{
-					"name": "Eerie Flicker",
-					"sourceID": "DA"
-				},
-				{
-					"name": "Forager",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Intelligence": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Survival": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 2,
+				"options": [
+					{
+						"name": "Eerie Flicker",
+						"sourceID": "DA"
+					},
+					{
+						"name": "Forager",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

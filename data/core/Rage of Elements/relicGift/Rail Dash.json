@@ -35,11 +35,11 @@
 					"Your relic conjures a guideway of magnets beneath you, creating a frictionless path for you to rush forward at high speeds. You {@action Stride} up to three times in a straight line. If you end your final {@action Stride} adjacent to an object or creature, you ram into it, dealing {@damage 1d12} bludgeoning damage for every 2 levels of the relic, with a basic Reflex save."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

@@ -42,11 +42,11 @@
 					"The relic attempts a counteract check. If the check succeeds, the relic absorbs the effect completely, negating it. Instead, you're {@condition quickened} for up to 1 minute, but no longer than the triggering effect's duration. You then become temporarily immune to this effect for 1 hour."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

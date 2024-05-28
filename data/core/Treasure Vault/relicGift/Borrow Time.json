@@ -35,11 +35,11 @@
 					"You point the relic at a creature within 30 feet, imbuing it with urgency. The creature gains the {@condition quickened} condition for 1 round. After the condition ends, the creature is {@condition slowed 1} for 1 round and temporarily immune to this gift until you next perform your daily preparations."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

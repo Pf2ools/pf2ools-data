@@ -38,11 +38,11 @@
 					"You allow a portion of the fire magic housed in your relic to escape in a direction of your choice. You deal {@damage 1d10} fire damage for every 2 levels of the relic to all creatures in a 30-foot cone (basic Reflex). You can't use Searing Wave again for {@dice 1d4} rounds."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

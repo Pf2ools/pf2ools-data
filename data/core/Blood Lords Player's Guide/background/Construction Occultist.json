@@ -18,37 +18,37 @@
 			"You are still well-regarded by the Builders League. Your party gains 1 Reputation Point with the Builders League at the start of the campaign.",
 			"Choose two ability boosts. One must be to Intelligence or Strength, and one is a free ability boost.",
 			"You're trained in your choice of the {@skill Athletics} or {@skill Occultism} skill. You gain a skill feat: {@feat Hefty Hauler} if you chose {@skill Athletics} or {@feat Oddity Identification} if you chose {@skill Occultism}. You're also trained in {@skill Lore||Architecture Lore}."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Intelligence": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Athletics": true,
-				"Occultism": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Hefty Hauler",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "Oddity Identification",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Intelligence": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Athletics": true,
+					"Occultism": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Hefty Hauler",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "Oddity Identification",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

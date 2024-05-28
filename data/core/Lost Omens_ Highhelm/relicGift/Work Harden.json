@@ -39,11 +39,11 @@
 					"You strike the relic against a shield or armor made of metal, and steam pours from it like it's just been quenched. The target item hardens for 10 minutes, increasing its item bonus to AC by 1 if it's armor or its Hardness by 5 if it's a shield."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

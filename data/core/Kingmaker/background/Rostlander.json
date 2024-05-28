@@ -17,32 +17,32 @@
 			"You were raised in the south of Brevoy, a land of dense forests and rolling plains, of crystalline rivers and endless sapphire skies. You come from hardy stock and were raised with simple sensibilities\u2014that hard work earns well-deserved gains, the importance of charity and compassion, and the value of personal and familial honor. Yours is the country of the Aldori swordlords and the heroes who refused to bend before the armies of a violent conqueror. You care little for matters of politics and nobles or of deception and schemes. You are thoroughly Brevic, and the call for champions willing to expand your land's influence into the Stolen Lands has inflamed your sense of patriotism and honor, and so you have joined an expedition to journey southward and build a kingdom.",
 			"Choose two ability boosts. One must be to Strength or Constitution, and one is a free ability boost.",
 			"You're trained in the {@skill Athletics} skill and the {@skill Lore||Farming Lore} skill. You gain the {@feat Hefty Hauler} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Constitution": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Athletics": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Hefty Hauler",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Constitution": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Athletics": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Hefty Hauler",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

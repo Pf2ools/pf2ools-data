@@ -18,36 +18,36 @@
 			"The Reanimators appreciate your past service. Your party gains 1 Reputation Point with the Reanimators at the start of the campaign.",
 			"Choose two ability boosts. One must be to Constitution or Wisdom, and one is a free ability boost.",
 			"You're trained in the {@skill Medicine} skill. You gain your choice of either the {@feat Risky Surgery|APG} or {@feat Stitch Flesh|BotD} skill feats. You're also trained in {@skill Lore||Zombie Lore}."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Wisdom": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Medicine": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Risky Surgery",
-					"sourceID": "APG"
-				},
-				{
-					"name": "Stitch Flesh",
-					"sourceID": "BotD"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Wisdom": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Medicine": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Risky Surgery",
+						"sourceID": "APG"
+					},
+					{
+						"name": "Stitch Flesh",
+						"sourceID": "BotD"
+					}
+				]
+			}
 		}
 	}
 }

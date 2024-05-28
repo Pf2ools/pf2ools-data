@@ -31,35 +31,35 @@
 					"You have a flash of insight as you recall an old parable, obscure legend, or applicable tale to the topic at hand. This {@action Recall Knowledge} check loses the {@trait secret} trait. Increase the result of your check to {@action Recall Knowledge} by one degree of success."
 				]
 			}
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Intelligence": true,
-				"Wisdom": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Religion": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Oddity Identification",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Intelligence": true,
+					"Wisdom": true,
+					"free": true
 				}
-			]
-		},
-		"misc": {
-			"Grants ability": true
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Religion": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Oddity Identification",
+						"sourceID": "CRB"
+					}
+				]
+			},
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

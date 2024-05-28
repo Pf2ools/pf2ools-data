@@ -12,31 +12,31 @@
 			"You grew up in the church of the Dark Smith, where you learned the value of hard work and achieving vocational mastery.",
 			"Choose two ability boosts. One must be to Constitution or Intelligence, and one is a free ability boost.",
 			"You gain the {@feat Skill Training} skill feat, and you're trained in the {@skill Lore||Droskar Lore} skill."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Intelligence": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 1,
-			"skills": {
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Skill Training",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Intelligence": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 1,
+				"skills": {
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Skill Training",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

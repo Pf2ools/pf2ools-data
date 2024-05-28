@@ -19,37 +19,37 @@
 			"You're trained in either the {@skill Crafting} skill or the {@skill Thievery} skill, and you're trained in either the {@skill Lore||Accounting Lore} or the {@skill Lore||Underworld Lore} skill. If you selected {@skill Crafting}, you gain the {@feat Quick Repair} skill feat. If you chose {@skill Thievery}, you gain the {@feat Assurance} ({@skill Thievery}) skill feat.",
 			"{@b Connection:} Ria, an oread gnome curator who studies rivethun traditions",
 			"{@b Reputation Points:} +1"
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Dexterity": true,
-				"Intelligence": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Crafting": true,
-				"Thievery": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Quick Repair",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "Assurance",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Dexterity": true,
+					"Intelligence": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Crafting": true,
+					"Thievery": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Quick Repair",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "Assurance",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

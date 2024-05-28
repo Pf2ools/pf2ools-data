@@ -42,11 +42,11 @@
 					"You strike your relic against a weapon, armor, or shield made of metal. The item becomes red hot and, over the next 10 minutes, transforms into a different base item from the same category. This changes the item's base form while retaining its same materials, runes, and magical properties. Both base items must have an item level of 1 or less, and weapons must require the same number of hands. Specific items can't be changed in this way unless the GM expressly allows it. For example, a +2 cold iron mace can become a +2 cold iron longsword, or {@item chain mail} can become {@item half plate}, but a {@item moonlit chain} can't be affected in this way."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

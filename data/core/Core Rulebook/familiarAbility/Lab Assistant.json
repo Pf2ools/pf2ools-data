@@ -11,12 +11,12 @@
 		"abilityType": "Familiar",
 		"entries": [
 			"It can use your {@action Quick Alchemy} action. You must have {@action Quick Alchemy}, and your familiar must be in your space. This has the same cost and requirement as if you used it. It must have the {@familiarAbility manual dexterity} ability to select this."
-		]
-	},
-	"tags": {
-		"misc": {
-			"grantsAbility": true,
-			"hasRequirement": true
+		],
+		"_tags": {
+			"misc": {
+				"grantsAbility": true,
+				"hasRequirement": true
+			}
 		}
 	}
 }

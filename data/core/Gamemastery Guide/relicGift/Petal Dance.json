@@ -41,11 +41,11 @@
 					"You discorporate into a cloud of petals and leaves. This grants you the {@trait swarm} trait, immunity to falling damage, resistance 5 to bludgeoning and slashing damage, and weakness 5 to area and {@trait splash} damage. You can fit into spaces only a few inches wide, moving your constituent petals through the gap. You don't gain the {@ability swarm mind} ability, so you are still affected normally by {@trait mental} effects. As a swarm, you can't speak, {@action cast a spell||cast spells}, use {@trait manipulate} actions requiring your hands, {@action activate an item||activate} your magic items, or make any of your {@action strike||Strikes} with your normal body. You remain in this form for 1 minute or until you {@action Dismiss} the activation. At 13th level, the relic gains a reaction that triggers when you fall or take damage, applying this gift's resistances, weaknesses, and immunity to falling damage to the triggering effect."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

@@ -29,11 +29,11 @@
 				]
 			},
 			"{@note This ability is available only to {@feat shadow familiar|SoM|shadow familiars}.}"
-		]
-	},
-	"tags": {
-		"misc": {
-			"hasRequirement": true
+		],
+		"_tags": {
+			"misc": {
+				"hasRequirement": true
+			}
 		}
 	}
 }

@@ -18,21 +18,21 @@
 			"Choose two ability boosts. One must be to Constitution or Wisdom, and one is a free ability boost.",
 			"You're trained in a {@skill Lore} skill of your choice, though it can't be about a magical subject (as determined by the GM if it's unclear). Whenever you would be affected by magic, even your own magic or that of an ally, the originator of the effect must attempt a DC {@flatDC 3} flat check.",
 			"On a failure, the magic doesn't affect you (though it still has its normal effects on anyone else). On a success, the magic affects you and there is no need to attempt further flat checks for the same {@trait magical} effect, even if it affects you again later."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Wisdom": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 1,
-			"skills": {
-				"Lore": true
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Wisdom": true,
+					"free": true
+				}
+			},
+			"trainedSkills": {
+				"count": 1,
+				"skills": {
+					"Lore": true
+				}
 			}
 		}
 	}

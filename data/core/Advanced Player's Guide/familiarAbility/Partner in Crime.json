@@ -11,11 +11,11 @@
 		"abilityType": "Familiar",
 		"entries": [
 			"Your familiar is your criminal associate. Despite being a minion, your familiar gains 1 reaction at the start of its turns, which it can use only to {@action Aid} you on a {@skill Deception} or {@skill Thievery} skill check (it still has to prepare to help you as normal for the {@action Aid} reaction). It automatically succeeds at its check to {@action Aid} you with those skills or automatically critically succeeds if you're a master of the skill in question."
-		]
-	},
-	"tags": {
-		"misc": {
-			"grantsAbility": true
+		],
+		"_tags": {
+			"misc": {
+				"grantsAbility": true
+			}
 		}
 	}
 }

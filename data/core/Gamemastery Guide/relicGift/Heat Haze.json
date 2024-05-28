@@ -43,12 +43,12 @@
 					"Your relic erratically elevates the air temperature around you, creating heat shimmers that distort your appearance and grant you the {@condition concealed} condition for 1 minute. As the nature of this effect still leaves your location obvious, you can't use this concealment to {@action Hide} or {@action Sneak}."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants passive attribute": true,
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants passive attribute": true,
+				"Grants ability": true
+			}
 		}
 	}
 }

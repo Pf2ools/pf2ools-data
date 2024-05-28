@@ -13,35 +13,35 @@
 			"Your laudable performance has earned you a transfer to the newly formed Edgewatch in the Precipice Quarter, where you'll put your formidable reputation to good use by patrolling the Radiant Festival and ensuring the safety of Absalom's most vulnerable visitors.",
 			"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Society}, plus either {@skill Lore||Gladiatorial Lore} or {@skill Lore||Genealogy Lore}. You gain a +1 circumstance bonus to {@skill Deception}, {@skill Diplomacy}, and {@skill Intimidation} checks to interact with members of the Sleepless Suns and residents of the Foreign Quarter. You gain the {@feat Multilingual} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Wisdom": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Society": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Multilingual",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Wisdom": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
-		},
-		"misc": {
-			"Grants situational benefit": true
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Society": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Multilingual",
+						"sourceID": "CRB"
+					}
+				]
+			},
+			"misc": {
+				"Grants situational benefit": true
+			}
 		}
 	}
 }

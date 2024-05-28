@@ -37,25 +37,25 @@
 					"You are {@condition quickened} this turn. You can use your extra action to {@action Stride}."
 				]
 			}
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Dexterity": true,
-				"Intelligence": true,
-				"free": true
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Dexterity": true,
+					"Intelligence": true,
+					"free": true
+				}
+			},
+			"trainedSkills": {
+				"count": 1,
+				"skills": {
+					"Lore": true
+				}
+			},
+			"misc": {
+				"Grants ability": true
 			}
-		},
-		"trainedSkills": {
-			"count": 1,
-			"skills": {
-				"Lore": true
-			}
-		},
-		"misc": {
-			"Grants ability": true
 		}
 	}
 }

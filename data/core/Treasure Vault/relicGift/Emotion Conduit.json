@@ -41,11 +41,11 @@
 					"You channel your relic's emotion at a target within 30 feet, overpowering an {@trait emotion} effect on that creature. The relic attempts a counteract check. If the check succeeds, the target feels a sudden rush of the relic's emotion, and the counteracted effect ends on the target. The target is temporarily immune to your relic's emotion conduit until you make your next daily preparations."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

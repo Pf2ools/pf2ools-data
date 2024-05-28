@@ -12,32 +12,32 @@
 			"You grew up in the kitchens of a tavern or other dining establishment and excelled there, becoming an exceptional cook. Baking, cooking, a little brewing on the side\u2014you've spent lots of time out of sight. It's about time you went out into the world to catch some sights for yourself.",
 			"Choose two ability boosts. One must be to Constitution or Intelligence, and one is a free ability boost.",
 			"You're trained in the {@skill Survival} skill and the {@skill Lore||Cooking Lore} skill. You gain the {@feat Seasoned|APG} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Intelligence": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Survival": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Seasoned",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Intelligence": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Survival": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Seasoned",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

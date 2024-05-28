@@ -17,38 +17,38 @@
 			"Whether by instinct or study, magic is one of your most notable talents. Your understanding of the traditions of ancient Thassilon has helped you learn languages associated with that nation. Elder Ordwi fears there may be some form of magical affliction spreading in Iron Harbor, and she needs your knowledge to help her determine the threat.",
 			"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
 			"You're trained in your choice of the {@skill Arcana}, {@skill Nature}, {@skill Occultism}, or {@skill Religion} skill, and gain {@language Thassilonian} as a bonus language. You gain the {@feat Quick Identification} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Intelligence": true,
-				"Wisdom": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Arcana": true,
-				"Nature": true,
-				"Occultism": true,
-				"Religion": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Quick Identification",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Intelligence": true,
+					"Wisdom": true,
+					"free": true
 				}
-			]
-		},
-		"misc": {
-			"Grants language": true
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Arcana": true,
+					"Nature": true,
+					"Occultism": true,
+					"Religion": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Quick Identification",
+						"sourceID": "CRB"
+					}
+				]
+			},
+			"misc": {
+				"Grants language": true
+			}
 		}
 	}
 }

@@ -21,37 +21,37 @@
 			"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
 			"You're trained in your choice of the {@skill Survival} or {@skill Performance} skill. You gain a skill feat: {@feat Survey Wildlife} if you chose {@skill Survival} or {@feat Impressive Performance} if you chose {@skill Performance}. You're also trained in {@skill Lore||Nantambu Lore}.",
 			"Your recommended primary branch is the Emerald Boughs."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Wisdom": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Performance": true,
-				"Survival": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Survey Wildlife",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "Impressive Performance",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Wisdom": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Performance": true,
+					"Survival": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Survey Wildlife",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "Impressive Performance",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

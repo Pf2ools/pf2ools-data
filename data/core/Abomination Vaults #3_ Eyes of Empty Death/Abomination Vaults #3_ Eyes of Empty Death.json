@@ -25,12 +25,12 @@
 			"Stephen Radney-MacFarland",
 			"James Jacobs and Mikhail Rekun"
 		],
-		"publisher": "Paizo"
-	},
-	"tags": {
-		"misc": {
-			"Official": true,
-			"legacyRuleset": true
+		"publisher": "Paizo",
+		"_tags": {
+			"misc": {
+				"Official": true,
+				"legacyRuleset": true
+			}
 		}
 	}
 }

@@ -5,12 +5,12 @@
 		"full": "Lost Omens",
 		"short": "LO"
 	},
-	"tags": {
-		"misc": {
-			"Ongoing": true
-		}
-	},
 	"data": {
-		"publisher": "Paizo"
+		"publisher": "Paizo",
+		"_tags": {
+			"misc": {
+				"Ongoing": true
+			}
+		}
 	}
 }

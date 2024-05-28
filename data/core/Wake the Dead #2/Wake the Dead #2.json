@@ -22,17 +22,17 @@
 			"Mikhail Rekun",
 			"Fred Van Lente"
 		],
-		"publisher": "Paizo"
-	},
-	"tags": {
-		"status": {
-			"Missing content": true
-		},
-		"publicationType": {
-			"Comic": true
-		},
-		"misc": {
-			"legacyRuleset": true
+		"publisher": "Paizo",
+		"_tags": {
+			"status": {
+				"Missing content": true
+			},
+			"publicationType": {
+				"Comic": true
+			},
+			"misc": {
+				"legacyRuleset": true
+			}
 		}
 	}
 }

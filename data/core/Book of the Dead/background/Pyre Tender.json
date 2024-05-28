@@ -13,32 +13,32 @@
 			"Choose two ability boosts. One must be to Dexterity or Intelligence, and one is a free ability boost.",
 			"You're trained in the {@skill Crafting} skill and the {@skill Lore||Funeral Lore} skill.",
 			"You gain the {@feat Alchemical Crafting} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Dexterity": true,
-				"Intelligence": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Crafting": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Alchemical Crafting",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Dexterity": true,
+					"Intelligence": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Crafting": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Alchemical Crafting",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

@@ -37,27 +37,27 @@
 					"You call on the power of a personal, eldritch sign of protection, which flares brightly before slowly fading. You gain a +2 circumstance bonus to the triggering saving throw, or a +3 circumstance bonus if the effect is a curse."
 				]
 			}
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Intelligence": true,
-				"Charisma": true,
-				"free": true
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Intelligence": true,
+					"Charisma": true,
+					"free": true
+				}
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Occultism": true,
+					"Lore": true
+				}
+			},
+			"misc": {
+				"Grants ability": true,
+				"GM influence": true
 			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Occultism": true,
-				"Lore": true
-			}
-		},
-		"misc": {
-			"Grants ability": true,
-			"GM influence": true
 		}
 	}
 }

@@ -17,35 +17,35 @@
 			"You spent your youth in the wilderness, living close to or perhaps raised by animals. You have a close, mystical connection with these animals and gained certain abilities from them, though this limited your well-roundedness in mental pursuits.",
 			"Choose one ability boost. It must be Strength, Dexterity, or Constitution.",
 			"You are trained in {@skill Nature} and {@skill Survival}. You gain {@ability low-light vision} (or {@ability darkvision} if you already had {@ability low-light vision}), imprecise {@ability scent} with a range of 30 feet, and the {@feat Forager} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 1,
-			"abilities": {
-				"Strength": true,
-				"Dexterity": true,
-				"Constitution": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Nature": true,
-				"Survival": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Forager",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 1,
+				"abilities": {
+					"Strength": true,
+					"Dexterity": true,
+					"Constitution": true
 				}
-			]
-		},
-		"misc": {
-			"Grants sense": true
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Nature": true,
+					"Survival": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Forager",
+						"sourceID": "CRB"
+					}
+				]
+			},
+			"misc": {
+				"Grants sense": true
+			}
 		}
 	}
 }

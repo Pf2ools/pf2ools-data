@@ -18,37 +18,37 @@
 			"Choose two ability boosts. One must be to Constitution or Charisma, and one is a free ability boost.",
 			"You're trained in your choice of the {@skill Diplomacy} or {@skill Intimidation} skill. You gain a skill feat: {@feat Group Impression} if you chose {@skill Diplomacy} or {@feat Intimidating Glare} if you chose {@skill Intimidation}. You're also trained in {@skill Lore||Academia Lore}.",
 			"Your recommended primary branch is the Tempest-Sun Mages."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Diplomacy": true,
-				"Intimidation": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Group Impression",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "Intimidating Glare",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Diplomacy": true,
+					"Intimidation": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Group Impression",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "Intimidating Glare",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

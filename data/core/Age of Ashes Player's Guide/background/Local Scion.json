@@ -13,32 +13,32 @@
 			"The Call for Heroes is one of your hometown's most iconic traditions, and you want to attend so you can prove your own merits to the council\u2014beyond simply those of your family's name.",
 			"Choose two ability boosts. One must be Constitution or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Crafting} skill and the {@skill Lore||Breachill Lore} skill. You gain the {@feat Specialty Crafting} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Crafting": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Specialty Crafting",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Crafting": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Specialty Crafting",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

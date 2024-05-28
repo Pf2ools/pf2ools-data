@@ -11,11 +11,11 @@
 		"abilityType": "Familiar",
 		"entries": [
 			"Your familiar increases the resistance it gains from its resistance familiar ability to 3 + half your level. Your familiar must have the {@familiarAbility resistance|APG} ability to select this."
-		]
-	},
-	"tags": {
-		"misc": {
-			"hasRequirement": true
+		],
+		"_tags": {
+			"misc": {
+				"hasRequirement": true
+			}
 		}
 	}
 }

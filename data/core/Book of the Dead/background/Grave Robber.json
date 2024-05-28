@@ -12,32 +12,32 @@
 			"Resurrectionist. Body snatcher. No matter what you're called, you know where the bodies are buried, and how many coins they'll fetch when dug up. Adventuring comes naturally to you\u2014in your mind dungeons are just oversized tombs\u2014as does returning home with your loot {@condition undetected}.",
 			"Choose two ability boosts. One must be to Strength or Dexterity, and one is a free ability boost.",
 			"You're trained in the {@skill Stealth} skill and the {@skill Lore||Underworld Lore} skill. You gain the {@feat Experienced Smuggler} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Dexterity": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Stealth": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Experienced Smuggler",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Dexterity": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Stealth": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Experienced Smuggler",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

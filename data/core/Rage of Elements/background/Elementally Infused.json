@@ -17,51 +17,51 @@
 			"You were exposed to a strong burst of elemental essence originating directly from an elemental plane, most likely caused by a planar breach. Your body absorbed the elemental essence with no ill effects, and now it coalesces within you. With time, you've learned to project elemental power in a manner safe to you but still deadly to others.",
 			"Choose two attribute boosts. One must be to Constitution or Charisma, and one is a free attribute boost.",
 			"Choose one elemental plane: Air, Earth, Fire, Metal, Water, or Wood. You are trained in the corresponding {@skill Lore} skill: {@skill Lore||Plane of Air Lore}, {@skill Lore||Plane of Earth Lore}, {@skill Lore||Plane of Fire Lore}, {@skill Lore||Plane of Metal Lore}, {@skill Lore||Plane of Water Lore}, or {@skill Lore||Plane of Wood Lore}. You also gain a cantrip according to your chosen plane: {@b air} {@spell gale blast|SoM}; {@b earth} {@spell scatter scree|SoM}; {@b fire} {@spell produce flame||ignition}; {@b metal} {@spell needle darts|RoE}; {@b water} {@spell spout|SoM}, or {@b wood} {@spell root reading|RoE}. You can cast this spell as a primal innate spell at will."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 3,
-			"abilities": {
-				"Constitution": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 1,
-			"skills": {
-				"Lore": true
-			}
-		},
-		"gainedSpells": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Gale Blast",
-					"sourceID": "SoM"
-				},
-				{
-					"name": "Scatter Scree",
-					"sourceID": "SoM"
-				},
-				{
-					"name": "Produce Flame",
-					"sourceID": "CRB"
-				},
-				{
-					"name": "Needle Darts",
-					"sourceID": "RoE"
-				},
-				{
-					"name": "Spout",
-					"sourceID": "SoM"
-				},
-				{
-					"name": "Root Reading",
-					"sourceID": "RoE"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 3,
+				"abilities": {
+					"Constitution": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 1,
+				"skills": {
+					"Lore": true
+				}
+			},
+			"gainedSpells": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Gale Blast",
+						"sourceID": "SoM"
+					},
+					{
+						"name": "Scatter Scree",
+						"sourceID": "SoM"
+					},
+					{
+						"name": "Produce Flame",
+						"sourceID": "CRB"
+					},
+					{
+						"name": "Needle Darts",
+						"sourceID": "RoE"
+					},
+					{
+						"name": "Spout",
+						"sourceID": "SoM"
+					},
+					{
+						"name": "Root Reading",
+						"sourceID": "RoE"
+					}
+				]
+			}
 		}
 	}
 }

@@ -42,11 +42,11 @@
 					"Holy magic fills your armaments, making them true weapons against evil. For 1 minute, your weapons and unarmed attacks gain the {@item holy} weapon rune while you hold them. If a weapon is at its limit on property runes, you can choose one property rune on the weapon to go dormant while the {@item holy} rune takes effect. In addition, any successful {@action strike||Strikes} your allies make while they're within 30 feet of you deal 1 additional good damage."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

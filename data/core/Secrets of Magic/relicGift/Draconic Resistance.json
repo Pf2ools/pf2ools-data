@@ -21,12 +21,12 @@
 		],
 		"entries": [
 			"You grow scales that guard against draconic attacks. You gain a +1 status bonus to AC against attacks from {@trait dragon||dragons} and resistance to an energy type corresponding to the soul seed's draconic origin (such as fire resistance from a red dragon) equal to half the relic's level (minimum resistance 1)."
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants passive attribute": true,
-			"Soul seed": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants passive attribute": true,
+				"Soul seed": true
+			}
 		}
 	}
 }

@@ -11,11 +11,11 @@
 		"abilityType": "Familiar",
 		"entries": [
 			"Your familiar can sense vibrations in the water. It gains imprecise {@ability wavesense} with a range of 30 feet."
-		]
-	},
-	"tags": {
-		"misc": {
-			"affectsSenses": true
+		],
+		"_tags": {
+			"misc": {
+				"affectsSenses": true
+			}
 		}
 	}
 }

@@ -24,11 +24,11 @@
 		],
 		"entries": [
 			"Your connection to life force makes you more difficult to snuff out than others. You die from the {@condition dying} condition at {@condition dying 5}, rather than {@condition dying 4}. If you roll a success on a save against a {@trait death} or {@trait negative} effect, you get a critical success instead."
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants passive attribute": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants passive attribute": true
+			}
 		}
 	}
 }

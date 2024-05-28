@@ -42,11 +42,11 @@
 					"The relic {@action Cast a Spell||Casts the Spell} associated with its emotional fervor at the spell's lowest level."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

@@ -45,11 +45,11 @@
 					"Placing your hand on yourself or an ally, you heal their wounds and bolster their spirit. The target regains {@damage 1d8} HP per item level and reduces their {@condition frightened} value by 1."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

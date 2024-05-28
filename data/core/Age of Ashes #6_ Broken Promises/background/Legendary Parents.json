@@ -17,32 +17,32 @@
 			"One or more of your parents (either biological or adoptive) were heroes of the Age of Ashes Adventure Path. Others tend to treat you with a bit more respect, or perhaps fear your connections to people of great power.",
 			"Choose two ability boosts. One must be in Dexterity or Charisma, and the other is a free ability boost.",
 			"You're trained in the {@skill Intimidation} skill and the {@skill Lore||Genealogy Lore} skill. You gain the {@feat Group Coercion} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Dexterity": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Intimidation": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Group Coercion",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Dexterity": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Intimidation": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Group Coercion",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

@@ -40,15 +40,15 @@
 			"Andrew White",
 			"Linda Zayas-Palmer"
 		],
-		"publisher": "Paizo"
-	},
-	"tags": {
-		"misc": {
-			"Official": true,
-			"PFS-legal": true
-		},
-		"status": {
-			"Missing content": true
+		"publisher": "Paizo",
+		"_tags": {
+			"misc": {
+				"Official": true,
+				"PFS-legal": true
+			},
+			"status": {
+				"Missing content": true
+			}
 		}
 	}
 }

@@ -37,14 +37,14 @@
 					"Your hands transform into a pair of claws. These grant you a claw unarmed attack that deals {@damage 1d6} slashing damage and has the {@trait agile} and {@trait finesse} traits. This lasts until you {@action Dismiss} the effect."
 				]
 			}
-		]
-	},
-	"tags": {
-		"itemTypes": {
-			"Worn Item": true
-		},
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"itemTypes": {
+				"Worn Item": true
+			},
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

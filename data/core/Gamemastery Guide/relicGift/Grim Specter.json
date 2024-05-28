@@ -41,11 +41,11 @@
 					"You can {@action sustain an activation||Sustain the Activation} up to 1 minute."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

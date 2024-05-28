@@ -24,11 +24,11 @@
 		],
 		"entries": [
 			"The shadows at your feet can hold objects. You can {@action Interact} with your shadow to store or remove objects, just like you would a mundane container. Your shadow can contain 3 Bulk of objects, which don't count toward the Bulk you are carrying. At 6th level, and every 4 levels thereafter, you can store 1 additional Bulk of objects in your shadow. While the items are in your shadow and can be detected normally, you gain a +4 circumstance bonus to {@skill Stealth} checks to {@action conceal an object||Conceal the Objects} unless someone knows to check your shadow for items."
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

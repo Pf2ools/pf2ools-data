@@ -44,11 +44,11 @@
 					"Massive amounts of positive energy surge forth. For 1 minute, you emit {@trait positive} energy in a 10-foot emanation centered on you. At the end of your turn, you (if you are living) and allied living creatures in the emanation regain 10 Hit Points. If you or an allied creature would die due to an increased {@condition dying} value, you can {@action Dismiss} the activation as a free action to prevent the death; if you do, their {@condition dying} value doesn't increase."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

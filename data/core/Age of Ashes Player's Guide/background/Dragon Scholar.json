@@ -13,32 +13,32 @@
 			"You've likely chosen to attend the Call for Heroes as a way to seek funds as an adventurer to afford more texts about dragons or perhaps out of a desire to encounter one in real life.",
 			"Choose two ability boosts. One must be Strength or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Intimidation} skill and the {@skill Lore||Dragon Lore} skill. You gain the {@feat Intimidating Glare} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Intimidation": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Intimidating Glare",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Intimidation": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Intimidating Glare",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

@@ -22,12 +22,12 @@
 			"James Jacobs",
 			"Sen H.H.S."
 		],
-		"publisher": "Paizo"
-	},
-	"tags": {
-		"misc": {
-			"Official": true,
-			"legacyRuleset": true
+		"publisher": "Paizo",
+		"_tags": {
+			"misc": {
+				"Official": true,
+				"legacyRuleset": true
+			}
 		}
 	}
 }

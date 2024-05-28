@@ -12,22 +12,22 @@
 			"Rumors abound that your family is cursed. While that would explain several unfortunate events in your family history, you may or may not believe it. Regardless, odd coincidences plague your lineage, and perhaps even appear in your own life, and you have become used to spotting strangeness around you.",
 			"Choose two ability boosts. One must be to Intelligence or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Occultism} skill and the {@skill Lore||Curse Lore} skill. You gain the {@feat Oddity Identification} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Intelligence": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Occultism": true,
-				"Lore": true
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Intelligence": true,
+					"Charisma": true,
+					"free": true
+				}
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Occultism": true,
+					"Lore": true
+				}
 			}
 		}
 	}

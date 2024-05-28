@@ -22,26 +22,26 @@
 			"Choose two ability boosts. One must be to Intelligence or Wisdom, and one is a free ability boost.",
 			"You're trained in the {@skill Arcana} skill and an additional skill in which the clockwork entity is well-versed, determined by the GM. Any time you attempt a skill check for the entity's skill, the GM can offer you a +1 circumstance bonus to the check, as though the entity were {@action Aid||Aiding} you.",
 			"If you accept but fail the check, the entity clenches up and you are {@condition stunned|CRB|stunned 1} ({@condition stunned|CRB|stunned 2} on a critical failure)."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Intelligence": true,
-				"Wisdom": true,
-				"free": true
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Intelligence": true,
+					"Wisdom": true,
+					"free": true
+				}
+			},
+			"trainedSkills": {
+				"count": 1,
+				"skills": {
+					"Any": true,
+					"Arcana": true
+				}
+			},
+			"misc": {
+				"GM influence": true
 			}
-		},
-		"trainedSkills": {
-			"count": 1,
-			"skills": {
-				"Any": true,
-				"Arcana": true
-			}
-		},
-		"misc": {
-			"GM influence": true
 		}
 	}
 }

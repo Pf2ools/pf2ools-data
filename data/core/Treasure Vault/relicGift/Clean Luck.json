@@ -43,11 +43,11 @@
 					"Negate the {@trait misfortune} effect. Any other {@trait fortune} effect still applies."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

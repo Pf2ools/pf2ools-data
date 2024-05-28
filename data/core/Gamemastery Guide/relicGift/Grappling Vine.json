@@ -38,11 +38,11 @@
 					"The vine lasts for 1 day or until you use Grappling Vine again, at which point your older vine withers."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

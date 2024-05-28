@@ -12,32 +12,32 @@
 			"New realms rise constantly in the River Kingdoms, and you intend to lead one of them. Making your reign last, however, will require both strength and grace.",
 			"Choose two ability boosts. One must be to Wisdom or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Society} skill and the {@skill Lore||Politics Lore} skill. You gain the {@feat Courtly Graces} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Wisdom": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Society": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Courtly Graces",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Wisdom": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Society": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Courtly Graces",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

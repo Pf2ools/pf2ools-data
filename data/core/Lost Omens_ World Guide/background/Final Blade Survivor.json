@@ -12,32 +12,32 @@
 			"You fell prey to the whims of the Galtan mob and were scheduled for execution by final blade, but through skill\u2014or sheer luck\u2014you managed to talk your way out of it.",
 			"Choose two ability boosts. One must be to Charisma or Wisdom, and one is a free ability boost.",
 			"You're trained in the {@skill Deception} skill and the {@skill Lore||Revolution Lore} skill. You gain the {@feat Charming Liar} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Charisma": true,
-				"Wisdom": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Deception": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Charming Liar",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Charisma": true,
+					"Wisdom": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Deception": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Charming Liar",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

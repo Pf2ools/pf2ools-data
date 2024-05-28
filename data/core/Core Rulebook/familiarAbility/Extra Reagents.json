@@ -11,11 +11,11 @@
 		"abilityType": "Master",
 		"entries": [
 			"Your familiar grows extra infused reagents on or in its body. You gain an additional batch of infused reagents. You must have the {@familiarAbility infused reagents} ability to select this ability."
-		]
-	},
-	"tags": {
-		"misc": {
-			"hasRequirement": true
+		],
+		"_tags": {
+			"misc": {
+				"hasRequirement": true
+			}
 		}
 	}
 }

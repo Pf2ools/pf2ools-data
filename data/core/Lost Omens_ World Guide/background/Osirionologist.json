@@ -13,32 +13,32 @@
 			"You might be a traveling professor, a member of a society like the Pathfinders or the Esoteric Order of the Palatine Eye, or even a simple tomb robber cashing in on the glories of the past.",
 			"Choose two ability boosts. One must be to Constitution or Intelligence, and one is a free ability boost.",
 			"You're trained in the {@skill Occultism} skill and the {@skill Lore||Ancient Osirion Lore} skill. You gain the {@feat Oddity Identification} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Intelligence": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Occultism": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Oddity Identification",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Intelligence": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Occultism": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Oddity Identification",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

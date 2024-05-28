@@ -5,12 +5,12 @@
 		"full": "Blood Lords",
 		"short": "BL"
 	},
-	"tags": {
-		"misc": {
-			"Adventure": true
-		}
-	},
 	"data": {
-		"publisher": "Paizo"
+		"publisher": "Paizo",
+		"_tags": {
+			"misc": {
+				"Adventure": true
+			}
+		}
 	}
 }

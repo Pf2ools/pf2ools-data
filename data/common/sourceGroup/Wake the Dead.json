@@ -5,12 +5,12 @@
 		"full": "Wake the Dead",
 		"short": "WtD"
 	},
-	"tags": {
-		"misc": {
-			"Ongoing": true
-		}
-	},
 	"data": {
-		"publisher": "Paizo"
+		"publisher": "Paizo",
+		"_tags": {
+			"misc": {
+				"Ongoing": true
+			}
+		}
 	}
 }

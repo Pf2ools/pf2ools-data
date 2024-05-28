@@ -13,32 +13,32 @@
 			"The chance to become an adventurer has excited you for some time, as you hope to build a new life for yourself as a hero rewarded with fame and fortune. Joining the Call for Heroes is a great opportunity to find a group to adventure with.",
 			"Choose two ability boosts. One must be Dexterity or Charisma, and one is a free ability boost.",
 			"You're trained in the {@skill Stealth} skill and the {@skill Lore||Kintargo Lore} skill. You gain the {@feat Terrain Stalker} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Dexterity": true,
-				"Charisma": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Stealth": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Terrain Stalker",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Dexterity": true,
+					"Charisma": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Stealth": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Terrain Stalker",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

@@ -39,12 +39,12 @@
 					"The soul seed casts 8th-level {@spell dragon form} targeting you; you must take the dragon form corresponding to the soul seed's draconic origin."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Soul seed": true,
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Soul seed": true,
+				"Grants ability": true
+			}
 		}
 	}
 }

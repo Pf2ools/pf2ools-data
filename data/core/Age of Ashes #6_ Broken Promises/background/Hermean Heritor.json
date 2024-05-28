@@ -17,32 +17,32 @@
 			"With the restrictions on Hermean citizenship lifted, you may have fled the city of Promise or have spent some of your childhood in the company of someone who did.",
 			"Choose two ability boosts. One must be in Constitution or Wisdom, and the other is a free ability boost.",
 			"You're trained in the {@skill Society} skill and the {@skill Lore||Legal Lore} skill. You gain the {@feat Multilingual} skill feat or the {@feat Assurance} skill feat for {@skill Society}."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Constitution": true,
-				"Wisdom": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Society": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Multilingual",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Constitution": true,
+					"Wisdom": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Society": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Multilingual",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

@@ -23,16 +23,16 @@
 			"Caryn DiMarco",
 			"Vanessa Hoskins"
 		],
-		"publisher": "Paizo"
-	},
-	"tags": {
-		"status": {
-			"Missing content": true
-		},
-		"misc": {
-			"Official": true,
-			"GM-facing": true,
-			"legacyRuleset": true
+		"publisher": "Paizo",
+		"_tags": {
+			"status": {
+				"Missing content": true
+			},
+			"misc": {
+				"Official": true,
+				"GM-facing": true,
+				"legacyRuleset": true
+			}
 		}
 	}
 }

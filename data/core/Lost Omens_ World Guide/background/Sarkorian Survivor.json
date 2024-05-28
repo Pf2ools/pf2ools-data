@@ -12,32 +12,32 @@
 			"The devastation and carnage of the Worldwound were nearly complete, but you somehow managed to survive it.",
 			"Choose two ability boosts. One must be to Strength or Constitution, and one is a free boost.",
 			"You're trained in the {@skill Survival} skill and the {@skill Lore||Sarkorian History Lore} skill. You gain the {@feat Forager} skill feat."
-		]
-	},
-	"tags": {
-		"abilityBoosts": {
-			"count": 2,
-			"abilities": {
-				"Strength": true,
-				"Constitution": true,
-				"free": true
-			}
-		},
-		"trainedSkills": {
-			"count": 2,
-			"skills": {
-				"Survival": true,
-				"Lore": true
-			}
-		},
-		"gainedFeats": {
-			"count": 1,
-			"options": [
-				{
-					"name": "Forager",
-					"sourceID": "CRB"
+		],
+		"_tags": {
+			"abilityBoosts": {
+				"count": 2,
+				"abilities": {
+					"Strength": true,
+					"Constitution": true,
+					"free": true
 				}
-			]
+			},
+			"trainedSkills": {
+				"count": 2,
+				"skills": {
+					"Survival": true,
+					"Lore": true
+				}
+			},
+			"gainedFeats": {
+				"count": 1,
+				"options": [
+					{
+						"name": "Forager",
+						"sourceID": "CRB"
+					}
+				]
+			}
 		}
 	}
 }

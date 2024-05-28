@@ -43,11 +43,11 @@
 					"You can {@action Dismiss} the effect. If you do, you can unleash a wave of holy power, causing the relic to cast an 8th-level {@spell divine decree}, choosing {@trait good} for the alignment."
 				]
 			}
-		]
-	},
-	"tags": {
-		"misc": {
-			"Grants ability": true
+		],
+		"_tags": {
+			"misc": {
+				"Grants ability": true
+			}
 		}
 	}
 }

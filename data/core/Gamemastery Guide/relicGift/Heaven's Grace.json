@@ -21,14 +21,14 @@
 		],
 		"entries": [
 			"The heavens protect you from harm. While wearing the relic, you gain a +1 status bonus to AC against attacks by {@trait fiend||fiends} and resistance to an energy type corresponding to the relic's celestial origin (such as sonic resistance from a {@creature choral} angel). The resistance is equal to half the relic's level (minimum 1)."
-		]
-	},
-	"tags": {
-		"itemTypes": {
-			"Worn Item": true
-		},
-		"misc": {
-			"Grants passive attribute": true
+		],
+		"_tags": {
+			"itemTypes": {
+				"Worn Item": true
+			},
+			"misc": {
+				"Grants passive attribute": true
+			}
 		}
 	}
 }
