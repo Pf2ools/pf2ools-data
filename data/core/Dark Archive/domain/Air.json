@@ -1,0 +1,29 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Air"
+	},
+	"source": {
+		"ID": "DA",
+		"page": 142
+	},
+	"reference": {
+		"type": "extension",
+		"target": {
+			"sourceID": "CRB",
+			"name": "Air"
+		},
+		"modifications": [
+			{
+				"type": "define",
+				"target": {
+					"property": "advancedApocryphalSpell"
+				},
+				"value": {
+					"sourceID": "DA",
+					"name": "Wind Whispers"
+				}
+			}
+		]
+	}
+}

@@ -16,10 +16,6 @@
 		"advancedDomainSpell": {
 			"sourceID": "CRB",
 			"name": "Safeguard Secret"
-		},
-		"advancedApocryphalSpell": {
-			"sourceID": "DA",
-			"name": "Weaponize Secret"
 		}
 	}
 }

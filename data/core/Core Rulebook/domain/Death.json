@@ -16,10 +16,6 @@
 		"advancedDomainSpell": {
 			"sourceID": "CRB",
 			"name": "Eradicate Undeath"
-		},
-		"advancedApocryphalSpell": {
-			"sourceID": "DA",
-			"name": "Euphoric Renewal"
 		}
 	}
 }

@@ -16,10 +16,6 @@
 		"advancedDomainSpell": {
 			"sourceID": "CRB",
 			"name": "Darkened Eyes"
-		},
-		"advancedApocryphalSpell": {
-			"sourceID": "DA",
-			"name": "Isolation"
 		}
 	}
 }

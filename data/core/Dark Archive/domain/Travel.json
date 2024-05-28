@@ -1,0 +1,29 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Travel"
+	},
+	"source": {
+		"ID": "DA",
+		"page": 142
+	},
+	"reference": {
+		"type": "extension",
+		"target": {
+			"sourceID": "CRB",
+			"name": "Travel"
+		},
+		"modifications": [
+			{
+				"type": "define",
+				"target": {
+					"property": "advancedApocryphalSpell"
+				},
+				"value": {
+					"sourceID": "DA",
+					"name": "Inevitable Destination"
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Might"
+	},
+	"source": {
+		"ID": "DA",
+		"page": 142
+	},
+	"reference": {
+		"type": "extension",
+		"target": {
+			"sourceID": "CRB",
+			"name": "Might"
+		},
+		"modifications": [
+			{
+				"type": "define",
+				"target": {
+					"property": "apocryphalSpell"
+				},
+				"value": {
+					"sourceID": "DA",
+					"name": "Victory Cry"
+				}
+			}
+		]
+	}
+}

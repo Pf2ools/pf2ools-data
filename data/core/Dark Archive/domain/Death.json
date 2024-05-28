@@ -1,0 +1,29 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Death"
+	},
+	"source": {
+		"ID": "DA",
+		"page": 142
+	},
+	"reference": {
+		"type": "extension",
+		"target": {
+			"sourceID": "CRB",
+			"name": "Death"
+		},
+		"modifications": [
+			{
+				"type": "define",
+				"target": {
+					"property": "advancedApocryphalSpell"
+				},
+				"value": {
+					"sourceID": "DA",
+					"name": "Euphoric Renewal"
+				}
+			}
+		]
+	}
+}

@@ -16,10 +16,6 @@
 		"advancedDomainSpell": {
 			"sourceID": "CRB",
 			"name": "Know the Enemy"
-		},
-		"advancedApocryphalSpell": {
-			"sourceID": "DA",
-			"name": "Wordsmith"
 		}
 	}
 }

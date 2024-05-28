@@ -1,0 +1,29 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Fate"
+	},
+	"source": {
+		"ID": "DA",
+		"page": 142
+	},
+	"reference": {
+		"type": "extension",
+		"target": {
+			"sourceID": "CRB",
+			"name": "Fate"
+		},
+		"modifications": [
+			{
+				"type": "define",
+				"target": {
+					"property": "apocryphalSpell"
+				},
+				"value": {
+					"sourceID": "DA",
+					"name": "String of Fate"
+				}
+			}
+		]
+	}
+}

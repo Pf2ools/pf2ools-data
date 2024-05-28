@@ -1,0 +1,29 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Knowledge"
+	},
+	"source": {
+		"ID": "DA",
+		"page": 142
+	},
+	"reference": {
+		"type": "extension",
+		"target": {
+			"sourceID": "CRB",
+			"name": "Knowledge"
+		},
+		"modifications": [
+			{
+				"type": "define",
+				"target": {
+					"property": "advancedApocryphalSpell"
+				},
+				"value": {
+					"sourceID": "DA",
+					"name": "Wordsmith"
+				}
+			}
+		]
+	}
+}

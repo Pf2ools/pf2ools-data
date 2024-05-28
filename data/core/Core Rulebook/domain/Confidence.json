@@ -16,10 +16,6 @@
 		"advancedDomainSpell": {
 			"sourceID": "CRB",
 			"name": "Delusional Pride"
-		},
-		"advancedApocryphalSpell": {
-			"sourceID": "DA",
-			"name": "Shaken Confidence"
 		}
 	}
 }

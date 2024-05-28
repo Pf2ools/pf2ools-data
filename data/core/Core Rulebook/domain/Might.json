@@ -16,10 +16,6 @@
 		"advancedDomainSpell": {
 			"sourceID": "CRB",
 			"name": "Enduring Might"
-		},
-		"apocryphalSpell": {
-			"sourceID": "DA",
-			"name": "Victory Cry"
 		}
 	}
 }

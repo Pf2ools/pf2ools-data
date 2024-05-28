@@ -16,10 +16,6 @@
 		"advancedDomainSpell": {
 			"sourceID": "CRB",
 			"name": "Tempt Fate"
-		},
-		"apocryphalSpell": {
-			"sourceID": "DA",
-			"name": "String of Fate"
 		}
 	}
 }

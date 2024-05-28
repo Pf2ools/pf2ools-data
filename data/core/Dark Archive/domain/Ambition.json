@@ -1,0 +1,29 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Ambition"
+	},
+	"source": {
+		"ID": "DA",
+		"page": 142
+	},
+	"reference": {
+		"type": "extension",
+		"target": {
+			"sourceID": "CRB",
+			"name": "Ambition"
+		},
+		"modifications": [
+			{
+				"type": "define",
+				"target": {
+					"property": "apocryphalSpell"
+				},
+				"value": {
+					"sourceID": "DA",
+					"name": "Hollow Heart"
+				}
+			}
+		]
+	}
+}

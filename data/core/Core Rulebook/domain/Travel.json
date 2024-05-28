@@ -16,10 +16,6 @@
 		"advancedDomainSpell": {
 			"sourceID": "CRB",
 			"name": "Traveler's Transit"
-		},
-		"advancedApocryphalSpell": {
-			"sourceID": "DA",
-			"name": "Inevitable Destination"
 		}
 	}
 }

@@ -16,10 +16,6 @@
 		"advancedDomainSpell": {
 			"sourceID": "CRB",
 			"name": "Take Its Course"
-		},
-		"apocryphalSpell": {
-			"sourceID": "DA",
-			"name": "Frenzied Revelry"
 		}
 	}
 }

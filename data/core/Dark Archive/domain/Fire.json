@@ -1,0 +1,29 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Fire"
+	},
+	"source": {
+		"ID": "DA",
+		"page": 142
+	},
+	"reference": {
+		"type": "extension",
+		"target": {
+			"sourceID": "CRB",
+			"name": "Fire"
+		},
+		"modifications": [
+			{
+				"type": "define",
+				"target": {
+					"property": "apocryphalSpell"
+				},
+				"value": {
+					"sourceID": "DA",
+					"name": "Cinder Gaze"
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Water"
+	},
+	"source": {
+		"ID": "DA",
+		"page": 142
+	},
+	"reference": {
+		"type": "extension",
+		"target": {
+			"sourceID": "CRB",
+			"name": "Water"
+		},
+		"modifications": [
+			{
+				"type": "define",
+				"target": {
+					"property": "advancedApocryphalSpell"
+				},
+				"value": {
+					"sourceID": "DA",
+					"name": "Purifying Veil"
+				}
+			}
+		]
+	}
+}

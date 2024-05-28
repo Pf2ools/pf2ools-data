@@ -16,10 +16,6 @@
 		"advancedDomainSpell": {
 			"sourceID": "CRB",
 			"name": "Downpour"
-		},
-		"advancedApocryphalSpell": {
-			"sourceID": "DA",
-			"name": "Purifying Veil"
 		}
 	}
 }

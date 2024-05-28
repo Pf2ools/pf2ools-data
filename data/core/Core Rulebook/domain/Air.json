@@ -16,10 +16,6 @@
 		"advancedDomainSpell": {
 			"sourceID": "CRB",
 			"name": "Disperse into Air"
-		},
-		"advancedApocryphalSpell": {
-			"sourceID": "DA",
-			"name": "Wind Whispers"
 		}
 	}
 }

@@ -16,10 +16,6 @@
 		"advancedDomainSpell": {
 			"sourceID": "CRB",
 			"name": "Flame Barrier"
-		},
-		"apocryphalSpell": {
-			"sourceID": "DA",
-			"name": "Cinder Gaze"
 		}
 	}
 }

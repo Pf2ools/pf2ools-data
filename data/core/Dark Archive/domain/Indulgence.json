@@ -1,0 +1,29 @@
+{
+	"type": "domain",
+	"name": {
+		"primary": "Indulgence"
+	},
+	"source": {
+		"ID": "DA",
+		"page": 142
+	},
+	"reference": {
+		"type": "extension",
+		"target": {
+			"sourceID": "CRB",
+			"name": "Indulgence"
+		},
+		"modifications": [
+			{
+				"type": "define",
+				"target": {
+					"property": "apocryphalSpell"
+				},
+				"value": {
+					"sourceID": "DA",
+					"name": "Frenzied Revelry"
+				}
+			}
+		]
+	}
+}

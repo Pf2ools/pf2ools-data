@@ -7,15 +7,11 @@
 		"page": 97,
 		"ID": "RoE"
 	},
-	"data": {
-		"preamble": "This domain is chosen by devotees who work constantly and refuse to let anything stand in their way.",
-		"domainSpell": {
-			"sourceID": "RoE",
-			"name": "Practice Makes Perfect"
-		},
-		"advancedDomainSpell": {
-			"sourceID": "RoE",
-			"name": "Tireless Worker"
+	"reference": {
+		"type": "reprint",
+		"target": {
+			"name": "Toil",
+			"sourceID": "AoA4"
 		}
 	}
 }
