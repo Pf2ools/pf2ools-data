@@ -24,7 +24,7 @@
 		"bundle": "npm run bundle:bySource -- -Compress && npm run bundle:byDatatype -- -Compress -SkipEmpty",
 		"bundle:bySource": "pwsh scripts/bundle-bySource.ps1 -ExecutionPolicy Unrestricted -NoProfile",
 		"bundle:byDatatype": "pwsh scripts/bundle-byDatatype.ps1 -ExecutionPolicy Unrestricted -NoProfile",
-		"build": "npm run test && npm run clean && npm run index && npm run bundle"
+		"build": "npm i && npm run test && npm run clean && npm run index && npm run bundle"
 	},
 	"repository": {
 		"type": "git",
