@@ -1,9 +1,9 @@
 {
 	"type": "sourceGroup",
-	"ID": "Kmr",
+	"ID": "King",
 	"title": {
 		"full": "Kingmaker",
-		"short": "Kmr"
+		"short": "King"
 	},
 	"data": {
 		"publisher": "Paizo",

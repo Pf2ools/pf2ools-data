@@ -1,9 +1,9 @@
 {
 	"type": "source",
-	"ID": "KmrA",
+	"ID": "KingA",
 	"title": {
 		"full": "Kingmaker",
-		"short": "Kmr"
+		"short": "King"
 	},
 	"data": {
 		"released": "2022-10-26",
@@ -11,7 +11,7 @@
 		"modified": "2023-08-08",
 		"URL": "https://paizo.com/products/btq02e0d",
 		"groupIDs": [
-			"Kmr"
+			"King"
 		],
 		"copyright": [
 			"{@b Aurumvorax from the {@i Tome of Horrors Complete}} © 2011, Necromancer Games Inc. published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.",
