@@ -1,0 +1,38 @@
+{
+	"type": "source",
+	"ID": "C-WtD5",
+	"title": {
+		"full": "Wake the Dead #5",
+		"short": "WtD5"
+	},
+	"data": {
+		"released": "2024-01-31",
+		"added": "2024-06-14",
+		"modified": "2024-06-14",
+		"URL": "https://www.dynamite.com/htmlfiles/viewProduct.html?PRO=C72513033022205011",
+		"copyright": [
+			"{@b {@i Pathfinder Core Rulebook (Second Edition)}} © 2019, Paizo Inc.; Authors: Logan Bonner, Jason Bulmahn, Stephen Radney-MacFarland, and Mark Seifter.",
+			"{@b {@i Pathfinder Wake the Dead #5}} © 2024, Paizo Inc.; Authors: Kendra Leigh Speedling and Fred Van Lente."
+		],
+		"groupIDs": [
+			"C-WtD"
+		],
+		"licenseID": "OGLv1-0a",
+		"authors": [
+			"Kendra Leigh Speedling",
+			"Fred Van Lente"
+		],
+		"publisher": "Paizo",
+		"_tags": {
+			"status": {
+				"Missing content": true
+			},
+			"publicationType": {
+				"Comic": true
+			},
+			"misc": {
+				"legacyRuleset": true
+			}
+		}
+	}
+}
