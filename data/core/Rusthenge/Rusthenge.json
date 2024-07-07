@@ -20,9 +20,6 @@
 		],
 		"publisher": "Paizo",
 		"_tags": {
-			"status": {
-				"Missing content": true
-			},
 			"misc": {
 				"Official": true,
 				"legacyRuleset": true
