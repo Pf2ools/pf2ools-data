@@ -75,9 +75,11 @@ function logError(message) {
 	console.error(chalk.red(message));
 	errorStatus = true;
 }
-function sanitiseFilename(name, specifier) {
+function sanitiseFilename(/** @type string */ name, specifier) {
 	const unsafeCharacters = new RegExp(/[<>:"/\\|?*]/gi);
-	return name.replace(unsafeCharacters, "_") + (specifier ? ` - ${specifier.replace(unsafeCharacters, "_")}` : "");
+	return (
+		name.replaceAll(unsafeCharacters, "_") + (specifier ? ` - ${specifier.replaceAll(unsafeCharacters, "_")}` : "")
+	);
 }
 
 // ====== //
