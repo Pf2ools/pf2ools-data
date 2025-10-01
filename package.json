@@ -5,7 +5,7 @@
 	"version": "0.0.1",
 	"devDependencies": {
 		"chalk": "^5.4.1",
-		"commander": "^14.0.0",
+		"commander": "^14.0.1",
 		"prettier": "^3.6.2"
 	},
 	"scripts": {
