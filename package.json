@@ -4,7 +4,7 @@
 	"name": "pf2ools-data",
 	"version": "0.0.1",
 	"devDependencies": {
-		"chalk": "^5.4.1",
+		"chalk": "^5.6.2",
 		"commander": "^14.0.1",
 		"prettier": "^3.6.2"
 	},
